@@ -1,4 +1,4 @@
-# Mạng lưới Trường Đại học và Cựu Sinh viên (Wikipedia Graph)
+# Mạng lưới Trường Đại học và Cựu Sinh viên Quốc tế (Wikipedia Graph)
 
 Dự án xây dựng **mạng tri thức** giữa các **trường đại học** và **cựu sinh viên tiêu biểu** dựa trên dữ liệu từ **Wikipedia tiếng Việt**.  
 **Phạm vi**: các trường đại học tại **Hoa Kỳ**.  
