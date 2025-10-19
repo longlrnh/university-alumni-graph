@@ -24,3 +24,44 @@ desktop.ini
 neo4j/
 graph.db/
 *.graphdb
+
+# === Project data / cache / secrets (ADD THESE) ===
+# SQLite / DB caches (where push protection flagged AWS key patterns)
+*.sqlite
+*.db
+build_univ_alumni_graph/*.sqlite
+build_univ_alumni_graph/**/cache*/
+build_univ_alumni_graph/**/tmp*/
+build_univ_alumni_graph/**/logs*/
+
+# Data outputs / exports
+data/
+outputs/
+exports/
+reports/
+*.csv
+*.tsv
+*.xlsx
+*.parquet
+*.feather
+*.pickle
+*.pkl
+*.jsonl
+
+# Logs & temp
+*.log
+logs/
+tmp/
+.temp/
+.cache/
+
+# Secrets / configs
+.env
+*.env
+.env.*
+*.key
+*.pem
+*.p12
+*.crt
+secrets/
+config/local*.yml
