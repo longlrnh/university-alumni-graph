@@ -18,6 +18,11 @@ from slugify import slugify
 WIKI_API = "https://vi.wikipedia.org/w/api.php"
 UA = "UET-UnivAlumniGraph/0.1 (contact: your_email@example.com)"
 SLEEP = 0.25
+# === knobs để mở rộng nhanh ===
+LINKS_PER_PAGE_LIMIT = 120   # tối đa bao nhiêu link xử lý mỗi trang
+PERSON_MODE = "person"       # "student" (chặt) hoặc "person" (nới)
+TARGET_TOTAL_NODES = 1000    # dừng khi Persons + Universities >= mốc này
+VERBOSE = True               # in tiến độ
 
 session = requests.Session()
 session.headers.update({"User-Agent": UA})
@@ -49,13 +54,11 @@ def get_wikitext(title):
     rev = page["revisions"][0]
     return rev.get("*") or rev.get("slots",{}).get("main",{}).get("*")
 
-def get_links(title, pllimit=500):
+def get_links(title, ns="0", limit_per_call=500):
     out, cont = [], {}
     while True:
-        params = {
-            "action":"query","format":"json","prop":"links","titles":title,
-            "plnamespace":"0","pllimit":pllimit,"redirects":1, **cont
-        }
+        params = {"action":"query","format":"json","prop":"links","titles":title,
+                  "plnamespace":ns,"pllimit":limit_per_call, **cont}
         data = api(params)
         page = next(iter(data["query"]["pages"].values()))
         if "links" in page:
@@ -63,7 +66,18 @@ def get_links(title, pllimit=500):
         if "continue" in data:
             cont = data["continue"]; time.sleep(SLEEP); continue
         break
+    if LINKS_PER_PAGE_LIMIT:
+        out = out[:LINKS_PER_PAGE_LIMIT]
     return out
+
+def is_person_page(wtxt):
+    if not wtxt: return False
+    code = mw.parse(wtxt)
+    for t in code.filter_templates():
+        nm = t.name.strip().lower()
+        if "infobox" in nm and any(k in nm for k in ["person","nhân vật","biography","người","people"]):
+            return True
+    return False
 
 def list_category_members(cat_title, limit=5000):
     """cat_title: ví dụ 'Thể loại:Cựu sinh viên Đại học Harvard' """
@@ -227,10 +241,16 @@ def build_graph(universities, max_people_per_uni=200):
             if not wtxt: 
                 time.sleep(SLEEP); continue
             info = extract_infobox(wtxt)
-
-            if not info: 
+            if not info:
                 time.sleep(SLEEP); continue
 
+            # chế độ chọn node
+            if PERSON_MODE == "student":
+                if not is_student_like(wtxt, info):
+                    time.sleep(SLEEP); continue
+            else:  # PERSON_MODE == "person"
+                if not is_person_page(wtxt):
+                    time.sleep(SLEEP); continue
             if person_has_university(info, pack["title"]):
                 # person node (unique)
                 if person_title not in seen_person:

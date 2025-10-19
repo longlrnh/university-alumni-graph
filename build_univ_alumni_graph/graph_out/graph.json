@@ -1,0 +1,89 @@
+{
+  "nodes": [
+    {
+      "id": 0,
+      "title": "Mark Zuckerberg",
+      "type": "Person"
+    },
+    {
+      "id": 1,
+      "title": "Andrew McCollum",
+      "type": "Person"
+    },
+    {
+      "id": 2,
+      "title": "Elon Musk",
+      "type": "Person"
+    },
+    {
+      "id": 3,
+      "title": "Jim Lovell",
+      "type": "Person"
+    },
+    {
+      "id": 4,
+      "title": "Harvard University (BS",
+      "type": "University"
+    },
+    {
+      "id": 5,
+      "title": "Đại học Pennsylvania (BA",
+      "type": "University"
+    },
+    {
+      "id": 6,
+      "title": "Đại học Wisconsin",
+      "type": "University"
+    }
+  ],
+  "links": [
+    {
+      "source": 4,
+      "target": 1,
+      "type": "ALUMNI_OF",
+      "year": null
+    },
+    {
+      "source": 5,
+      "target": 2,
+      "type": "ALUMNI_OF",
+      "year": null
+    },
+    {
+      "source": 6,
+      "target": 3,
+      "type": "ALUMNI_OF",
+      "year": null
+    },
+    {
+      "source": 0,
+      "target": 1,
+      "type": "LINKS_TO",
+      "same_grad_year": false
+    },
+    {
+      "source": 0,
+      "target": 2,
+      "type": "LINKS_TO",
+      "same_grad_year": false
+    },
+    {
+      "source": 1,
+      "target": 0,
+      "type": "LINKS_TO",
+      "same_grad_year": false
+    },
+    {
+      "source": 2,
+      "target": 3,
+      "type": "LINKS_TO",
+      "same_grad_year": false
+    },
+    {
+      "source": 2,
+      "target": 0,
+      "type": "LINKS_TO",
+      "same_grad_year": false
+    }
+  ]
+}
