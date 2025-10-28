@@ -393,6 +393,10 @@ def main():
 
             if not is_person:
                 stats['non_person_skipped'] += 1
+                if args.debug_skip and debug_skips < MAX_DEBUG:
+                    why = "no soup" if not soup else "not person by heuristics"
+                    print(f"[skip] depth={depth} » {title} — {why}")
+                    debug_skips += 1
                 continue
 
             # extract education with fallback
