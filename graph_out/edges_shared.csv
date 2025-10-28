@@ -1,0 +1,92 @@
+src_person,dst_person,relation,count
+Hillary Clinton,William Howard Taft,SHARED_UNI,1
+John R. Bolton,William Howard Taft,SHARED_UNI,1
+Gerald Ford,William Howard Taft,SHARED_UNI,1
+Dick Cheney,William Howard Taft,SHARED_UNI,1
+Bill Clinton,William Howard Taft,SHARED_UNI,1
+George H. W. Bush,William Howard Taft,SHARED_UNI,1
+George W. Bush,William Howard Taft,SHARED_UNI,1
+Hillary Clinton,John R. Bolton,SHARED_UNI,1
+Gerald Ford,Hillary Clinton,SHARED_UNI,1
+Dick Cheney,Hillary Clinton,SHARED_UNI,1
+Bill Clinton,Hillary Clinton,SHARED_UNI,1
+George H. W. Bush,Hillary Clinton,SHARED_UNI,1
+George W. Bush,Hillary Clinton,SHARED_UNI,1
+Gerald Ford,John R. Bolton,SHARED_UNI,1
+Dick Cheney,John R. Bolton,SHARED_UNI,1
+Bill Clinton,John R. Bolton,SHARED_UNI,1
+George H. W. Bush,John R. Bolton,SHARED_UNI,1
+George W. Bush,John R. Bolton,SHARED_UNI,1
+Dick Cheney,Gerald Ford,SHARED_UNI,1
+Bill Clinton,Gerald Ford,SHARED_UNI,1
+George H. W. Bush,Gerald Ford,SHARED_UNI,1
+George W. Bush,Gerald Ford,SHARED_UNI,1
+Bill Clinton,Dick Cheney,SHARED_UNI,1
+Dick Cheney,George H. W. Bush,SHARED_UNI,1
+Dick Cheney,George W. Bush,SHARED_UNI,1
+Bill Clinton,George H. W. Bush,SHARED_UNI,1
+Bill Clinton,George W. Bush,SHARED_UNI,1
+George H. W. Bush,George W. Bush,SHARED_UNI,1
+John Quincy Adams,Michael Bloomberg,SHARED_UNI,1
+Franklin D. Roosevelt,Michael Bloomberg,SHARED_UNI,1
+Barack Obama,Michael Bloomberg,SHARED_UNI,1
+Michael Bloomberg,Theodore Roosevelt,SHARED_UNI,1
+John F. Kennedy,Michael Bloomberg,SHARED_UNI,1
+John Roberts,Michael Bloomberg,SHARED_UNI,1
+John Adams,Michael Bloomberg,SHARED_UNI,1
+George W. Bush,Michael Bloomberg,SHARED_UNI,1
+Michael Bloomberg,Rutherford B. Hayes,SHARED_UNI,1
+Franklin D. Roosevelt,John Quincy Adams,SHARED_UNI,1
+Barack Obama,John Quincy Adams,SHARED_UNI,1
+John Quincy Adams,Theodore Roosevelt,SHARED_UNI,1
+John F. Kennedy,John Quincy Adams,SHARED_UNI,1
+John Quincy Adams,John Roberts,SHARED_UNI,1
+John Adams,John Quincy Adams,SHARED_UNI,1
+George W. Bush,John Quincy Adams,SHARED_UNI,1
+John Quincy Adams,Rutherford B. Hayes,SHARED_UNI,1
+Barack Obama,Franklin D. Roosevelt,SHARED_UNI,1
+Franklin D. Roosevelt,Theodore Roosevelt,SHARED_UNI,1
+Franklin D. Roosevelt,John F. Kennedy,SHARED_UNI,1
+Franklin D. Roosevelt,John Roberts,SHARED_UNI,1
+Franklin D. Roosevelt,John Adams,SHARED_UNI,1
+Franklin D. Roosevelt,George W. Bush,SHARED_UNI,1
+Franklin D. Roosevelt,Rutherford B. Hayes,SHARED_UNI,1
+Barack Obama,Theodore Roosevelt,SHARED_UNI,1
+Barack Obama,John F. Kennedy,SHARED_UNI,1
+Barack Obama,John Roberts,SHARED_UNI,1
+Barack Obama,John Adams,SHARED_UNI,1
+Barack Obama,George W. Bush,SHARED_UNI,1
+Barack Obama,Rutherford B. Hayes,SHARED_UNI,1
+John F. Kennedy,Theodore Roosevelt,SHARED_UNI,1
+John Roberts,Theodore Roosevelt,SHARED_UNI,1
+John Adams,Theodore Roosevelt,SHARED_UNI,1
+George W. Bush,Theodore Roosevelt,SHARED_UNI,1
+Rutherford B. Hayes,Theodore Roosevelt,SHARED_UNI,1
+John F. Kennedy,John Roberts,SHARED_UNI,1
+John Adams,John F. Kennedy,SHARED_UNI,1
+George W. Bush,John F. Kennedy,SHARED_UNI,1
+John F. Kennedy,Rutherford B. Hayes,SHARED_UNI,1
+John Adams,John Roberts,SHARED_UNI,1
+George W. Bush,John Roberts,SHARED_UNI,1
+John Roberts,Rutherford B. Hayes,SHARED_UNI,1
+George W. Bush,John Adams,SHARED_UNI,1
+John Adams,Rutherford B. Hayes,SHARED_UNI,1
+George W. Bush,Rutherford B. Hayes,SHARED_UNI,1
+Vladimir Ilyich Lenin,Vladimir Vladimirovich Putin,SHARED_UNI,1
+Barack Obama,George Tenet,SHARED_UNI,1
+Donald Trump,William Henry Harrison,SHARED_UNI,1
+Donald Rumsfeld,Woodrow Wilson,SHARED_UNI,1
+Maria Ressa,Woodrow Wilson,SHARED_UNI,1
+James Madison,Woodrow Wilson,SHARED_UNI,1
+Donald Rumsfeld,Maria Ressa,SHARED_UNI,1
+Donald Rumsfeld,James Madison,SHARED_UNI,1
+James Madison,Maria Ressa,SHARED_UNI,1
+Michael Bloomberg,Woodrow Wilson,SHARED_UNI,1
+Marine Le Pen,Michael Bloomberg,SHARED_UNI,1
+Bill Clinton,Donald Rumsfeld,SHARED_UNI,1
+Greg Abbott,Laura Bush,SHARED_UNI,1
+Jeb Bush,Laura Bush,SHARED_UNI,1
+Greg Abbott,Jeb Bush,SHARED_UNI,1
+Dwight D. Eisenhower,Ulysses S. Grant,SHARED_UNI,1
+Jimmy Carter,John McCain,SHARED_UNI,1
+James Monroe,John Tyler,SHARED_UNI,1

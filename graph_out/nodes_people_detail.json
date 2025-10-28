@@ -1,0 +1,2394 @@
+[
+  {
+    "depth": 1,
+    "name": "Andrew Giuliani",
+    "link": "https://vi.wikipedia.org/wiki/Andrew_Giuliani",
+    "Học vấn": [
+      {
+        "trường": "Duke University",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 0,
+    "name": "Angela Merkel",
+    "link": "https://vi.wikipedia.org/wiki/Angela_Merkel",
+    "Học vấn": [
+      {
+        "trường": "Đại học Leipzig",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Anwar Al-Sadad",
+    "link": "https://vi.wikipedia.org/wiki/Anwar_Al-Sadad",
+    "Học vấn": [
+      {
+        "trường": "Đại học Alexandria",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 0,
+    "name": "Barack Obama",
+    "link": "https://vi.wikipedia.org/wiki/Barack_Obama",
+    "Học vấn": [
+      {
+        "trường": "Đại học Columbia",
+        "năm": null
+      },
+      {
+        "trường": "Đại học Harvard",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "Franklin D. Roosevelt",
+        "person_link": "https://vi.wikipedia.org/wiki/Franklin_D._Roosevelt",
+        "type": "same_university"
+      },
+      {
+        "person_title": "George Tenet",
+        "person_link": "https://vi.wikipedia.org/wiki/George_Tenet",
+        "type": "same_university"
+      },
+      {
+        "person_title": "George W. Bush",
+        "person_link": "https://vi.wikipedia.org/wiki/George_W._Bush",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John Adams",
+        "person_link": "https://vi.wikipedia.org/wiki/John_Adams",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John F. Kennedy",
+        "person_link": "https://vi.wikipedia.org/wiki/John_F._Kennedy",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John Quincy Adams",
+        "person_link": "https://vi.wikipedia.org/wiki/John_Quincy_Adams",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John Roberts",
+        "person_link": "https://vi.wikipedia.org/wiki/John_Roberts",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Michael Bloomberg",
+        "person_link": "https://vi.wikipedia.org/wiki/Michael_Bloomberg",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Rutherford B. Hayes",
+        "person_link": "https://vi.wikipedia.org/wiki/Rutherford_B._Hayes",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Theodore Roosevelt",
+        "person_link": "https://vi.wikipedia.org/wiki/Theodore_Roosevelt",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/Franklin_D._Roosevelt",
+      "https://vi.wikipedia.org/wiki/George_Tenet",
+      "https://vi.wikipedia.org/wiki/George_W._Bush",
+      "https://vi.wikipedia.org/wiki/John_Adams",
+      "https://vi.wikipedia.org/wiki/John_F._Kennedy",
+      "https://vi.wikipedia.org/wiki/John_Quincy_Adams",
+      "https://vi.wikipedia.org/wiki/John_Roberts",
+      "https://vi.wikipedia.org/wiki/Michael_Bloomberg",
+      "https://vi.wikipedia.org/wiki/Rutherford_B._Hayes",
+      "https://vi.wikipedia.org/wiki/Theodore_Roosevelt"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Benjamin Harrison",
+    "link": "https://vi.wikipedia.org/wiki/Benjamin_Harrison",
+    "Học vấn": [
+      {
+        "trường": "Đại học Miami",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Bill Clinton",
+    "link": "https://vi.wikipedia.org/wiki/Bill_Clinton",
+    "Học vấn": [
+      {
+        "trường": "Đại học Georgetown",
+        "năm": null
+      },
+      {
+        "trường": "Trường Dịch vụ Đối ngoại",
+        "năm": null
+      },
+      {
+        "trường": "Đại học Oxford",
+        "năm": null
+      },
+      {
+        "trường": "Đại học Oxford",
+        "năm": null
+      },
+      {
+        "trường": "Đại học Yale",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "Dick Cheney",
+        "person_link": "https://vi.wikipedia.org/wiki/Dick_Cheney",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Donald Rumsfeld",
+        "person_link": "https://vi.wikipedia.org/wiki/Donald_Rumsfeld",
+        "type": "same_university"
+      },
+      {
+        "person_title": "George H. W. Bush",
+        "person_link": "https://vi.wikipedia.org/wiki/George_H._W._Bush",
+        "type": "same_university"
+      },
+      {
+        "person_title": "George W. Bush",
+        "person_link": "https://vi.wikipedia.org/wiki/George_W._Bush",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Gerald Ford",
+        "person_link": "https://vi.wikipedia.org/wiki/Gerald_Ford",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Hillary Clinton",
+        "person_link": "https://vi.wikipedia.org/wiki/Hillary_Clinton",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John R. Bolton",
+        "person_link": "https://vi.wikipedia.org/wiki/John_R._Bolton",
+        "type": "same_university"
+      },
+      {
+        "person_title": "William Howard Taft",
+        "person_link": "https://vi.wikipedia.org/wiki/William_Howard_Taft",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/Dick_Cheney",
+      "https://vi.wikipedia.org/wiki/Donald_Rumsfeld",
+      "https://vi.wikipedia.org/wiki/George_H._W._Bush",
+      "https://vi.wikipedia.org/wiki/George_W._Bush",
+      "https://vi.wikipedia.org/wiki/Gerald_Ford",
+      "https://vi.wikipedia.org/wiki/Hillary_Clinton",
+      "https://vi.wikipedia.org/wiki/John_R._Bolton",
+      "https://vi.wikipedia.org/wiki/William_Howard_Taft"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Boris Nikolayevich Yeltsin",
+    "link": "https://vi.wikipedia.org/wiki/Boris_Nikolayevich_Yeltsin",
+    "Học vấn": [
+      {
+        "trường": "Đại học Công nghệ Quốc gia Ural",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Calvin Coolidge",
+    "link": "https://vi.wikipedia.org/wiki/Calvin_Coolidge",
+    "Học vấn": [
+      {
+        "trường": "Đại học Amherst",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Chester A. Arthur",
+    "link": "https://vi.wikipedia.org/wiki/Chester_A._Arthur",
+    "Học vấn": [
+      {
+        "trường": "Đại học Liên bang",
+        "năm": null
+      },
+      {
+        "trường": "Trường Luật Quốc gia và Tiểu bang",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Colin Powell",
+    "link": "https://vi.wikipedia.org/wiki/Colin_Powell",
+    "Học vấn": [
+      {
+        "trường": "Đại học George Washington",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Condoleezza Rice",
+    "link": "https://vi.wikipedia.org/wiki/Condoleezza_Rice",
+    "Học vấn": [
+      {
+        "trường": "Đại học Notre Dame",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Corazon Aquino",
+    "link": "https://vi.wikipedia.org/wiki/Corazon_Aquino",
+    "Học vấn": [
+      {
+        "trường": "Đại học Mount Saint Vincent",
+        "năm": null
+      },
+      {
+        "trường": "Đại học Viễn Đông",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Cristina Fernández de Kirchner",
+    "link": "https://vi.wikipedia.org/wiki/Cristina_Fern%C3%A1ndez_de_Kirchner",
+    "Học vấn": [
+      {
+        "trường": "Đại học quốc gia La Plata",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Dick Cheney",
+    "link": "https://vi.wikipedia.org/wiki/Dick_Cheney",
+    "Học vấn": [
+      {
+        "trường": "Đại học Yale",
+        "năm": null
+      },
+      {
+        "trường": "Đại học Wyoming",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "Bill Clinton",
+        "person_link": "https://vi.wikipedia.org/wiki/Bill_Clinton",
+        "type": "same_university"
+      },
+      {
+        "person_title": "George H. W. Bush",
+        "person_link": "https://vi.wikipedia.org/wiki/George_H._W._Bush",
+        "type": "same_university"
+      },
+      {
+        "person_title": "George W. Bush",
+        "person_link": "https://vi.wikipedia.org/wiki/George_W._Bush",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Gerald Ford",
+        "person_link": "https://vi.wikipedia.org/wiki/Gerald_Ford",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Hillary Clinton",
+        "person_link": "https://vi.wikipedia.org/wiki/Hillary_Clinton",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John R. Bolton",
+        "person_link": "https://vi.wikipedia.org/wiki/John_R._Bolton",
+        "type": "same_university"
+      },
+      {
+        "person_title": "William Howard Taft",
+        "person_link": "https://vi.wikipedia.org/wiki/William_Howard_Taft",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/Bill_Clinton",
+      "https://vi.wikipedia.org/wiki/George_H._W._Bush",
+      "https://vi.wikipedia.org/wiki/George_W._Bush",
+      "https://vi.wikipedia.org/wiki/Gerald_Ford",
+      "https://vi.wikipedia.org/wiki/Hillary_Clinton",
+      "https://vi.wikipedia.org/wiki/John_R._Bolton",
+      "https://vi.wikipedia.org/wiki/William_Howard_Taft"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Donald Rumsfeld",
+    "link": "https://vi.wikipedia.org/wiki/Donald_Rumsfeld",
+    "Học vấn": [
+      {
+        "trường": "Đại học Princeton",
+        "năm": null
+      },
+      {
+        "trường": "Đại học Georgetown",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "Bill Clinton",
+        "person_link": "https://vi.wikipedia.org/wiki/Bill_Clinton",
+        "type": "same_university"
+      },
+      {
+        "person_title": "James Madison",
+        "person_link": "https://vi.wikipedia.org/wiki/James_Madison",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Maria Ressa",
+        "person_link": "https://vi.wikipedia.org/wiki/Maria_Ressa",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Woodrow Wilson",
+        "person_link": "https://vi.wikipedia.org/wiki/Woodrow_Wilson",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/Bill_Clinton",
+      "https://vi.wikipedia.org/wiki/James_Madison",
+      "https://vi.wikipedia.org/wiki/Maria_Ressa",
+      "https://vi.wikipedia.org/wiki/Woodrow_Wilson"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 0,
+    "name": "Donald Trump",
+    "link": "https://vi.wikipedia.org/wiki/Donald_Trump",
+    "Học vấn": [
+      {
+        "trường": "Đại học Pennsylvania",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "William Henry Harrison",
+        "person_link": "https://vi.wikipedia.org/wiki/William_Henry_Harrison",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/William_Henry_Harrison"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Dwight D. Eisenhower",
+    "link": "https://vi.wikipedia.org/wiki/Dwight_D._Eisenhower",
+    "Học vấn": [
+      {
+        "trường": "Học viện Quân sự Hoa Kỳ",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "Ulysses S. Grant",
+        "person_link": "https://vi.wikipedia.org/wiki/Ulysses_S._Grant",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/Ulysses_S._Grant"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Franklin D. Roosevelt",
+    "link": "https://vi.wikipedia.org/wiki/Franklin_D._Roosevelt",
+    "Học vấn": [
+      {
+        "trường": "Đại học Harvard",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "Barack Obama",
+        "person_link": "https://vi.wikipedia.org/wiki/Barack_Obama",
+        "type": "same_university"
+      },
+      {
+        "person_title": "George W. Bush",
+        "person_link": "https://vi.wikipedia.org/wiki/George_W._Bush",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John Adams",
+        "person_link": "https://vi.wikipedia.org/wiki/John_Adams",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John F. Kennedy",
+        "person_link": "https://vi.wikipedia.org/wiki/John_F._Kennedy",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John Quincy Adams",
+        "person_link": "https://vi.wikipedia.org/wiki/John_Quincy_Adams",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John Roberts",
+        "person_link": "https://vi.wikipedia.org/wiki/John_Roberts",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Michael Bloomberg",
+        "person_link": "https://vi.wikipedia.org/wiki/Michael_Bloomberg",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Rutherford B. Hayes",
+        "person_link": "https://vi.wikipedia.org/wiki/Rutherford_B._Hayes",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Theodore Roosevelt",
+        "person_link": "https://vi.wikipedia.org/wiki/Theodore_Roosevelt",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/Barack_Obama",
+      "https://vi.wikipedia.org/wiki/George_W._Bush",
+      "https://vi.wikipedia.org/wiki/John_Adams",
+      "https://vi.wikipedia.org/wiki/John_F._Kennedy",
+      "https://vi.wikipedia.org/wiki/John_Quincy_Adams",
+      "https://vi.wikipedia.org/wiki/John_Roberts",
+      "https://vi.wikipedia.org/wiki/Michael_Bloomberg",
+      "https://vi.wikipedia.org/wiki/Rutherford_B._Hayes",
+      "https://vi.wikipedia.org/wiki/Theodore_Roosevelt"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Franklin Pierce",
+    "link": "https://vi.wikipedia.org/wiki/Franklin_Pierce",
+    "Học vấn": [
+      {
+        "trường": "Trường Cao đẳng Bowdoin",
+        "năm": null
+      },
+      {
+        "trường": "Trường Luật Northampton",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Geert Wilders",
+    "link": "https://vi.wikipedia.org/wiki/Geert_Wilders",
+    "Học vấn": [
+      {
+        "trường": "Đại học mở ở Hà Lan",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "George H. W. Bush",
+    "link": "https://vi.wikipedia.org/wiki/George_H._W._Bush",
+    "Học vấn": [
+      {
+        "trường": "Đại học Yale",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "Bill Clinton",
+        "person_link": "https://vi.wikipedia.org/wiki/Bill_Clinton",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Dick Cheney",
+        "person_link": "https://vi.wikipedia.org/wiki/Dick_Cheney",
+        "type": "same_university"
+      },
+      {
+        "person_title": "George W. Bush",
+        "person_link": "https://vi.wikipedia.org/wiki/George_W._Bush",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Gerald Ford",
+        "person_link": "https://vi.wikipedia.org/wiki/Gerald_Ford",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Hillary Clinton",
+        "person_link": "https://vi.wikipedia.org/wiki/Hillary_Clinton",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John R. Bolton",
+        "person_link": "https://vi.wikipedia.org/wiki/John_R._Bolton",
+        "type": "same_university"
+      },
+      {
+        "person_title": "William Howard Taft",
+        "person_link": "https://vi.wikipedia.org/wiki/William_Howard_Taft",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/Bill_Clinton",
+      "https://vi.wikipedia.org/wiki/Dick_Cheney",
+      "https://vi.wikipedia.org/wiki/George_W._Bush",
+      "https://vi.wikipedia.org/wiki/Gerald_Ford",
+      "https://vi.wikipedia.org/wiki/Hillary_Clinton",
+      "https://vi.wikipedia.org/wiki/John_R._Bolton",
+      "https://vi.wikipedia.org/wiki/William_Howard_Taft"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "George Tenet",
+    "link": "https://vi.wikipedia.org/wiki/George_Tenet",
+    "Học vấn": [
+      {
+        "trường": "Georgetown University",
+        "năm": null
+      },
+      {
+        "trường": "Đại học Columbia",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "Barack Obama",
+        "person_link": "https://vi.wikipedia.org/wiki/Barack_Obama",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/Barack_Obama"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 0,
+    "name": "George W. Bush",
+    "link": "https://vi.wikipedia.org/wiki/George_W._Bush",
+    "Học vấn": [
+      {
+        "trường": "Đại học Yale",
+        "năm": null
+      },
+      {
+        "trường": "Đại học Harvard",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "Barack Obama",
+        "person_link": "https://vi.wikipedia.org/wiki/Barack_Obama",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Bill Clinton",
+        "person_link": "https://vi.wikipedia.org/wiki/Bill_Clinton",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Dick Cheney",
+        "person_link": "https://vi.wikipedia.org/wiki/Dick_Cheney",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Franklin D. Roosevelt",
+        "person_link": "https://vi.wikipedia.org/wiki/Franklin_D._Roosevelt",
+        "type": "same_university"
+      },
+      {
+        "person_title": "George H. W. Bush",
+        "person_link": "https://vi.wikipedia.org/wiki/George_H._W._Bush",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Gerald Ford",
+        "person_link": "https://vi.wikipedia.org/wiki/Gerald_Ford",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Hillary Clinton",
+        "person_link": "https://vi.wikipedia.org/wiki/Hillary_Clinton",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John Adams",
+        "person_link": "https://vi.wikipedia.org/wiki/John_Adams",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John F. Kennedy",
+        "person_link": "https://vi.wikipedia.org/wiki/John_F._Kennedy",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John Quincy Adams",
+        "person_link": "https://vi.wikipedia.org/wiki/John_Quincy_Adams",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John R. Bolton",
+        "person_link": "https://vi.wikipedia.org/wiki/John_R._Bolton",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John Roberts",
+        "person_link": "https://vi.wikipedia.org/wiki/John_Roberts",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Michael Bloomberg",
+        "person_link": "https://vi.wikipedia.org/wiki/Michael_Bloomberg",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Rutherford B. Hayes",
+        "person_link": "https://vi.wikipedia.org/wiki/Rutherford_B._Hayes",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Theodore Roosevelt",
+        "person_link": "https://vi.wikipedia.org/wiki/Theodore_Roosevelt",
+        "type": "same_university"
+      },
+      {
+        "person_title": "William Howard Taft",
+        "person_link": "https://vi.wikipedia.org/wiki/William_Howard_Taft",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/Barack_Obama",
+      "https://vi.wikipedia.org/wiki/Bill_Clinton",
+      "https://vi.wikipedia.org/wiki/Dick_Cheney",
+      "https://vi.wikipedia.org/wiki/Franklin_D._Roosevelt",
+      "https://vi.wikipedia.org/wiki/George_H._W._Bush",
+      "https://vi.wikipedia.org/wiki/Gerald_Ford",
+      "https://vi.wikipedia.org/wiki/Hillary_Clinton",
+      "https://vi.wikipedia.org/wiki/John_Adams",
+      "https://vi.wikipedia.org/wiki/John_F._Kennedy",
+      "https://vi.wikipedia.org/wiki/John_Quincy_Adams",
+      "https://vi.wikipedia.org/wiki/John_R._Bolton",
+      "https://vi.wikipedia.org/wiki/John_Roberts",
+      "https://vi.wikipedia.org/wiki/Michael_Bloomberg",
+      "https://vi.wikipedia.org/wiki/Rutherford_B._Hayes",
+      "https://vi.wikipedia.org/wiki/Theodore_Roosevelt",
+      "https://vi.wikipedia.org/wiki/William_Howard_Taft"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Gerald Ford",
+    "link": "https://vi.wikipedia.org/wiki/Gerald_Ford",
+    "Học vấn": [
+      {
+        "trường": "Đại học Michigan",
+        "năm": null
+      },
+      {
+        "trường": "Đại học Yale",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "Bill Clinton",
+        "person_link": "https://vi.wikipedia.org/wiki/Bill_Clinton",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Dick Cheney",
+        "person_link": "https://vi.wikipedia.org/wiki/Dick_Cheney",
+        "type": "same_university"
+      },
+      {
+        "person_title": "George H. W. Bush",
+        "person_link": "https://vi.wikipedia.org/wiki/George_H._W._Bush",
+        "type": "same_university"
+      },
+      {
+        "person_title": "George W. Bush",
+        "person_link": "https://vi.wikipedia.org/wiki/George_W._Bush",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Hillary Clinton",
+        "person_link": "https://vi.wikipedia.org/wiki/Hillary_Clinton",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John R. Bolton",
+        "person_link": "https://vi.wikipedia.org/wiki/John_R._Bolton",
+        "type": "same_university"
+      },
+      {
+        "person_title": "William Howard Taft",
+        "person_link": "https://vi.wikipedia.org/wiki/William_Howard_Taft",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/Bill_Clinton",
+      "https://vi.wikipedia.org/wiki/Dick_Cheney",
+      "https://vi.wikipedia.org/wiki/George_H._W._Bush",
+      "https://vi.wikipedia.org/wiki/George_W._Bush",
+      "https://vi.wikipedia.org/wiki/Hillary_Clinton",
+      "https://vi.wikipedia.org/wiki/John_R._Bolton",
+      "https://vi.wikipedia.org/wiki/William_Howard_Taft"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Getúlio Vargas",
+    "link": "https://vi.wikipedia.org/wiki/Get%C3%BAlio_Vargas",
+    "Học vấn": [
+      {
+        "trường": "Universidade Federal do Rio Grande do Sul",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Greg Abbott",
+    "link": "https://vi.wikipedia.org/wiki/Greg_Abbott",
+    "Học vấn": [
+      {
+        "trường": "Đại học Texas tại Austin",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "Jeb Bush",
+        "person_link": "https://vi.wikipedia.org/wiki/Jeb_Bush",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Laura Bush",
+        "person_link": "https://vi.wikipedia.org/wiki/Laura_Bush",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/Jeb_Bush",
+      "https://vi.wikipedia.org/wiki/Laura_Bush"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Hamid Karzai",
+    "link": "https://vi.wikipedia.org/wiki/Hamid_Karzai",
+    "Học vấn": [
+      {
+        "trường": "Đại học Himachal",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Harry S. Truman",
+    "link": "https://vi.wikipedia.org/wiki/Harry_S._Truman",
+    "Học vấn": [
+      {
+        "trường": "Đại học Missouri–Trường Luật Thành phố Kansas",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Henry A. Wallace",
+    "link": "https://vi.wikipedia.org/wiki/Henry_A._Wallace",
+    "Học vấn": [
+      {
+        "trường": "Đại học Tiểu bang Iowa",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Herbert Hoover",
+    "link": "https://vi.wikipedia.org/wiki/Herbert_Hoover",
+    "Học vấn": [
+      {
+        "trường": "Đại học Stanford",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Hillary Clinton",
+    "link": "https://vi.wikipedia.org/wiki/Hillary_Clinton",
+    "Học vấn": [
+      {
+        "trường": "Đại học Yale",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "Bill Clinton",
+        "person_link": "https://vi.wikipedia.org/wiki/Bill_Clinton",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Dick Cheney",
+        "person_link": "https://vi.wikipedia.org/wiki/Dick_Cheney",
+        "type": "same_university"
+      },
+      {
+        "person_title": "George H. W. Bush",
+        "person_link": "https://vi.wikipedia.org/wiki/George_H._W._Bush",
+        "type": "same_university"
+      },
+      {
+        "person_title": "George W. Bush",
+        "person_link": "https://vi.wikipedia.org/wiki/George_W._Bush",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Gerald Ford",
+        "person_link": "https://vi.wikipedia.org/wiki/Gerald_Ford",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John R. Bolton",
+        "person_link": "https://vi.wikipedia.org/wiki/John_R._Bolton",
+        "type": "same_university"
+      },
+      {
+        "person_title": "William Howard Taft",
+        "person_link": "https://vi.wikipedia.org/wiki/William_Howard_Taft",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/Bill_Clinton",
+      "https://vi.wikipedia.org/wiki/Dick_Cheney",
+      "https://vi.wikipedia.org/wiki/George_H._W._Bush",
+      "https://vi.wikipedia.org/wiki/George_W._Bush",
+      "https://vi.wikipedia.org/wiki/Gerald_Ford",
+      "https://vi.wikipedia.org/wiki/John_R._Bolton",
+      "https://vi.wikipedia.org/wiki/William_Howard_Taft"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Hugo Chávez",
+    "link": "https://vi.wikipedia.org/wiki/Hugo_Ch%C3%A1vez",
+    "Học vấn": [
+      {
+        "trường": "Học viện Quân sự Venezuela",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "James A. Garfield",
+    "link": "https://vi.wikipedia.org/wiki/James_A._Garfield",
+    "Học vấn": [
+      {
+        "trường": "Trường Cao đẳng Hiram",
+        "năm": null
+      },
+      {
+        "trường": "Trường Cao đẳng Williams",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "James Buchanan",
+    "link": "https://vi.wikipedia.org/wiki/James_Buchanan",
+    "Học vấn": [
+      {
+        "trường": "Đại học Dickinson",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "James K. Polk",
+    "link": "https://vi.wikipedia.org/wiki/James_K._Polk",
+    "Học vấn": [
+      {
+        "trường": "Đại học North Carolina ở Chapel Hill",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "James Madison",
+    "link": "https://vi.wikipedia.org/wiki/James_Madison",
+    "Học vấn": [
+      {
+        "trường": "Đại học Princeton",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "Donald Rumsfeld",
+        "person_link": "https://vi.wikipedia.org/wiki/Donald_Rumsfeld",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Maria Ressa",
+        "person_link": "https://vi.wikipedia.org/wiki/Maria_Ressa",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Woodrow Wilson",
+        "person_link": "https://vi.wikipedia.org/wiki/Woodrow_Wilson",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/Donald_Rumsfeld",
+      "https://vi.wikipedia.org/wiki/Maria_Ressa",
+      "https://vi.wikipedia.org/wiki/Woodrow_Wilson"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "James Monroe",
+    "link": "https://vi.wikipedia.org/wiki/James_Monroe",
+    "Học vấn": [
+      {
+        "trường": "Đại học William & Mary",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "John Tyler",
+        "person_link": "https://vi.wikipedia.org/wiki/John_Tyler",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/John_Tyler"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Jeb Bush",
+    "link": "https://vi.wikipedia.org/wiki/Jeb_Bush",
+    "Học vấn": [
+      {
+        "trường": "Đại học Texas tại Austin",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "Greg Abbott",
+        "person_link": "https://vi.wikipedia.org/wiki/Greg_Abbott",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Laura Bush",
+        "person_link": "https://vi.wikipedia.org/wiki/Laura_Bush",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/Greg_Abbott",
+      "https://vi.wikipedia.org/wiki/Laura_Bush"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Jimmy Carter",
+    "link": "https://vi.wikipedia.org/wiki/Jimmy_Carter",
+    "Học vấn": [
+      {
+        "trường": "Học viện Công nghệ Georgia",
+        "năm": null
+      },
+      {
+        "trường": "Học viện Hải quân Hoa Kỳ",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "John McCain",
+        "person_link": "https://vi.wikipedia.org/wiki/John_McCain",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/John_McCain"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 0,
+    "name": "Joe Biden",
+    "link": "https://vi.wikipedia.org/wiki/Joe_Biden",
+    "Học vấn": [
+      {
+        "trường": "Đại học Delaware",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "John Adams",
+    "link": "https://vi.wikipedia.org/wiki/John_Adams",
+    "Học vấn": [
+      {
+        "trường": "Đại học Harvard",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "Barack Obama",
+        "person_link": "https://vi.wikipedia.org/wiki/Barack_Obama",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Franklin D. Roosevelt",
+        "person_link": "https://vi.wikipedia.org/wiki/Franklin_D._Roosevelt",
+        "type": "same_university"
+      },
+      {
+        "person_title": "George W. Bush",
+        "person_link": "https://vi.wikipedia.org/wiki/George_W._Bush",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John F. Kennedy",
+        "person_link": "https://vi.wikipedia.org/wiki/John_F._Kennedy",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John Quincy Adams",
+        "person_link": "https://vi.wikipedia.org/wiki/John_Quincy_Adams",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John Roberts",
+        "person_link": "https://vi.wikipedia.org/wiki/John_Roberts",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Michael Bloomberg",
+        "person_link": "https://vi.wikipedia.org/wiki/Michael_Bloomberg",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Rutherford B. Hayes",
+        "person_link": "https://vi.wikipedia.org/wiki/Rutherford_B._Hayes",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Theodore Roosevelt",
+        "person_link": "https://vi.wikipedia.org/wiki/Theodore_Roosevelt",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/Barack_Obama",
+      "https://vi.wikipedia.org/wiki/Franklin_D._Roosevelt",
+      "https://vi.wikipedia.org/wiki/George_W._Bush",
+      "https://vi.wikipedia.org/wiki/John_F._Kennedy",
+      "https://vi.wikipedia.org/wiki/John_Quincy_Adams",
+      "https://vi.wikipedia.org/wiki/John_Roberts",
+      "https://vi.wikipedia.org/wiki/Michael_Bloomberg",
+      "https://vi.wikipedia.org/wiki/Rutherford_B._Hayes",
+      "https://vi.wikipedia.org/wiki/Theodore_Roosevelt"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "John F. Kennedy",
+    "link": "https://vi.wikipedia.org/wiki/John_F._Kennedy",
+    "Học vấn": [
+      {
+        "trường": "Đại học Harvard",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "Barack Obama",
+        "person_link": "https://vi.wikipedia.org/wiki/Barack_Obama",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Franklin D. Roosevelt",
+        "person_link": "https://vi.wikipedia.org/wiki/Franklin_D._Roosevelt",
+        "type": "same_university"
+      },
+      {
+        "person_title": "George W. Bush",
+        "person_link": "https://vi.wikipedia.org/wiki/George_W._Bush",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John Adams",
+        "person_link": "https://vi.wikipedia.org/wiki/John_Adams",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John Quincy Adams",
+        "person_link": "https://vi.wikipedia.org/wiki/John_Quincy_Adams",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John Roberts",
+        "person_link": "https://vi.wikipedia.org/wiki/John_Roberts",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Michael Bloomberg",
+        "person_link": "https://vi.wikipedia.org/wiki/Michael_Bloomberg",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Rutherford B. Hayes",
+        "person_link": "https://vi.wikipedia.org/wiki/Rutherford_B._Hayes",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Theodore Roosevelt",
+        "person_link": "https://vi.wikipedia.org/wiki/Theodore_Roosevelt",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/Barack_Obama",
+      "https://vi.wikipedia.org/wiki/Franklin_D._Roosevelt",
+      "https://vi.wikipedia.org/wiki/George_W._Bush",
+      "https://vi.wikipedia.org/wiki/John_Adams",
+      "https://vi.wikipedia.org/wiki/John_Quincy_Adams",
+      "https://vi.wikipedia.org/wiki/John_Roberts",
+      "https://vi.wikipedia.org/wiki/Michael_Bloomberg",
+      "https://vi.wikipedia.org/wiki/Rutherford_B._Hayes",
+      "https://vi.wikipedia.org/wiki/Theodore_Roosevelt"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "John Howard",
+    "link": "https://vi.wikipedia.org/wiki/John_Howard",
+    "Học vấn": [
+      {
+        "trường": "Đại học Sydney",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "John McCain",
+    "link": "https://vi.wikipedia.org/wiki/John_McCain",
+    "Học vấn": [
+      {
+        "trường": "Học viện Hải quân Hoa Kỳ",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "Jimmy Carter",
+        "person_link": "https://vi.wikipedia.org/wiki/Jimmy_Carter",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/Jimmy_Carter"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "John Quincy Adams",
+    "link": "https://vi.wikipedia.org/wiki/John_Quincy_Adams",
+    "Học vấn": [
+      {
+        "trường": "Đại học Harvard",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "Barack Obama",
+        "person_link": "https://vi.wikipedia.org/wiki/Barack_Obama",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Franklin D. Roosevelt",
+        "person_link": "https://vi.wikipedia.org/wiki/Franklin_D._Roosevelt",
+        "type": "same_university"
+      },
+      {
+        "person_title": "George W. Bush",
+        "person_link": "https://vi.wikipedia.org/wiki/George_W._Bush",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John Adams",
+        "person_link": "https://vi.wikipedia.org/wiki/John_Adams",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John F. Kennedy",
+        "person_link": "https://vi.wikipedia.org/wiki/John_F._Kennedy",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John Roberts",
+        "person_link": "https://vi.wikipedia.org/wiki/John_Roberts",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Michael Bloomberg",
+        "person_link": "https://vi.wikipedia.org/wiki/Michael_Bloomberg",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Rutherford B. Hayes",
+        "person_link": "https://vi.wikipedia.org/wiki/Rutherford_B._Hayes",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Theodore Roosevelt",
+        "person_link": "https://vi.wikipedia.org/wiki/Theodore_Roosevelt",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/Barack_Obama",
+      "https://vi.wikipedia.org/wiki/Franklin_D._Roosevelt",
+      "https://vi.wikipedia.org/wiki/George_W._Bush",
+      "https://vi.wikipedia.org/wiki/John_Adams",
+      "https://vi.wikipedia.org/wiki/John_F._Kennedy",
+      "https://vi.wikipedia.org/wiki/John_Roberts",
+      "https://vi.wikipedia.org/wiki/Michael_Bloomberg",
+      "https://vi.wikipedia.org/wiki/Rutherford_B._Hayes",
+      "https://vi.wikipedia.org/wiki/Theodore_Roosevelt"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "John R. Bolton",
+    "link": "https://vi.wikipedia.org/wiki/John_R._Bolton",
+    "Học vấn": [
+      {
+        "trường": "Đại học Yale",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "Bill Clinton",
+        "person_link": "https://vi.wikipedia.org/wiki/Bill_Clinton",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Dick Cheney",
+        "person_link": "https://vi.wikipedia.org/wiki/Dick_Cheney",
+        "type": "same_university"
+      },
+      {
+        "person_title": "George H. W. Bush",
+        "person_link": "https://vi.wikipedia.org/wiki/George_H._W._Bush",
+        "type": "same_university"
+      },
+      {
+        "person_title": "George W. Bush",
+        "person_link": "https://vi.wikipedia.org/wiki/George_W._Bush",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Gerald Ford",
+        "person_link": "https://vi.wikipedia.org/wiki/Gerald_Ford",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Hillary Clinton",
+        "person_link": "https://vi.wikipedia.org/wiki/Hillary_Clinton",
+        "type": "same_university"
+      },
+      {
+        "person_title": "William Howard Taft",
+        "person_link": "https://vi.wikipedia.org/wiki/William_Howard_Taft",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/Bill_Clinton",
+      "https://vi.wikipedia.org/wiki/Dick_Cheney",
+      "https://vi.wikipedia.org/wiki/George_H._W._Bush",
+      "https://vi.wikipedia.org/wiki/George_W._Bush",
+      "https://vi.wikipedia.org/wiki/Gerald_Ford",
+      "https://vi.wikipedia.org/wiki/Hillary_Clinton",
+      "https://vi.wikipedia.org/wiki/William_Howard_Taft"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "John Roberts",
+    "link": "https://vi.wikipedia.org/wiki/John_Roberts",
+    "Học vấn": [
+      {
+        "trường": "Đại học Harvard",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "Barack Obama",
+        "person_link": "https://vi.wikipedia.org/wiki/Barack_Obama",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Franklin D. Roosevelt",
+        "person_link": "https://vi.wikipedia.org/wiki/Franklin_D._Roosevelt",
+        "type": "same_university"
+      },
+      {
+        "person_title": "George W. Bush",
+        "person_link": "https://vi.wikipedia.org/wiki/George_W._Bush",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John Adams",
+        "person_link": "https://vi.wikipedia.org/wiki/John_Adams",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John F. Kennedy",
+        "person_link": "https://vi.wikipedia.org/wiki/John_F._Kennedy",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John Quincy Adams",
+        "person_link": "https://vi.wikipedia.org/wiki/John_Quincy_Adams",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Michael Bloomberg",
+        "person_link": "https://vi.wikipedia.org/wiki/Michael_Bloomberg",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Rutherford B. Hayes",
+        "person_link": "https://vi.wikipedia.org/wiki/Rutherford_B._Hayes",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Theodore Roosevelt",
+        "person_link": "https://vi.wikipedia.org/wiki/Theodore_Roosevelt",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/Barack_Obama",
+      "https://vi.wikipedia.org/wiki/Franklin_D._Roosevelt",
+      "https://vi.wikipedia.org/wiki/George_W._Bush",
+      "https://vi.wikipedia.org/wiki/John_Adams",
+      "https://vi.wikipedia.org/wiki/John_F._Kennedy",
+      "https://vi.wikipedia.org/wiki/John_Quincy_Adams",
+      "https://vi.wikipedia.org/wiki/Michael_Bloomberg",
+      "https://vi.wikipedia.org/wiki/Rutherford_B._Hayes",
+      "https://vi.wikipedia.org/wiki/Theodore_Roosevelt"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "John Tyler",
+    "link": "https://vi.wikipedia.org/wiki/John_Tyler",
+    "Học vấn": [
+      {
+        "trường": "Đại học William & Mary",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "James Monroe",
+        "person_link": "https://vi.wikipedia.org/wiki/James_Monroe",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/James_Monroe"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 0,
+    "name": "Kamala Harris",
+    "link": "https://vi.wikipedia.org/wiki/Kamala_Harris",
+    "Học vấn": [
+      {
+        "trường": "Đại học Howard",
+        "năm": null
+      },
+      {
+        "trường": "Trường Luật Hastings",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Kofi Annan",
+    "link": "https://vi.wikipedia.org/wiki/Kofi_Annan",
+    "Học vấn": [
+      {
+        "trường": "Đại học Kwame Nkrumah",
+        "năm": null
+      },
+      {
+        "trường": "Graduate Institute of International and Development Studies",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Laura Bush",
+    "link": "https://vi.wikipedia.org/wiki/Laura_Bush",
+    "Học vấn": [
+      {
+        "trường": "Đại học Texas tại Austin",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "Greg Abbott",
+        "person_link": "https://vi.wikipedia.org/wiki/Greg_Abbott",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Jeb Bush",
+        "person_link": "https://vi.wikipedia.org/wiki/Jeb_Bush",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/Greg_Abbott",
+      "https://vi.wikipedia.org/wiki/Jeb_Bush"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Lyndon B. Johnson",
+    "link": "https://vi.wikipedia.org/wiki/Lyndon_B._Johnson",
+    "Học vấn": [
+      {
+        "trường": "Đại học Quốc gia Texas",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 0,
+    "name": "Maria Ressa",
+    "link": "https://vi.wikipedia.org/wiki/Maria_Ressa",
+    "Học vấn": [
+      {
+        "trường": "Đại học Princeton",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "Donald Rumsfeld",
+        "person_link": "https://vi.wikipedia.org/wiki/Donald_Rumsfeld",
+        "type": "same_university"
+      },
+      {
+        "person_title": "James Madison",
+        "person_link": "https://vi.wikipedia.org/wiki/James_Madison",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Woodrow Wilson",
+        "person_link": "https://vi.wikipedia.org/wiki/Woodrow_Wilson",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/Donald_Rumsfeld",
+      "https://vi.wikipedia.org/wiki/James_Madison",
+      "https://vi.wikipedia.org/wiki/Woodrow_Wilson"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Marine Le Pen",
+    "link": "https://vi.wikipedia.org/wiki/Marine_Le_Pen",
+    "Học vấn": [
+      {
+        "trường": "Đại học",
+        "năm": null
+      },
+      {
+        "trường": "Trường Đại học Paris II",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "Michael Bloomberg",
+        "person_link": "https://vi.wikipedia.org/wiki/Michael_Bloomberg",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/Michael_Bloomberg"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Michael Bloomberg",
+    "link": "https://vi.wikipedia.org/wiki/Michael_Bloomberg",
+    "Học vấn": [
+      {
+        "trường": "Đại học Johns Hopkins",
+        "năm": null
+      },
+      {
+        "trường": "Đại học",
+        "năm": null
+      },
+      {
+        "trường": "Đại học Harvard",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "Barack Obama",
+        "person_link": "https://vi.wikipedia.org/wiki/Barack_Obama",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Franklin D. Roosevelt",
+        "person_link": "https://vi.wikipedia.org/wiki/Franklin_D._Roosevelt",
+        "type": "same_university"
+      },
+      {
+        "person_title": "George W. Bush",
+        "person_link": "https://vi.wikipedia.org/wiki/George_W._Bush",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John Adams",
+        "person_link": "https://vi.wikipedia.org/wiki/John_Adams",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John F. Kennedy",
+        "person_link": "https://vi.wikipedia.org/wiki/John_F._Kennedy",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John Quincy Adams",
+        "person_link": "https://vi.wikipedia.org/wiki/John_Quincy_Adams",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John Roberts",
+        "person_link": "https://vi.wikipedia.org/wiki/John_Roberts",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Marine Le Pen",
+        "person_link": "https://vi.wikipedia.org/wiki/Marine_Le_Pen",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Rutherford B. Hayes",
+        "person_link": "https://vi.wikipedia.org/wiki/Rutherford_B._Hayes",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Theodore Roosevelt",
+        "person_link": "https://vi.wikipedia.org/wiki/Theodore_Roosevelt",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Woodrow Wilson",
+        "person_link": "https://vi.wikipedia.org/wiki/Woodrow_Wilson",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/Barack_Obama",
+      "https://vi.wikipedia.org/wiki/Franklin_D._Roosevelt",
+      "https://vi.wikipedia.org/wiki/George_W._Bush",
+      "https://vi.wikipedia.org/wiki/John_Adams",
+      "https://vi.wikipedia.org/wiki/John_F._Kennedy",
+      "https://vi.wikipedia.org/wiki/John_Quincy_Adams",
+      "https://vi.wikipedia.org/wiki/John_Roberts",
+      "https://vi.wikipedia.org/wiki/Marine_Le_Pen",
+      "https://vi.wikipedia.org/wiki/Rutherford_B._Hayes",
+      "https://vi.wikipedia.org/wiki/Theodore_Roosevelt",
+      "https://vi.wikipedia.org/wiki/Woodrow_Wilson"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Mikhail Sergeyevich Gorbachyov",
+    "link": "https://vi.wikipedia.org/wiki/Mikhail_Sergeyevich_Gorbachyov",
+    "Học vấn": [
+      {
+        "trường": "Đại học Quốc gia Moskva",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Muntadhar al-Zaidi",
+    "link": "https://vi.wikipedia.org/wiki/Muntadhar_al-Zaidi",
+    "Học vấn": [
+      {
+        "trường": "Đại học Baghdad",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Nelson Mandela",
+    "link": "https://vi.wikipedia.org/wiki/Nelson_Mandela",
+    "Học vấn": [
+      {
+        "trường": "Đại học London",
+        "năm": null
+      },
+      {
+        "trường": "Đại học Witwatersrand",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Newt Gingrich",
+    "link": "https://vi.wikipedia.org/wiki/Newt_Gingrich",
+    "Học vấn": [
+      {
+        "trường": "Đại học Emory",
+        "năm": null
+      },
+      {
+        "trường": "Đại học Tulane",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Nigel Farage",
+    "link": "https://vi.wikipedia.org/wiki/Nigel_Farage",
+    "Học vấn": [
+      {
+        "trường": "Dulwich College",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Oliver Cromwell",
+    "link": "https://vi.wikipedia.org/wiki/Oliver_Cromwell",
+    "Học vấn": [
+      {
+        "trường": "Đại học Cambridge",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Richard Nixon",
+    "link": "https://vi.wikipedia.org/wiki/Richard_Nixon",
+    "Học vấn": [
+      {
+        "trường": "Trường Luật Đại học Duke",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Rick Perry",
+    "link": "https://vi.wikipedia.org/wiki/Rick_Perry",
+    "Học vấn": [
+      {
+        "trường": "Texas A&M University",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Ronald Reagan",
+    "link": "https://vi.wikipedia.org/wiki/Ronald_Reagan",
+    "Học vấn": [
+      {
+        "trường": "Đại học Eureka",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 0,
+    "name": "Rudy Giuliani",
+    "link": "https://vi.wikipedia.org/wiki/Rudy_Giuliani",
+    "Học vấn": [
+      {
+        "trường": "New York University",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Ruhollah Khomeini",
+    "link": "https://vi.wikipedia.org/wiki/Ruhollah_Khomeini",
+    "Học vấn": [
+      {
+        "trường": "Viện thần học Qom",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Rutherford B. Hayes",
+    "link": "https://vi.wikipedia.org/wiki/Rutherford_B._Hayes",
+    "Học vấn": [
+      {
+        "trường": "Đại học Kenyon",
+        "năm": null
+      },
+      {
+        "trường": "Đại học Harvard",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "Barack Obama",
+        "person_link": "https://vi.wikipedia.org/wiki/Barack_Obama",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Franklin D. Roosevelt",
+        "person_link": "https://vi.wikipedia.org/wiki/Franklin_D._Roosevelt",
+        "type": "same_university"
+      },
+      {
+        "person_title": "George W. Bush",
+        "person_link": "https://vi.wikipedia.org/wiki/George_W._Bush",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John Adams",
+        "person_link": "https://vi.wikipedia.org/wiki/John_Adams",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John F. Kennedy",
+        "person_link": "https://vi.wikipedia.org/wiki/John_F._Kennedy",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John Quincy Adams",
+        "person_link": "https://vi.wikipedia.org/wiki/John_Quincy_Adams",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John Roberts",
+        "person_link": "https://vi.wikipedia.org/wiki/John_Roberts",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Michael Bloomberg",
+        "person_link": "https://vi.wikipedia.org/wiki/Michael_Bloomberg",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Theodore Roosevelt",
+        "person_link": "https://vi.wikipedia.org/wiki/Theodore_Roosevelt",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/Barack_Obama",
+      "https://vi.wikipedia.org/wiki/Franklin_D._Roosevelt",
+      "https://vi.wikipedia.org/wiki/George_W._Bush",
+      "https://vi.wikipedia.org/wiki/John_Adams",
+      "https://vi.wikipedia.org/wiki/John_F._Kennedy",
+      "https://vi.wikipedia.org/wiki/John_Quincy_Adams",
+      "https://vi.wikipedia.org/wiki/John_Roberts",
+      "https://vi.wikipedia.org/wiki/Michael_Bloomberg",
+      "https://vi.wikipedia.org/wiki/Theodore_Roosevelt"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Silvio Berlusconi",
+    "link": "https://vi.wikipedia.org/wiki/Silvio_Berlusconi",
+    "Học vấn": [
+      {
+        "trường": "Đại học Milano",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Theodore Roosevelt",
+    "link": "https://vi.wikipedia.org/wiki/Theodore_Roosevelt",
+    "Học vấn": [
+      {
+        "trường": "Đại học Harvard",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "Barack Obama",
+        "person_link": "https://vi.wikipedia.org/wiki/Barack_Obama",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Franklin D. Roosevelt",
+        "person_link": "https://vi.wikipedia.org/wiki/Franklin_D._Roosevelt",
+        "type": "same_university"
+      },
+      {
+        "person_title": "George W. Bush",
+        "person_link": "https://vi.wikipedia.org/wiki/George_W._Bush",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John Adams",
+        "person_link": "https://vi.wikipedia.org/wiki/John_Adams",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John F. Kennedy",
+        "person_link": "https://vi.wikipedia.org/wiki/John_F._Kennedy",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John Quincy Adams",
+        "person_link": "https://vi.wikipedia.org/wiki/John_Quincy_Adams",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John Roberts",
+        "person_link": "https://vi.wikipedia.org/wiki/John_Roberts",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Michael Bloomberg",
+        "person_link": "https://vi.wikipedia.org/wiki/Michael_Bloomberg",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Rutherford B. Hayes",
+        "person_link": "https://vi.wikipedia.org/wiki/Rutherford_B._Hayes",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/Barack_Obama",
+      "https://vi.wikipedia.org/wiki/Franklin_D._Roosevelt",
+      "https://vi.wikipedia.org/wiki/George_W._Bush",
+      "https://vi.wikipedia.org/wiki/John_Adams",
+      "https://vi.wikipedia.org/wiki/John_F._Kennedy",
+      "https://vi.wikipedia.org/wiki/John_Quincy_Adams",
+      "https://vi.wikipedia.org/wiki/John_Roberts",
+      "https://vi.wikipedia.org/wiki/Michael_Bloomberg",
+      "https://vi.wikipedia.org/wiki/Rutherford_B._Hayes"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Thomas Jefferson",
+    "link": "https://vi.wikipedia.org/wiki/Thomas_Jefferson",
+    "Học vấn": [
+      {
+        "trường": "Đại học William và Mary",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Ulysses S. Grant",
+    "link": "https://vi.wikipedia.org/wiki/Ulysses_S._Grant",
+    "Học vấn": [
+      {
+        "trường": "Học viện Quân sự Hoa Kỳ",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "Dwight D. Eisenhower",
+        "person_link": "https://vi.wikipedia.org/wiki/Dwight_D._Eisenhower",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/Dwight_D._Eisenhower"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Vladimir Ilyich Lenin",
+    "link": "https://vi.wikipedia.org/wiki/Vladimir_Ilyich_Lenin",
+    "Học vấn": [
+      {
+        "trường": "Đại học Tổng hợp Sankt-Peterburg",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "Vladimir Vladimirovich Putin",
+        "person_link": "https://vi.wikipedia.org/wiki/Vladimir_Vladimirovich_Putin",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/Vladimir_Vladimirovich_Putin"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 0,
+    "name": "Vladimir Vladimirovich Putin",
+    "link": "https://vi.wikipedia.org/wiki/Vladimir_Vladimirovich_Putin",
+    "Học vấn": [
+      {
+        "trường": "Đại học Tổng hợp Sankt-Peterburg",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "Vladimir Ilyich Lenin",
+        "person_link": "https://vi.wikipedia.org/wiki/Vladimir_Ilyich_Lenin",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/Vladimir_Ilyich_Lenin"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 0,
+    "name": "Volodymyr Oleksandrovych Zelenskyy",
+    "link": "https://vi.wikipedia.org/wiki/Volodymyr_Oleksandrovych_Zelenskyy",
+    "Học vấn": [
+      {
+        "trường": "Đại học Kinh tế Quốc dân Kyiv",
+        "năm": null
+      },
+      {
+        "trường": "Học viện Kinh tế Kryvyi Rih",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Warren G. Harding",
+    "link": "https://vi.wikipedia.org/wiki/Warren_G._Harding",
+    "Học vấn": [
+      {
+        "trường": "Đại học Trung ương Ohio",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "William Henry Harrison",
+    "link": "https://vi.wikipedia.org/wiki/William_Henry_Harrison",
+    "Học vấn": [
+      {
+        "trường": "Đại học Pennsylvania",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "Donald Trump",
+        "person_link": "https://vi.wikipedia.org/wiki/Donald_Trump",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/Donald_Trump"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "William Howard Taft",
+    "link": "https://vi.wikipedia.org/wiki/William_Howard_Taft",
+    "Học vấn": [
+      {
+        "trường": "Đại học Yale",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "Bill Clinton",
+        "person_link": "https://vi.wikipedia.org/wiki/Bill_Clinton",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Dick Cheney",
+        "person_link": "https://vi.wikipedia.org/wiki/Dick_Cheney",
+        "type": "same_university"
+      },
+      {
+        "person_title": "George H. W. Bush",
+        "person_link": "https://vi.wikipedia.org/wiki/George_H._W._Bush",
+        "type": "same_university"
+      },
+      {
+        "person_title": "George W. Bush",
+        "person_link": "https://vi.wikipedia.org/wiki/George_W._Bush",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Gerald Ford",
+        "person_link": "https://vi.wikipedia.org/wiki/Gerald_Ford",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Hillary Clinton",
+        "person_link": "https://vi.wikipedia.org/wiki/Hillary_Clinton",
+        "type": "same_university"
+      },
+      {
+        "person_title": "John R. Bolton",
+        "person_link": "https://vi.wikipedia.org/wiki/John_R._Bolton",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/Bill_Clinton",
+      "https://vi.wikipedia.org/wiki/Dick_Cheney",
+      "https://vi.wikipedia.org/wiki/George_H._W._Bush",
+      "https://vi.wikipedia.org/wiki/George_W._Bush",
+      "https://vi.wikipedia.org/wiki/Gerald_Ford",
+      "https://vi.wikipedia.org/wiki/Hillary_Clinton",
+      "https://vi.wikipedia.org/wiki/John_R._Bolton"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "William McKinley",
+    "link": "https://vi.wikipedia.org/wiki/William_McKinley",
+    "Học vấn": [
+      {
+        "trường": "Đại học Allegheny",
+        "năm": null
+      },
+      {
+        "trường": "Đại học Mount Union",
+        "năm": null
+      },
+      {
+        "trường": "Trường Luật Albany",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Woodrow Wilson",
+    "link": "https://vi.wikipedia.org/wiki/Woodrow_Wilson",
+    "Học vấn": [
+      {
+        "trường": "Đại học Princeton",
+        "năm": null
+      },
+      {
+        "trường": "Đại học Johns Hopkins",
+        "năm": null
+      }
+    ],
+    "relations": [
+      {
+        "person_title": "Donald Rumsfeld",
+        "person_link": "https://vi.wikipedia.org/wiki/Donald_Rumsfeld",
+        "type": "same_university"
+      },
+      {
+        "person_title": "James Madison",
+        "person_link": "https://vi.wikipedia.org/wiki/James_Madison",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Maria Ressa",
+        "person_link": "https://vi.wikipedia.org/wiki/Maria_Ressa",
+        "type": "same_university"
+      },
+      {
+        "person_title": "Michael Bloomberg",
+        "person_link": "https://vi.wikipedia.org/wiki/Michael_Bloomberg",
+        "type": "same_university"
+      }
+    ],
+    "same_university_persons": [
+      "https://vi.wikipedia.org/wiki/Donald_Rumsfeld",
+      "https://vi.wikipedia.org/wiki/James_Madison",
+      "https://vi.wikipedia.org/wiki/Maria_Ressa",
+      "https://vi.wikipedia.org/wiki/Michael_Bloomberg"
+    ],
+    "same_grad_year_persons": []
+  },
+  {
+    "depth": 1,
+    "name": "Đặng Tiểu Bình",
+    "link": "https://vi.wikipedia.org/wiki/%C4%90%E1%BA%B7ng_Ti%E1%BB%83u_B%C3%ACnh",
+    "Học vấn": [
+      {
+        "trường": "Đại học Tôn Trung Sơn Moskva",
+        "năm": null
+      }
+    ],
+    "relations": [],
+    "same_university_persons": [],
+    "same_grad_year_persons": []
+  }
+]

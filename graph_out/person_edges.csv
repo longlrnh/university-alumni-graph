@@ -1,0 +1,10 @@
+src_root,dst_person,relation
+Mark Zuckerberg,Rudy Giuliani,LINK_FROM_START
+Mark Zuckerberg,George W. Bush,LINK_FROM_START
+Mark Zuckerberg,Vladimir Vladimirovich Putin,LINK_FROM_START
+Mark Zuckerberg,Barack Obama,LINK_FROM_START
+Mark Zuckerberg,Angela Merkel,LINK_FROM_START
+Mark Zuckerberg,Donald Trump,LINK_FROM_START
+Mark Zuckerberg,Maria Ressa,LINK_FROM_START
+Mark Zuckerberg,Joe Biden,LINK_FROM_START
+Mark Zuckerberg,Kamala Harris,LINK_FROM_START
