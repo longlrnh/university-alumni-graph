@@ -40,6 +40,9 @@ outputs/
 exports/
 reports/
 *.csv
+!graph_out/
+!graph_out/*.csv
+!graph_out/**/*.csv
 *.tsv
 *.xlsx
 *.parquet

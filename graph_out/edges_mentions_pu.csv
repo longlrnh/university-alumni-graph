@@ -1,4 +1,5 @@
 src_person,dst_university,relation
+Abiy Ahmed,Đại học Greenwich,MENTIONS_UNIVERSITY
 Abdullah Gül,Đại học Istanbul,MENTIONS_UNIVERSITY
 Abdullah Gül,Đại học Exeter,MENTIONS_UNIVERSITY
 Adly Mansour,Đại học Cairo,MENTIONS_UNIVERSITY
@@ -7,361 +8,360 @@ Abhisit Vejjajiva,Eton College,MENTIONS_UNIVERSITY
 Abhisit Vejjajiva,Đại học Thammasat,MENTIONS_UNIVERSITY
 Ahmad Massoud,Đại học Hoàng đế Luân Đôn,MENTIONS_UNIVERSITY
 Ahmad Massoud,Đại học London,MENTIONS_UNIVERSITY
-Alar Karis,Đại học Tartu,MENTIONS_UNIVERSITY
-Alassane Ouattara,Đại học Drexel,MENTIONS_UNIVERSITY
-Alassane Ouattara,Đại học Pennsylvania,MENTIONS_UNIVERSITY
 Alain Poher,École nationale supérieure des mines de Paris,MENTIONS_UNIVERSITY
 Alain Poher,Sciences Po,MENTIONS_UNIVERSITY
-Abiy Ahmed,Đại học Greenwich,MENTIONS_UNIVERSITY
+Alar Karis,Đại học Tartu,MENTIONS_UNIVERSITY
+Abe Shinzō,Đại học Seikei,MENTIONS_UNIVERSITY
+Abe Shinzō,Đại học Nam California,MENTIONS_UNIVERSITY
 Alain Juppé,Sciences Po,MENTIONS_UNIVERSITY
 Alain Juppé,École nationale d'administration,MENTIONS_UNIVERSITY
-Alben W. Barkley,University of Virginia,MENTIONS_UNIVERSITY
 Alan García,Complutense University of Madrid,MENTIONS_UNIVERSITY
 Alan García,Đại học Pantheon-Sorbonne,MENTIONS_UNIVERSITY
+Alassane Ouattara,Đại học Drexel,MENTIONS_UNIVERSITY
+Alassane Ouattara,Đại học Pennsylvania,MENTIONS_UNIVERSITY
+Alben W. Barkley,University of Virginia,MENTIONS_UNIVERSITY
+Alenka Bratušek,Đại học Ljubljana,MENTIONS_UNIVERSITY
 Aleksander Kwaśniewski,Đại học Gdańsk,MENTIONS_UNIVERSITY
 Alex Salmond,Đại học St Andrews,MENTIONS_UNIVERSITY
-Alenka Bratušek,Đại học Ljubljana,MENTIONS_UNIVERSITY
+Alcide De Gasperi,Đại học Viên,MENTIONS_UNIVERSITY
+Alberto Fernández,Đại học Buenos Aires,MENTIONS_UNIVERSITY
 Albert Speer,Đại học Kỹ thuật Berlin,MENTIONS_UNIVERSITY
 Albert Speer,Đại học Kỹ thuật München,MENTIONS_UNIVERSITY
-Alberto Fujimori,Đại học Strasbourg,MENTIONS_UNIVERSITY
-Alexandre Millerand,Đại học Paris,MENTIONS_UNIVERSITY
-Alec Douglas-Home,Eton College,MENTIONS_UNIVERSITY
 Alexander Schallenberg,Đại học Panthéon-Assas,MENTIONS_UNIVERSITY
 Albert Gallatin,Đại học Geneva,MENTIONS_UNIVERSITY
 Alexander Stubb,Đại học Paris-Sorbonne,MENTIONS_UNIVERSITY
 Alexander Stubb,Trường Kinh tế London,MENTIONS_UNIVERSITY
-Alfred Rosenberg,Đại học Kỹ thuật Quốc gia Moskva Bauman,MENTIONS_UNIVERSITY
-Alberto Fernández,Đại học Buenos Aires,MENTIONS_UNIVERSITY
-Alfred Deakin,Đại học Melbourne,MENTIONS_UNIVERSITY
-Alcide De Gasperi,Đại học Viên,MENTIONS_UNIVERSITY
-Abe Shinzō,Đại học Seikei,MENTIONS_UNIVERSITY
-Abe Shinzō,Đại học Nam California,MENTIONS_UNIVERSITY
-Amy Coney Barrett,Đại học Notre Dame,MENTIONS_UNIVERSITY
+Alberto Fujimori,Đại học Strasbourg,MENTIONS_UNIVERSITY
+Alexandre Millerand,Đại học Paris,MENTIONS_UNIVERSITY
 Alexander Van der Bellen,Đại học Viên,MENTIONS_UNIVERSITY
-Amartya Sen,Trường Kinh tế London,MENTIONS_UNIVERSITY
-Amartya Sen,Đại học Cornell,MENTIONS_UNIVERSITY
-Amartya Sen,Đại học Calcutta,MENTIONS_UNIVERSITY
-Amartya Sen,"Đại học California, Berkeley",MENTIONS_UNIVERSITY
+Alec Douglas-Home,Eton College,MENTIONS_UNIVERSITY
+Alfred Rosenberg,Đại học Kỹ thuật Quốc gia Moskva Bauman,MENTIONS_UNIVERSITY
+Anders Fogh Rasmussen,Đại học Aarhus,MENTIONS_UNIVERSITY
+Amy Coney Barrett,Đại học Notre Dame,MENTIONS_UNIVERSITY
+Alfred Deakin,Đại học Melbourne,MENTIONS_UNIVERSITY
 Andreas Norlén,Đại học Stockholm,MENTIONS_UNIVERSITY
 Andreas Norlén,Đại học Linköping,MENTIONS_UNIVERSITY
 Andrew Giuliani,Duke University,MENTIONS_UNIVERSITY
 Andrew Giuliani,Đại học Duke,MENTIONS_UNIVERSITY
-Andrés Manuel López Obrador,Đại học Tự trị Quốc gia México,MENTIONS_UNIVERSITY
-Anders Fogh Rasmussen,Đại học Aarhus,MENTIONS_UNIVERSITY
 Andrus Ansip,Đại học Tartu,MENTIONS_UNIVERSITY
+Allen Dulles,Đại học Princeton,MENTIONS_UNIVERSITY
+Allen Dulles,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
+Allen Dulles,Đại học George Washington,MENTIONS_UNIVERSITY
+Amartya Sen,Trường Kinh tế London,MENTIONS_UNIVERSITY
+Amartya Sen,Đại học Cornell,MENTIONS_UNIVERSITY
+Amartya Sen,Đại học Calcutta,MENTIONS_UNIVERSITY
+Amartya Sen,"Đại học California, Berkeley",MENTIONS_UNIVERSITY
+Andrés Manuel López Obrador,Đại học Tự trị Quốc gia México,MENTIONS_UNIVERSITY
+Alexandria Ocasio-Cortez,Đại học Boston,MENTIONS_UNIVERSITY
+Alexandria Ocasio-Cortez,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
+Anneli Jäätteenmäki,Đại học Helsinki,MENTIONS_UNIVERSITY
+Andy Beshear,Đại học Virginia,MENTIONS_UNIVERSITY
+Anthony Eden,Eton College,MENTIONS_UNIVERSITY
 Anthony Albanese,Đại học Sydney,MENTIONS_UNIVERSITY
+Antonio Salandra,Đại học Napoli Federico II,MENTIONS_UNIVERSITY
+Angela Merkel,Đại học Leipzig,MENTIONS_UNIVERSITY
+Antti Tulenheimo,Đại học Helsinki,MENTIONS_UNIVERSITY
+Antony Blinken,Đại học Columbia,MENTIONS_UNIVERSITY
 Antonin Scalia,Đại học Georgetown,MENTIONS_UNIVERSITY
 Antonin Scalia,Trường Luật Harvard,MENTIONS_UNIVERSITY
 Antonin Scalia,Đại học Virginia,MENTIONS_UNIVERSITY
 Antonin Scalia,Đại học Chicago,MENTIONS_UNIVERSITY
-Anneli Jäätteenmäki,Đại học Helsinki,MENTIONS_UNIVERSITY
-Anthony Eden,Eton College,MENTIONS_UNIVERSITY
-Andy Beshear,Đại học Virginia,MENTIONS_UNIVERSITY
-Antonio Salandra,Đại học Napoli Federico II,MENTIONS_UNIVERSITY
-Allen Dulles,Đại học Princeton,MENTIONS_UNIVERSITY
-Allen Dulles,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
-Allen Dulles,Đại học George Washington,MENTIONS_UNIVERSITY
-Alexandria Ocasio-Cortez,Đại học Boston,MENTIONS_UNIVERSITY
-Alexandria Ocasio-Cortez,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
 António Costa,Đại học Lisboa,MENTIONS_UNIVERSITY
-Antti Tulenheimo,Đại học Helsinki,MENTIONS_UNIVERSITY
-Armand Fallières,Đại học Paris,MENTIONS_UNIVERSITY
 António Guterres,Đại học Lisboa,MENTIONS_UNIVERSITY
-Ariel Sharon,Đại học Hebrew của Jerusalem,MENTIONS_UNIVERSITY
-Antony Blinken,Đại học Columbia,MENTIONS_UNIVERSITY
+Armand Fallières,Đại học Paris,MENTIONS_UNIVERSITY
 Ashraf Ghani,Đại học Columbia,MENTIONS_UNIVERSITY
 Ashraf Ghani,Đại học Johns Hopkins,MENTIONS_UNIVERSITY
+Ariel Sharon,Đại học Hebrew của Jerusalem,MENTIONS_UNIVERSITY
 "Arthur Wellesley, Công tước thứ 1 xứ Wellington",Eton College,MENTIONS_UNIVERSITY
 Ardem Patapoutian,"Đại học California, Los Angeles",MENTIONS_UNIVERSITY
 Ardem Patapoutian,Viện Công nghệ California,MENTIONS_UNIVERSITY
+Anthony Fauci,Đại học Cornell,MENTIONS_UNIVERSITY
+Anthony Fauci,Đại học Colgate,MENTIONS_UNIVERSITY
 Aung San,Đại học Yangon,MENTIONS_UNIVERSITY
+Arthur C. Clarke,Đại học Nhà vua Luân Đôn,MENTIONS_UNIVERSITY
 Asō Tarō,Trường Kinh tế và Khoa học Chính trị London,MENTIONS_UNIVERSITY
 Asō Tarō,Trường Kinh tế và Khoa học Chính trị Luân Đôn,MENTIONS_UNIVERSITY
-Ban Ki-moon,Đại học Quốc gia Seoul,MENTIONS_UNIVERSITY
-Barney Frank,Trường Luật Harvard,MENTIONS_UNIVERSITY
-Angela Merkel,Đại học Leipzig,MENTIONS_UNIVERSITY
+Asa Hutchinson,Đại học Arkansas,MENTIONS_UNIVERSITY
 Beau Biden,Đại học Pennsylvania,MENTIONS_UNIVERSITY
-Aung San Suu Kyi,Đại học London,MENTIONS_UNIVERSITY
-Aung San Suu Kyi,Đại học Kyoto,MENTIONS_UNIVERSITY
+Beata Szydło,Đại học Jagiellonia,MENTIONS_UNIVERSITY
+Barney Frank,Trường Luật Harvard,MENTIONS_UNIVERSITY
 Ben Carson,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
 Ben Carson,Đại học Michigan,MENTIONS_UNIVERSITY
-Arthur C. Clarke,Đại học Nhà vua Luân Đôn,MENTIONS_UNIVERSITY
-Bengt Holmström,Đại học Helsinki,MENTIONS_UNIVERSITY
-Beata Szydło,Đại học Jagiellonia,MENTIONS_UNIVERSITY
-Asa Hutchinson,Đại học Arkansas,MENTIONS_UNIVERSITY
-Bhimrao Ambedkar,Đại học Columbia,MENTIONS_UNIVERSITY
-Bhimrao Ambedkar,Trường Kinh tế và Khoa học Chính trị Luân Đôn,MENTIONS_UNIVERSITY
-"Benigno Aquino, Jr.",Đại học Philippines,MENTIONS_UNIVERSITY
 Bayanqolu,Đại học Cát Lâm,MENTIONS_UNIVERSITY
-Bernie Sanders,University of Chicago,MENTIONS_UNIVERSITY
-Benjamin Harrison,Đại học Miami,MENTIONS_UNIVERSITY
+"Benigno Aquino, Jr.",Đại học Philippines,MENTIONS_UNIVERSITY
+Ban Ki-moon,Đại học Quốc gia Seoul,MENTIONS_UNIVERSITY
+Bengt Holmström,Đại học Helsinki,MENTIONS_UNIVERSITY
 Bashar al-Assad,Đại học Damascus,MENTIONS_UNIVERSITY
+Aung San Suu Kyi,Đại học London,MENTIONS_UNIVERSITY
+Aung San Suu Kyi,Đại học Kyoto,MENTIONS_UNIVERSITY
+Benjamin Harrison,Đại học Miami,MENTIONS_UNIVERSITY
 Bill de Blasio,Đại học New York,MENTIONS_UNIVERSITY
 Bill de Blasio,Đại học Columbia,MENTIONS_UNIVERSITY
-Barack Obama,Đại học Columbia,MENTIONS_UNIVERSITY
-Barack Obama,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
-Barack Obama,Trường Luật Harvard,MENTIONS_UNIVERSITY
-Barack Obama,Đại học Chicago,MENTIONS_UNIVERSITY
-Bob Hawke,Đại học Tây Úc,MENTIONS_UNIVERSITY
-Boris Tadić,Đại học Beograd,MENTIONS_UNIVERSITY
-Bohuslav Sobotka,Đại học Masaryk,MENTIONS_UNIVERSITY
-Bettino Craxi,Đại học Milan,MENTIONS_UNIVERSITY
-Bill Clinton,Đại học Georgetown,MENTIONS_UNIVERSITY
-Bill Clinton,Trường Dịch vụ Đối ngoại,MENTIONS_UNIVERSITY
-Bill Clinton,Đại học Arkansas,MENTIONS_UNIVERSITY
-Benjamin Netanyahu,Đại học Cornell,MENTIONS_UNIVERSITY
-Benjamin Netanyahu,Cornell University,MENTIONS_UNIVERSITY
+Bhimrao Ambedkar,Đại học Columbia,MENTIONS_UNIVERSITY
+Bhimrao Ambedkar,Trường Kinh tế và Khoa học Chính trị Luân Đôn,MENTIONS_UNIVERSITY
 Bertil Ohlin,Đại học Lund,MENTIONS_UNIVERSITY
 Bertil Ohlin,Đại học Stockholm,MENTIONS_UNIVERSITY
 Bertil Ohlin,Đại học Copenhagen,MENTIONS_UNIVERSITY
-Borut Pahor,Đại học Ljubljana,MENTIONS_UNIVERSITY
+Bettino Craxi,Đại học Milan,MENTIONS_UNIVERSITY
+Bernie Sanders,University of Chicago,MENTIONS_UNIVERSITY
 Bob Woodward,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
-Bob Taft,Đại học Princeton,MENTIONS_UNIVERSITY
-Anthony Fauci,Đại học Cornell,MENTIONS_UNIVERSITY
-Anthony Fauci,Đại học Colgate,MENTIONS_UNIVERSITY
-Bongbong Marcos,Đại học Pennsylvania,MENTIONS_UNIVERSITY
-Boutros Boutros-Ghali,Đại học Cairo,MENTIONS_UNIVERSITY
-Boutros Boutros-Ghali,Đại học Pantheon-Sorbonne,MENTIONS_UNIVERSITY
-Bronisław Komorowski,Đại học Warszawa,MENTIONS_UNIVERSITY
-Brigitte Bierlein,Đại học Viên,MENTIONS_UNIVERSITY
-Boris Johnson,Eton College,MENTIONS_UNIVERSITY
-Boris Johnson,Đại học Columbia,MENTIONS_UNIVERSITY
-Brian Kemp,Đại học Georgia,MENTIONS_UNIVERSITY
-Carl Bildt,Đại học Stockholm,MENTIONS_UNIVERSITY
-Calvin Coolidge,Đại học Amherst,MENTIONS_UNIVERSITY
-Calvin Coolidge,Đại học Vermont,MENTIONS_UNIVERSITY
-Carole Bouquet,Đại học Paris,MENTIONS_UNIVERSITY
-Chaim Herzog,Đại học London,MENTIONS_UNIVERSITY
-Carlos Prío Socarrás,Đại học Havana,MENTIONS_UNIVERSITY
-Bùi Kim Giai,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
-Chandrika Kumaratunga,Sciences Po,MENTIONS_UNIVERSITY
-Chandrika Kumaratunga,Đại học Luân Đôn,MENTIONS_UNIVERSITY
-Charles Michel,Đại học Amsterdam,MENTIONS_UNIVERSITY
-Charles Joseph Bonaparte,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
-Charles Joseph Bonaparte,Trường Luật Harvard,MENTIONS_UNIVERSITY
-Charles Joseph Bonaparte,Đại học Công giáo Hoa Kỳ,MENTIONS_UNIVERSITY
-Charles Joseph Bonaparte,Đại học Notre Dame,MENTIONS_UNIVERSITY
-Choi Kyu-hah,Đại học Tsukuba,MENTIONS_UNIVERSITY
-Bạc Hy Lai,Đại học Bắc Kinh,MENTIONS_UNIVERSITY
-Bạc Hy Lai,Trường Harrow,MENTIONS_UNIVERSITY
-Bạc Hy Lai,Đại học Columbia,MENTIONS_UNIVERSITY
-Chavarat Charnvirakul,Đại học Thammasat,MENTIONS_UNIVERSITY
-Cho Kuk,Đại học Quốc gia Seoul,MENTIONS_UNIVERSITY
-Cho Kuk,"Đại học California, Berkeley",MENTIONS_UNIVERSITY
-Charles de Gaulle,École spéciale militaire de Saint-Cyr,MENTIONS_UNIVERSITY
+Bohuslav Sobotka,Đại học Masaryk,MENTIONS_UNIVERSITY
+Bill Clinton,Đại học Georgetown,MENTIONS_UNIVERSITY
+Bill Clinton,Trường Dịch vụ Đối ngoại,MENTIONS_UNIVERSITY
+Bill Clinton,Đại học Arkansas,MENTIONS_UNIVERSITY
+Bob Hawke,Đại học Tây Úc,MENTIONS_UNIVERSITY
 Bill Gates,Đại học Cornell,MENTIONS_UNIVERSITY
 Bill Gates,Đại học Waseda,MENTIONS_UNIVERSITY
 Bill Gates,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
 Bill Gates,Đại học Bắc Kinh,MENTIONS_UNIVERSITY
+Bongbong Marcos,Đại học Pennsylvania,MENTIONS_UNIVERSITY
+Bob Taft,Đại học Princeton,MENTIONS_UNIVERSITY
+Boris Tadić,Đại học Beograd,MENTIONS_UNIVERSITY
+Borut Pahor,Đại học Ljubljana,MENTIONS_UNIVERSITY
+Boutros Boutros-Ghali,Đại học Cairo,MENTIONS_UNIVERSITY
+Boutros Boutros-Ghali,Đại học Pantheon-Sorbonne,MENTIONS_UNIVERSITY
+Brigitte Bierlein,Đại học Viên,MENTIONS_UNIVERSITY
+Bronisław Komorowski,Đại học Warszawa,MENTIONS_UNIVERSITY
+Benjamin Netanyahu,Đại học Cornell,MENTIONS_UNIVERSITY
+Benjamin Netanyahu,Cornell University,MENTIONS_UNIVERSITY
+Bạc Hy Lai,Đại học Bắc Kinh,MENTIONS_UNIVERSITY
+Bạc Hy Lai,Trường Harrow,MENTIONS_UNIVERSITY
+Bạc Hy Lai,Đại học Columbia,MENTIONS_UNIVERSITY
+Boris Johnson,Eton College,MENTIONS_UNIVERSITY
+Boris Johnson,Đại học Columbia,MENTIONS_UNIVERSITY
+Brian Kemp,Đại học Georgia,MENTIONS_UNIVERSITY
+Calvin Coolidge,Đại học Amherst,MENTIONS_UNIVERSITY
+Calvin Coolidge,Đại học Vermont,MENTIONS_UNIVERSITY
+Bùi Kim Giai,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
+Carl Bildt,Đại học Stockholm,MENTIONS_UNIVERSITY
+Chaim Herzog,Đại học London,MENTIONS_UNIVERSITY
+Carlos Prío Socarrás,Đại học Havana,MENTIONS_UNIVERSITY
+Carole Bouquet,Đại học Paris,MENTIONS_UNIVERSITY
+Barack Obama,Đại học Columbia,MENTIONS_UNIVERSITY
+Barack Obama,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
+Barack Obama,Trường Luật Harvard,MENTIONS_UNIVERSITY
+Barack Obama,Đại học Chicago,MENTIONS_UNIVERSITY
+Chandrika Kumaratunga,Sciences Po,MENTIONS_UNIVERSITY
+Chandrika Kumaratunga,Đại học Luân Đôn,MENTIONS_UNIVERSITY
+Charles Joseph Bonaparte,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
+Charles Joseph Bonaparte,Trường Luật Harvard,MENTIONS_UNIVERSITY
+Charles Joseph Bonaparte,Đại học Công giáo Hoa Kỳ,MENTIONS_UNIVERSITY
+Charles Joseph Bonaparte,Đại học Notre Dame,MENTIONS_UNIVERSITY
+Charles Michel,Đại học Amsterdam,MENTIONS_UNIVERSITY
+Chavarat Charnvirakul,Đại học Thammasat,MENTIONS_UNIVERSITY
+Cho Kuk,Đại học Quốc gia Seoul,MENTIONS_UNIVERSITY
+Cho Kuk,"Đại học California, Berkeley",MENTIONS_UNIVERSITY
 Christian Stocker,Đại học Viên,MENTIONS_UNIVERSITY
+Choi Kyu-hah,Đại học Tsukuba,MENTIONS_UNIVERSITY
 Charles-Maurice de Talleyrand-Périgord,Đại học Paris,MENTIONS_UNIVERSITY
 Christian Kern,Đại học Wien,MENTIONS_UNIVERSITY
+Charles de Gaulle,École spéciale militaire de Saint-Cyr,MENTIONS_UNIVERSITY
 Christopher A. Pissarides,Trường Kinh tế và Khoa học Chính trị Luân Đôn,MENTIONS_UNIVERSITY
-Chu Dung Cơ,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
-Chuan Leekpai,Đại học Thammasat,MENTIONS_UNIVERSITY
-Christopher Stevens (đại sứ),Đại học California tại Berkeley,MENTIONS_UNIVERSITY
-Christopher Stevens (đại sứ),Đại học California,MENTIONS_UNIVERSITY
-Chu Tiểu Xuyên,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
-Chuck Hagel,Đại học Nebraska tại Omaha,MENTIONS_UNIVERSITY
-Clement Attlee,Trường Kinh tế và Khoa học Chính trị Luân Đôn,MENTIONS_UNIVERSITY
+Charlie Baker,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
 Christopher A. Sims,Đại học Princeton,MENTIONS_UNIVERSITY
 Christopher A. Sims,Đại học California tại Berkeley,MENTIONS_UNIVERSITY
 Christopher A. Sims,Đại học Minnesota,MENTIONS_UNIVERSITY
-Claudia Sheinbaum,Đại học Tự chủ Quốc gia Mexico,MENTIONS_UNIVERSITY
+Christopher Stevens (đại sứ),Đại học California tại Berkeley,MENTIONS_UNIVERSITY
+Christopher Stevens (đại sứ),Đại học California,MENTIONS_UNIVERSITY
+Chu Tiểu Xuyên,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
 Che Guevara,Đại học Buenos Aires,MENTIONS_UNIVERSITY
 Che Guevara,Đại học Tự trị Quốc gia México,MENTIONS_UNIVERSITY
-Charlie Baker,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
-Clive Granger,Đại học Nottingham,MENTIONS_UNIVERSITY
-Chu Ân Lai,Đại học Edinburgh,MENTIONS_UNIVERSITY
-Chu Ân Lai,Trường quân sự Hoàng Phố,MENTIONS_UNIVERSITY
-David Card,Đại học California tại Berkeley,MENTIONS_UNIVERSITY
-David Card,Đại học Princeton,MENTIONS_UNIVERSITY
+Chuck Hagel,Đại học Nebraska tại Omaha,MENTIONS_UNIVERSITY
+Chu Dung Cơ,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
+Chuan Leekpai,Đại học Thammasat,MENTIONS_UNIVERSITY
+Claudia Sheinbaum,Đại học Tự chủ Quốc gia Mexico,MENTIONS_UNIVERSITY
+Clement Attlee,Trường Kinh tế và Khoa học Chính trị Luân Đôn,MENTIONS_UNIVERSITY
 Colin Powell,Đại học George Washington,MENTIONS_UNIVERSITY
-Daron Acemoğlu,Trường Kinh tế và Khoa học Chính trị Luân Đôn,MENTIONS_UNIVERSITY
-David Lloyd Johnston,Đại học McGill,MENTIONS_UNIVERSITY
-Dean Heller,University of Southern California,MENTIONS_UNIVERSITY
-David Petraeus,United States Military Academy,MENTIONS_UNIVERSITY
-David Petraeus,Đại học Princeton,MENTIONS_UNIVERSITY
-David Petraeus,Đại học Georgetown,MENTIONS_UNIVERSITY
-Diosdado Macapagal,Đại học Philippines,MENTIONS_UNIVERSITY
-Dean Acheson,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
 D. H. Lawrence,Đại học Nottingham,MENTIONS_UNIVERSITY
+Dag Hammarskjöld,Đại học Uppsala,MENTIONS_UNIVERSITY
+Dag Hammarskjöld,Đại học Stockholm,MENTIONS_UNIVERSITY
+Clive Granger,Đại học Nottingham,MENTIONS_UNIVERSITY
+Daron Acemoğlu,Trường Kinh tế và Khoa học Chính trị Luân Đôn,MENTIONS_UNIVERSITY
 Corazon Aquino,Đại học Boston,MENTIONS_UNIVERSITY
 Corazon Aquino,Đại học Waseda,MENTIONS_UNIVERSITY
 Corazon Aquino,Đại học Philippines,MENTIONS_UNIVERSITY
-Dick Cheney,Đại học Wyoming,MENTIONS_UNIVERSITY
-Diệp Kiếm Anh,Trường quân sự Hoàng Phố,MENTIONS_UNIVERSITY
-Dominique Strauss-Kahn,Sciences Po,MENTIONS_UNIVERSITY
-Dominique Strauss-Kahn,Đại học Paris Nanterre,MENTIONS_UNIVERSITY
-Doug Emhoff,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
-Doug Emhoff,Đại học Nam California,MENTIONS_UNIVERSITY
-Dominique de Villepin,École nationale d'administration,MENTIONS_UNIVERSITY
-Dag Hammarskjöld,Đại học Uppsala,MENTIONS_UNIVERSITY
-Dag Hammarskjöld,Đại học Stockholm,MENTIONS_UNIVERSITY
-Donald Tusk,Đại học Gdańsk,MENTIONS_UNIVERSITY
-Douglass North,Đại học Washington,MENTIONS_UNIVERSITY
-Douglass North,"Đại học California, Berkeley",MENTIONS_UNIVERSITY
-Deval Patrick,Trường Luật Harvard,MENTIONS_UNIVERSITY
+Chu Ân Lai,Đại học Edinburgh,MENTIONS_UNIVERSITY
+Chu Ân Lai,Trường quân sự Hoàng Phố,MENTIONS_UNIVERSITY
 Condoleezza Rice,Đại học Notre Dame,MENTIONS_UNIVERSITY
 Condoleezza Rice,Đại học Columbia,MENTIONS_UNIVERSITY
+Dean Heller,University of Southern California,MENTIONS_UNIVERSITY
+David Lloyd Johnston,Đại học McGill,MENTIONS_UNIVERSITY
+Dean Acheson,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
+David Card,Đại học California tại Berkeley,MENTIONS_UNIVERSITY
+David Card,Đại học Princeton,MENTIONS_UNIVERSITY
+David Petraeus,United States Military Academy,MENTIONS_UNIVERSITY
+David Petraeus,Đại học Princeton,MENTIONS_UNIVERSITY
+David Petraeus,Đại học Georgetown,MENTIONS_UNIVERSITY
+Dick Cheney,Đại học Wyoming,MENTIONS_UNIVERSITY
+Deval Patrick,Trường Luật Harvard,MENTIONS_UNIVERSITY
+Diosdado Macapagal,Đại học Philippines,MENTIONS_UNIVERSITY
+Dominique Strauss-Kahn,Sciences Po,MENTIONS_UNIVERSITY
+Dominique Strauss-Kahn,Đại học Paris Nanterre,MENTIONS_UNIVERSITY
 Donald Rumsfeld,Đại học Princeton,MENTIONS_UNIVERSITY
 Donald Rumsfeld,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
 Donald Rumsfeld,Đại học Georgetown,MENTIONS_UNIVERSITY
-Droupadi Murmu,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
-Earl Warren,"Đại học California, Berkeley",MENTIONS_UNIVERSITY
-Dương Văn Minh,Trường Trung học phổ thông Nguyễn Đình Chiểu (Tiền Giang),MENTIONS_UNIVERSITY
-Dịch Hội Mãn,Đại học Chiết Giang,MENTIONS_UNIVERSITY
-Dịch Hội Mãn,Đại học Bắc Kinh,MENTIONS_UNIVERSITY
-Dịch Hội Mãn,Đại học Nam Kinh,MENTIONS_UNIVERSITY
-Ed Rendell,Đại học Pennsylvania,MENTIONS_UNIVERSITY
+Dominique de Villepin,École nationale d'administration,MENTIONS_UNIVERSITY
+Diệp Kiếm Anh,Trường quân sự Hoàng Phố,MENTIONS_UNIVERSITY
+Donald Tusk,Đại học Gdańsk,MENTIONS_UNIVERSITY
+Doug Burgum,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
+Douglass North,Đại học Washington,MENTIONS_UNIVERSITY
+Douglass North,"Đại học California, Berkeley",MENTIONS_UNIVERSITY
 Dr. Seuss,Đại học Dartmouth,MENTIONS_UNIVERSITY
-Edgars Rinkēvičs,Đại học Latvia,MENTIONS_UNIVERSITY
-Edgars Rinkēvičs,Đại học Groningen,MENTIONS_UNIVERSITY
-Doãn Lực,Viện Hàn lâm Khoa học Liên Xô,MENTIONS_UNIVERSITY
-Doãn Lực,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
+Droupadi Murmu,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
+Dương Chấn Vũ,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
+Doug Emhoff,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
+Doug Emhoff,Đại học Nam California,MENTIONS_UNIVERSITY
+Dmitry Anatolyevich Medvedev,Đại học Tổng hợp Sankt-Peterburg,MENTIONS_UNIVERSITY
 Dwight D. Eisenhower,Đại học Columbia,MENTIONS_UNIVERSITY
 Dwight D. Eisenhower,Học viện Quân sự Hoa Kỳ,MENTIONS_UNIVERSITY
 Dwight D. Eisenhower,Học viện Hải quân Hoa Kỳ,MENTIONS_UNIVERSITY
-Edvard Beneš,Đại học Paris,MENTIONS_UNIVERSITY
-Dương Chấn Vũ,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
-Edmund Barton,Đại học Sydney,MENTIONS_UNIVERSITY
-Doug Burgum,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
+Dương Văn Minh,Trường Trung học phổ thông Nguyễn Đình Chiểu (Tiền Giang),MENTIONS_UNIVERSITY
+Earl Warren,"Đại học California, Berkeley",MENTIONS_UNIVERSITY
+Dịch Hội Mãn,Đại học Chiết Giang,MENTIONS_UNIVERSITY
+Dịch Hội Mãn,Đại học Bắc Kinh,MENTIONS_UNIVERSITY
+Dịch Hội Mãn,Đại học Nam Kinh,MENTIONS_UNIVERSITY
 Edwin Linkomies,Đại học Helsinki,MENTIONS_UNIVERSITY
+Edgars Rinkēvičs,Đại học Latvia,MENTIONS_UNIVERSITY
+Edgars Rinkēvičs,Đại học Groningen,MENTIONS_UNIVERSITY
+Edmund Barton,Đại học Sydney,MENTIONS_UNIVERSITY
+Earle Page,Đại học Sydney,MENTIONS_UNIVERSITY
+Edvard Beneš,Đại học Paris,MENTIONS_UNIVERSITY
+Ed Rendell,Đại học Pennsylvania,MENTIONS_UNIVERSITY
+Doãn Lực,Viện Hàn lâm Khoa học Liên Xô,MENTIONS_UNIVERSITY
+Doãn Lực,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
+Ehud Barak,Đại học Hebrew của Jerusalem,MENTIONS_UNIVERSITY
+Ellen Johnson Sirleaf,Đại học Wisconsin–Madison,MENTIONS_UNIVERSITY
+Elio Di Rupo,Đại học Leeds,MENTIONS_UNIVERSITY
 Elias Canetti,Đại học Viên,MENTIONS_UNIVERSITY
 Elias Canetti,Đại học Wien,MENTIONS_UNIVERSITY
-Ellen Johnson Sirleaf,Đại học Wisconsin–Madison,MENTIONS_UNIVERSITY
-Earle Page,Đại học Sydney,MENTIONS_UNIVERSITY
-Elio Di Rupo,Đại học Leeds,MENTIONS_UNIVERSITY
-Dmitry Anatolyevich Medvedev,Đại học Tổng hợp Sankt-Peterburg,MENTIONS_UNIVERSITY
+Elżbieta Bieńkowska,Đại học Jagiellonia,MENTIONS_UNIVERSITY
 Ehud Olmert,Đại học Hebrew của Jerusalem,MENTIONS_UNIVERSITY
-Ehud Barak,Đại học Hebrew của Jerusalem,MENTIONS_UNIVERSITY
 Elizabeth Warren,Đại học George Washington,MENTIONS_UNIVERSITY
+Emilio Aguinaldo,Đại học Philippines,MENTIONS_UNIVERSITY
+Emmerson Mnangagwa,Đại học Luân Đôn,MENTIONS_UNIVERSITY
+Emmerson Mnangagwa,Đại học Zambia,MENTIONS_UNIVERSITY
+Emmerson Mnangagwa,Đại học London,MENTIONS_UNIVERSITY
 Enrico Letta,Đại học Pisa,MENTIONS_UNIVERSITY
+Eric Holcomb,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
+Eugenia Charles,Đại học Toronto,MENTIONS_UNIVERSITY
+Eugenia Charles,Trường Kinh tế và Khoa học Chính trị London,MENTIONS_UNIVERSITY
+Ernst Kaltenbrunner,Đại học Graz,MENTIONS_UNIVERSITY
+Esther Duflo,École normale supérieure,MENTIONS_UNIVERSITY
 Ernest Lawrence,Đại học Minnesota,MENTIONS_UNIVERSITY
 Ernest Lawrence,"Đại học California, Berkeley",MENTIONS_UNIVERSITY
 Ernest Lawrence,Đại học California tại Berkeley,MENTIONS_UNIVERSITY
-Ernst Kaltenbrunner,Đại học Graz,MENTIONS_UNIVERSITY
-Eric Holcomb,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
+Evika Siliņa,Đại học Latvia,MENTIONS_UNIVERSITY
 Emmanuel Macron,Đại học Paris Nanterre,MENTIONS_UNIVERSITY
 Emmanuel Macron,Sciences Po,MENTIONS_UNIVERSITY
 Emmanuel Macron,École nationale d'administration,MENTIONS_UNIVERSITY
 Emmanuel Macron,Viện Nghiên cứu Chính trị Paris,MENTIONS_UNIVERSITY
 Emmanuel Macron,Trường Hành chính quốc gia (Pháp),MENTIONS_UNIVERSITY
 Emmanuel Macron,École normale supérieure,MENTIONS_UNIVERSITY
-Evika Siliņa,Đại học Latvia,MENTIONS_UNIVERSITY
-Emilio Aguinaldo,Đại học Philippines,MENTIONS_UNIVERSITY
+Elon Musk,Đại học Pennsylvania,MENTIONS_UNIVERSITY
+Elon Musk,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
 Faure Gnassingbé,Đại học George Washington,MENTIONS_UNIVERSITY
-Elżbieta Bieńkowska,Đại học Jagiellonia,MENTIONS_UNIVERSITY
-Emmerson Mnangagwa,Đại học Luân Đôn,MENTIONS_UNIVERSITY
-Emmerson Mnangagwa,Đại học Zambia,MENTIONS_UNIVERSITY
-Emmerson Mnangagwa,Đại học London,MENTIONS_UNIVERSITY
-Donald Trump,Đại học Pennsylvania,MENTIONS_UNIVERSITY
 Ferdinand Marcos,Đại học Philippines,MENTIONS_UNIVERSITY
-Franjo Tuđman,Đại học Zagreb,MENTIONS_UNIVERSITY
 Finn E. Kydland,Đại học Carnegie Mellon,MENTIONS_UNIVERSITY
-Francisco I. Madero,"Đại học California, Berkeley",MENTIONS_UNIVERSITY
 Francesco Crispi,Đại học Palermo,MENTIONS_UNIVERSITY
+Francisco I. Madero,"Đại học California, Berkeley",MENTIONS_UNIVERSITY
+Fidel Ramos,Học viện Quân sự Hoa Kỳ,MENTIONS_UNIVERSITY
+Fidel Ramos,United States Military Academy,MENTIONS_UNIVERSITY
+F. Scott Fitzgerald,Đại học Princeton,MENTIONS_UNIVERSITY
+F. Scott Fitzgerald,University of Virginia,MENTIONS_UNIVERSITY
+Franjo Tuđman,Đại học Zagreb,MENTIONS_UNIVERSITY
 Franco Modigliani,The New School,MENTIONS_UNIVERSITY
 Franco Modigliani,Đại học Columbia,MENTIONS_UNIVERSITY
 Franco Modigliani,Đại học Carnegie Mellon,MENTIONS_UNIVERSITY
 Franco Modigliani,Đại học Duke,MENTIONS_UNIVERSITY
-Eugenia Charles,Đại học Toronto,MENTIONS_UNIVERSITY
-Eugenia Charles,Trường Kinh tế và Khoa học Chính trị London,MENTIONS_UNIVERSITY
 Franz Oppenheimer,Đại học Keio,MENTIONS_UNIVERSITY
-F. Scott Fitzgerald,Đại học Princeton,MENTIONS_UNIVERSITY
-F. Scott Fitzgerald,University of Virginia,MENTIONS_UNIVERSITY
 François Arago,École Polytechnique,MENTIONS_UNIVERSITY
-Fidel Ramos,Học viện Quân sự Hoa Kỳ,MENTIONS_UNIVERSITY
-Fidel Ramos,United States Military Academy,MENTIONS_UNIVERSITY
 Fidel Castro,Đại học La Habana,MENTIONS_UNIVERSITY
 Fidel Castro,Đại học,MENTIONS_UNIVERSITY
-Fredrik Reinfeldt,Đại học Stockholm,MENTIONS_UNIVERSITY
-Esther Duflo,École normale supérieure,MENTIONS_UNIVERSITY
 François Hollande,Đại học Panthéon-Assas,MENTIONS_UNIVERSITY
 François Hollande,Sciences Po,MENTIONS_UNIVERSITY
 François Hollande,École nationale d'administration,MENTIONS_UNIVERSITY
-Elon Musk,Đại học Pennsylvania,MENTIONS_UNIVERSITY
-Elon Musk,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
-Fukuda Takeo,Đại học Tokyo,MENTIONS_UNIVERSITY
+Franklin D. Roosevelt,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
+Franklin D. Roosevelt,Đại học Virginia,MENTIONS_UNIVERSITY
+Fredrik Reinfeldt,Đại học Stockholm,MENTIONS_UNIVERSITY
 Friedrich Hayek,Đại học Freiburg,MENTIONS_UNIVERSITY
 Friedrich Hayek,Đại học Chicago,MENTIONS_UNIVERSITY
 Friedrich Hayek,Đại học Viên,MENTIONS_UNIVERSITY
 Friedrich Hayek,Đại học Wien,MENTIONS_UNIVERSITY
 Friedrich Hayek,Đại học New York,MENTIONS_UNIVERSITY
 Friedrich Hayek,Trường Kinh tế và Khoa học Chính trị Luân Đôn,MENTIONS_UNIVERSITY
+Frederik X của Đan Mạch,Đại học Aarhus,MENTIONS_UNIVERSITY
+Franz Kafka,Đại học Ludwig Maximilian München,MENTIONS_UNIVERSITY
+Donald Trump,Đại học Pennsylvania,MENTIONS_UNIVERSITY
+François Mitterrand,Đại học Paris,MENTIONS_UNIVERSITY
+François Mitterrand,Sciences Po,MENTIONS_UNIVERSITY
+Furukawa Shuntaro,Đại học Waseda,MENTIONS_UNIVERSITY
 Friedrich Merz,Đại học Bonn,MENTIONS_UNIVERSITY
 Friedrich Merz,Đại học Marburg,MENTIONS_UNIVERSITY
-Gabriel Attal,Đại học Panthéon-Assas,MENTIONS_UNIVERSITY
-Gabriel Attal,Sciences Po,MENTIONS_UNIVERSITY
-Franklin D. Roosevelt,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
-Franklin D. Roosevelt,Đại học Virginia,MENTIONS_UNIVERSITY
-George Grenville,Eton College,MENTIONS_UNIVERSITY
+Fukuda Yasuo,Đại học Waseda,MENTIONS_UNIVERSITY
 Gaston Doumergue,Đại học Paris,MENTIONS_UNIVERSITY
+Fukuda Takeo,Đại học Tokyo,MENTIONS_UNIVERSITY
+George Canning,Eton College,MENTIONS_UNIVERSITY
 George Akerlof,"Đại học California, Berkeley",MENTIONS_UNIVERSITY
 George Akerlof,Đại học Georgetown,MENTIONS_UNIVERSITY
 George Akerlof,Đại học California tại Berkeley,MENTIONS_UNIVERSITY
 George Akerlof,Trường Kinh tế và Khoa học Chính trị Luân Đôn,MENTIONS_UNIVERSITY
 George Akerlof,"University of California, Berkeley",MENTIONS_UNIVERSITY
-Furukawa Shuntaro,Đại học Waseda,MENTIONS_UNIVERSITY
-George Canning,Eton College,MENTIONS_UNIVERSITY
-Frederik X của Đan Mạch,Đại học Aarhus,MENTIONS_UNIVERSITY
-Fukuda Yasuo,Đại học Waseda,MENTIONS_UNIVERSITY
+Gabriel Attal,Đại học Panthéon-Assas,MENTIONS_UNIVERSITY
+Gabriel Attal,Sciences Po,MENTIONS_UNIVERSITY
+George Grenville,Eton College,MENTIONS_UNIVERSITY
 George Tenet,Georgetown University,MENTIONS_UNIVERSITY
 George Tenet,Đại học Georgetown,MENTIONS_UNIVERSITY
-Gary Becker,Đại học Chicago,MENTIONS_UNIVERSITY
-Gary Becker,Đại học Columbia,MENTIONS_UNIVERSITY
-Gary Becker,Đại học Princeton,MENTIONS_UNIVERSITY
-Gary Becker,University of Chicago,MENTIONS_UNIVERSITY
-Georgy Maksimilianovich Malenkov,Đại học Kỹ thuật Quốc gia Moskva Bauman,MENTIONS_UNIVERSITY
-Georges Pompidou,Sciences Po,MENTIONS_UNIVERSITY
-Gerald Ford,Đại học Michigan,MENTIONS_UNIVERSITY
-Giovanni Spadolini,Đại học Firenze,MENTIONS_UNIVERSITY
-François Mitterrand,Đại học Paris,MENTIONS_UNIVERSITY
-François Mitterrand,Sciences Po,MENTIONS_UNIVERSITY
-Giuliano Amato,Đại học Pisa,MENTIONS_UNIVERSITY
-Giả Xuân Vượng,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
-Franz Kafka,Đại học Ludwig Maximilian München,MENTIONS_UNIVERSITY
-Giorgio Napolitano,Đại học Napoli Federico II,MENTIONS_UNIVERSITY
-Glenn Greenwald,Đại học George Washington,MENTIONS_UNIVERSITY
-Glenn Greenwald,Đại học New York,MENTIONS_UNIVERSITY
-Gotō Fumio,Đại học Tokyo,MENTIONS_UNIVERSITY
 George Stigler,Đại học Columbia,MENTIONS_UNIVERSITY
 George Stigler,Đại học Brown,MENTIONS_UNIVERSITY
 George Stigler,Đại học Chicago,MENTIONS_UNIVERSITY
 George Stigler,Đại học Washington,MENTIONS_UNIVERSITY
 George Stigler,Đại học,MENTIONS_UNIVERSITY
-Gough Whitlam,Đại học Sydney,MENTIONS_UNIVERSITY
+Georgy Maksimilianovich Malenkov,Đại học Kỹ thuật Quốc gia Moskva Bauman,MENTIONS_UNIVERSITY
+Gary Becker,Đại học Chicago,MENTIONS_UNIVERSITY
+Gary Becker,Đại học Columbia,MENTIONS_UNIVERSITY
+Gary Becker,Đại học Princeton,MENTIONS_UNIVERSITY
+Gary Becker,University of Chicago,MENTIONS_UNIVERSITY
+Georges Pompidou,Sciences Po,MENTIONS_UNIVERSITY
+Gavin Newsom,Đại học California tại Berkeley,MENTIONS_UNIVERSITY
+Giorgio Napolitano,Đại học Napoli Federico II,MENTIONS_UNIVERSITY
+Giovanni Spadolini,Đại học Firenze,MENTIONS_UNIVERSITY
+Giuliano Amato,Đại học Pisa,MENTIONS_UNIVERSITY
+Giulio Andreotti,Đại học Roma La Sapienza,MENTIONS_UNIVERSITY
+Gerald Ford,Đại học Michigan,MENTIONS_UNIVERSITY
 Giang Trạch Dân,Đại học Giao thông Thượng Hải,MENTIONS_UNIVERSITY
 Giang Trạch Dân,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
 Giang Trạch Dân,Viện Khoa học Trung Quốc,MENTIONS_UNIVERSITY
+Giả Xuân Vượng,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
+Giuseppe Conte,Đại học Roma Sapienza,MENTIONS_UNIVERSITY
+Gough Whitlam,Đại học Sydney,MENTIONS_UNIVERSITY
 Gloria Macapagal Arroyo,Đại học Georgetown,MENTIONS_UNIVERSITY
 Gloria Macapagal Arroyo,Đại học Philippines,MENTIONS_UNIVERSITY
-Gavin Newsom,Đại học California tại Berkeley,MENTIONS_UNIVERSITY
+Glenn Greenwald,Đại học George Washington,MENTIONS_UNIVERSITY
+Glenn Greenwald,Đại học New York,MENTIONS_UNIVERSITY
+Gotō Fumio,Đại học Tokyo,MENTIONS_UNIVERSITY
 Gordon Brown,Đại học Leiden,MENTIONS_UNIVERSITY
 Gordon Brown,Đại học Edinburgh,MENTIONS_UNIVERSITY
-Giáo hoàng Lêô XIV,Đại học Villanova,MENTIONS_UNIVERSITY
-Giulio Andreotti,Đại học Roma La Sapienza,MENTIONS_UNIVERSITY
+Gray Davis,Đại học Columbia,MENTIONS_UNIVERSITY
+Golda Meir,Đại học Princeton,MENTIONS_UNIVERSITY
+Grzegorz Schetyna,Đại học Wrocław,MENTIONS_UNIVERSITY
 Gro Harlem Brundtland,Đại học Oslo,MENTIONS_UNIVERSITY
 Gro Harlem Brundtland,University of Virginia,MENTIONS_UNIVERSITY
 Guido Westerwelle,Đại học Bonn,MENTIONS_UNIVERSITY
-Gretchen Whitmer,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
-Gérard Debreu,"Đại học California, Berkeley",MENTIONS_UNIVERSITY
-Greg Abbott,Đại học Texas tại Austin,MENTIONS_UNIVERSITY
-Habib Bourguiba,Đại học Paris,MENTIONS_UNIVERSITY
-Grzegorz Schetyna,Đại học Wrocław,MENTIONS_UNIVERSITY
-Gustav Mahler,Đại học Viên,MENTIONS_UNIVERSITY
-Halimah Yacob,Đại học Quốc gia Singapore,MENTIONS_UNIVERSITY
-Gray Davis,Đại học Columbia,MENTIONS_UNIVERSITY
-Golda Meir,Đại học Princeton,MENTIONS_UNIVERSITY
-H3h3Productions,Đại học California,MENTIONS_UNIVERSITY
-Harold Alexander,Trường Harrow,MENTIONS_UNIVERSITY
-Harri Holkeri,Đại học Helsinki,MENTIONS_UNIVERSITY
-Hara Takashi,Đại học Tokyo,MENTIONS_UNIVERSITY
-Giuseppe Conte,Đại học Roma Sapienza,MENTIONS_UNIVERSITY
-Han Duck-soo,Đại học Quốc gia Seoul,MENTIONS_UNIVERSITY
-Harold Holt,Đại học Melbourne,MENTIONS_UNIVERSITY
 Gustav Holst,Đại học Glasgow,MENTIONS_UNIVERSITY
 Gustav Holst,Somerville College,MENTIONS_UNIVERSITY
+Gérard Debreu,"Đại học California, Berkeley",MENTIONS_UNIVERSITY
+Greg Abbott,Đại học Texas tại Austin,MENTIONS_UNIVERSITY
+Gustav Mahler,Đại học Viên,MENTIONS_UNIVERSITY
+Gretchen Whitmer,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
+Habib Bourguiba,Đại học Paris,MENTIONS_UNIVERSITY
+H3h3Productions,Đại học California,MENTIONS_UNIVERSITY
+Halimah Yacob,Đại học Quốc gia Singapore,MENTIONS_UNIVERSITY
+Hara Takashi,Đại học Tokyo,MENTIONS_UNIVERSITY
+Harold Alexander,Trường Harrow,MENTIONS_UNIVERSITY
+Harold Holt,Đại học Melbourne,MENTIONS_UNIVERSITY
+Han Duck-soo,Đại học Quốc gia Seoul,MENTIONS_UNIVERSITY
+Giáo hoàng Lêô XIV,Đại học Villanova,MENTIONS_UNIVERSITY
+Harri Holkeri,Đại học Helsinki,MENTIONS_UNIVERSITY
 Harry Markowitz,Đại học Chicago,MENTIONS_UNIVERSITY
 Hayashi Yoshimasa,Đại học Tokyo,MENTIONS_UNIVERSITY
 Hatoyama Yukio,Đại học Tokyo,MENTIONS_UNIVERSITY
@@ -371,768 +371,757 @@ Helle Thorning-Schmidt,Đại học Copenhagen,MENTIONS_UNIVERSITY
 Henri Bergson,École normale supérieure,MENTIONS_UNIVERSITY
 Henri Bergson,Đại học Paris,MENTIONS_UNIVERSITY
 "Henry John Temple, Tử tước Palmerston thứ 3",Đại học Edinburgh,MENTIONS_UNIVERSITY
-Helmut Kohl,Đại học Heidelberg,MENTIONS_UNIVERSITY
+Helmut Schmidt,Đại học Hamburg,MENTIONS_UNIVERSITY
 Henry L. Stimson,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
 Henry L. Stimson,Trường Luật Harvard,MENTIONS_UNIVERSITY
+Henry McMaster,Đại học South Carolina,MENTIONS_UNIVERSITY
+Helmut Kohl,Đại học Heidelberg,MENTIONS_UNIVERSITY
+Henry Kissinger,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
 Hiranuma Kiichirō,Đại học Tokyo,MENTIONS_UNIVERSITY
+Heinrich Himmler,Đại học Kỹ thuật München,MENTIONS_UNIVERSITY
+Horst Köhler,Đại học Tübingen,MENTIONS_UNIVERSITY
 Hope Hicks,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
 Hoàng Cúc,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
-Helmut Schmidt,Đại học Hamburg,MENTIONS_UNIVERSITY
 Hosni Mubarak,Học viện Quân sự Frunze,MENTIONS_UNIVERSITY
-Hubert Humphrey,Đại học Minnesota,MENTIONS_UNIVERSITY
-Horst Köhler,Đại học Tübingen,MENTIONS_UNIVERSITY
-Hoàng Tuần Tài,Đại học Wisconsin–Madison,MENTIONS_UNIVERSITY
-Hoàng Tuần Tài,Đại học Michigan,MENTIONS_UNIVERSITY
 Htin Kyaw,Đại học London,MENTIONS_UNIVERSITY
 Htin Kyaw,Đại học Yangon,MENTIONS_UNIVERSITY
-Hwang Kyo-ahn,Đại học Sungkyunkwan,MENTIONS_UNIVERSITY
-Hà Vệ Đông,Đại học Quốc phòng Trung Quốc,MENTIONS_UNIVERSITY
-Hà Vệ Đông,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
-Hạ Quân Khoa,Trường Đại học Công nghệ Quốc phòng Trung Quốc,MENTIONS_UNIVERSITY
-Hillary Clinton,Đại học Arkansas,MENTIONS_UNIVERSITY
-Hillary Clinton,Đại học Columbia,MENTIONS_UNIVERSITY
-Hillary Clinton,Đại học Princeton,MENTIONS_UNIVERSITY
-Hàn Chính (chính khách),Đại học Sư phạm Hoa Đông,MENTIONS_UNIVERSITY
-Hugo Chávez,Đại học Columbia,MENTIONS_UNIVERSITY
-Hạ Bảo Long,Đại học Bắc Kinh,MENTIONS_UNIVERSITY
-Ian Brossat,École normale supérieure de Lyon,MENTIONS_UNIVERSITY
+Hubert Humphrey,Đại học Minnesota,MENTIONS_UNIVERSITY
 Hoài Tiến Bằng,Đại học Công nghiệp Cáp Nhĩ Tân,MENTIONS_UNIVERSITY
 Hoài Tiến Bằng,Viện Khoa học Trung Quốc,MENTIONS_UNIVERSITY
 Hoài Tiến Bằng,Đại học Cát Lâm,MENTIONS_UNIVERSITY
 Hoài Tiến Bằng,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
 Hoài Tiến Bằng,Đại học Columbia,MENTIONS_UNIVERSITY
-Ingvar Carlsson,Đại học Lund,MENTIONS_UNIVERSITY
-Ikeda Hayato,Đại học Kyoto,MENTIONS_UNIVERSITY
+Hillary Clinton,Đại học Arkansas,MENTIONS_UNIVERSITY
+Hillary Clinton,Đại học Columbia,MENTIONS_UNIVERSITY
+Hillary Clinton,Đại học Princeton,MENTIONS_UNIVERSITY
+Hoàng Tuần Tài,Đại học Wisconsin–Madison,MENTIONS_UNIVERSITY
+Hoàng Tuần Tài,Đại học Michigan,MENTIONS_UNIVERSITY
+Hwang Kyo-ahn,Đại học Sungkyunkwan,MENTIONS_UNIVERSITY
 Hunter Biden,Đại học Georgetown,MENTIONS_UNIVERSITY
+Hà Vệ Đông,Đại học Quốc phòng Trung Quốc,MENTIONS_UNIVERSITY
+Hà Vệ Đông,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
+Hạ Bảo Long,Đại học Bắc Kinh,MENTIONS_UNIVERSITY
+Hạ Quân Khoa,Trường Đại học Công nghệ Quốc phòng Trung Quốc,MENTIONS_UNIVERSITY
+Hàn Chính (chính khách),Đại học Sư phạm Hoa Đông,MENTIONS_UNIVERSITY
+Hugo Chávez,Đại học Columbia,MENTIONS_UNIVERSITY
+Ian Brossat,École normale supérieure de Lyon,MENTIONS_UNIVERSITY
 Ilya Yefimovich Repin,Học viện Nghệ thuật Hoàng gia Nga,MENTIONS_UNIVERSITY
+Ikeda Hayato,Đại học Kyoto,MENTIONS_UNIVERSITY
+Ingvar Carlsson,Đại học Lund,MENTIONS_UNIVERSITY
+Hạ Vinh,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
 Inukai Tsuyoshi,Đại học Keio,MENTIONS_UNIVERSITY
 Isaac Asimov,Đại học Columbia,MENTIONS_UNIVERSITY
 Isaac Asimov,Đại học Boston,MENTIONS_UNIVERSITY
-Henry Kissinger,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
+Isaac Herzog,Đại học Cornell,MENTIONS_UNIVERSITY
+Isaac Herzog,Đại học New York,MENTIONS_UNIVERSITY
+Ishiba Yoshiko,Đại học Keio,MENTIONS_UNIVERSITY
+Itō Masayoshi,Đại học Tokyo,MENTIONS_UNIVERSITY
+Ishibashi Tanzan,Đại học Waseda,MENTIONS_UNIVERSITY
+Izumi Kenta,Đại học Ritsumeikan,MENTIONS_UNIVERSITY
+Ivo Andrić,Đại học Graz,MENTIONS_UNIVERSITY
+Ivo Andrić,Đại học Viên,MENTIONS_UNIVERSITY
+Iván Duque Márquez,Đại học Georgetown,MENTIONS_UNIVERSITY
+Ivanka Trump,Đại học Pennsylvania,MENTIONS_UNIVERSITY
+Ivanka Trump,Đại học Georgetown,MENTIONS_UNIVERSITY
+J. M. Barrie,Đại học Glasgow,MENTIONS_UNIVERSITY
+J. M. Barrie,Đại học Edinburgh,MENTIONS_UNIVERSITY
 Hồ Cẩm Đào,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
 Hồ Cẩm Đào,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
 Hồ Cẩm Đào,Viện Khoa học Trung Quốc,MENTIONS_UNIVERSITY
-Isaac Herzog,Đại học Cornell,MENTIONS_UNIVERSITY
-Isaac Herzog,Đại học New York,MENTIONS_UNIVERSITY
-Henry McMaster,Đại học South Carolina,MENTIONS_UNIVERSITY
-Ishibashi Tanzan,Đại học Waseda,MENTIONS_UNIVERSITY
-Itō Masayoshi,Đại học Tokyo,MENTIONS_UNIVERSITY
+J. William Fulbright,Đại học Arkansas,MENTIONS_UNIVERSITY
+J. William Fulbright,Đại học George Washington,MENTIONS_UNIVERSITY
 Ishiba Shigeru,Đại học Keio,MENTIONS_UNIVERSITY
-Iván Duque Márquez,Đại học Georgetown,MENTIONS_UNIVERSITY
-J. M. Barrie,Đại học Glasgow,MENTIONS_UNIVERSITY
-J. M. Barrie,Đại học Edinburgh,MENTIONS_UNIVERSITY
-Ivo Andrić,Đại học Graz,MENTIONS_UNIVERSITY
-Ivo Andrić,Đại học Viên,MENTIONS_UNIVERSITY
-Ishiba Yoshiko,Đại học Keio,MENTIONS_UNIVERSITY
+Jacques Chaban-Delmas,Sciences Po,MENTIONS_UNIVERSITY
+Itō Hirobumi,Đại học London,MENTIONS_UNIVERSITY
 Jacek Rostowski,Đại học London,MENTIONS_UNIVERSITY
 Jacek Rostowski,Trường Kinh tế London,MENTIONS_UNIVERSITY
 Jacek Rostowski,Trường Kinh tế và Khoa học Chính trị Luân Đôn,MENTIONS_UNIVERSITY
 Jacek Rostowski,Đại học Luân Đôn,MENTIONS_UNIVERSITY
 JD Vance,Đại học Bang Ohio,MENTIONS_UNIVERSITY
-Jacques Chaban-Delmas,Sciences Po,MENTIONS_UNIVERSITY
-Izumi Kenta,Đại học Ritsumeikan,MENTIONS_UNIVERSITY
-J. William Fulbright,Đại học Arkansas,MENTIONS_UNIVERSITY
-J. William Fulbright,Đại học George Washington,MENTIONS_UNIVERSITY
 Jacques-Louis David,Đại học Paris,MENTIONS_UNIVERSITY
-Hồ Chí Minh,Trường Đại học Lao động Cộng sản Phương Đông,MENTIONS_UNIVERSITY
-Hồ Chí Minh,Trường Trung học phổ thông chuyên Quốc Học,MENTIONS_UNIVERSITY
-Hạ Vinh,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
-Ivanka Trump,Đại học Pennsylvania,MENTIONS_UNIVERSITY
-Ivanka Trump,Đại học Georgetown,MENTIONS_UNIVERSITY
-James K. Polk,Đại học North Carolina ở Chapel Hill,MENTIONS_UNIVERSITY
 James Buchanan,Đại học Dickinson,MENTIONS_UNIVERSITY
-James M. Buchanan,Đại học Virginia,MENTIONS_UNIVERSITY
-James M. Buchanan,Đại học Chicago,MENTIONS_UNIVERSITY
 James A. Garfield,Đại học,MENTIONS_UNIVERSITY
+James Comey,University of Chicago,MENTIONS_UNIVERSITY
+James Heckman,Đại học Chicago,MENTIONS_UNIVERSITY
+James Heckman,Đại học Princeton,MENTIONS_UNIVERSITY
+James Heckman,Đại học Columbia,MENTIONS_UNIVERSITY
+James K. Polk,Đại học North Carolina ở Chapel Hill,MENTIONS_UNIVERSITY
 Jacques Chirac,École nationale d'administration,MENTIONS_UNIVERSITY
 Jacques Chirac,Sciences Po,MENTIONS_UNIVERSITY
-Itō Hirobumi,Đại học London,MENTIONS_UNIVERSITY
-James Madison,Đại học Princeton,MENTIONS_UNIVERSITY
-James Madison,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
 James Mirrlees,Đại học Edinburgh,MENTIONS_UNIVERSITY
 James Mirrlees,Đại học Melbourne,MENTIONS_UNIVERSITY
 James R. Schlesinger,Đại học Virginia,MENTIONS_UNIVERSITY
-James Comey,University of Chicago,MENTIONS_UNIVERSITY
+James M. Buchanan,Đại học Virginia,MENTIONS_UNIVERSITY
+James M. Buchanan,Đại học Chicago,MENTIONS_UNIVERSITY
+J. B. Pritzker,Đại học Duke,MENTIONS_UNIVERSITY
+J. B. Pritzker,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
+J. B. Pritzker,Đại học Chicago,MENTIONS_UNIVERSITY
+James Monroe,Đại học William & Mary,MENTIONS_UNIVERSITY
+James Madison,Đại học Princeton,MENTIONS_UNIVERSITY
+James Madison,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
+Jan Matejko,Học viện Mỹ thuật Jan Matejko,MENTIONS_UNIVERSITY
+Jan Matejko,Đại học Jagiellonia,MENTIONS_UNIVERSITY
+Janez Drnovšek,Đại học Ljubljana,MENTIONS_UNIVERSITY
+Hồ Chí Minh,Trường Đại học Lao động Cộng sản Phương Đông,MENTIONS_UNIVERSITY
+Hồ Chí Minh,Trường Trung học phổ thông chuyên Quốc Học,MENTIONS_UNIVERSITY
+Janet Reno,Đại học Cornell,MENTIONS_UNIVERSITY
 Jan Eliasson,Đại học Gothenburg,MENTIONS_UNIVERSITY
 Jan Eliasson,Đại học Uppsala,MENTIONS_UNIVERSITY
 Janet Yellen,Đại học Brown,MENTIONS_UNIVERSITY
 Janet Yellen,Đại học California tại Berkeley,MENTIONS_UNIVERSITY
 Janet Yellen,Trường Kinh tế London,MENTIONS_UNIVERSITY
-Jan Matejko,Học viện Mỹ thuật Jan Matejko,MENTIONS_UNIVERSITY
-Jan Matejko,Đại học Jagiellonia,MENTIONS_UNIVERSITY
-Heinrich Himmler,Đại học Kỹ thuật München,MENTIONS_UNIVERSITY
-Janet Reno,Đại học Cornell,MENTIONS_UNIVERSITY
 J. K. Rowling,Đại học Exeter,MENTIONS_UNIVERSITY
 J. K. Rowling,Đại học Edinburgh,MENTIONS_UNIVERSITY
-James Monroe,Đại học William & Mary,MENTIONS_UNIVERSITY
-Janet Mills,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
-Jared Polis,Đại học Princeton,MENTIONS_UNIVERSITY
 Jared Kushner,New York University,MENTIONS_UNIVERSITY
 Janez Janša,Đại học Ljubljana,MENTIONS_UNIVERSITY
+Jean Chrétien,Đại học Laval,MENTIONS_UNIVERSITY
 Jean Casimir-Perier,Đại học Paris,MENTIONS_UNIVERSITY
+Jared Polis,Đại học Princeton,MENTIONS_UNIVERSITY
 Javier Milei,Đại học Belgrano,MENTIONS_UNIVERSITY
 Javier Milei,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
-J. B. Pritzker,Đại học Duke,MENTIONS_UNIVERSITY
-J. B. Pritzker,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
-J. B. Pritzker,Đại học Chicago,MENTIONS_UNIVERSITY
-James Heckman,Đại học Chicago,MENTIONS_UNIVERSITY
-James Heckman,Đại học Princeton,MENTIONS_UNIVERSITY
-James Heckman,Đại học Columbia,MENTIONS_UNIVERSITY
+Janet Mills,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
 Jay Inslee,Đại học Washington,MENTIONS_UNIVERSITY
-Jeb Bush,Đại học Texas tại Austin,MENTIONS_UNIVERSITY
 Jean Tirole,École nationale des ponts et chaussées,MENTIONS_UNIVERSITY
 Jean Tirole,École Polytechnique,MENTIONS_UNIVERSITY
 Jean Tirole,Đại học Paris,MENTIONS_UNIVERSITY
-Jean Chrétien,Đại học Laval,MENTIONS_UNIVERSITY
-Jeff Bezos,Đại học Princeton,MENTIONS_UNIVERSITY
-Jean-Claude Juncker,Đại học Strasbourg,MENTIONS_UNIVERSITY
 Jean-Luc Godard,Đại học Paris,MENTIONS_UNIVERSITY
-Janez Drnovšek,Đại học Ljubljana,MENTIONS_UNIVERSITY
-Jens Stoltenberg,Đại học Oslo,MENTIONS_UNIVERSITY
-Jim McGreevey,Đại học Công giáo Hoa Kỳ,MENTIONS_UNIVERSITY
-Jim McGreevey,Đại học Columbia,MENTIONS_UNIVERSITY
-Jim McGreevey,Đại học Georgetown,MENTIONS_UNIVERSITY
+Jarosław Kaczyński,Đại học Warsaw,MENTIONS_UNIVERSITY
+Jarosław Kaczyński,Đại học Warszawa,MENTIONS_UNIVERSITY
 Jen Psaki,Đại học William & Mary,MENTIONS_UNIVERSITY
 Jen Psaki,Đại học William và Mary,MENTIONS_UNIVERSITY
-Jill Biden,Đại học Delaware,MENTIONS_UNIVERSITY
-Jill Biden,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
-Jill Biden,Đại học Villanova,MENTIONS_UNIVERSITY
+Jeb Bush,Đại học Texas tại Austin,MENTIONS_UNIVERSITY
+Jeff Bezos,Đại học Princeton,MENTIONS_UNIVERSITY
+Jean-Claude Juncker,Đại học Strasbourg,MENTIONS_UNIVERSITY
+Jens Stoltenberg,Đại học Oslo,MENTIONS_UNIVERSITY
+Jerry Brown,"University of California, Berkeley",MENTIONS_UNIVERSITY
 Jim Webb,University of Southern California,MENTIONS_UNIVERSITY
 Jim Webb,Georgetown University,MENTIONS_UNIVERSITY
 Jim Webb,Học viện Hải quân Hoa Kỳ,MENTIONS_UNIVERSITY
 Jim Webb,Đại học Nam California,MENTIONS_UNIVERSITY
 Jim Webb,Đại học Georgetown,MENTIONS_UNIVERSITY
+Jim McGreevey,Đại học Công giáo Hoa Kỳ,MENTIONS_UNIVERSITY
+Jim McGreevey,Đại học Columbia,MENTIONS_UNIVERSITY
+Jim McGreevey,Đại học Georgetown,MENTIONS_UNIVERSITY
 Johan Wilhelm Rangell,Đại học Helsinki,MENTIONS_UNIVERSITY
-Jerry Brown,"University of California, Berkeley",MENTIONS_UNIVERSITY
-Jimmy Carter,Học viện Công nghệ Georgia,MENTIONS_UNIVERSITY
-Jimmy Carter,Học viện Hải quân Hoa Kỳ,MENTIONS_UNIVERSITY
+Jill Biden,Đại học Delaware,MENTIONS_UNIVERSITY
+Jill Biden,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
+Jill Biden,Đại học Villanova,MENTIONS_UNIVERSITY
 John Atta Mills,Trường Kinh tế và Khoa học Chính trị Luân Đôn,MENTIONS_UNIVERSITY
 John Atta Mills,Trường Kinh tế và Khoa học Chính trị London,MENTIONS_UNIVERSITY
-Johannes Vilhelm Jensen,Đại học Copenhagen,MENTIONS_UNIVERSITY
 John Abbott,Đại học McGill,MENTIONS_UNIVERSITY
-John C. Breckinridge,Đại học Princeton,MENTIONS_UNIVERSITY
+Johannes Vilhelm Jensen,Đại học Copenhagen,MENTIONS_UNIVERSITY
 Jim Justice,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
+John C. Breckinridge,Đại học Princeton,MENTIONS_UNIVERSITY
+John Bel Edwards,Học viện Quân sự Hoa Kỳ,MENTIONS_UNIVERSITY
+John C. Calhoun,University of Virginia,MENTIONS_UNIVERSITY
+Jerome Adams,"Đại học California, Berkeley",MENTIONS_UNIVERSITY
 John Foster Dulles,Đại học Princeton,MENTIONS_UNIVERSITY
 John Foster Dulles,Đại học George Washington,MENTIONS_UNIVERSITY
-Jarosław Kaczyński,Đại học Warsaw,MENTIONS_UNIVERSITY
-Jarosław Kaczyński,Đại học Warszawa,MENTIONS_UNIVERSITY
 John Hickenlooper,Đại học Wesleyan,MENTIONS_UNIVERSITY
-John Hicks,Trường Kinh tế và Khoa học Chính trị Luân Đôn,MENTIONS_UNIVERSITY
-John Jay,Đại học Columbia,MENTIONS_UNIVERSITY
-John C. Calhoun,University of Virginia,MENTIONS_UNIVERSITY
+John Howard,Đại học Sydney,MENTIONS_UNIVERSITY
+Jimmy Carter,Học viện Công nghệ Georgia,MENTIONS_UNIVERSITY
+Jimmy Carter,Học viện Hải quân Hoa Kỳ,MENTIONS_UNIVERSITY
 John F. Kennedy,Trường Kinh tế và Khoa học Chính trị Luân Đôn,MENTIONS_UNIVERSITY
 John F. Kennedy,Đại học Princeton,MENTIONS_UNIVERSITY
 John F. Kennedy,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
-John Kenneth Galbraith,Đại học Princeton,MENTIONS_UNIVERSITY
-John Kenneth Galbraith,"Đại học California, Berkeley",MENTIONS_UNIVERSITY
-John Kenneth Galbraith,Đại học Toronto,MENTIONS_UNIVERSITY
-John Lipsky,Đại học Wesleyan,MENTIONS_UNIVERSITY
+John Jay,Đại học Columbia,MENTIONS_UNIVERSITY
+John Hicks,Trường Kinh tế và Khoa học Chính trị Luân Đôn,MENTIONS_UNIVERSITY
 John Kasich,Đại học Tiểu bang Ohio,MENTIONS_UNIVERSITY
-Jerome Adams,"Đại học California, Berkeley",MENTIONS_UNIVERSITY
-John Quincy Adams,Đại học Leiden,MENTIONS_UNIVERSITY
-John O. Brennan,Đại học Texas tại Austin,MENTIONS_UNIVERSITY
-John Howard,Đại học Sydney,MENTIONS_UNIVERSITY
 John Carney,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
 John Carney,Đại học Dartmouth,MENTIONS_UNIVERSITY
 John Carney,Đại học Delaware,MENTIONS_UNIVERSITY
-John Turner,Đại học Paris,MENTIONS_UNIVERSITY
-John Bel Edwards,Học viện Quân sự Hoa Kỳ,MENTIONS_UNIVERSITY
-Jon Ossoff,Đại học Georgetown,MENTIONS_UNIVERSITY
-Jon Ossoff,Trường Kinh tế Luân Đôn,MENTIONS_UNIVERSITY
-Jon Ossoff,Trường Dịch vụ Đối ngoại,MENTIONS_UNIVERSITY
-Jon Ossoff,Trường Kinh tế và Khoa học Chính trị Luân Đôn,MENTIONS_UNIVERSITY
-Jonathan Dayton,Đại học Princeton,MENTIONS_UNIVERSITY
-John Tyler,Đại học William & Mary,MENTIONS_UNIVERSITY
-Joko Widodo,Đại học Gadjah Mada,MENTIONS_UNIVERSITY
-Joseph Boakai,Đại học Tiểu bang Kansas,MENTIONS_UNIVERSITY
-Josh Shapiro,Đại học Georgetown,MENTIONS_UNIVERSITY
-Joseph Schumpeter,Đại học Bonn,MENTIONS_UNIVERSITY
-Joseph Schumpeter,Đại học Graz,MENTIONS_UNIVERSITY
-Joseph Schumpeter,Đại học Viên,MENTIONS_UNIVERSITY
-Joseph Stiglitz,Đại học Columbia,MENTIONS_UNIVERSITY
-Joseph Goebbels,Đại học Bonn,MENTIONS_UNIVERSITY
-Joseph Goebbels,Đại học Freiburg,MENTIONS_UNIVERSITY
-Joseph Goebbels,Đại học Heidelberg,MENTIONS_UNIVERSITY
-Joseph Goebbels,Đại học Ludwig Maximilian München,MENTIONS_UNIVERSITY
-Joshua Angrist,Đại học Princeton,MENTIONS_UNIVERSITY
-Juho Kusti Paasikivi,Đại học Helsinki,MENTIONS_UNIVERSITY
-Juha Sipilä,Đại học Oulu,MENTIONS_UNIVERSITY
-Julie Payette,Đại học McGill,MENTIONS_UNIVERSITY
-Julie Payette,Đại học Toronto,MENTIONS_UNIVERSITY
-Julia Gillard,Đại học Adelaide,MENTIONS_UNIVERSITY
-Julia Gillard,Đại học Melbourne,MENTIONS_UNIVERSITY
-John McCain,Học viện Hải quân Hoa Kỳ,MENTIONS_UNIVERSITY
-John McCain,Đại học Virginia,MENTIONS_UNIVERSITY
-John McCain,Đại học Columbia,MENTIONS_UNIVERSITY
-Kaifu Toshiki,Đại học Waseda,MENTIONS_UNIVERSITY
-Juan Manuel Santos,Đại học Kansas,MENTIONS_UNIVERSITY
-Juan Manuel Santos,Trường Kinh tế và Khoa học Chính trị Luân Đôn,MENTIONS_UNIVERSITY
-Jørn Utzon,Đại học Sydney,MENTIONS_UNIVERSITY
-Kaja Kallas,Đại học Tartu,MENTIONS_UNIVERSITY
-Kaja Kallas,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
-K. R. Narayanan,Trường Kinh tế Luân Đôn,MENTIONS_UNIVERSITY
-Karolos Papoulias,Đại học Milano,MENTIONS_UNIVERSITY
-Karolos Papoulias,Đại học Athena,MENTIONS_UNIVERSITY
-Katayama Tetsu,Đại học Tokyo,MENTIONS_UNIVERSITY
-José Manuel Barroso,Đại học Geneva,MENTIONS_UNIVERSITY
-Josef Mengele,Đại học Bonn,MENTIONS_UNIVERSITY
-Josef Mengele,Đại học Ludwig Maximilian München,MENTIONS_UNIVERSITY
-Josef Mengele,Đại học Goethe Frankfurt,MENTIONS_UNIVERSITY
-Josef Mengele,Đại học Leipzig,MENTIONS_UNIVERSITY
-Karel Čapek,Đại học Charles ở Praha,MENTIONS_UNIVERSITY
-Karl Böhm,Đại học Graz,MENTIONS_UNIVERSITY
+John Lipsky,Đại học Wesleyan,MENTIONS_UNIVERSITY
+John Kenneth Galbraith,Đại học Princeton,MENTIONS_UNIVERSITY
+John Kenneth Galbraith,"Đại học California, Berkeley",MENTIONS_UNIVERSITY
+John Kenneth Galbraith,Đại học Toronto,MENTIONS_UNIVERSITY
+John Quincy Adams,Đại học Leiden,MENTIONS_UNIVERSITY
+John O. Brennan,Đại học Texas tại Austin,MENTIONS_UNIVERSITY
 Joe Biden,Đại học Delaware,MENTIONS_UNIVERSITY
 Joe Biden,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
 Joe Biden,Học viện Hải quân Hoa Kỳ,MENTIONS_UNIVERSITY
 Joe Biden,Đại học Pennsylvania,MENTIONS_UNIVERSITY
 Joe Biden,Đại học Notre Dame,MENTIONS_UNIVERSITY
+John Turner,Đại học Paris,MENTIONS_UNIVERSITY
+John Tyler,Đại học William & Mary,MENTIONS_UNIVERSITY
+Joko Widodo,Đại học Gadjah Mada,MENTIONS_UNIVERSITY
+Jon Ossoff,Đại học Georgetown,MENTIONS_UNIVERSITY
+Jon Ossoff,Trường Kinh tế Luân Đôn,MENTIONS_UNIVERSITY
+Jon Ossoff,Trường Dịch vụ Đối ngoại,MENTIONS_UNIVERSITY
+Jon Ossoff,Trường Kinh tế và Khoa học Chính trị Luân Đôn,MENTIONS_UNIVERSITY
+Jonathan Dayton,Đại học Princeton,MENTIONS_UNIVERSITY
+Joseph Boakai,Đại học Tiểu bang Kansas,MENTIONS_UNIVERSITY
+Joseph Schumpeter,Đại học Bonn,MENTIONS_UNIVERSITY
+Joseph Schumpeter,Đại học Graz,MENTIONS_UNIVERSITY
+Joseph Schumpeter,Đại học Viên,MENTIONS_UNIVERSITY
+Joshua Angrist,Đại học Princeton,MENTIONS_UNIVERSITY
+Josef Mengele,Đại học Bonn,MENTIONS_UNIVERSITY
+Josef Mengele,Đại học Ludwig Maximilian München,MENTIONS_UNIVERSITY
+Josef Mengele,Đại học Goethe Frankfurt,MENTIONS_UNIVERSITY
+Josef Mengele,Đại học Leipzig,MENTIONS_UNIVERSITY
+Josh Shapiro,Đại học Georgetown,MENTIONS_UNIVERSITY
+José Manuel Barroso,Đại học Geneva,MENTIONS_UNIVERSITY
+Joseph Goebbels,Đại học Bonn,MENTIONS_UNIVERSITY
+Joseph Goebbels,Đại học Freiburg,MENTIONS_UNIVERSITY
+Joseph Goebbels,Đại học Heidelberg,MENTIONS_UNIVERSITY
+Joseph Goebbels,Đại học Ludwig Maximilian München,MENTIONS_UNIVERSITY
+Joseph Stiglitz,Đại học Columbia,MENTIONS_UNIVERSITY
+Julie Payette,Đại học McGill,MENTIONS_UNIVERSITY
+Julie Payette,Đại học Toronto,MENTIONS_UNIVERSITY
+John McCain,Học viện Hải quân Hoa Kỳ,MENTIONS_UNIVERSITY
+John McCain,Đại học Virginia,MENTIONS_UNIVERSITY
+John McCain,Đại học Columbia,MENTIONS_UNIVERSITY
+Jørn Utzon,Đại học Sydney,MENTIONS_UNIVERSITY
+Juho Kusti Paasikivi,Đại học Helsinki,MENTIONS_UNIVERSITY
+Juan Manuel Santos,Đại học Kansas,MENTIONS_UNIVERSITY
+Juan Manuel Santos,Trường Kinh tế và Khoa học Chính trị Luân Đôn,MENTIONS_UNIVERSITY
+K. R. Narayanan,Trường Kinh tế Luân Đôn,MENTIONS_UNIVERSITY
+Julia Gillard,Đại học Adelaide,MENTIONS_UNIVERSITY
+Julia Gillard,Đại học Melbourne,MENTIONS_UNIVERSITY
+Kaja Kallas,Đại học Tartu,MENTIONS_UNIVERSITY
+Kaja Kallas,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
+Juha Sipilä,Đại học Oulu,MENTIONS_UNIVERSITY
+Karolos Papoulias,Đại học Milano,MENTIONS_UNIVERSITY
+Karolos Papoulias,Đại học Athena,MENTIONS_UNIVERSITY
+Katayama Tetsu,Đại học Tokyo,MENTIONS_UNIVERSITY
+Karl Böhm,Đại học Graz,MENTIONS_UNIVERSITY
+Kaifu Toshiki,Đại học Waseda,MENTIONS_UNIVERSITY
+Karel Čapek,Đại học Charles ở Praha,MENTIONS_UNIVERSITY
 Keijo Liinamaa,Đại học Helsinki,MENTIONS_UNIVERSITY
 Katō Takaaki,Đại học Tokyo,MENTIONS_UNIVERSITY
 Kazuo Ishiguro,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
-Kim Campbell,Trường Kinh tế và Khoa học Chính trị Luân Đôn,MENTIONS_UNIVERSITY
-Keir Starmer,Đại học Leeds,MENTIONS_UNIVERSITY
+Katō Tomosaburō,Học viện Hải quân Đế quốc Nhật Bản,MENTIONS_UNIVERSITY
 Kate Brown,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
+Kay Ivey,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
+Kim Campbell,Trường Kinh tế và Khoa học Chính trị Luân Đôn,MENTIONS_UNIVERSITY
+Katō Katsunobu,Đại học Tokyo,MENTIONS_UNIVERSITY
+Keir Starmer,Đại học Leeds,MENTIONS_UNIVERSITY
+Kevin Rudd,Đại học Quốc gia Úc,MENTIONS_UNIVERSITY
+Kenneth Arrow,Đại học Columbia,MENTIONS_UNIVERSITY
+Kim Myeong-soo,Đại học Quốc gia Seoul,MENTIONS_UNIVERSITY
+Kim Young-sam,Đại học Quốc gia Seoul,MENTIONS_UNIVERSITY
+Kishi Nobusuke,Đại học Tokyo,MENTIONS_UNIVERSITY
 Kamala Harris,Đại học Howard,MENTIONS_UNIVERSITY
 Kamala Harris,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
 Kamala Harris,Trường Luật Hastings,MENTIONS_UNIVERSITY
 Kamala Harris,Đại học California tại Berkeley,MENTIONS_UNIVERSITY
 Kamala Harris,Đại học McGill,MENTIONS_UNIVERSITY
-Katō Tomosaburō,Học viện Hải quân Đế quốc Nhật Bản,MENTIONS_UNIVERSITY
-Kim Myeong-soo,Đại học Quốc gia Seoul,MENTIONS_UNIVERSITY
-Kim Dae-jung,Đại học Kyung Hee,MENTIONS_UNIVERSITY
+Koizumi Shinjirō,Đại học Columbia,MENTIONS_UNIVERSITY
 Kim Tráng Long,Đại học Phục Đán,MENTIONS_UNIVERSITY
 Kim Tráng Long,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
-Koizumi Shinjirō,Đại học Columbia,MENTIONS_UNIVERSITY
-Kim Young-sam,Đại học Quốc gia Seoul,MENTIONS_UNIVERSITY
+Kim Dae-jung,Đại học Kyung Hee,MENTIONS_UNIVERSITY
+Klemens von Metternich,Đại học Strasbourg,MENTIONS_UNIVERSITY
 Kristalina Georgieva,Trường Kinh tế và Khoa học Chính trị Luân Đôn,MENTIONS_UNIVERSITY
 Kristalina Georgieva,Đại học Quốc gia Úc,MENTIONS_UNIVERSITY
 Kristalina Georgieva,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
-Konstantinos Karamanlis,Đại học Athens,MENTIONS_UNIVERSITY
-Kenneth Arrow,Đại học Columbia,MENTIONS_UNIVERSITY
 Konrad Adenauer,Đại học Freiburg,MENTIONS_UNIVERSITY
 Konrad Adenauer,Đại học Ludwig Maximilian München,MENTIONS_UNIVERSITY
 Konrad Adenauer,Đại học Bonn,MENTIONS_UNIVERSITY
-Kay Ivey,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
-Kevin Rudd,Đại học Quốc gia Úc,MENTIONS_UNIVERSITY
+Konstantinos Karamanlis,Đại học Athens,MENTIONS_UNIVERSITY
 Kukrit Pramoj,Đại học Thammasat,MENTIONS_UNIVERSITY
-Kishi Nobusuke,Đại học Tokyo,MENTIONS_UNIVERSITY
-Laimdota Straujuma,Đại học Latvia,MENTIONS_UNIVERSITY
 Koizumi Junichirō,Đại học Keio,MENTIONS_UNIVERSITY
 Koizumi Junichirō,Đại học London,MENTIONS_UNIVERSITY
+Kishida Fumio,Đại học Waseda,MENTIONS_UNIVERSITY
+Kishida Fumio,Đại học Tokyo,MENTIONS_UNIVERSITY
+Kim Jong-un,Đại học Tổng hợp Kim Nhật Thành,MENTIONS_UNIVERSITY
+Kim Jong-un,Đại học Quân sự Kim Nhật Thành,MENTIONS_UNIVERSITY
 Kōno Yōhei,Đại học Waseda,MENTIONS_UNIVERSITY
-Lam Phật An,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
 Kurt Vonnegut,Đại học Cornell,MENTIONS_UNIVERSITY
 Kurt Vonnegut,Đại học Carnegie Mellon,MENTIONS_UNIVERSITY
 Kurt Vonnegut,Đại học Chicago,MENTIONS_UNIVERSITY
-Katō Katsunobu,Đại học Tokyo,MENTIONS_UNIVERSITY
-Lars Løkke Rasmussen,Đại học Copenhagen,MENTIONS_UNIVERSITY
-Larry Hogan,Đại học Bang Florida,MENTIONS_UNIVERSITY
 Lamberto Dini,Đại học Minnesota,MENTIONS_UNIVERSITY
 Lamberto Dini,Đại học Michigan,MENTIONS_UNIVERSITY
-Klemens von Metternich,Đại học Strasbourg,MENTIONS_UNIVERSITY
+Lars Løkke Rasmussen,Đại học Copenhagen,MENTIONS_UNIVERSITY
+Laura Chinchilla,Đại học Georgetown,MENTIONS_UNIVERSITY
+Laimdota Straujuma,Đại học Latvia,MENTIONS_UNIVERSITY
+Larry Hogan,Đại học Bang Florida,MENTIONS_UNIVERSITY
+Lam Phật An,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
+Laurent Fabius,Sciences Po,MENTIONS_UNIVERSITY
+Laurent Fabius,Trường Hành chính quốc gia (Pháp),MENTIONS_UNIVERSITY
 Lawrence Klein,Đại học Pennsylvania,MENTIONS_UNIVERSITY
 Lawrence Klein,Đại học Michigan,MENTIONS_UNIVERSITY
 Lawrence Klein,"Đại học California, Berkeley",MENTIONS_UNIVERSITY
-Laura Chinchilla,Đại học Georgetown,MENTIONS_UNIVERSITY
-Lee Sang-min (chính khách),Đại học Quốc gia Seoul,MENTIONS_UNIVERSITY
-Lee Sang-min (chính khách),Đại học Cao Ly,MENTIONS_UNIVERSITY
 Lech Kaczyński,Đại học Warszawa,MENTIONS_UNIVERSITY
 Lech Kaczyński,Đại học Gdańsk,MENTIONS_UNIVERSITY
+Lee Sang-min (chính khách),Đại học Quốc gia Seoul,MENTIONS_UNIVERSITY
+Lee Sang-min (chính khách),Đại học Cao Ly,MENTIONS_UNIVERSITY
+Lee Hae-chan,Đại học Quốc gia Seoul,MENTIONS_UNIVERSITY
 Leonard Bernstein,Học viện âm nhạc Curtis,MENTIONS_UNIVERSITY
-Lee Myung-bak,Đại học Hàn Quốc,MENTIONS_UNIVERSITY
-Lee Myung-bak,Đại học Cao Ly,MENTIONS_UNIVERSITY
 Lee Jae-myung,Đại học Chung-Ang,MENTIONS_UNIVERSITY
-Laurent Fabius,Sciences Po,MENTIONS_UNIVERSITY
-Laurent Fabius,Trường Hành chính quốc gia (Pháp),MENTIONS_UNIVERSITY
+Lucy Webb Hayes,Đại học Wesley (Ohio),MENTIONS_UNIVERSITY
+Laura Bush,Đại học Texas tại Austin,MENTIONS_UNIVERSITY
+Lloyd Austin,Học viện Quân sự Hoa Kỳ,MENTIONS_UNIVERSITY
 Lluís Domènech i Montaner,Đại học Barcelona,MENTIONS_UNIVERSITY
 Luigi Einaudi,Đại học Bocconi,MENTIONS_UNIVERSITY
-Lloyd Austin,Học viện Quân sự Hoa Kỳ,MENTIONS_UNIVERSITY
-Lee Hae-chan,Đại học Quốc gia Seoul,MENTIONS_UNIVERSITY
+Lee Myung-bak,Đại học Hàn Quốc,MENTIONS_UNIVERSITY
+Lee Myung-bak,Đại học Cao Ly,MENTIONS_UNIVERSITY
 Lev Davidovich Trotsky,Đại học Odessa,MENTIONS_UNIVERSITY
-Lucy Webb Hayes,Đại học Wesley (Ohio),MENTIONS_UNIVERSITY
-Kishida Fumio,Đại học Waseda,MENTIONS_UNIVERSITY
-Kishida Fumio,Đại học Tokyo,MENTIONS_UNIVERSITY
+Luigi Luzzatti,Đại học Padua,MENTIONS_UNIVERSITY
+Lyudmila Aleksandrovna Putina,Đại học Tổng hợp Sankt-Peterburg,MENTIONS_UNIVERSITY
 Luis Arce,Đại học Buenos Aires,MENTIONS_UNIVERSITY
+Lê Văn Kim,Trường Võ bị Quốc gia Đà Lạt,MENTIONS_UNIVERSITY
+Luigi Pirandello,Đại học Bonn,MENTIONS_UNIVERSITY
+Luigi Pirandello,Đại học Palermo,MENTIONS_UNIVERSITY
 Lâu Cần Kiệm,Đại học Khoa học và Kỹ thuật Hoa Trung,MENTIONS_UNIVERSITY
 Lâu Cần Kiệm,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
-Laura Bush,Đại học Texas tại Austin,MENTIONS_UNIVERSITY
-Lê Văn Kim,Trường Võ bị Quốc gia Đà Lạt,MENTIONS_UNIVERSITY
-Kim Jong-un,Đại học Tổng hợp Kim Nhật Thành,MENTIONS_UNIVERSITY
-Kim Jong-un,Đại học Quân sự Kim Nhật Thành,MENTIONS_UNIVERSITY
-Lyndon B. Johnson,Đại học Virginia,MENTIONS_UNIVERSITY
+Lý Cán Kiệt,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
 Liz Truss,Đại học Leeds,MENTIONS_UNIVERSITY
 Liz Truss,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
 Liz Truss,Trường Kinh tế và Khoa học Chính trị Luân Đôn,MENTIONS_UNIVERSITY
-Luigi Pirandello,Đại học Bonn,MENTIONS_UNIVERSITY
-Luigi Pirandello,Đại học Palermo,MENTIONS_UNIVERSITY
-Lý Cán Kiệt,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
-Lyudmila Aleksandrovna Putina,Đại học Tổng hợp Sankt-Peterburg,MENTIONS_UNIVERSITY
-Lý Gia Siêu,Đại học Hồng Kông,MENTIONS_UNIVERSITY
-Luigi Luzzatti,Đại học Padua,MENTIONS_UNIVERSITY
-Lý Đăng Huy,Đại học quốc lập Đài Loan,MENTIONS_UNIVERSITY
-Lý Đăng Huy,Đại học Cornell,MENTIONS_UNIVERSITY
-Lý Quốc Anh,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
-Lưu Kim Quốc,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
-Lý Hồng Trung,Đại học Cát Lâm,MENTIONS_UNIVERSITY
-Lưu Kỳ (sinh năm 1957),Đại học Chiết Giang,MENTIONS_UNIVERSITY
-Lưu Kỳ (sinh năm 1957),Đại học Giao thông Tây An,MENTIONS_UNIVERSITY
-Lại Thanh Đức,Đại học quốc lập Đài Loan,MENTIONS_UNIVERSITY
-Lại Thanh Đức,Đại học Quốc lập Thành Công,MENTIONS_UNIVERSITY
-Lý Khắc Cường,Đại học Bắc Kinh,MENTIONS_UNIVERSITY
-Lộc Tâm Xã,Đại học Vũ Hán,MENTIONS_UNIVERSITY
-Lạc Thụ Cương,Đại học Nhân dân Trung Quốc,MENTIONS_UNIVERSITY
-Lạc Thụ Cương,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
-Lý Hiểu Hồng,Đại học Vũ Hán,MENTIONS_UNIVERSITY
-Lý Hiểu Hồng,Đại học California tại Berkeley,MENTIONS_UNIVERSITY
-Lưu Kết Nhất,Trường sau đại học,MENTIONS_UNIVERSITY
-Lục Trị Nguyên,Đại học Giao thông Tây An,MENTIONS_UNIVERSITY
-Machimura Nobutaka,Đại học Tokyo,MENTIONS_UNIVERSITY
-Machimura Nobutaka,Đại học Wesleyan,MENTIONS_UNIVERSITY
-Maehara Seiji,Đại học Kyoto,MENTIONS_UNIVERSITY
-Lý Nguyên Triều,Đại học Sư phạm Hoa Đông,MENTIONS_UNIVERSITY
-Lý Nguyên Triều,Đại học Phục Đán,MENTIONS_UNIVERSITY
-Lý Nguyên Triều,Đại học Bắc Kinh,MENTIONS_UNIVERSITY
-Lý Nguyên Triều,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
-Lương Cường,Trường Sĩ quan Chính trị,MENTIONS_UNIVERSITY
-Lương Cường,Học viện Chính trị Quốc gia Hồ Chí Minh,MENTIONS_UNIVERSITY
-Lật Chiến Thư,Đại học Công nghiệp Cáp Nhĩ Tân,MENTIONS_UNIVERSITY
-Lật Chiến Thư,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
-Lý Thư Lỗi,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
-Lý Thư Lỗi,Đại học Bắc Kinh,MENTIONS_UNIVERSITY
-Magdalena Andersson,Trường Kinh tế Stockholm,MENTIONS_UNIVERSITY
-Lý Hi,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
-Lý Thừa Vãn,Đại học Washington,MENTIONS_UNIVERSITY
-Lý Thừa Vãn,Đại học Princeton,MENTIONS_UNIVERSITY
-Lý Thừa Vãn,Đại học George Washington,MENTIONS_UNIVERSITY
 Lý Cường,Đại học Chiết Giang,MENTIONS_UNIVERSITY
 Lý Cường,Đại học Bách khoa Hồng Kông,MENTIONS_UNIVERSITY
 Lý Cường,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
 Lý Cường,Đại học Bắc Kinh,MENTIONS_UNIVERSITY
-Lưu Quốc Trung,Đại học Công nghiệp Cáp Nhĩ Tân,MENTIONS_UNIVERSITY
+Lý Hiểu Hồng,Đại học Vũ Hán,MENTIONS_UNIVERSITY
+Lý Hiểu Hồng,Đại học California tại Berkeley,MENTIONS_UNIVERSITY
+Lyndon B. Johnson,Đại học Virginia,MENTIONS_UNIVERSITY
+Lý Quốc Anh,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
+Lý Nguyên Triều,Đại học Sư phạm Hoa Đông,MENTIONS_UNIVERSITY
+Lý Nguyên Triều,Đại học Phục Đán,MENTIONS_UNIVERSITY
+Lý Nguyên Triều,Đại học Bắc Kinh,MENTIONS_UNIVERSITY
+Lý Nguyên Triều,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
+Lý Thư Lỗi,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
+Lý Thư Lỗi,Đại học Bắc Kinh,MENTIONS_UNIVERSITY
+Lý Hi,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
+Lý Đăng Huy,Đại học quốc lập Đài Loan,MENTIONS_UNIVERSITY
+Lý Đăng Huy,Đại học Cornell,MENTIONS_UNIVERSITY
+Lưu Kết Nhất,Trường sau đại học,MENTIONS_UNIVERSITY
+Lạc Thụ Cương,Đại học Nhân dân Trung Quốc,MENTIONS_UNIVERSITY
+Lạc Thụ Cương,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
+Lý Hồng Trung,Đại học Cát Lâm,MENTIONS_UNIVERSITY
+Lưu Kỳ (sinh năm 1957),Đại học Chiết Giang,MENTIONS_UNIVERSITY
+Lưu Kỳ (sinh năm 1957),Đại học Giao thông Tây An,MENTIONS_UNIVERSITY
+Lý Gia Siêu,Đại học Hồng Kông,MENTIONS_UNIVERSITY
+Lý Thừa Vãn,Đại học Washington,MENTIONS_UNIVERSITY
+Lý Thừa Vãn,Đại học Princeton,MENTIONS_UNIVERSITY
+Lý Thừa Vãn,Đại học George Washington,MENTIONS_UNIVERSITY
+Lưu Kim Quốc,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
+Lý Khắc Cường,Đại học Bắc Kinh,MENTIONS_UNIVERSITY
+Lục Trị Nguyên,Đại học Giao thông Tây An,MENTIONS_UNIVERSITY
+Maehara Seiji,Đại học Kyoto,MENTIONS_UNIVERSITY
+Machimura Nobutaka,Đại học Tokyo,MENTIONS_UNIVERSITY
+Machimura Nobutaka,Đại học Wesleyan,MENTIONS_UNIVERSITY
 Mahmoud Abbas,Đại học Damascus,MENTIONS_UNIVERSITY
-Malcolm Turnbull,Đại học Sydney,MENTIONS_UNIVERSITY
+Magdalena Andersson,Trường Kinh tế Stockholm,MENTIONS_UNIVERSITY
+Lưu Quốc Trung,Đại học Công nghiệp Cáp Nhĩ Tân,MENTIONS_UNIVERSITY
 Mahathir Mohamad,Đại học Quốc gia Singapore,MENTIONS_UNIVERSITY
 Mahathir Mohamad,Đại học Nottingham,MENTIONS_UNIVERSITY
-Manuel Valls,Trường Đại học Paris I,MENTIONS_UNIVERSITY
+Lộc Tâm Xã,Đại học Vũ Hán,MENTIONS_UNIVERSITY
+Lại Thanh Đức,Đại học quốc lập Đài Loan,MENTIONS_UNIVERSITY
+Lại Thanh Đức,Đại học Quốc lập Thành Công,MENTIONS_UNIVERSITY
+Lật Chiến Thư,Đại học Công nghiệp Cáp Nhĩ Tân,MENTIONS_UNIVERSITY
+Lật Chiến Thư,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
+Malcolm Turnbull,Đại học Sydney,MENTIONS_UNIVERSITY
+Mahmud Ahmadinezhad,Đại học Columbia,MENTIONS_UNIVERSITY
+Lương Cường,Trường Sĩ quan Chính trị,MENTIONS_UNIVERSITY
+Lương Cường,Học viện Chính trị Quốc gia Hồ Chí Minh,MENTIONS_UNIVERSITY
 Margrethe Vestager,Đại học Copenhagen,MENTIONS_UNIVERSITY
 Mari Kiviniemi,Đại học Helsinki,MENTIONS_UNIVERSITY
-Maria Ressa,Đại học Princeton,MENTIONS_UNIVERSITY
-Mario Monti,Đại học Bocconi,MENTIONS_UNIVERSITY
+Manuel Valls,Trường Đại học Paris I,MENTIONS_UNIVERSITY
 Marin Alsop,Trường Juilliard,MENTIONS_UNIVERSITY
 Marine Le Pen,Đại học,MENTIONS_UNIVERSITY
 Marine Le Pen,Trường Đại học Paris II,MENTIONS_UNIVERSITY
+Mario Monti,Đại học Bocconi,MENTIONS_UNIVERSITY
+Mark Leno,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
+Margaret Thatcher,Somerville College,MENTIONS_UNIVERSITY
+Margaret Thatcher,Đại học William và Mary,MENTIONS_UNIVERSITY
 Mark Gordon (chính trị gia),Đại học Middlebury,MENTIONS_UNIVERSITY
-Mahmud Ahmadinezhad,Đại học Columbia,MENTIONS_UNIVERSITY
+Maria Ressa,Đại học Princeton,MENTIONS_UNIVERSITY
+Mark Rutte,Đại học Leiden,MENTIONS_UNIVERSITY
+Martti Ahtisaari,Đại học Oulu,MENTIONS_UNIVERSITY
 Mark Zuckerberg,Đại học Johns Hopkins,MENTIONS_UNIVERSITY
 Mark Zuckerberg,Đại học California,MENTIONS_UNIVERSITY
 Matti Vanhanen,Đại học Helsinki,MENTIONS_UNIVERSITY
-Mark Leno,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
-Matteo Renzi,Đại học Firenze,MENTIONS_UNIVERSITY
 Mateusz Morawiecki,Đại học Wrocław,MENTIONS_UNIVERSITY
 Mateusz Morawiecki,Đại học Hamburg,MENTIONS_UNIVERSITY
 Mateusz Morawiecki,Đại học Basel,MENTIONS_UNIVERSITY
-Maurice Allais,École Polytechnique,MENTIONS_UNIVERSITY
 Max Bruch,Đại học Bonn,MENTIONS_UNIVERSITY
-Megawati Sukarnoputri,Đại học Indonesia,MENTIONS_UNIVERSITY
 Małgorzata Kidawa-Błońska,Đại học Warsaw,MENTIONS_UNIVERSITY
 Małgorzata Kidawa-Błońska,Đại học Warszawa,MENTIONS_UNIVERSITY
-Menachem Begin,Đại học Warsaw,MENTIONS_UNIVERSITY
+Maurice Allais,École Polytechnique,MENTIONS_UNIVERSITY
+Megawati Sukarnoputri,Đại học Indonesia,MENTIONS_UNIVERSITY
+Matteo Renzi,Đại học Firenze,MENTIONS_UNIVERSITY
 Michael Bloomberg,Đại học Johns Hopkins,MENTIONS_UNIVERSITY
 Michael Bloomberg,Đại học,MENTIONS_UNIVERSITY
-Mark Rutte,Đại học Leiden,MENTIONS_UNIVERSITY
-Michael Froman,Đại học Princeton,MENTIONS_UNIVERSITY
-Michael Froman,Trường Luật Harvard,MENTIONS_UNIVERSITY
-Margaret Thatcher,Somerville College,MENTIONS_UNIVERSITY
-Margaret Thatcher,Đại học William và Mary,MENTIONS_UNIVERSITY
-Michael Spence,Đại học New York,MENTIONS_UNIVERSITY
-Michael Spence,Đại học Princeton,MENTIONS_UNIVERSITY
-Michael Spence,Đại học Toronto,MENTIONS_UNIVERSITY
-Michel Debré,Sciences Po,MENTIONS_UNIVERSITY
-Michel Debré,Đại học Paris,MENTIONS_UNIVERSITY
-Michel Rocard,Sciences Po,MENTIONS_UNIVERSITY
-Michel Rocard,École nationale d'administration,MENTIONS_UNIVERSITY
-Miguel Ángel Asturias,Đại học Paris,MENTIONS_UNIVERSITY
+Menachem Begin,Đại học Warsaw,MENTIONS_UNIVERSITY
 Merton Miller,Đại học Carnegie Mellon,MENTIONS_UNIVERSITY
 Merton Miller,Đại học Chicago,MENTIONS_UNIVERSITY
 Merton Miller,Đại học Johns Hopkins,MENTIONS_UNIVERSITY
 Merton Miller,Trường Kinh tế London,MENTIONS_UNIVERSITY
-Mike Beebe,Đại học Arkansas,MENTIONS_UNIVERSITY
-Martti Ahtisaari,Đại học Oulu,MENTIONS_UNIVERSITY
-Michelle Lujan Grisham,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
+Michael Spence,Đại học New York,MENTIONS_UNIVERSITY
+Michael Spence,Đại học Princeton,MENTIONS_UNIVERSITY
+Michael Spence,Đại học Toronto,MENTIONS_UNIVERSITY
 Mao Trạch Đông,Đại học Bắc Kinh,MENTIONS_UNIVERSITY
-Miki Takeo,Đại học Nam California,MENTIONS_UNIVERSITY
+Michel Debré,Sciences Po,MENTIONS_UNIVERSITY
+Michel Debré,Đại học Paris,MENTIONS_UNIVERSITY
+Michael Froman,Đại học Princeton,MENTIONS_UNIVERSITY
+Michael Froman,Trường Luật Harvard,MENTIONS_UNIVERSITY
+Michel Rocard,Sciences Po,MENTIONS_UNIVERSITY
+Michel Rocard,École nationale d'administration,MENTIONS_UNIVERSITY
+Miguel Ángel Asturias,Đại học Paris,MENTIONS_UNIVERSITY
+Mike Beebe,Đại học Arkansas,MENTIONS_UNIVERSITY
+Mikhail Andreyevich Suslov,Đại học Kinh tế Quốc dân Plekhanov,MENTIONS_UNIVERSITY
+Mikhail Andreyevich Suslov,Đại học Quốc gia Moskva,MENTIONS_UNIVERSITY
+Mikhail Andreyevich Suslov,Viện Hàn lâm Khoa học Liên Xô,MENTIONS_UNIVERSITY
 Mike Pompeo,Học viện Quân sự Hoa Kỳ,MENTIONS_UNIVERSITY
-Min Aung Hlaing,Đại học Yangon,MENTIONS_UNIVERSITY
+Michelle Obama,Đại học Princeton,MENTIONS_UNIVERSITY
+Michelle Obama,Đại học Chicago,MENTIONS_UNIVERSITY
+Miroslav Lajčák,Đại học Comenius,MENTIONS_UNIVERSITY
+Miyazawa Kiichi,Đại học Tokyo,MENTIONS_UNIVERSITY
+Miki Takeo,Đại học Nam California,MENTIONS_UNIVERSITY
+Mitch McConnell,Đại học New York,MENTIONS_UNIVERSITY
 Mohamed Morsi,Đại học Cairo,MENTIONS_UNIVERSITY
 Mohamed Morsi,Đại học Nam California,MENTIONS_UNIVERSITY
-Miyazawa Kiichi,Đại học Tokyo,MENTIONS_UNIVERSITY
-Mitch McConnell,Đại học New York,MENTIONS_UNIVERSITY
-Miroslav Lajčák,Đại học Comenius,MENTIONS_UNIVERSITY
+Min Aung Hlaing,Đại học Yangon,MENTIONS_UNIVERSITY
+Mohamed ElBaradei,Đại học Cairo,MENTIONS_UNIVERSITY
+Mohamed ElBaradei,Đại học New York,MENTIONS_UNIVERSITY
+Michelle Lujan Grisham,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
 Mohammed Shia' Al Sudani,Đại học Bagdad,MENTIONS_UNIVERSITY
 Milton Friedman,Đại học Chicago,MENTIONS_UNIVERSITY
 Milton Friedman,Đại học Columbia,MENTIONS_UNIVERSITY
 Milton Friedman,Đại học Minnesota,MENTIONS_UNIVERSITY
 Milton Friedman,University of Chicago,MENTIONS_UNIVERSITY
-Mike DeWine,Đại học Miami,MENTIONS_UNIVERSITY
-Mike DeWine,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
-Michelle Obama,Đại học Princeton,MENTIONS_UNIVERSITY
-Michelle Obama,Đại học Chicago,MENTIONS_UNIVERSITY
-Mostafa Madbouly,Đại học Cairo,MENTIONS_UNIVERSITY
-Moon Jae-in,Đại học Kyung Hee,MENTIONS_UNIVERSITY
-Moon Jae-in,Đại học Bắc Kinh,MENTIONS_UNIVERSITY
-Mikhail Andreyevich Suslov,Đại học Kinh tế Quốc dân Plekhanov,MENTIONS_UNIVERSITY
-Mikhail Andreyevich Suslov,Đại học Quốc gia Moskva,MENTIONS_UNIVERSITY
-Mikhail Andreyevich Suslov,Viện Hàn lâm Khoa học Liên Xô,MENTIONS_UNIVERSITY
+Mori Yoshirō,Đại học Waseda,MENTIONS_UNIVERSITY
 Moshe Sharett,Đại học Istanbul,MENTIONS_UNIVERSITY
 Moshe Sharett,Trường Kinh tế Luân Đôn,MENTIONS_UNIVERSITY
-Mori Yoshirō,Đại học Waseda,MENTIONS_UNIVERSITY
-Mohamed ElBaradei,Đại học Cairo,MENTIONS_UNIVERSITY
-Mohamed ElBaradei,Đại học New York,MENTIONS_UNIVERSITY
-Muhammad Yunus,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
-Neil Gorsuch,Đại học Columbia,MENTIONS_UNIVERSITY
-Mã Hiểu Vĩ,Viện Khoa học Trung Quốc,MENTIONS_UNIVERSITY
-Mã Hiểu Vĩ,Đại học Hồng Kông,MENTIONS_UNIVERSITY
+Mostafa Madbouly,Đại học Cairo,MENTIONS_UNIVERSITY
+Mikhail Sergeyevich Gorbachyov,Đại học Quốc gia Moskva,MENTIONS_UNIVERSITY
 Myron Scholes,Đại học Chicago,MENTIONS_UNIVERSITY
 Myron Scholes,Đại học McMaster,MENTIONS_UNIVERSITY
+Muhammad Yunus,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
+Mã Hiểu Vĩ,Viện Khoa học Trung Quốc,MENTIONS_UNIVERSITY
+Mã Hiểu Vĩ,Đại học Hồng Kông,MENTIONS_UNIVERSITY
+Mike DeWine,Đại học Miami,MENTIONS_UNIVERSITY
+Mike DeWine,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
+Moon Jae-in,Đại học Kyung Hee,MENTIONS_UNIVERSITY
+Moon Jae-in,Đại học Bắc Kinh,MENTIONS_UNIVERSITY
 Nakatani Gen,Học viện Phòng vệ Nhật Bản,MENTIONS_UNIVERSITY
-Nghê Hồng,Đại học Công nghiệp Cáp Nhĩ Tân,MENTIONS_UNIVERSITY
-Nghê Hồng,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
+Neil Gorsuch,Đại học Columbia,MENTIONS_UNIVERSITY
 Nguyễn Hữu Có,Trường Trung học phổ thông chuyên Quốc Học – Huế,MENTIONS_UNIVERSITY
 Nghê Nhạc Phong,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
+Nghê Hồng,Đại học Công nghiệp Cáp Nhĩ Tân,MENTIONS_UNIVERSITY
+Nghê Hồng,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
 Ngô Bang Quốc,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
-Ngô Tác Đống,Đại học Quốc gia Singapore,MENTIONS_UNIVERSITY
-Ngô Đình Nhu,PSL Research University,MENTIONS_UNIVERSITY
 Nguyễn Phú Trọng,Đại học Tổng hợp Hà Nội,MENTIONS_UNIVERSITY
 Nguyễn Phú Trọng,Học viện Chính trị Quốc gia Hồ Chí Minh,MENTIONS_UNIVERSITY
 Nguyễn Phú Trọng,Viện Hàn lâm Khoa học xã hội thuộc Trung ương Đảng Cộng sản Liên Xô,MENTIONS_UNIVERSITY
-Ngô Chính Long,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
-Ngô Chính Long,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
-Nguyễn Minh Triết,Trường Đại học Khoa học Sài Gòn,MENTIONS_UNIVERSITY
-Nguyễn Minh Triết,Học viện Chính trị Quốc gia Hồ Chí Minh,MENTIONS_UNIVERSITY
 Nelson Rockefeller,Đại học Dartmouth,MENTIONS_UNIVERSITY
 Nelson Rockefeller,Đại học Columbia,MENTIONS_UNIVERSITY
 Nelson Rockefeller,Đại học Princeton,MENTIONS_UNIVERSITY
-Nguyễn Tấn Dũng,Trường Đại học Luật Thành phố Hồ Chí Minh,MENTIONS_UNIVERSITY
-Nguyễn Tấn Dũng,Học viện Chính trị Quốc gia Hồ Chí Minh,MENTIONS_UNIVERSITY
-Nguyễn Tấn Dũng,Trường Đại học Kinh tế Quốc dân,MENTIONS_UNIVERSITY
-Nicolas Sarkozy,Đại học Paris Nanterre,MENTIONS_UNIVERSITY
-Nicolas Sarkozy,Sciences Po,MENTIONS_UNIVERSITY
+Nguyễn Minh Triết,Trường Đại học Khoa học Sài Gòn,MENTIONS_UNIVERSITY
+Nguyễn Minh Triết,Học viện Chính trị Quốc gia Hồ Chí Minh,MENTIONS_UNIVERSITY
+Ngô Chính Long,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
+Ngô Chính Long,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
+Ngô Đình Nhu,PSL Research University,MENTIONS_UNIVERSITY
+Ngô Tác Đống,Đại học Quốc gia Singapore,MENTIONS_UNIVERSITY
+Nelson Mandela,Đại học London,MENTIONS_UNIVERSITY
+Nelson Mandela,Đại học Witwatersrand,MENTIONS_UNIVERSITY
 Niwatthamrong Boonsongpaisan,Đại học Srinakharinwirot,MENTIONS_UNIVERSITY
 Niwatthamrong Boonsongpaisan,Đại học Chulalongkorn,MENTIONS_UNIVERSITY
-Nikolai Ivanovich Bukharin,Đại học Moskva,MENTIONS_UNIVERSITY
+Nicolas Sarkozy,Đại học Paris Nanterre,MENTIONS_UNIVERSITY
+Nicolas Sarkozy,Sciences Po,MENTIONS_UNIVERSITY
+Noda Yoshihiko,Đại học Waseda,MENTIONS_UNIVERSITY
 Ngô Đình Diệm,Trường Trung học phổ thông chuyên Quốc Học,MENTIONS_UNIVERSITY
 Ngô Đình Diệm,Trường Hậu bổ (Hà Nội),MENTIONS_UNIVERSITY
 Ngô Đình Diệm,Đại học Michigan,MENTIONS_UNIVERSITY
+Nikolai Ivanovich Bukharin,Đại học Moskva,MENTIONS_UNIVERSITY
+Nguyễn Xuân Phúc,Trường Đại học Kinh tế Quốc dân,MENTIONS_UNIVERSITY
+Nguyễn Xuân Phúc,Học viện Hành chính Quốc gia,MENTIONS_UNIVERSITY
+Nguyễn Xuân Phúc,Đại học Quốc gia Singapore,MENTIONS_UNIVERSITY
+Nguyễn Xuân Phúc,Học viện Chính trị Quốc gia Hồ Chí Minh,MENTIONS_UNIVERSITY
+Nguyễn Xuân Phúc,Đại học Waseda,MENTIONS_UNIVERSITY
 Numan Kurtulmuş,Đại học Istanbul,MENTIONS_UNIVERSITY
 Nukaga Fukushirō,Đại học Waseda,MENTIONS_UNIVERSITY
 Obuchi Keizō,Đại học Waseda,MENTIONS_UNIVERSITY
+Nguyễn Tấn Dũng,Trường Đại học Luật Thành phố Hồ Chí Minh,MENTIONS_UNIVERSITY
+Nguyễn Tấn Dũng,Học viện Chính trị Quốc gia Hồ Chí Minh,MENTIONS_UNIVERSITY
+Nguyễn Tấn Dũng,Trường Đại học Kinh tế Quốc dân,MENTIONS_UNIVERSITY
+Ole von Beust,Đại học Hamburg,MENTIONS_UNIVERSITY
+Odysseas Elytis,University of Athens,MENTIONS_UNIVERSITY
+Odysseas Elytis,Đại học Athena,MENTIONS_UNIVERSITY
 Nguyễn Văn Thiệu,Trường Võ bị Quốc gia Đà Lạt,MENTIONS_UNIVERSITY
 Nguyễn Văn Thiệu,Eton College,MENTIONS_UNIVERSITY
 Nguyễn Văn Thiệu,Đại học Freiburg,MENTIONS_UNIVERSITY
 Nguyễn Văn Thiệu,Đại học McMaster,MENTIONS_UNIVERSITY
 Nguyễn Văn Thiệu,Đại học California,MENTIONS_UNIVERSITY
 Nguyễn Văn Thiệu,Đại học Hamburg,MENTIONS_UNIVERSITY
-Ole von Beust,Đại học Hamburg,MENTIONS_UNIVERSITY
-Odysseas Elytis,University of Athens,MENTIONS_UNIVERSITY
-Odysseas Elytis,Đại học Athena,MENTIONS_UNIVERSITY
 Orbán Viktor,Đại học Eötvös Loránd,MENTIONS_UNIVERSITY
-Olof Palme,Đại học Stockholm,MENTIONS_UNIVERSITY
-Olaf Scholz,Đại học Hamburg,MENTIONS_UNIVERSITY
-Noda Yoshihiko,Đại học Waseda,MENTIONS_UNIVERSITY
-P. V. Narasimha Rao,Đại học Osmania,MENTIONS_UNIVERSITY
 Osvaldo Dorticós Torrado,Đại học La Habana,MENTIONS_UNIVERSITY
-Paetongtarn Shinawatra,Đại học Chulalongkorn,MENTIONS_UNIVERSITY
-Paetongtarn Shinawatra,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
-Otto von Bismarck,Đại học Göttingen,MENTIONS_UNIVERSITY
-Pakalitha Mosisili,Đại học Simon Fraser,MENTIONS_UNIVERSITY
-Park Chung-hee,Trường Sĩ quan Lục quân (Đế quốc Nhật Bản),MENTIONS_UNIVERSITY
-Park Chung-hee,Đại học Quốc gia Seoul,MENTIONS_UNIVERSITY
-Noam Chomsky,Đại học Pennsylvania,MENTIONS_UNIVERSITY
-Noam Chomsky,Đại học Chicago,MENTIONS_UNIVERSITY
-Noam Chomsky,Đại học Columbia,MENTIONS_UNIVERSITY
-Noam Chomsky,Đại học London,MENTIONS_UNIVERSITY
+P. V. Narasimha Rao,Đại học Osmania,MENTIONS_UNIVERSITY
+Olaf Scholz,Đại học Hamburg,MENTIONS_UNIVERSITY
+Olof Palme,Đại học Stockholm,MENTIONS_UNIVERSITY
 Paavo Lipponen,Đại học Dartmouth,MENTIONS_UNIVERSITY
 Paavo Lipponen,Đại học Helsinki,MENTIONS_UNIVERSITY
-Nguyễn Xuân Phúc,Trường Đại học Kinh tế Quốc dân,MENTIONS_UNIVERSITY
-Nguyễn Xuân Phúc,Học viện Hành chính Quốc gia,MENTIONS_UNIVERSITY
-Nguyễn Xuân Phúc,Đại học Quốc gia Singapore,MENTIONS_UNIVERSITY
-Nguyễn Xuân Phúc,Học viện Chính trị Quốc gia Hồ Chí Minh,MENTIONS_UNIVERSITY
-Nguyễn Xuân Phúc,Đại học Waseda,MENTIONS_UNIVERSITY
-Paul Deschanel,Đại học Paris,MENTIONS_UNIVERSITY
-Paul Ryan,Đại học Miami,MENTIONS_UNIVERSITY
+Otto von Bismarck,Đại học Göttingen,MENTIONS_UNIVERSITY
+Pakalitha Mosisili,Đại học Simon Fraser,MENTIONS_UNIVERSITY
 Paolo Gentiloni,Đại học Roma Sapienza,MENTIONS_UNIVERSITY
+Paul Deschanel,Đại học Paris,MENTIONS_UNIVERSITY
 Park Geun-hye,Đại học Sogang,MENTIONS_UNIVERSITY
 Park Geun-hye,Đại học Paris,MENTIONS_UNIVERSITY
-Pedro Passos Coelho,Đại học Lisboa,MENTIONS_UNIVERSITY
-Patrice de Mac Mahon,École spéciale militaire de Saint-Cyr,MENTIONS_UNIVERSITY
+Paetongtarn Shinawatra,Đại học Chulalongkorn,MENTIONS_UNIVERSITY
+Paetongtarn Shinawatra,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
 Paul Doumer,Đại học Paris,MENTIONS_UNIVERSITY
-Mikhail Sergeyevich Gorbachyov,Đại học Quốc gia Moskva,MENTIONS_UNIVERSITY
+Paul Ryan,Đại học Miami,MENTIONS_UNIVERSITY
+Patrice de Mac Mahon,École spéciale militaire de Saint-Cyr,MENTIONS_UNIVERSITY
 Paul Martin,Đại học Toronto,MENTIONS_UNIVERSITY
-Nelson Mandela,Đại học London,MENTIONS_UNIVERSITY
-Nelson Mandela,Đại học Witwatersrand,MENTIONS_UNIVERSITY
+Park Chung-hee,Trường Sĩ quan Lục quân (Đế quốc Nhật Bản),MENTIONS_UNIVERSITY
+Park Chung-hee,Đại học Quốc gia Seoul,MENTIONS_UNIVERSITY
+Pedro Passos Coelho,Đại học Lisboa,MENTIONS_UNIVERSITY
+Peter A. Diamond,Đại học California tại Berkeley,MENTIONS_UNIVERSITY
 Paul Samuelson,Đại học Chicago,MENTIONS_UNIVERSITY
 Pehr Evind Svinhufvud,Đại học Helsinki,MENTIONS_UNIVERSITY
-Peter A. Diamond,Đại học California tại Berkeley,MENTIONS_UNIVERSITY
+Pete Buttigieg,Đại học Notre Dame,MENTIONS_UNIVERSITY
+Pete Buttigieg,Đại học Texas tại Austin,MENTIONS_UNIVERSITY
+Pete Buttigieg,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
+Pedro Sánchez,Đại học Complutense Madrid,MENTIONS_UNIVERSITY
+Petr Pavel,Đại học Nhà vua Luân Đôn,MENTIONS_UNIVERSITY
 Petr Fiala,Đại học Masaryk,MENTIONS_UNIVERSITY
 Petr Fiala,Đại học Charles ở Praha,MENTIONS_UNIVERSITY
-Pete Hegseth,Đại học Princeton,MENTIONS_UNIVERSITY
-Pete Hegseth,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
-Petr Pavel,Đại học Nhà vua Luân Đôn,MENTIONS_UNIVERSITY
+Phan Công Thắng,Đại học Nhân dân Trung Quốc,MENTIONS_UNIVERSITY
+Phan Công Thắng,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
+Phil Scott,Đại học Vermont,MENTIONS_UNIVERSITY
 Phan Nhạc (chính khách),Đại học Nhân dân Trung Quốc,MENTIONS_UNIVERSITY
 Phan Nhạc (chính khách),Đại học Chiết Giang,MENTIONS_UNIVERSITY
 Phan Nhạc (chính khách),Đại học Sư phạm Hoa Trung,MENTIONS_UNIVERSITY
 Phan Nhạc (chính khách),Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
 Phan Nhạc (chính khách),Đại học Quốc phòng Trung Quốc,MENTIONS_UNIVERSITY
-Phan Công Thắng,Đại học Nhân dân Trung Quốc,MENTIONS_UNIVERSITY
-Phan Công Thắng,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
-Pedro Sánchez,Đại học Complutense Madrid,MENTIONS_UNIVERSITY
-Pete Ricketts,Đại học Chicago,MENTIONS_UNIVERSITY
-Pranab Mukherjee,Đại học Calcutta,MENTIONS_UNIVERSITY
-Pierre Mendès France,Đại học Paris,MENTIONS_UNIVERSITY
 Phumtham Wechayachai,Đại học Chulalongkorn,MENTIONS_UNIVERSITY
-Phil Murphy,Đại học Pennsylvania,MENTIONS_UNIVERSITY
-Phil Murphy,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
-Pete Buttigieg,Đại học Notre Dame,MENTIONS_UNIVERSITY
-Pete Buttigieg,Đại học Texas tại Austin,MENTIONS_UNIVERSITY
-Pete Buttigieg,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
 Pierre Trudeau,Viện Nghiên cứu Chính trị Paris,MENTIONS_UNIVERSITY
 Pierre Trudeau,Trường Kinh tế London,MENTIONS_UNIVERSITY
+Pete Ricketts,Đại học Chicago,MENTIONS_UNIVERSITY
+Pranab Mukherjee,Đại học Calcutta,MENTIONS_UNIVERSITY
+Pete Hegseth,Đại học Princeton,MENTIONS_UNIVERSITY
+Pete Hegseth,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
+Phil Murphy,Đại học Pennsylvania,MENTIONS_UNIVERSITY
+Phil Murphy,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
 Prokopis Pavlopoulos,Đại học Athena,MENTIONS_UNIVERSITY
 Prokopis Pavlopoulos,Trường Đại học Panthéon-Assas,MENTIONS_UNIVERSITY
+Pierre Mendès France,Đại học Paris,MENTIONS_UNIVERSITY
 Rafael Erich,Đại học Helsinki,MENTIONS_UNIVERSITY
-Phil Scott,Đại học Vermont,MENTIONS_UNIVERSITY
 Rafael Mandelman,"Đại học California, Berkeley",MENTIONS_UNIVERSITY
-Rajendra Prasad,Đại học Calcutta,MENTIONS_UNIVERSITY
-Rand Paul,Đại học Duke,MENTIONS_UNIVERSITY
+Noam Chomsky,Đại học Pennsylvania,MENTIONS_UNIVERSITY
+Noam Chomsky,Đại học Chicago,MENTIONS_UNIVERSITY
+Noam Chomsky,Đại học Columbia,MENTIONS_UNIVERSITY
+Noam Chomsky,Đại học London,MENTIONS_UNIVERSITY
 Phạm Minh Chính,Học viện Quan hệ Quốc tế,MENTIONS_UNIVERSITY
 Phạm Minh Chính,Trường Đại học Hà Nội,MENTIONS_UNIVERSITY
 Phạm Minh Chính,Đại học Xây dựng Bucarest,MENTIONS_UNIVERSITY
 Phạm Minh Chính,Học viện Chính trị Quốc gia Hồ Chí Minh,MENTIONS_UNIVERSITY
 Phạm Minh Chính,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
+Rajendra Prasad,Đại học Calcutta,MENTIONS_UNIVERSITY
+Rand Paul,Đại học Duke,MENTIONS_UNIVERSITY
 Recep Tayyip Erdoğan,Đại học Marmara,MENTIONS_UNIVERSITY
 Ramón Grau,Đại học La Habana,MENTIONS_UNIVERSITY
+Raymond Poincaré,Đại học Paris,MENTIONS_UNIVERSITY
+Reuven Rivlin,Đại học Hebrew của Jerusalem,MENTIONS_UNIVERSITY
+Richard Rush,Đại học Princeton,MENTIONS_UNIVERSITY
+Ricardo Rosselló,Đại học Michigan,MENTIONS_UNIVERSITY
 René Descartes,Đại học Leiden,MENTIONS_UNIVERSITY
 René Descartes,Đại học Utrecht,MENTIONS_UNIVERSITY
-Raymond Poincaré,Đại học Paris,MENTIONS_UNIVERSITY
-Rex Tillerson,Đại học Texas tại Austin,MENTIONS_UNIVERSITY
-Richard Rush,Đại học Princeton,MENTIONS_UNIVERSITY
+Richard Wagner,Đại học Leipzig,MENTIONS_UNIVERSITY
 Richard von Weizsäcker,Đại học Göttingen,MENTIONS_UNIVERSITY
+Rex Tillerson,Đại học Texas tại Austin,MENTIONS_UNIVERSITY
 Robert A. Heinlein,Học viện Hải quân Hoa Kỳ,MENTIONS_UNIVERSITY
-Reuven Rivlin,Đại học Hebrew của Jerusalem,MENTIONS_UNIVERSITY
-Ricardo Rosselló,Đại học Michigan,MENTIONS_UNIVERSITY
+Robert Bridges,Eton College,MENTIONS_UNIVERSITY
 Robert F. Kennedy,Đại học Virginia,MENTIONS_UNIVERSITY
+Robert Abela,Đại học Malta,MENTIONS_UNIVERSITY
+Robert F. Engle,Đại học New York,MENTIONS_UNIVERSITY
+Robert F. Engle,Đại học Cornell,MENTIONS_UNIVERSITY
+Robert McNamara,"University of California, Berkeley",MENTIONS_UNIVERSITY
+"Robert Lucas, Jr.",Đại học Carnegie Mellon,MENTIONS_UNIVERSITY
+"Robert Lucas, Jr.",Đại học Chicago,MENTIONS_UNIVERSITY
+"Robert Lucas, Jr.",University of Chicago,MENTIONS_UNIVERSITY
 Robert Fogel,Đại học Cornell,MENTIONS_UNIVERSITY
 Robert Fogel,Đại học Columbia,MENTIONS_UNIVERSITY
 Robert Fogel,Đại học Johns Hopkins,MENTIONS_UNIVERSITY
 Robert Fogel,Đại học Chicago,MENTIONS_UNIVERSITY
 Robert Fogel,University of Chicago,MENTIONS_UNIVERSITY
-Richard Wagner,Đại học Leipzig,MENTIONS_UNIVERSITY
-Robert Abela,Đại học Malta,MENTIONS_UNIVERSITY
-"Robert Lucas, Jr.",Đại học Carnegie Mellon,MENTIONS_UNIVERSITY
-"Robert Lucas, Jr.",Đại học Chicago,MENTIONS_UNIVERSITY
-"Robert Lucas, Jr.",University of Chicago,MENTIONS_UNIVERSITY
-Robert Bridges,Eton College,MENTIONS_UNIVERSITY
-Robert McNamara,"University of California, Berkeley",MENTIONS_UNIVERSITY
+Robert Mueller,Đại học Princeton,MENTIONS_UNIVERSITY
+Robert Mueller,Đại học New York,MENTIONS_UNIVERSITY
+Robert Mueller,Đại học Virginia,MENTIONS_UNIVERSITY
+Robert Menzies,Đại học Melbourne,MENTIONS_UNIVERSITY
 Robert Mundell,Đại học Johns Hopkins,MENTIONS_UNIVERSITY
 Robert Mundell,Đại học Chicago,MENTIONS_UNIVERSITY
 Robert Mundell,Đại học McGill,MENTIONS_UNIVERSITY
 Robert Mundell,Trường Kinh tế London,MENTIONS_UNIVERSITY
 Robert Mundell,Đại học Washington,MENTIONS_UNIVERSITY
 Robert Mundell,Đại học Columbia,MENTIONS_UNIVERSITY
-Robert F. Engle,Đại học New York,MENTIONS_UNIVERSITY
-Robert F. Engle,Đại học Cornell,MENTIONS_UNIVERSITY
 Robert Mugabe,Đại học London,MENTIONS_UNIVERSITY
-Robert Mueller,Đại học Princeton,MENTIONS_UNIVERSITY
-Robert Mueller,Đại học New York,MENTIONS_UNIVERSITY
-Robert Mueller,Đại học Virginia,MENTIONS_UNIVERSITY
-Robert Menzies,Đại học Melbourne,MENTIONS_UNIVERSITY
 Robert Schumann,Đại học Leipzig,MENTIONS_UNIVERSITY
 Robert Schumann,Đại học Heidelberg,MENTIONS_UNIVERSITY
+Richard Nixon,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
+Richard Nixon,Đại học Duke,MENTIONS_UNIVERSITY
 Roman Herzog,Đại học Ludwig Maximilian Munich,MENTIONS_UNIVERSITY
 Roger Martin du Gard,École du Louvre,MENTIONS_UNIVERSITY
-Robert R. Redfield,Đại học Georgetown,MENTIONS_UNIVERSITY
-Rudolf Hess,Đại học Munich,MENTIONS_UNIVERSITY
+Roger Ebert,Đại học Chicago,MENTIONS_UNIVERSITY
+Ron Paul,Đại học Duke,MENTIONS_UNIVERSITY
 Romano Prodi,Università Cattolica del Sacro Cuore,MENTIONS_UNIVERSITY
 Romano Prodi,Trường Kinh tế London,MENTIONS_UNIVERSITY
-Ron Paul,Đại học Duke,MENTIONS_UNIVERSITY
-Roger Ebert,Đại học Chicago,MENTIONS_UNIVERSITY
-Ruth Bader Ginsburg,Cornell University,MENTIONS_UNIVERSITY
-Roscoe H. Hillenkoetter,Học viện Hải quân Hoa Kỳ,MENTIONS_UNIVERSITY
-Rudy Giuliani,New York University,MENTIONS_UNIVERSITY
+Robert R. Redfield,Đại học Georgetown,MENTIONS_UNIVERSITY
 Ronald Coase,Đại học Virginia,MENTIONS_UNIVERSITY
 Ronald Coase,Đại học Chicago,MENTIONS_UNIVERSITY
 Ronald Coase,Trường Kinh tế London,MENTIONS_UNIVERSITY
-Roy Cooper,Đại học North Carolina tại Chapel Hill,MENTIONS_UNIVERSITY
-Roy Cooper,Đại học Duke,MENTIONS_UNIVERSITY
+Rudy Giuliani,New York University,MENTIONS_UNIVERSITY
 Ron DeSantis,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
 Ron DeSantis,Trường Luật Harvard,MENTIONS_UNIVERSITY
-Salman Rushdie,Đại học New York,MENTIONS_UNIVERSITY
-Sam Lansky,The New School,MENTIONS_UNIVERSITY
+Roscoe H. Hillenkoetter,Học viện Hải quân Hoa Kỳ,MENTIONS_UNIVERSITY
+Rudolf Hess,Đại học Munich,MENTIONS_UNIVERSITY
+Ruth Bader Ginsburg,Cornell University,MENTIONS_UNIVERSITY
 Sali Berisha,Đại học Tirana,MENTIONS_UNIVERSITY
-Saitō Makoto,Học viện Hải quân Đế quốc Nhật Bản,MENTIONS_UNIVERSITY
+Saif al-Islam Gaddafi,Trường Kinh tế và Khoa học Chính trị Luân Đôn,MENTIONS_UNIVERSITY
 Sam Brownback,Kansas State University,MENTIONS_UNIVERSITY
 Sam Nunn,Viện Công nghệ Georgia,MENTIONS_UNIVERSITY
-Saif al-Islam Gaddafi,Trường Kinh tế và Khoa học Chính trị Luân Đôn,MENTIONS_UNIVERSITY
-Richard Nixon,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
-Richard Nixon,Đại học Duke,MENTIONS_UNIVERSITY
-Samak Sundaravej,Đại học Thammasat,MENTIONS_UNIVERSITY
-Sebastian Kurz,Đại học Viên,MENTIONS_UNIVERSITY
+Sam Lansky,The New School,MENTIONS_UNIVERSITY
 Saionji Kinmochi,Đại học Paris,MENTIONS_UNIVERSITY
+Saitō Makoto,Học viện Hải quân Đế quốc Nhật Bản,MENTIONS_UNIVERSITY
+Samak Sundaravej,Đại học Thammasat,MENTIONS_UNIVERSITY
+Salman Rushdie,Đại học New York,MENTIONS_UNIVERSITY
+Sellapan Ramanathan,Đại học Malaya,MENTIONS_UNIVERSITY
 Scott Morrison,Đại học New South Wales,MENTIONS_UNIVERSITY
+Satya Nadella,Đại học Chicago,MENTIONS_UNIVERSITY
+Satya Nadella,University of Chicago,MENTIONS_UNIVERSITY
+Sebastian Kurz,Đại học Viên,MENTIONS_UNIVERSITY
+Roy Cooper,Đại học North Carolina tại Chapel Hill,MENTIONS_UNIVERSITY
+Roy Cooper,Đại học Duke,MENTIONS_UNIVERSITY
 Satō Eisaku,Đại học Tokyo,MENTIONS_UNIVERSITY
 Sergio Mattarella,Đại học Sapienza của Rome,MENTIONS_UNIVERSITY
-Sellapan Ramanathan,Đại học Malaya,MENTIONS_UNIVERSITY
+Somchai Wongsawat,Đại học Thammasat,MENTIONS_UNIVERSITY
+Slobodan Milošević,Đại học Beograd,MENTIONS_UNIVERSITY
 Simon Kuznets,Đại học Johns Hopkins,MENTIONS_UNIVERSITY
 Simon Kuznets,Đại học Pennsylvania,MENTIONS_UNIVERSITY
 Simon Kuznets,Đại học Columbia,MENTIONS_UNIVERSITY
+Sigmar Gabriel,Đại học Göttingen,MENTIONS_UNIVERSITY
 Shimon Peres,The New School,MENTIONS_UNIVERSITY
 Shimon Peres,Đại học New York,MENTIONS_UNIVERSITY
-Satya Nadella,Đại học Chicago,MENTIONS_UNIVERSITY
-Satya Nadella,University of Chicago,MENTIONS_UNIVERSITY
 Silvio Berlusconi,Đại học Milano,MENTIONS_UNIVERSITY
-Spencer Cox,Trường Luật Harvard,MENTIONS_UNIVERSITY
-Somchai Wongsawat,Đại học Thammasat,MENTIONS_UNIVERSITY
-Slobodan Milošević,Đại học Beograd,MENTIONS_UNIVERSITY
 Stefan Löfven,Đại học Umeå,MENTIONS_UNIVERSITY
-Sigmar Gabriel,Đại học Göttingen,MENTIONS_UNIVERSITY
-Steven Chu,Đại học California tại Berkeley,MENTIONS_UNIVERSITY
-Steven Chu,Đại học Cornell,MENTIONS_UNIVERSITY
-Srettha Thavisin,Đại học Chulalongkorn,MENTIONS_UNIVERSITY
 Stephen Kotkin,"Đại học California, Berkeley",MENTIONS_UNIVERSITY
+Spencer Cox,Trường Luật Harvard,MENTIONS_UNIVERSITY
+Srettha Thavisin,Đại học Chulalongkorn,MENTIONS_UNIVERSITY
+Ronald Reagan,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
+Ronald Reagan,Đại học California tại Berkeley,MENTIONS_UNIVERSITY
+Ronald Reagan,Đại học Quốc gia Moskva,MENTIONS_UNIVERSITY
+Ronald Reagan,Học viện Quân sự Hoa Kỳ,MENTIONS_UNIVERSITY
+Sukarno,Đại học Beograd,MENTIONS_UNIVERSITY
 Suthep Thaugsuban,Đại học Chiang Mai,MENTIONS_UNIVERSITY
 Sébastien Lecornu,Đại học Panthéon-Assas,MENTIONS_UNIVERSITY
+Steven Chu,Đại học California tại Berkeley,MENTIONS_UNIVERSITY
+Steven Chu,Đại học Cornell,MENTIONS_UNIVERSITY
 Tage Erlander,Đại học Lund,MENTIONS_UNIVERSITY
 Tanigaki Sadakazu,Đại học Tokyo,MENTIONS_UNIVERSITY
-Sukarno,Đại học Beograd,MENTIONS_UNIVERSITY
 Tarja Halonen,Đại học Helsinki,MENTIONS_UNIVERSITY
+Ted Kennedy,University of Virginia,MENTIONS_UNIVERSITY
+Ted Cruz,Đại học Princeton,MENTIONS_UNIVERSITY
+Teuvo Aura,Đại học Helsinki,MENTIONS_UNIVERSITY
 Takeshita Noboru,Đại học Waseda,MENTIONS_UNIVERSITY
 Takeshita Noboru,Đại học Toronto,MENTIONS_UNIVERSITY
-Ted Kennedy,University of Virginia,MENTIONS_UNIVERSITY
-Takaichi Sanae,Đại học Kobe,MENTIONS_UNIVERSITY
-Teuvo Aura,Đại học Helsinki,MENTIONS_UNIVERSITY
 Thabo Mbeki,University of London,MENTIONS_UNIVERSITY
-Tate Reeves,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
-Ted Cruz,Đại học Princeton,MENTIONS_UNIVERSITY
+Takaichi Sanae,Đại học Kobe,MENTIONS_UNIVERSITY
 Tharman Shanmugaratnam,Trường Kinh tế London,MENTIONS_UNIVERSITY
-Theodor Heuss,Đại học Ludwig Maximilian Munich,MENTIONS_UNIVERSITY
+Tate Reeves,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
 Theodore Schultz,Đại học Chicago,MENTIONS_UNIVERSITY
 Theodore Schultz,Đại học Wisconsin–Madison,MENTIONS_UNIVERSITY
+Theodor Mommsen,Đại học Leipzig,MENTIONS_UNIVERSITY
+Theodor Heuss,Đại học Ludwig Maximilian Munich,MENTIONS_UNIVERSITY
+Thaksin Shinawatra,Đại học Thammasat,MENTIONS_UNIVERSITY
 Thomas J. Sargent,Đại học California tại Berkeley,MENTIONS_UNIVERSITY
 Thomas J. Sargent,Đại học Pennsylvania,MENTIONS_UNIVERSITY
 Thomas J. Sargent,Đại học Minnesota,MENTIONS_UNIVERSITY
 Thomas J. Sargent,Đại học Chicago,MENTIONS_UNIVERSITY
 Thomas J. Sargent,Đại học Princeton,MENTIONS_UNIVERSITY
 Thomas J. Sargent,Đại học New York,MENTIONS_UNIVERSITY
+Thomas Hardy,Đại học Nhà vua Luân Đôn,MENTIONS_UNIVERSITY
+Thomas Piketty,École normale supérieure,MENTIONS_UNIVERSITY
 Thomas Mann,Đại học Ludwig Maximilian München,MENTIONS_UNIVERSITY
 Thomas Mann,Đại học Kỹ thuật München,MENTIONS_UNIVERSITY
-Theodor Mommsen,Đại học Leipzig,MENTIONS_UNIVERSITY
-Thomas Hardy,Đại học Nhà vua Luân Đôn,MENTIONS_UNIVERSITY
-Thaksin Shinawatra,Đại học Thammasat,MENTIONS_UNIVERSITY
-Theodore Roosevelt,Học viện Hải quân Hoa Kỳ,MENTIONS_UNIVERSITY
-Thomas Piketty,École normale supérieure,MENTIONS_UNIVERSITY
 Theodore Roosevelt Jr.,Học viện Quân sự Hoa Kỳ,MENTIONS_UNIVERSITY
 Theodore Roosevelt Jr.,Học viện Hải quân Hoa Kỳ,MENTIONS_UNIVERSITY
+Thomas More,Đại học Malta,MENTIONS_UNIVERSITY
+Thận Hải Hùng,Đại học Giao thông Thượng Hải,MENTIONS_UNIVERSITY
+Thẩm Dược Dược,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
 Thái Anh Văn,Đại học quốc lập Đài Loan,MENTIONS_UNIVERSITY
 Thái Anh Văn,Đại học Cornell,MENTIONS_UNIVERSITY
 Thái Anh Văn,Đại học London,MENTIONS_UNIVERSITY
 Thái Anh Văn,Trường Kinh tế và Khoa học Chính trị Luân Đôn,MENTIONS_UNIVERSITY
-Thái Kỳ,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
-Thomas More,Đại học Malta,MENTIONS_UNIVERSITY
-Ronald Reagan,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
-Ronald Reagan,Đại học California tại Berkeley,MENTIONS_UNIVERSITY
-Ronald Reagan,Đại học Quốc gia Moskva,MENTIONS_UNIVERSITY
-Ronald Reagan,Học viện Quân sự Hoa Kỳ,MENTIONS_UNIVERSITY
-Thẩm Dược Dược,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
-Tony Abbott,Đại học Sydney,MENTIONS_UNIVERSITY
-Tony Atkinson,Trường Kinh tế Luân Đôn,MENTIONS_UNIVERSITY
-Tony Atkinson,Trường Kinh tế và Khoa học Chính trị Luân Đôn,MENTIONS_UNIVERSITY
-Tom Wolf,Đại học Dartmouth,MENTIONS_UNIVERSITY
-Tom Wolf,Đại học London,MENTIONS_UNIVERSITY
-Tom Wolf,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
-Tom Wolf,Đại học Luân Đôn,MENTIONS_UNIVERSITY
-Toomas Hendrik Ilves,Đại học Pennsylvania,MENTIONS_UNIVERSITY
+Thaddeus Stevens,Đại học Dartmouth,MENTIONS_UNIVERSITY
+Thaddeus Stevens,Đại học Vermont,MENTIONS_UNIVERSITY
+Theodore Roosevelt,Học viện Hải quân Hoa Kỳ,MENTIONS_UNIVERSITY
 Thạch Thái Phong,Đại học Bắc Kinh,MENTIONS_UNIVERSITY
 Thạch Thái Phong,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
 Thạch Thái Phong,Đại học Amsterdam,MENTIONS_UNIVERSITY
-Thận Hải Hùng,Đại học Giao thông Thượng Hải,MENTIONS_UNIVERSITY
+Thái Kỳ,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
+Thomas Jefferson,Đại học William và Mary,MENTIONS_UNIVERSITY
+Thomas Jefferson,Đại học William & Mary,MENTIONS_UNIVERSITY
+Thomas Jefferson,Đại học Virginia,MENTIONS_UNIVERSITY
+Tony Abbott,Đại học Sydney,MENTIONS_UNIVERSITY
+Tim Cook,Đại học Duke,MENTIONS_UNIVERSITY
+Tim Cook,Duke University,MENTIONS_UNIVERSITY
+Tim Cook,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
 Triệu Hồng Chúc,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
-Trần Khánh Viêm,Đại học Quốc gia Singapore,MENTIONS_UNIVERSITY
-Trần Khánh Viêm,Đại học Adelaide,MENTIONS_UNIVERSITY
+Toomas Hendrik Ilves,Đại học Pennsylvania,MENTIONS_UNIVERSITY
+Tony Evers,Đại học Wisconsin-Madison,MENTIONS_UNIVERSITY
+Tony Evers,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
 Trygve Haavelmo,Đại học Aarhus,MENTIONS_UNIVERSITY
 Trygve Haavelmo,Đại học Chicago,MENTIONS_UNIVERSITY
 Trygve Haavelmo,Đại học Oslo,MENTIONS_UNIVERSITY
 Triệu Lạc Tế,Đại học Bắc Kinh,MENTIONS_UNIVERSITY
 Triệu Lạc Tế,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
-Tim Cook,Đại học Duke,MENTIONS_UNIVERSITY
-Tim Cook,Duke University,MENTIONS_UNIVERSITY
-Tim Cook,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
 Triệu Khắc Chí,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
 Trương Quân,Đại học Cát Lâm,MENTIONS_UNIVERSITY
 Trương Quân,Đại học Nhân dân Trung Quốc,MENTIONS_UNIVERSITY
 Trương Quân,Đại học Vũ Hán,MENTIONS_UNIVERSITY
 Trương Quân,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
 Trương Quân,Đại học Bắc Kinh,MENTIONS_UNIVERSITY
-Thầm Di Cầm,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
-Trương Quốc Thanh,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
-Trương Quốc Thanh,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
-Trần Phùng Phú Trân,Đại học Quốc gia Singapore,MENTIONS_UNIVERSITY
-Trần Thủy Biển,Đại học quốc lập Đài Loan,MENTIONS_UNIVERSITY
-Trần Thủy Biển,Đại học California tại Berkeley,MENTIONS_UNIVERSITY
-Thaddeus Stevens,Đại học Dartmouth,MENTIONS_UNIVERSITY
-Thaddeus Stevens,Đại học Vermont,MENTIONS_UNIVERSITY
-Thomas Jefferson,Đại học William và Mary,MENTIONS_UNIVERSITY
-Thomas Jefferson,Đại học William & Mary,MENTIONS_UNIVERSITY
-Thomas Jefferson,Đại học Virginia,MENTIONS_UNIVERSITY
+Tony Atkinson,Trường Kinh tế Luân Đôn,MENTIONS_UNIVERSITY
+Tony Atkinson,Trường Kinh tế và Khoa học Chính trị Luân Đôn,MENTIONS_UNIVERSITY
 Trương Đức Giang,Đại học Tổng hợp Kim Nhật Thành,MENTIONS_UNIVERSITY
-Taylor Swift,Đại học New York,MENTIONS_UNIVERSITY
-Tony Evers,Đại học Wisconsin-Madison,MENTIONS_UNIVERSITY
-Tony Evers,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
-Trần Độc Tú,Đại học Waseda,MENTIONS_UNIVERSITY
-Tào Ngu,Đại học,MENTIONS_UNIVERSITY
-Tào Ngu,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
-Trần Mẫn Nhĩ,Trường Đảng Trung ương,MENTIONS_UNIVERSITY
-Trần Mẫn Nhĩ,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
+Trần Khánh Viêm,Đại học Quốc gia Singapore,MENTIONS_UNIVERSITY
+Trần Khánh Viêm,Đại học Adelaide,MENTIONS_UNIVERSITY
+Trần Phùng Phú Trân,Đại học Quốc gia Singapore,MENTIONS_UNIVERSITY
 Trần Lệ Xuân,Trường Trung học Albert Sarraut,MENTIONS_UNIVERSITY
-Tôn Nghiệp Lễ,Đại học Bắc Kinh,MENTIONS_UNIVERSITY
 Trần Nhất Tân,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
 Trần Nhất Tân,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
+Thầm Di Cầm,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
+Trần Độc Tú,Đại học Waseda,MENTIONS_UNIVERSITY
+Trần Mẫn Nhĩ,Trường Đảng Trung ương,MENTIONS_UNIVERSITY
+Trần Mẫn Nhĩ,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
+Tom Wolf,Đại học Dartmouth,MENTIONS_UNIVERSITY
+Tom Wolf,Đại học London,MENTIONS_UNIVERSITY
+Tom Wolf,Cử nhân Nghệ thuật,MENTIONS_UNIVERSITY
+Tom Wolf,Đại học Luân Đôn,MENTIONS_UNIVERSITY
 Trần Văn Thanh (chính khách Trung Quốc),Đại học Tứ Xuyên,MENTIONS_UNIVERSITY
-Uchibori Masao,Đại học Tokyo,MENTIONS_UNIVERSITY
 Trần Đức Lương,Trường Đại học Mỏ – Địa chất,MENTIONS_UNIVERSITY
 Trần Đức Lương,Học viện Chính trị Quốc gia Hồ Chí Minh,MENTIONS_UNIVERSITY
-Ulf Kristersson,Đại học Uppsala,MENTIONS_UNIVERSITY
+Trần Thủy Biển,Đại học quốc lập Đài Loan,MENTIONS_UNIVERSITY
+Trần Thủy Biển,Đại học California tại Berkeley,MENTIONS_UNIVERSITY
+Tào Ngu,Đại học,MENTIONS_UNIVERSITY
+Tào Ngu,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
+Tôn Nghiệp Lễ,Đại học Bắc Kinh,MENTIONS_UNIVERSITY
 Tăng Khánh Hồng,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
-Ueda Kazuo,Đại học Tokyo,MENTIONS_UNIVERSITY
 Tề Tâm,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
-Urho Kekkonen,Đại học Helsinki,MENTIONS_UNIVERSITY
-Valdis Dombrovskis,Đại học Latvia,MENTIONS_UNIVERSITY
+Ueda Kazuo,Đại học Tokyo,MENTIONS_UNIVERSITY
+Trịnh Sách Khiết,Trường Đảng Trung ương,MENTIONS_UNIVERSITY
 Tưởng Kinh Quốc,Đại học Tôn Trung Sơn Moskva,MENTIONS_UNIVERSITY
 Tưởng Kinh Quốc,Trường Đại học Lao động Cộng sản Phương Đông,MENTIONS_UNIVERSITY
+Ulf Kristersson,Đại học Uppsala,MENTIONS_UNIVERSITY
+Urho Kekkonen,Đại học Helsinki,MENTIONS_UNIVERSITY
+Uchibori Masao,Đại học Tokyo,MENTIONS_UNIVERSITY
 Ulysses S. Grant,Học viện Quân sự Hoa Kỳ,MENTIONS_UNIVERSITY
-Trịnh Sách Khiết,Trường Đảng Trung ương,MENTIONS_UNIVERSITY
 Ursula von der Leyen,University of Göttingen,MENTIONS_UNIVERSITY
 Uông Dương,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
+Valdis Dombrovskis,Đại học Latvia,MENTIONS_UNIVERSITY
+Trương Quốc Thanh,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
+Trương Quốc Thanh,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
 Viktor Fedorovych Yanukovych,Đại học Kỹ thuật Quốc gia Donetsk,MENTIONS_UNIVERSITY
 Vassiliki Thanou-Christophilou,Đại học Athens,MENTIONS_UNIVERSITY
 Vassiliki Thanou-Christophilou,Đại học Paris II,MENTIONS_UNIVERSITY
 Vassiliki Thanou-Christophilou,Trường Đại học Paris II,MENTIONS_UNIVERSITY
+Virginia Woolf,Đại học Nhà vua Luân Đôn,MENTIONS_UNIVERSITY
 Valéry Giscard d'Estaing,Trường Bách khoa Paris,MENTIONS_UNIVERSITY
 Valéry Giscard d'Estaing,Trường Hành chính quốc gia (Pháp),MENTIONS_UNIVERSITY
-Tập Cận Bình,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
-Tập Cận Bình,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
-Tập Cận Bình,Viện Khoa học Trung Quốc,MENTIONS_UNIVERSITY
-Virginia Woolf,Đại học Nhà vua Luân Đôn,MENTIONS_UNIVERSITY
 Vu Vĩ Quốc,Đại học Nhân dân Trung Quốc,MENTIONS_UNIVERSITY
-Võ Thị Ánh Xuân,Học viện Hành chính Quốc gia,MENTIONS_UNIVERSITY
-Võ Thị Ánh Xuân,Đại học Cần Thơ,MENTIONS_UNIVERSITY
 Vũ Văn Mẫu,"Trường Trung học phổ thông Chu Văn An, Hà Nội",MENTIONS_UNIVERSITY
 Vũ Văn Mẫu,Trường Trung học Albert Sarraut,MENTIONS_UNIVERSITY
 Vũ Văn Mẫu,Viện Đại học Đông Dương,MENTIONS_UNIVERSITY
-Vương Hỗ Ninh,Đại học Phục Đán,MENTIONS_UNIVERSITY
-Vương Hỗ Ninh,Đại học Sư phạm Hoa Đông,MENTIONS_UNIVERSITY
-Vương Hỗ Ninh,Đại học California tại Berkeley,MENTIONS_UNIVERSITY
-Vương Hy Cần,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
-Vương Quân (sinh năm 1958),Đại học Bắc Kinh,MENTIONS_UNIVERSITY
 Viện Công nghệ Massachusetts,University of Chicago,MENTIONS_UNIVERSITY
 Viện Công nghệ Massachusetts,Đại học California,MENTIONS_UNIVERSITY
 Viện Công nghệ Massachusetts,Đại học California tại Berkeley,MENTIONS_UNIVERSITY
@@ -1168,67 +1157,85 @@ Viện Công nghệ Massachusetts,Đại học Tokyo,MENTIONS_UNIVERSITY
 Viện Công nghệ Massachusetts,Đại học Keio,MENTIONS_UNIVERSITY
 Viện Công nghệ Massachusetts,Đại học Chiết Giang,MENTIONS_UNIVERSITY
 Viện Công nghệ Massachusetts,Đại học Quốc gia Singapore,MENTIONS_UNIVERSITY
-Wakatsuki Reijirō,Đại học Tokyo,MENTIONS_UNIVERSITY
-Wael Nader al-Halqi,Đại học Damascus,MENTIONS_UNIVERSITY
-Võ Nguyên Giáp,Viện Đại học Đông Dương,MENTIONS_UNIVERSITY
-Võ Nguyên Giáp,Trường Trung học phổ thông chuyên Quốc Học,MENTIONS_UNIVERSITY
-Võ Nguyên Giáp,Trường Trung học Albert Sarraut,MENTIONS_UNIVERSITY
-Võ Nguyên Giáp,Đại học Cornell,MENTIONS_UNIVERSITY
-Vương tôn William xứ Gloucester,Eton College,MENTIONS_UNIVERSITY
-Vương Tường Hỉ,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
-Vương Đông Minh,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
-Vương Tiểu Hồng,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
-Vương Văn Đào,Đại học Phục Đán,MENTIONS_UNIVERSITY
-Vương Văn Đào,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
-Vincent van Gogh,Đại học Leiden,MENTIONS_UNIVERSITY
-William A. Wheeler,Đại học Vermont,MENTIONS_UNIVERSITY
-Wilfrid Laurier,Đại học McGill,MENTIONS_UNIVERSITY
-Vladimir Vladimirovich Putin,Đại học Tổng hợp Sankt-Peterburg,MENTIONS_UNIVERSITY
-Werner Faymann,Đại học Viên,MENTIONS_UNIVERSITY
-Vương Quảng Hoa,Đại học Bắc Kinh,MENTIONS_UNIVERSITY
-Vương Quảng Hoa,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
-Wilhelm Frick,Đại học München,MENTIONS_UNIVERSITY
-Wilhelm Frick,Đại học Göttingen,MENTIONS_UNIVERSITY
-Wilhelm Frick,Đại học Berlin,MENTIONS_UNIVERSITY
-Wilhelm Frick,Đại học Heidelberg,MENTIONS_UNIVERSITY
-Walter Mondale,Đại học Minnesota,MENTIONS_UNIVERSITY
-William P. Rogers,Đại học Colgate,MENTIONS_UNIVERSITY
-William P. Rogers,Đại học Cornell,MENTIONS_UNIVERSITY
-William Lyon Mackenzie King,Đại học Toronto,MENTIONS_UNIVERSITY
-William Lyon Mackenzie King,Đại học Chicago,MENTIONS_UNIVERSITY
 Võ Văn Thưởng,Trường Đại học Tổng hợp Thành phố Hồ Chí Minh,MENTIONS_UNIVERSITY
 Võ Văn Thưởng,"Trường Đại học Khoa học Xã hội và Nhân văn, Đại học Quốc gia Thành phố Hồ Chí Minh",MENTIONS_UNIVERSITY
 Võ Văn Thưởng,Học viện Hành chính Quốc gia,MENTIONS_UNIVERSITY
 Võ Văn Thưởng,Học viện Chính trị Quốc gia Hồ Chí Minh,MENTIONS_UNIVERSITY
-William Henry Harrison,Đại học Pennsylvania,MENTIONS_UNIVERSITY
-William R. King,University of North Carolina at Chapel Hill,MENTIONS_UNIVERSITY
-William Vickrey,Đại học Columbia,MENTIONS_UNIVERSITY
+Vincent van Gogh,Đại học Leiden,MENTIONS_UNIVERSITY
+Vladimir Vladimirovich Putin,Đại học Tổng hợp Sankt-Peterburg,MENTIONS_UNIVERSITY
+Võ Thị Ánh Xuân,Học viện Hành chính Quốc gia,MENTIONS_UNIVERSITY
+Võ Thị Ánh Xuân,Đại học Cần Thơ,MENTIONS_UNIVERSITY
+Vương Quân (sinh năm 1958),Đại học Bắc Kinh,MENTIONS_UNIVERSITY
+Vương Hy Cần,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
+Võ Nguyên Giáp,Viện Đại học Đông Dương,MENTIONS_UNIVERSITY
+Võ Nguyên Giáp,Trường Trung học phổ thông chuyên Quốc Học,MENTIONS_UNIVERSITY
+Võ Nguyên Giáp,Trường Trung học Albert Sarraut,MENTIONS_UNIVERSITY
+Võ Nguyên Giáp,Đại học Cornell,MENTIONS_UNIVERSITY
+Vladimir Ilyich Lenin,Đại học Tổng hợp Sankt-Peterburg,MENTIONS_UNIVERSITY
+Vladimir Ilyich Lenin,Đại học Jagiellonia,MENTIONS_UNIVERSITY
+Vương tôn William xứ Gloucester,Eton College,MENTIONS_UNIVERSITY
+Wakatsuki Reijirō,Đại học Tokyo,MENTIONS_UNIVERSITY
+Wael Nader al-Halqi,Đại học Damascus,MENTIONS_UNIVERSITY
+Vương Quảng Hoa,Đại học Bắc Kinh,MENTIONS_UNIVERSITY
+Vương Quảng Hoa,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
+Vương Văn Đào,Đại học Phục Đán,MENTIONS_UNIVERSITY
+Vương Văn Đào,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
+Tập Cận Bình,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
+Tập Cận Bình,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
+Tập Cận Bình,Viện Khoa học Trung Quốc,MENTIONS_UNIVERSITY
+Vương Hỗ Ninh,Đại học Phục Đán,MENTIONS_UNIVERSITY
+Vương Hỗ Ninh,Đại học Sư phạm Hoa Đông,MENTIONS_UNIVERSITY
+Vương Hỗ Ninh,Đại học California tại Berkeley,MENTIONS_UNIVERSITY
+Walter Mondale,Đại học Minnesota,MENTIONS_UNIVERSITY
+Wilfrid Laurier,Đại học McGill,MENTIONS_UNIVERSITY
+Vương Tường Hỉ,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
+Wilhelm Frick,Đại học München,MENTIONS_UNIVERSITY
+Wilhelm Frick,Đại học Göttingen,MENTIONS_UNIVERSITY
+Wilhelm Frick,Đại học Berlin,MENTIONS_UNIVERSITY
+Wilhelm Frick,Đại học Heidelberg,MENTIONS_UNIVERSITY
+Vương Tiểu Hồng,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
+Taylor Swift,Đại học New York,MENTIONS_UNIVERSITY
+Werner Faymann,Đại học Viên,MENTIONS_UNIVERSITY
+Vương Đông Minh,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
+William A. Wheeler,Đại học Vermont,MENTIONS_UNIVERSITY
+William Lyon Mackenzie King,Đại học Toronto,MENTIONS_UNIVERSITY
+William Lyon Mackenzie King,Đại học Chicago,MENTIONS_UNIVERSITY
 William McMahon,Đại học Sydney,MENTIONS_UNIVERSITY
+William P. Rogers,Đại học Colgate,MENTIONS_UNIVERSITY
+William P. Rogers,Đại học Cornell,MENTIONS_UNIVERSITY
+William R. King,University of North Carolina at Chapel Hill,MENTIONS_UNIVERSITY
+William Henry Harrison,Đại học Pennsylvania,MENTIONS_UNIVERSITY
+William Vickrey,Đại học Columbia,MENTIONS_UNIVERSITY
 Win Myint,Đại học Yangon,MENTIONS_UNIVERSITY
 Wolfgang Schäuble,Đại học Freiburg,MENTIONS_UNIVERSITY
 Wolfgang Schäuble,Đại học Hamburg,MENTIONS_UNIVERSITY
 Yamauchi Hiroshi,Đại học Waseda,MENTIONS_UNIVERSITY
+Yegor Timurovich Gaidar,Đại học California tại Berkeley,MENTIONS_UNIVERSITY
+Yegor Timurovich Gaidar,Đại học Duke,MENTIONS_UNIVERSITY
+Włodzimierz Cimoszewicz,Đại học Warszawa,MENTIONS_UNIVERSITY
 Woodrow Wilson,Đại học Princeton,MENTIONS_UNIVERSITY
 Woodrow Wilson,Đại học Johns Hopkins,MENTIONS_UNIVERSITY
 Yevgeny Maksimovich Primakov,Đại học Quốc gia Moskva,MENTIONS_UNIVERSITY
-Vladimir Ilyich Lenin,Đại học Tổng hợp Sankt-Peterburg,MENTIONS_UNIVERSITY
-Vladimir Ilyich Lenin,Đại học Jagiellonia,MENTIONS_UNIVERSITY
-Włodzimierz Cimoszewicz,Đại học Warszawa,MENTIONS_UNIVERSITY
-Yegor Timurovich Gaidar,Đại học California tại Berkeley,MENTIONS_UNIVERSITY
-Yegor Timurovich Gaidar,Đại học Duke,MENTIONS_UNIVERSITY
-Yingluck Shinawatra,Đại học Chiang Mai,MENTIONS_UNIVERSITY
-Yingluck Shinawatra,Đại học Bang Kentucky,MENTIONS_UNIVERSITY
-Yoshida Shigeru,Đại học Tokyo,MENTIONS_UNIVERSITY
-Yoshida Shigeru,Đại học Keio,MENTIONS_UNIVERSITY
 Yun Bo-seon,Đại học Edinburgh,MENTIONS_UNIVERSITY
 Zbigniew Brzezinski,Đại học McGill,MENTIONS_UNIVERSITY
 Zara Tindall,Đại học Exeter,MENTIONS_UNIVERSITY
-Zulfikar Ali Bhutto,"Đại học California, Berkeley",MENTIONS_UNIVERSITY
-Zoran Milanović,Đại học Zagreb,MENTIONS_UNIVERSITY
+Âm Hòa Tuấn,Viện Khoa học Trung Quốc,MENTIONS_UNIVERSITY
+Yoshida Shigeru,Đại học Tokyo,MENTIONS_UNIVERSITY
+Yoshida Shigeru,Đại học Keio,MENTIONS_UNIVERSITY
+Ân Dũng,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
+Yoon Suk-yeol,Đại học Quốc gia Seoul,MENTIONS_UNIVERSITY
 Émile Loubet,Đại học Paris,MENTIONS_UNIVERSITY
+Yingluck Shinawatra,Đại học Chiang Mai,MENTIONS_UNIVERSITY
+Yingluck Shinawatra,Đại học Bang Kentucky,MENTIONS_UNIVERSITY
+Zoran Milanović,Đại học Zagreb,MENTIONS_UNIVERSITY
+Winston Churchill,Trường Harrow,MENTIONS_UNIVERSITY
 Édouard Philippe,Sciences Po,MENTIONS_UNIVERSITY
 Édouard Philippe,Trường Quốc gia Hành chính Pháp,MENTIONS_UNIVERSITY
-Ân Dũng,Đại học Thanh Hoa,MENTIONS_UNIVERSITY
+Zulfikar Ali Bhutto,"Đại học California, Berkeley",MENTIONS_UNIVERSITY
+Đường Lương Trí,Đại học Khoa học và Kỹ thuật Hoa Trung,MENTIONS_UNIVERSITY
+Đường Lương Trí,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
+Đỗ Gia Hào,Đại học Sư phạm Hoa Đông,MENTIONS_UNIVERSITY
+Đỗ Gia Hào,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
 Đại học Stanford,Đại học Princeton,MENTIONS_UNIVERSITY
 Đại học Stanford,Đại học Cornell,MENTIONS_UNIVERSITY
 Đại học Stanford,Đại học California,MENTIONS_UNIVERSITY
@@ -1254,21 +1261,8 @@ Zoran Milanović,Đại học Zagreb,MENTIONS_UNIVERSITY
 Đại học Stanford,Đại học Nam California,MENTIONS_UNIVERSITY
 Đại học Stanford,Đại học McGill,MENTIONS_UNIVERSITY
 Đại học Stanford,Đại học Toronto,MENTIONS_UNIVERSITY
-Âm Hòa Tuấn,Viện Khoa học Trung Quốc,MENTIONS_UNIVERSITY
-Winston Churchill,Trường Harrow,MENTIONS_UNIVERSITY
-Đỗ Gia Hào,Đại học Sư phạm Hoa Đông,MENTIONS_UNIVERSITY
-Đỗ Gia Hào,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
-Đại học Cambridge,Đại học Luân Đôn,MENTIONS_UNIVERSITY
-Đại học Cambridge,Đại học London,MENTIONS_UNIVERSITY
-Đại học Cambridge,Đại học Edinburgh,MENTIONS_UNIVERSITY
-Đại học Cambridge,Đại học Exeter,MENTIONS_UNIVERSITY
-Đại học Cambridge,Đại học Glasgow,MENTIONS_UNIVERSITY
-Đại học Cambridge,Đại học Nhà vua Luân Đôn,MENTIONS_UNIVERSITY
-Đại học Cambridge,Đại học Leeds,MENTIONS_UNIVERSITY
-Đại học Cambridge,Trường Kinh tế và Khoa học Chính trị Luân Đôn,MENTIONS_UNIVERSITY
-Đại học Cambridge,Đại học Nottingham,MENTIONS_UNIVERSITY
-Đường Lương Trí,Đại học Khoa học và Kỹ thuật Hoa Trung,MENTIONS_UNIVERSITY
-Đường Lương Trí,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
+Đổng Quân,Học viện Hải quân Đại Liên,MENTIONS_UNIVERSITY
+Đổng Quân,Đại học Quốc phòng Trung Quốc,MENTIONS_UNIVERSITY
 Đại học Harvard,Trường sau đại học,MENTIONS_UNIVERSITY
 Đại học Harvard,Đại học Columbia,MENTIONS_UNIVERSITY
 Đại học Harvard,Trường Luật Harvard,MENTIONS_UNIVERSITY
@@ -1296,16 +1290,6 @@ Winston Churchill,Trường Harrow,MENTIONS_UNIVERSITY
 Đại học Harvard,Đại học Princeton,MENTIONS_UNIVERSITY
 Đại học Harvard,Đại học McGill,MENTIONS_UNIVERSITY
 Đại học Harvard,Đại học Toronto,MENTIONS_UNIVERSITY
-Yoon Suk-yeol,Đại học Quốc gia Seoul,MENTIONS_UNIVERSITY
-Đại học Oxford,Somerville College,MENTIONS_UNIVERSITY
-Đại học Oxford,Viện Công nghệ California,MENTIONS_UNIVERSITY
-Đại học Oxford,Đại học Edinburgh,MENTIONS_UNIVERSITY
-Đại học Oxford,Đại học Exeter,MENTIONS_UNIVERSITY
-Đại học Oxford,Đại học Glasgow,MENTIONS_UNIVERSITY
-Đại học Oxford,Đại học Nhà vua Luân Đôn,MENTIONS_UNIVERSITY
-Đại học Oxford,Đại học Leeds,MENTIONS_UNIVERSITY
-Đại học Oxford,Trường Kinh tế và Khoa học Chính trị Luân Đôn,MENTIONS_UNIVERSITY
-Đại học Oxford,Đại học Nottingham,MENTIONS_UNIVERSITY
 Đinh Tiết Tường,Đại học Phục Đán,MENTIONS_UNIVERSITY
 Đại học Yale,Đại học William & Mary,MENTIONS_UNIVERSITY
 Đại học Yale,Đại học Princeton,MENTIONS_UNIVERSITY
@@ -1334,8 +1318,24 @@ Yoon Suk-yeol,Đại học Quốc gia Seoul,MENTIONS_UNIVERSITY
 Đại học Yale,Đại học Nam California,MENTIONS_UNIVERSITY
 Đại học Yale,Đại học McGill,MENTIONS_UNIVERSITY
 Đại học Yale,Đại học Toronto,MENTIONS_UNIVERSITY
-Đổng Quân,Học viện Hải quân Đại Liên,MENTIONS_UNIVERSITY
-Đổng Quân,Đại học Quốc phòng Trung Quốc,MENTIONS_UNIVERSITY
+Đại học Oxford,Somerville College,MENTIONS_UNIVERSITY
+Đại học Oxford,Viện Công nghệ California,MENTIONS_UNIVERSITY
+Đại học Oxford,Đại học Edinburgh,MENTIONS_UNIVERSITY
+Đại học Oxford,Đại học Exeter,MENTIONS_UNIVERSITY
+Đại học Oxford,Đại học Glasgow,MENTIONS_UNIVERSITY
+Đại học Oxford,Đại học Nhà vua Luân Đôn,MENTIONS_UNIVERSITY
+Đại học Oxford,Đại học Leeds,MENTIONS_UNIVERSITY
+Đại học Oxford,Trường Kinh tế và Khoa học Chính trị Luân Đôn,MENTIONS_UNIVERSITY
+Đại học Oxford,Đại học Nottingham,MENTIONS_UNIVERSITY
+Đại học Cambridge,Đại học Luân Đôn,MENTIONS_UNIVERSITY
+Đại học Cambridge,Đại học London,MENTIONS_UNIVERSITY
+Đại học Cambridge,Đại học Edinburgh,MENTIONS_UNIVERSITY
+Đại học Cambridge,Đại học Exeter,MENTIONS_UNIVERSITY
+Đại học Cambridge,Đại học Glasgow,MENTIONS_UNIVERSITY
+Đại học Cambridge,Đại học Nhà vua Luân Đôn,MENTIONS_UNIVERSITY
+Đại học Cambridge,Đại học Leeds,MENTIONS_UNIVERSITY
+Đại học Cambridge,Trường Kinh tế và Khoa học Chính trị Luân Đôn,MENTIONS_UNIVERSITY
+Đại học Cambridge,Đại học Nottingham,MENTIONS_UNIVERSITY
 Đặng Tiểu Bình,Đại học Tôn Trung Sơn Moskva,MENTIONS_UNIVERSITY
 Đặng Tiểu Bình,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,MENTIONS_UNIVERSITY
 Đặng Tiểu Bình,Viện Khoa học Trung Quốc,MENTIONS_UNIVERSITY

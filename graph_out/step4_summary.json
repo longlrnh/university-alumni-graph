@@ -1,12 +1,13 @@
 {
   "persons_crawled": 1235,
   "universities_crawled": 842,
-  "edges_links_pp": 20869,
   "edges_mentions_pp": 20869,
   "edges_mentions_pu": 1340,
   "edges_uni_mentions_p": 534,
+  "edges_uni_mentions_u": 1217,
   "edges_alumni_pu": 1020,
   "edges_shared_uni_pp": 6666,
   "node_props_persons": 1235,
-  "node_props_universities": 842
+  "node_props_universities": 842,
+  "node_details": 2077
 }

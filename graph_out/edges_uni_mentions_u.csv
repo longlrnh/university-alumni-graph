@@ -1,0 +1,1218 @@
+src_university,dst_university,relation
+Complutense University of Madrid,Đại học Complutense Madrid,UNIVERSITY_MENTIONS_UNIVERSITY
+Cornell University,Đại học Cornell,UNIVERSITY_MENTIONS_UNIVERSITY
+Duke University,Đại học Duke,UNIVERSITY_MENTIONS_UNIVERSITY
+Georgetown University,Đại học Georgetown,UNIVERSITY_MENTIONS_UNIVERSITY
+Eton College,Trường Harrow,UNIVERSITY_MENTIONS_UNIVERSITY
+Học viện Hải quân Đại Liên,Đại học,UNIVERSITY_MENTIONS_UNIVERSITY
+Học viện Hải quân Đế quốc Nhật Bản,Trường Sĩ quan Lục quân (Đế quốc Nhật Bản),UNIVERSITY_MENTIONS_UNIVERSITY
+Học viện Công nghệ Georgia,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Học viện Công nghệ Georgia,Học viện Hải quân Hoa Kỳ,UNIVERSITY_MENTIONS_UNIVERSITY
+Học viện Nghệ thuật Hoàng gia,Học viện Nghệ thuật Hoàng gia Nga,UNIVERSITY_MENTIONS_UNIVERSITY
+Học viện Mỹ thuật Jan Matejko,Đại học Jagiellonia,UNIVERSITY_MENTIONS_UNIVERSITY
+Học viện Quân sự Hoa Kỳ,Học viện Hải quân Hoa Kỳ,UNIVERSITY_MENTIONS_UNIVERSITY
+Kansas State University,Đại học Tiểu bang Kansas,UNIVERSITY_MENTIONS_UNIVERSITY
+New York University,Đại học New York,UNIVERSITY_MENTIONS_UNIVERSITY
+Sciences Po,Viện Nghiên cứu Chính trị Paris,UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Kinh tế Luân Đôn,Trường Kinh tế và Khoa học Chính trị Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Kinh tế London,Trường Kinh tế và Khoa học Chính trị Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Kinh tế và Khoa học Chính trị London,Trường Kinh tế và Khoa học Chính trị Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Harrow,Eton College,UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Dịch vụ Đối ngoại,Đại học Georgetown,UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Dịch vụ Đối ngoại,Học viện Công nghệ Georgia,UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Dịch vụ Đối ngoại,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Bách khoa Paris,École normale supérieure,UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Bách khoa Paris,École nationale supérieure des mines de Paris,UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Bách khoa Paris,École nationale des ponts et chaussées,UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Quốc gia Hành chính Pháp,Trường Hành chính quốc gia (Pháp),UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Kinh tế và Khoa học Chính trị Luân Đôn,Đại học London,UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Kinh tế và Khoa học Chính trị Luân Đôn,Đại học New York,UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Kinh tế và Khoa học Chính trị Luân Đôn,Đại học Edinburgh,UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Kinh tế và Khoa học Chính trị Luân Đôn,Đại học Exeter,UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Kinh tế và Khoa học Chính trị Luân Đôn,Đại học Glasgow,UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Kinh tế và Khoa học Chính trị Luân Đôn,Đại học Nhà vua Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Kinh tế và Khoa học Chính trị Luân Đôn,Đại học Leeds,UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Kinh tế và Khoa học Chính trị Luân Đôn,Đại học Nottingham,UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Trung học phổ thông chuyên Quốc Học,Trường Trung học phổ thông chuyên Quốc Học – Huế,UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Trung học Albert Sarraut,"Trường Trung học phổ thông Chu Văn An, Hà Nội",UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Trung học Albert Sarraut,Viện Đại học Đông Dương,UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Đại học Panthéon-Assas,Trường Đại học Paris II,UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Đại học Hà Nội,Đại học,UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Đại học Khoa học Sài Gòn,Trường Đại học Tổng hợp Thành phố Hồ Chí Minh,UNIVERSITY_MENTIONS_UNIVERSITY
+Trường sau đại học,Đại học,UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Đại học Paris II,Đại học Paris,UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Trung học phổ thông chuyên Quốc Học – Huế,Viện Công nghệ Georgia,UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Trung học phổ thông chuyên Quốc Học – Huế,Trường Trung học phổ thông chuyên Quốc Học,UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Trung học phổ thông chuyên Quốc Học – Huế,"Trường Trung học phổ thông Chu Văn An, Hà Nội",UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Trung học phổ thông chuyên Quốc Học – Huế,Viện Đại học Đông Dương,UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Đảng Trung ương,Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Đại học Tổng hợp Thành phố Hồ Chí Minh,Trường Đại học Khoa học Sài Gòn,UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Đại học Tổng hợp Thành phố Hồ Chí Minh,"Trường Đại học Khoa học Xã hội và Nhân văn, Đại học Quốc gia Thành phố Hồ Chí Minh",UNIVERSITY_MENTIONS_UNIVERSITY
+Trường Đại học Tổng hợp Thành phố Hồ Chí Minh,Viện Đại học Đông Dương,UNIVERSITY_MENTIONS_UNIVERSITY
+"Trường Đại học Khoa học Xã hội và Nhân văn, Đại học Quốc gia Thành phố Hồ Chí Minh",Đại học,UNIVERSITY_MENTIONS_UNIVERSITY
+"Trường Đại học Khoa học Xã hội và Nhân văn, Đại học Quốc gia Thành phố Hồ Chí Minh",Viện Đại học Đông Dương,UNIVERSITY_MENTIONS_UNIVERSITY
+"Trường Đại học Khoa học Xã hội và Nhân văn, Đại học Quốc gia Thành phố Hồ Chí Minh",Trường Đại học Tổng hợp Thành phố Hồ Chí Minh,UNIVERSITY_MENTIONS_UNIVERSITY
+United States Military Academy,Học viện Quân sự Hoa Kỳ,UNIVERSITY_MENTIONS_UNIVERSITY
+University of Athens,Đại học Athens,UNIVERSITY_MENTIONS_UNIVERSITY
+"University of California, Berkeley",Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+University of Chicago,Đại học Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+University of Göttingen,Đại học Göttingen,UNIVERSITY_MENTIONS_UNIVERSITY
+University of London,Đại học Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+University of North Carolina at Chapel Hill,Đại học North Carolina tại Chapel Hill,UNIVERSITY_MENTIONS_UNIVERSITY
+University of Virginia,Đại học Virginia,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Georgia,Học viện Công nghệ Georgia,UNIVERSITY_MENTIONS_UNIVERSITY
+University of Southern California,Đại học Nam California,UNIVERSITY_MENTIONS_UNIVERSITY
+Università Cattolica del Sacro Cuore,Đại học Milano,UNIVERSITY_MENTIONS_UNIVERSITY
+Università Cattolica del Sacro Cuore,Đại học Padua,UNIVERSITY_MENTIONS_UNIVERSITY
+Università Cattolica del Sacro Cuore,Đại học Palermo,UNIVERSITY_MENTIONS_UNIVERSITY
+Università Cattolica del Sacro Cuore,Đại học Pisa,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Trường sau đại học,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Đại học California,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Viện Công nghệ Georgia,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Đại học Kansas,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Đại học Michigan,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Đại học Minnesota,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Đại học North Carolina tại Chapel Hill,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Đại học Texas tại Austin,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Đại học Virginia,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Đại học Washington,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Đại học Wisconsin–Madison,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Đại học Brown,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Đại học Carnegie Mellon,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Đại học Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Đại học Cornell,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Đại học Duke,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Đại học Johns Hopkins,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Đại học New York,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Đại học Pennsylvania,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Đại học Nam California,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Đại học McGill,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Đại học Toronto,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Đại học Georgetown,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Đại học Bocconi,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Đại học Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Đại học Thanh Hoa,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Đại học Bắc Kinh,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Đại học Tokyo,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Đại học Keio,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Đại học Chiết Giang,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ California,Đại học Quốc gia Singapore,UNIVERSITY_MENTIONS_UNIVERSITY
+École Polytechnique,Trường Bách khoa Paris,UNIVERSITY_MENTIONS_UNIVERSITY
+École nationale d'administration,Trường Hành chính quốc gia (Pháp),UNIVERSITY_MENTIONS_UNIVERSITY
+École nationale des ponts et chaussées,École nationale supérieure des mines de Paris,UNIVERSITY_MENTIONS_UNIVERSITY
+École nationale des ponts et chaussées,Trường Bách khoa Paris,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Nghiên cứu Chính trị Paris,Sciences Po,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Nghiên cứu Chính trị Paris,PSL Research University,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Nghiên cứu Chính trị Paris,Đại học Paris,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Đại học Đông Dương,Đại học Tổng hợp Hà Nội,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Đại học Đông Dương,Trường Hậu bổ (Hà Nội),UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Đại học Đông Dương,Đại học Paris,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Đại học Đông Dương,Trường Đại học Tổng hợp Thành phố Hồ Chí Minh,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Đại học Đông Dương,"Trường Trung học phổ thông Chu Văn An, Hà Nội",UNIVERSITY_MENTIONS_UNIVERSITY
+École nationale supérieure des mines de Paris,PSL Research University,UNIVERSITY_MENTIONS_UNIVERSITY
+École nationale supérieure des mines de Paris,École nationale des ponts et chaussées,UNIVERSITY_MENTIONS_UNIVERSITY
+École nationale supérieure des mines de Paris,Trường Bách khoa Paris,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Adelaide,Đại học,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,University of Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Đại học California,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Viện Công nghệ Georgia,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Đại học Kansas,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Đại học Michigan,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Đại học Minnesota,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Đại học North Carolina tại Chapel Hill,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Đại học Texas tại Austin,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Đại học Virginia,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Đại học Washington,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Đại học Wisconsin–Madison,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Đại học Brown,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Đại học Carnegie Mellon,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Đại học Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Đại học Cornell,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Đại học Duke,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Đại học Johns Hopkins,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Đại học New York,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Đại học Pennsylvania,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Đại học Nam California,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Đại học McGill,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Đại học Toronto,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Đại học Georgetown,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Đại học Bocconi,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Đại học Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Đại học Thanh Hoa,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Đại học Bắc Kinh,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Đại học Tokyo,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Đại học Keio,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Đại học Chiết Giang,UNIVERSITY_MENTIONS_UNIVERSITY
+Viện Công nghệ Massachusetts,Đại học Quốc gia Singapore,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Aarhus,Đại học Copenhagen,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Athena,Đại học Athens,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Amherst,Đại học Wesleyan,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Amherst,Đại học Boston,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Amherst,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Amherst,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Amherst,Đại học Cornell,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Amherst,Đại học Dartmouth,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Amherst,Đại học Georgetown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Amherst,Đại học Johns Hopkins,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Amherst,Đại học Middlebury,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Amherst,Đại học Notre Dame,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Belgrano,Đại học Buenos Aires,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Boston,Đại học Amherst,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Boston,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Boston,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Boston,Đại học Cornell,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Boston,Đại học Dartmouth,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Boston,Đại học Georgetown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Boston,Đại học Johns Hopkins,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Boston,Đại học Middlebury,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Boston,Đại học Notre Dame,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Bonn,Đại học Hamburg,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Bonn,Đại học Göttingen,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Brown,Đại học California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Brown,Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Brown,Viện Công nghệ Georgia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Brown,Đại học Kansas,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Brown,Đại học Michigan,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Brown,Đại học Minnesota,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Brown,Đại học North Carolina tại Chapel Hill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Brown,Đại học Texas tại Austin,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Brown,Đại học Virginia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Brown,Đại học Washington,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Brown,Đại học Wisconsin–Madison,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Brown,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Brown,Đại học Carnegie Mellon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Brown,Đại học Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Brown,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Brown,Đại học Cornell,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Brown,Đại học Duke,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Brown,Đại học Johns Hopkins,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Brown,Đại học New York,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Brown,Đại học Pennsylvania,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Brown,Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Brown,Đại học Nam California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Brown,Đại học McGill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Brown,Đại học Toronto,UNIVERSITY_MENTIONS_UNIVERSITY
+"Đại học California, Berkeley",Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Buenos Aires,Đại học Belgrano,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California tại Berkeley,Đại học California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California tại Berkeley,Viện Công nghệ Georgia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California tại Berkeley,Đại học Kansas,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California tại Berkeley,Đại học Michigan,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California tại Berkeley,Đại học Minnesota,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California tại Berkeley,Đại học North Carolina tại Chapel Hill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California tại Berkeley,Đại học Texas tại Austin,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California tại Berkeley,Đại học Virginia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California tại Berkeley,Đại học Washington,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California tại Berkeley,Đại học Wisconsin–Madison,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California tại Berkeley,Đại học Brown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California tại Berkeley,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California tại Berkeley,Đại học Carnegie Mellon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California tại Berkeley,Đại học Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California tại Berkeley,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California tại Berkeley,Đại học Cornell,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California tại Berkeley,Đại học Duke,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California tại Berkeley,Đại học Johns Hopkins,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California tại Berkeley,Đại học New York,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California tại Berkeley,Đại học Pennsylvania,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California tại Berkeley,Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California tại Berkeley,Đại học Nam California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California tại Berkeley,Đại học McGill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California tại Berkeley,Đại học Toronto,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cao Ly,Đại học Quốc gia Seoul,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California,Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California,Viện Công nghệ Georgia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California,Đại học Kansas,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California,Đại học Michigan,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California,Đại học Minnesota,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California,Đại học North Carolina tại Chapel Hill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California,Đại học Texas tại Austin,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California,Đại học Virginia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California,Đại học Washington,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California,Đại học Wisconsin–Madison,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California,Đại học Brown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California,Đại học Carnegie Mellon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California,Đại học Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California,Đại học Cornell,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California,Đại học Duke,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California,Đại học Johns Hopkins,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California,Đại học New York,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California,Đại học Pennsylvania,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California,Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California,Đại học Nam California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California,Đại học McGill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học California,Đại học Toronto,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Bắc Kinh,Đại học Thanh Hoa,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Bắc Kinh,Đại học Nam Kinh,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Bắc Kinh,Đại học Quốc gia Seoul,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Bắc Kinh,Đại học Tokyo,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Bắc Kinh,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Bắc Kinh,Đại học Carnegie Mellon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Bắc Kinh,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Bắc Kinh,Đại học Georgetown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Bắc Kinh,Đại học McGill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Bắc Kinh,Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Bắc Kinh,Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Bắc Kinh,Đại học Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Bắc Kinh,Đại học Pennsylvania,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Bắc Kinh,Đại học Bocconi,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Bắc Kinh,Đại học Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Bắc Kinh,Đại học Keio,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Bắc Kinh,Đại học Chiết Giang,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Bắc Kinh,Đại học Quốc gia Singapore,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Bắc Kinh,Đại học Phục Đán,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Bắc Kinh,Đại học Giao thông Thượng Hải,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Bắc Kinh,Đại học Giao thông Tây An,UNIVERSITY_MENTIONS_UNIVERSITY
+"Đại học California, Los Angeles",Đại học California,UNIVERSITY_MENTIONS_UNIVERSITY
+"Đại học California, Los Angeles",Đại học Dartmouth,UNIVERSITY_MENTIONS_UNIVERSITY
+"Đại học California, Los Angeles",Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+"Đại học California, Los Angeles",Đại học Tokyo,UNIVERSITY_MENTIONS_UNIVERSITY
+"Đại học California, Los Angeles",Đại học Nam California,UNIVERSITY_MENTIONS_UNIVERSITY
+"Đại học California, Los Angeles",Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+"Đại học California, Los Angeles",Viện Công nghệ Georgia,UNIVERSITY_MENTIONS_UNIVERSITY
+"Đại học California, Los Angeles",Đại học Kansas,UNIVERSITY_MENTIONS_UNIVERSITY
+"Đại học California, Los Angeles",Đại học Michigan,UNIVERSITY_MENTIONS_UNIVERSITY
+"Đại học California, Los Angeles",Đại học Minnesota,UNIVERSITY_MENTIONS_UNIVERSITY
+"Đại học California, Los Angeles",Đại học North Carolina tại Chapel Hill,UNIVERSITY_MENTIONS_UNIVERSITY
+"Đại học California, Los Angeles",Đại học Texas tại Austin,UNIVERSITY_MENTIONS_UNIVERSITY
+"Đại học California, Los Angeles",Đại học Virginia,UNIVERSITY_MENTIONS_UNIVERSITY
+"Đại học California, Los Angeles",Đại học Washington,UNIVERSITY_MENTIONS_UNIVERSITY
+"Đại học California, Los Angeles",Đại học Wisconsin–Madison,UNIVERSITY_MENTIONS_UNIVERSITY
+"Đại học California, Los Angeles",Đại học Brown,UNIVERSITY_MENTIONS_UNIVERSITY
+"Đại học California, Los Angeles",Đại học Carnegie Mellon,UNIVERSITY_MENTIONS_UNIVERSITY
+"Đại học California, Los Angeles",Đại học Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+"Đại học California, Los Angeles",Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+"Đại học California, Los Angeles",Đại học Cornell,UNIVERSITY_MENTIONS_UNIVERSITY
+"Đại học California, Los Angeles",Đại học Duke,UNIVERSITY_MENTIONS_UNIVERSITY
+"Đại học California, Los Angeles",Đại học Johns Hopkins,UNIVERSITY_MENTIONS_UNIVERSITY
+"Đại học California, Los Angeles",Đại học New York,UNIVERSITY_MENTIONS_UNIVERSITY
+"Đại học California, Los Angeles",Đại học Pennsylvania,UNIVERSITY_MENTIONS_UNIVERSITY
+"Đại học California, Los Angeles",Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+"Đại học California, Los Angeles",Đại học McGill,UNIVERSITY_MENTIONS_UNIVERSITY
+"Đại học California, Los Angeles",Đại học Toronto,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chiang Mai,Đại học Chulalongkorn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chiang Mai,Đại học Srinakharinwirot,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chiang Mai,Đại học Thammasat,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Carnegie Mellon,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Carnegie Mellon,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Carnegie Mellon,Đại học Georgetown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Carnegie Mellon,Đại học McGill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Carnegie Mellon,Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Carnegie Mellon,Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Carnegie Mellon,Đại học Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Carnegie Mellon,Đại học Pennsylvania,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Carnegie Mellon,Đại học Bocconi,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Carnegie Mellon,Đại học Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Carnegie Mellon,Đại học Thanh Hoa,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Carnegie Mellon,Đại học Bắc Kinh,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Carnegie Mellon,Đại học Tokyo,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Carnegie Mellon,Đại học Keio,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Carnegie Mellon,Đại học Chiết Giang,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Carnegie Mellon,Đại học Quốc gia Singapore,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chulalongkorn,Đại học Indonesia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chulalongkorn,Đại học Gadjah Mada,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chulalongkorn,Đại học Malaya,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chulalongkorn,Đại học Philippines,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chulalongkorn,Đại học Yangon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chulalongkorn,Đại học Quốc gia Singapore,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chulalongkorn,Đại học Chiang Mai,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chulalongkorn,Đại học Cần Thơ,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chulalongkorn,Đại học Srinakharinwirot,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chulalongkorn,Đại học Thammasat,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chicago,Đại học California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chicago,Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chicago,Viện Công nghệ Georgia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chicago,Đại học Kansas,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chicago,Đại học Michigan,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chicago,Đại học Minnesota,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chicago,Đại học North Carolina tại Chapel Hill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chicago,Đại học Texas tại Austin,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chicago,Đại học Virginia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chicago,Đại học Washington,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chicago,Đại học Wisconsin–Madison,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chicago,Đại học Brown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chicago,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chicago,Đại học Carnegie Mellon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chicago,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chicago,Đại học Cornell,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chicago,Đại học Duke,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chicago,Đại học Johns Hopkins,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chicago,Đại học New York,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chicago,Đại học Pennsylvania,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chicago,Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chicago,Đại học Nam California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chicago,Đại học McGill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chicago,Đại học Toronto,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chiết Giang,Viện Khoa học Trung Quốc,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chiết Giang,Đại học Vũ Hán,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chiết Giang,Đại học Phục Đán,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chiết Giang,Đại học Sư phạm Hoa Đông,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chiết Giang,Đại học Nam Kinh,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chiết Giang,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chiết Giang,Đại học Carnegie Mellon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chiết Giang,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chiết Giang,Đại học Georgetown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chiết Giang,Đại học McGill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chiết Giang,Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chiết Giang,Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chiết Giang,Đại học Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chiết Giang,Đại học Pennsylvania,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chiết Giang,Đại học Bocconi,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chiết Giang,Đại học Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chiết Giang,Đại học Thanh Hoa,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chiết Giang,Đại học Bắc Kinh,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chiết Giang,Đại học Tokyo,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chiết Giang,Đại học Keio,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Chiết Giang,Đại học Quốc gia Singapore,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Colgate,Đại học Cornell,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Copenhagen,Đại học Quốc gia Úc,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Copenhagen,Đại học Quốc gia Singapore,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Copenhagen,Đại học Bắc Kinh,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Copenhagen,Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Copenhagen,Đại học Tokyo,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Copenhagen,Đại học Giao thông Thượng Hải,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cornell,Đại học California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cornell,Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cornell,Viện Công nghệ Georgia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cornell,Đại học Kansas,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cornell,Đại học Michigan,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cornell,Đại học Minnesota,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cornell,Đại học North Carolina tại Chapel Hill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cornell,Đại học Texas tại Austin,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cornell,Đại học Virginia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cornell,Đại học Washington,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cornell,Đại học Wisconsin–Madison,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cornell,Đại học Brown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cornell,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cornell,Đại học Carnegie Mellon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cornell,Đại học Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cornell,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cornell,Đại học Duke,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cornell,Đại học Johns Hopkins,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cornell,Đại học New York,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cornell,Đại học Pennsylvania,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cornell,Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cornell,Đại học Nam California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cornell,Đại học McGill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cornell,Đại học Toronto,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Đại học Cornell,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Viện Nghiên cứu Chính trị Paris,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Đại học Giao thông Thượng Hải,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,École nationale supérieure des mines de Paris,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Đại học California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Viện Công nghệ Georgia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Đại học Kansas,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Đại học Michigan,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Đại học Minnesota,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Đại học North Carolina tại Chapel Hill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Đại học Texas tại Austin,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Đại học Virginia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Đại học Washington,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Đại học Wisconsin–Madison,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Đại học Brown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Đại học Carnegie Mellon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Đại học Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Đại học Duke,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Đại học Johns Hopkins,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Đại học New York,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Đại học Pennsylvania,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Đại học Nam California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Đại học McGill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Đại học Toronto,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Đại học Georgetown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Đại học Bocconi,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Đại học Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Đại học Thanh Hoa,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Đại học Bắc Kinh,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Đại học Tokyo,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Đại học Keio,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Đại học Chiết Giang,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Columbia,Đại học Quốc gia Singapore,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cambridge,Đại học Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cambridge,Đại học London,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cambridge,Đại học Edinburgh,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cambridge,Đại học Exeter,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cambridge,Đại học Glasgow,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cambridge,Đại học Nhà vua Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cambridge,Đại học Leeds,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cambridge,Trường Kinh tế và Khoa học Chính trị Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cambridge,Đại học Nottingham,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Công nghiệp Cáp Nhĩ Tân,Đại học Quốc gia Moskva,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Công nghiệp Cáp Nhĩ Tân,Đại học Phục Đán,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Công nghiệp Cáp Nhĩ Tân,Đại học Nam Kinh,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Công nghiệp Cáp Nhĩ Tân,Đại học Bắc Kinh,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Công nghiệp Cáp Nhĩ Tân,Đại học Giao thông Thượng Hải,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Công nghiệp Cáp Nhĩ Tân,Đại học Thanh Hoa,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Công nghiệp Cáp Nhĩ Tân,Đại học Giao thông Tây An,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Công nghiệp Cáp Nhĩ Tân,Đại học Chiết Giang,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cần Thơ,Đại học,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cần Thơ,Đại học Indonesia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cần Thơ,Đại học Gadjah Mada,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cần Thơ,Đại học Malaya,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cần Thơ,Đại học Philippines,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cần Thơ,Đại học Yangon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cần Thơ,Đại học Quốc gia Singapore,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cần Thơ,Đại học Chulalongkorn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Cần Thơ,Đại học Chiang Mai,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Firenze,Đại học Pisa,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Freiburg,Đại học Wien,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học George Washington,Đại học Georgetown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Edinburgh,Đại học Exeter,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Edinburgh,Đại học Glasgow,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Edinburgh,Đại học Nhà vua Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Edinburgh,Đại học Leeds,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Edinburgh,Trường Kinh tế và Khoa học Chính trị Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Edinburgh,Đại học Nottingham,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Gdańsk,Đại học Linköping,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Gdańsk,Đại học Washington,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Duke,Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Duke,Đại học California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Duke,Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Duke,Viện Công nghệ Georgia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Duke,Đại học Kansas,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Duke,Đại học Michigan,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Duke,Đại học Minnesota,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Duke,Đại học North Carolina tại Chapel Hill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Duke,Đại học Texas tại Austin,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Duke,Đại học Virginia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Duke,Đại học Washington,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Duke,Đại học Wisconsin–Madison,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Duke,Đại học Brown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Duke,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Duke,Đại học Carnegie Mellon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Duke,Đại học Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Duke,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Duke,Đại học Cornell,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Duke,Đại học Johns Hopkins,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Duke,Đại học New York,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Duke,Đại học Pennsylvania,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Duke,Đại học Nam California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Duke,Đại học McGill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Duke,Đại học Toronto,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Giao thông Thượng Hải,Đại học Phục Đán,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Giao thông Thượng Hải,Đại học Nam Kinh,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Giao thông Thượng Hải,Đại học Bắc Kinh,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Giao thông Thượng Hải,Đại học Thanh Hoa,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Giao thông Thượng Hải,Đại học Giao thông Tây An,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Giao thông Thượng Hải,Đại học Chiết Giang,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Giao thông Tây An,Đại học Phục Đán,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Giao thông Tây An,Đại học Nam Kinh,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Giao thông Tây An,Đại học Bắc Kinh,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Giao thông Tây An,Đại học Giao thông Thượng Hải,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Giao thông Tây An,Đại học Thanh Hoa,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Giao thông Tây An,Đại học Chiết Giang,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Groningen,Đại học Leiden,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Glasgow,Đại học Edinburgh,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Glasgow,Đại học Exeter,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Glasgow,Đại học Nhà vua Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Glasgow,Đại học Leeds,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Glasgow,Trường Kinh tế và Khoa học Chính trị Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Glasgow,Đại học Nottingham,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Havana,Đại học La Habana,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Heidelberg,Đại học Viên,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Heidelberg,Đại học Bonn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Heidelberg,Đại học Hamburg,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Hàn Quốc,Đại học Cao Ly,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Hoàng đế Luân Đôn,Đại học Nhà vua Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Göttingen,Đại học Berlin,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Harvard,Trường sau đại học,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Harvard,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Harvard,Trường Luật Harvard,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Harvard,Đại học Cornell,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Harvard,Đại học Nam California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Harvard,Đại học California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Harvard,Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Harvard,Viện Công nghệ Georgia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Harvard,Đại học Kansas,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Harvard,Đại học Michigan,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Harvard,Đại học Minnesota,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Harvard,Đại học North Carolina tại Chapel Hill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Harvard,Đại học Texas tại Austin,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Harvard,Đại học Virginia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Harvard,Đại học Washington,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Harvard,Đại học Wisconsin–Madison,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Harvard,Đại học Brown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Harvard,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Harvard,Đại học Carnegie Mellon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Harvard,Đại học Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Harvard,Đại học Duke,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Harvard,Đại học Johns Hopkins,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Harvard,Đại học New York,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Harvard,Đại học Pennsylvania,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Harvard,Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Harvard,Đại học McGill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Harvard,Đại học Toronto,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Georgetown,Trường Dịch vụ Đối ngoại,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Georgetown,Đại học Phục Đán,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Georgetown,Trường sau đại học,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Georgetown,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Georgetown,Đại học Amherst,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Georgetown,Đại học Boston,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Georgetown,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Georgetown,Đại học Cornell,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Georgetown,Đại học Dartmouth,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Georgetown,Đại học Johns Hopkins,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Georgetown,Đại học Middlebury,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Georgetown,Đại học Notre Dame,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Georgetown,Đại học Carnegie Mellon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Georgetown,Đại học McGill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Georgetown,Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Georgetown,Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Georgetown,Đại học Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Georgetown,Đại học Pennsylvania,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Georgetown,Đại học Bocconi,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Georgetown,Đại học Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Georgetown,Đại học Thanh Hoa,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Georgetown,Đại học Bắc Kinh,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Georgetown,Đại học Tokyo,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Georgetown,Đại học Keio,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Georgetown,Đại học Chiết Giang,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Georgetown,Đại học Quốc gia Singapore,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Georgia,Học viện Công nghệ Georgia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Georgia,Đại học Virginia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Georgia,Viện Công nghệ Georgia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Dartmouth,Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Indonesia,Đại học Gadjah Mada,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Indonesia,Đại học Malaya,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Indonesia,Đại học Philippines,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Indonesia,Đại học Yangon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Indonesia,Đại học Quốc gia Singapore,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Indonesia,Đại học Chulalongkorn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Indonesia,Đại học Chiang Mai,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Indonesia,Đại học Cần Thơ,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Johns Hopkins,Đại học California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Johns Hopkins,Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Johns Hopkins,Viện Công nghệ Georgia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Johns Hopkins,Đại học Kansas,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Johns Hopkins,Đại học Michigan,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Johns Hopkins,Đại học Minnesota,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Johns Hopkins,Đại học North Carolina tại Chapel Hill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Johns Hopkins,Đại học Texas tại Austin,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Johns Hopkins,Đại học Virginia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Johns Hopkins,Đại học Washington,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Johns Hopkins,Đại học Wisconsin–Madison,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Johns Hopkins,Đại học Brown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Johns Hopkins,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Johns Hopkins,Đại học Carnegie Mellon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Johns Hopkins,Đại học Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Johns Hopkins,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Johns Hopkins,Đại học Cornell,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Johns Hopkins,Đại học Duke,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Johns Hopkins,Đại học New York,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Johns Hopkins,Đại học Pennsylvania,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Johns Hopkins,Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Johns Hopkins,Đại học Nam California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Johns Hopkins,Đại học McGill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Johns Hopkins,Đại học Toronto,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Keio,Đại học Brown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Keio,Đại học Tokyo,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Keio,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Keio,Đại học Carnegie Mellon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Keio,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Keio,Đại học Georgetown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Keio,Đại học McGill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Keio,Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Keio,Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Keio,Đại học Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Keio,Đại học Pennsylvania,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Keio,Đại học Bocconi,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Keio,Đại học Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Keio,Đại học Thanh Hoa,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Keio,Đại học Bắc Kinh,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Keio,Đại học Chiết Giang,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Keio,Đại học Quốc gia Singapore,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Kỹ thuật Quốc gia Donetsk,Đại học,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Kỹ thuật München,Đại học Freiburg,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Kỹ thuật München,Đại học Göttingen,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Kỹ thuật München,Đại học Heidelberg,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Kỹ thuật München,Đại học Ludwig Maximilian München,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Kỹ thuật Quốc gia Moskva Bauman,Đại học Quốc gia Moskva,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Kỹ thuật Quốc gia Moskva Bauman,Đại học Tổng hợp Sankt-Peterburg,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Kyung Hee,Đại học Pennsylvania,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Kyung Hee,Đại học Bắc Kinh,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Kyung Hee,Đại học Ritsumeikan,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Kyung Hee,Đại học Quốc gia Moskva,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Linköping,Đại học,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Linköping,Đại học Stockholm,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học London,Đại học Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Ludwig Maximilian Munich,Đại học Ludwig Maximilian München,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Ludwig Maximilian München,Đại học Freiburg,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Ludwig Maximilian München,Đại học Göttingen,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Ludwig Maximilian München,Đại học Heidelberg,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Ludwig Maximilian München,Đại học Kỹ thuật München,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Ludwig Maximilian München,Đại học Amsterdam,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Ludwig Maximilian München,Đại học Barcelona,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Ludwig Maximilian München,Đại học Edinburgh,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Ludwig Maximilian München,Đại học Geneva,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Ludwig Maximilian München,Đại học Helsinki,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Ludwig Maximilian München,Đại học Leiden,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Ludwig Maximilian München,Đại học Lund,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Ludwig Maximilian München,Đại học Milan,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Ludwig Maximilian München,Đại học Strasbourg,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Luân Đôn,Đại học,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Luân Đôn,Đại học Hoàng đế Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Luân Đôn,Trường Kinh tế và Khoa học Chính trị Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Malta,Đại học,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Malaya,Đại học Indonesia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Malaya,Đại học Gadjah Mada,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Malaya,Đại học Philippines,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Malaya,Đại học Yangon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Malaya,Đại học Quốc gia Singapore,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Malaya,Đại học Chulalongkorn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Malaya,Đại học Chiang Mai,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Malaya,Đại học Cần Thơ,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Lund,Đại học Uppsala,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Leeds,Đại học Nottingham,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Leeds,Đại học Edinburgh,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Leeds,Đại học London,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Leeds,Đại học Exeter,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Leeds,Đại học Glasgow,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Leeds,Đại học Nhà vua Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Leeds,Trường Kinh tế và Khoa học Chính trị Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Milan,Đại học Milano,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Moskva,Đại học Quốc gia Moskva,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Middlebury,Đại học Amherst,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Middlebury,Đại học Boston,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Middlebury,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Middlebury,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Middlebury,Đại học Cornell,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Middlebury,Đại học Dartmouth,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Middlebury,Đại học Georgetown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Middlebury,Đại học Johns Hopkins,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Middlebury,Đại học Notre Dame,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Munich,Đại học Ludwig Maximilian München,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học München,Đại học Ludwig Maximilian München,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Michigan,Đại học California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Michigan,Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Michigan,Viện Công nghệ Georgia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Michigan,Đại học Kansas,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Michigan,Đại học Minnesota,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Michigan,Đại học North Carolina tại Chapel Hill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Michigan,Đại học Texas tại Austin,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Michigan,Đại học Virginia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Michigan,Đại học Washington,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Michigan,Đại học Wisconsin–Madison,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Michigan,Đại học Brown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Michigan,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Michigan,Đại học Carnegie Mellon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Michigan,Đại học Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Michigan,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Michigan,Đại học Cornell,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Michigan,Đại học Duke,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Michigan,Đại học Johns Hopkins,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Michigan,Đại học New York,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Michigan,Đại học Pennsylvania,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Michigan,Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Michigan,Đại học Nam California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Michigan,Đại học McGill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Michigan,Đại học Toronto,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học McGill,Đại học Toronto,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học McGill,Đại học Johns Hopkins,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học McGill,Đại học Glasgow,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học McGill,Đại học California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học McGill,Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học McGill,Viện Công nghệ Georgia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học McGill,Đại học Kansas,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học McGill,Đại học Michigan,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học McGill,Đại học Minnesota,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học McGill,Đại học North Carolina tại Chapel Hill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học McGill,Đại học Texas tại Austin,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học McGill,Đại học Virginia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học McGill,Đại học Washington,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học McGill,Đại học Wisconsin–Madison,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học McGill,Đại học Brown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học McGill,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học McGill,Đại học Carnegie Mellon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học McGill,Đại học Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học McGill,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học McGill,Đại học Cornell,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học McGill,Đại học Duke,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học McGill,Đại học New York,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học McGill,Đại học Pennsylvania,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học McGill,Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học McGill,Đại học Nam California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nam Kinh,Đại học Phục Đán,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nam Kinh,Đại học Bắc Kinh,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nam Kinh,Đại học Giao thông Thượng Hải,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nam Kinh,Đại học Thanh Hoa,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nam Kinh,Đại học Giao thông Tây An,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nam Kinh,Đại học Chiết Giang,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học New South Wales,Đại học Quốc gia Úc,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học New South Wales,Đại học Sydney,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học New South Wales,Đại học Adelaide,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học New South Wales,Đại học Melbourne,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học New South Wales,Đại học Tây Úc,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nhà vua Luân Đôn,Đại học Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nhà vua Luân Đôn,Đại học Edinburgh,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nhà vua Luân Đôn,Đại học Exeter,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nhà vua Luân Đôn,Đại học Glasgow,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nhà vua Luân Đôn,Đại học Leeds,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nhà vua Luân Đôn,Trường Kinh tế và Khoa học Chính trị Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nhà vua Luân Đôn,Đại học Nottingham,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nam California,Đại học Pennsylvania,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nam California,Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nam California,Đại học California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nam California,Viện Công nghệ Georgia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nam California,Đại học Kansas,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nam California,Đại học Michigan,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nam California,Đại học Minnesota,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nam California,Đại học North Carolina tại Chapel Hill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nam California,Đại học Texas tại Austin,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nam California,Đại học Virginia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nam California,Đại học Washington,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nam California,Đại học Wisconsin–Madison,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nam California,Đại học Brown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nam California,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nam California,Đại học Carnegie Mellon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nam California,Đại học Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nam California,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nam California,Đại học Cornell,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nam California,Đại học Duke,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nam California,Đại học Johns Hopkins,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nam California,Đại học New York,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nam California,Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nam California,Đại học McGill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nam California,Đại học Toronto,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học North Carolina tại Chapel Hill,Đại học California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học North Carolina tại Chapel Hill,Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học North Carolina tại Chapel Hill,Viện Công nghệ Georgia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học North Carolina tại Chapel Hill,Đại học Kansas,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học North Carolina tại Chapel Hill,Đại học Michigan,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học North Carolina tại Chapel Hill,Đại học Minnesota,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học North Carolina tại Chapel Hill,Đại học Texas tại Austin,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học North Carolina tại Chapel Hill,Đại học Virginia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học North Carolina tại Chapel Hill,Đại học Washington,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học North Carolina tại Chapel Hill,Đại học Wisconsin–Madison,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học North Carolina tại Chapel Hill,Đại học Brown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học North Carolina tại Chapel Hill,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học North Carolina tại Chapel Hill,Đại học Carnegie Mellon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học North Carolina tại Chapel Hill,Đại học Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học North Carolina tại Chapel Hill,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học North Carolina tại Chapel Hill,Đại học Cornell,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học North Carolina tại Chapel Hill,Đại học Duke,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học North Carolina tại Chapel Hill,Đại học Johns Hopkins,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học North Carolina tại Chapel Hill,Đại học New York,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học North Carolina tại Chapel Hill,Đại học Pennsylvania,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học North Carolina tại Chapel Hill,Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học North Carolina tại Chapel Hill,Đại học Nam California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học North Carolina tại Chapel Hill,Đại học McGill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học North Carolina tại Chapel Hill,Đại học Toronto,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học North Carolina ở Chapel Hill,Đại học North Carolina tại Chapel Hill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Notre Dame,Đại học Amherst,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Notre Dame,Đại học Boston,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Notre Dame,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Notre Dame,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Notre Dame,Đại học Cornell,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Notre Dame,Đại học Dartmouth,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Notre Dame,Đại học Georgetown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Notre Dame,Đại học Johns Hopkins,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Notre Dame,Đại học Middlebury,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nottingham,Đại học London,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nottingham,Đại học Edinburgh,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nottingham,Đại học Exeter,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nottingham,Đại học Glasgow,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nottingham,Đại học Nhà vua Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nottingham,Đại học Leeds,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nottingham,Trường Kinh tế và Khoa học Chính trị Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Panthéon-Assas,Trường Đại học Paris II,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Paris II,Trường Đại học Paris II,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Oulu,Đại học Giao thông Thượng Hải,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Paris,Trường Đại học Paris II,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Paris,Đại học Paris-Sorbonne,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Paris,PSL Research University,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Paris,Đại học Paris Nanterre,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Paris-Sorbonne,Đại học Paris,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Paris-Sorbonne,Đại học,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Paris Nanterre,Đại học Paris,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Phục Đán,Đại học Nam Kinh,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Phục Đán,Đại học Bắc Kinh,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Phục Đán,Đại học Giao thông Thượng Hải,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Phục Đán,Đại học Thanh Hoa,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Phục Đán,Đại học Giao thông Tây An,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Phục Đán,Đại học Chiết Giang,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Philippines,Đại học Indonesia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Philippines,Đại học Gadjah Mada,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Philippines,Đại học Malaya,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Philippines,Đại học Yangon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Philippines,Đại học Quốc gia Singapore,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Philippines,Đại học Chulalongkorn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Philippines,Đại học Chiang Mai,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Philippines,Đại học Cần Thơ,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nhân dân Trung Quốc,Trường sau đại học,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nhân dân Trung Quốc,Đại học Bắc Kinh,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nhân dân Trung Quốc,Đại học Thanh Hoa,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nhân dân Trung Quốc,Đại học Phục Đán,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nhân dân Trung Quốc,Đại học Chiết Giang,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nhân dân Trung Quốc,Đại học Giao thông Thượng Hải,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nhân dân Trung Quốc,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nhân dân Trung Quốc,Đại học Ludwig Maximilian München,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nhân dân Trung Quốc,Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nhân dân Trung Quốc,Đại học McGill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nhân dân Trung Quốc,Đại học Nhà vua Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nhân dân Trung Quốc,Đại học Waseda,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nhân dân Trung Quốc,Đại học Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Nhân dân Trung Quốc,Đại học Michigan,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Princeton,Đại học California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Princeton,Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Princeton,Viện Công nghệ Georgia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Princeton,Đại học Kansas,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Princeton,Đại học Michigan,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Princeton,Đại học Minnesota,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Princeton,Đại học North Carolina tại Chapel Hill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Princeton,Đại học Texas tại Austin,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Princeton,Đại học Virginia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Princeton,Đại học Washington,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Princeton,Đại học Wisconsin–Madison,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Princeton,Đại học Brown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Princeton,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Princeton,Đại học Carnegie Mellon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Princeton,Đại học Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Princeton,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Princeton,Đại học Cornell,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Princeton,Đại học Duke,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Princeton,Đại học Johns Hopkins,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Princeton,Đại học New York,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Princeton,Đại học Pennsylvania,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Princeton,Đại học Nam California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Princeton,Đại học McGill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Princeton,Đại học Toronto,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Pennsylvania,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Pennsylvania,Đại học California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Pennsylvania,Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Pennsylvania,Viện Công nghệ Georgia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Pennsylvania,Đại học Kansas,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Pennsylvania,Đại học Michigan,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Pennsylvania,Đại học Minnesota,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Pennsylvania,Đại học North Carolina tại Chapel Hill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Pennsylvania,Đại học Texas tại Austin,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Pennsylvania,Đại học Virginia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Pennsylvania,Đại học Washington,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Pennsylvania,Đại học Wisconsin–Madison,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Pennsylvania,Đại học Brown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Pennsylvania,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Pennsylvania,Đại học Carnegie Mellon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Pennsylvania,Đại học Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Pennsylvania,Đại học Cornell,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Pennsylvania,Đại học Duke,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Pennsylvania,Đại học Johns Hopkins,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Pennsylvania,Đại học New York,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Pennsylvania,Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Pennsylvania,Đại học Nam California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Pennsylvania,Đại học McGill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Pennsylvania,Đại học Toronto,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Quốc gia Singapore,Đại học Duke,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Quốc gia Singapore,Đại học Malaya,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Quốc gia Singapore,Đại học Indonesia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Quốc gia Singapore,Đại học Gadjah Mada,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Quốc gia Singapore,Đại học Philippines,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Quốc gia Singapore,Đại học Yangon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Quốc gia Singapore,Đại học Chulalongkorn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Quốc gia Singapore,Đại học Chiang Mai,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Quốc gia Singapore,Đại học Cần Thơ,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Quốc lập Thành Công,Đại học Nam California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Quốc lập Thành Công,Đại học Kỹ thuật München,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Quốc lập Thành Công,Đại học Leiden,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Quốc lập Thành Công,Đại học New South Wales,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Quốc lập Thành Công,Đại học Kyoto,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Quốc lập Thành Công,Đại học Quốc gia Seoul,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Quốc lập Thành Công,Đại học Quốc gia Singapore,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Quốc lập Thành Công,Đại học quốc lập Đài Loan,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Quốc gia Úc,Đại học New South Wales,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Quốc gia Úc,Đại học Sydney,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Quốc gia Úc,Đại học Adelaide,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Quốc gia Úc,Đại học Melbourne,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Quốc gia Úc,Đại học Tây Úc,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Oxford,Somerville College,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Oxford,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Oxford,Đại học Edinburgh,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Oxford,Đại học Exeter,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Oxford,Đại học Glasgow,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Oxford,Đại học Nhà vua Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Oxford,Đại học Leeds,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Oxford,Trường Kinh tế và Khoa học Chính trị Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Oxford,Đại học Nottingham,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Quốc gia Seoul,Đại học Cao Ly,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Quốc gia Seoul,Đại học Pennsylvania,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Quốc gia Seoul,Đại học Duke,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Quốc gia Seoul,Đại học Bắc Kinh,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Quốc gia Seoul,Đại học Tokyo,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Sapienza của Rome,Đại học Roma Sapienza,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Seikei,Đại học,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Sogang,Đại học Georgetown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Srinakharinwirot,Đại học Chiang Mai,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Srinakharinwirot,Đại học Chulalongkorn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Srinakharinwirot,Đại học Thammasat,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Sydney,Đại học Quốc gia Úc,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Sydney,Đại học New South Wales,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Sydney,Đại học Adelaide,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Sydney,Đại học Melbourne,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Sydney,Đại học Tây Úc,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Stanford,Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Stanford,Đại học Cornell,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Stanford,Đại học California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Stanford,Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Stanford,Viện Công nghệ Georgia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Stanford,Đại học Kansas,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Stanford,Đại học Michigan,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Stanford,Đại học Minnesota,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Stanford,Đại học North Carolina tại Chapel Hill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Stanford,Đại học Texas tại Austin,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Stanford,Đại học Virginia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Stanford,Đại học Washington,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Stanford,Đại học Wisconsin–Madison,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Stanford,Đại học Brown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Stanford,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Stanford,Đại học Carnegie Mellon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Stanford,Đại học Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Stanford,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Stanford,Đại học Duke,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Stanford,Đại học Johns Hopkins,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Stanford,Đại học New York,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Stanford,Đại học Pennsylvania,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Stanford,Đại học Nam California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Stanford,Đại học McGill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Stanford,Đại học Toronto,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Sư phạm Hoa Đông,Đại học,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học South Carolina,Cử nhân Nghệ thuật,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Thammasat,Đại học Chiang Mai,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Thammasat,Đại học Chulalongkorn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Thammasat,Đại học Srinakharinwirot,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Sungkyunkwan,Đại học Quốc gia Seoul,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Texas tại Austin,Đại học California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Texas tại Austin,Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Texas tại Austin,Viện Công nghệ Georgia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Texas tại Austin,Đại học Kansas,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Texas tại Austin,Đại học Michigan,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Texas tại Austin,Đại học Minnesota,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Texas tại Austin,Đại học North Carolina tại Chapel Hill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Texas tại Austin,Đại học Virginia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Texas tại Austin,Đại học Washington,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Texas tại Austin,Đại học Wisconsin–Madison,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Texas tại Austin,Đại học Brown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Texas tại Austin,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Texas tại Austin,Đại học Carnegie Mellon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Texas tại Austin,Đại học Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Texas tại Austin,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Texas tại Austin,Đại học Cornell,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Texas tại Austin,Đại học Duke,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Texas tại Austin,Đại học Johns Hopkins,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Texas tại Austin,Đại học New York,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Texas tại Austin,Đại học Pennsylvania,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Texas tại Austin,Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Texas tại Austin,Đại học Nam California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Texas tại Austin,Đại học McGill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Texas tại Austin,Đại học Toronto,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Thanh Hoa,Đại học Bắc Kinh,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Thanh Hoa,Đại học Phục Đán,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Thanh Hoa,Đại học Nam Kinh,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Thanh Hoa,Đại học Giao thông Thượng Hải,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Thanh Hoa,Đại học Giao thông Tây An,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Thanh Hoa,Đại học Chiết Giang,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Thanh Hoa,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Thanh Hoa,Đại học Carnegie Mellon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Thanh Hoa,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Thanh Hoa,Đại học Georgetown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Thanh Hoa,Đại học McGill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Thanh Hoa,Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Thanh Hoa,Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Thanh Hoa,Đại học Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Thanh Hoa,Đại học Pennsylvania,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Thanh Hoa,Đại học Bocconi,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Thanh Hoa,Đại học Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Thanh Hoa,Đại học Tokyo,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Thanh Hoa,Đại học Keio,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Thanh Hoa,Đại học Quốc gia Singapore,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Tiểu bang Kansas,Kansas State University,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Tokyo,Đại học Bắc Kinh,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Tokyo,Đại học Quốc gia Seoul,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Tokyo,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Tokyo,Đại học Carnegie Mellon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Tokyo,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Tokyo,Đại học Georgetown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Tokyo,Đại học McGill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Tokyo,Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Tokyo,Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Tokyo,Đại học Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Tokyo,Đại học Pennsylvania,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Tokyo,Đại học Bocconi,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Tokyo,Đại học Luân Đôn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Tokyo,Đại học Thanh Hoa,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Tokyo,Đại học Keio,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Tokyo,Đại học Chiết Giang,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Tokyo,Đại học Quốc gia Singapore,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Tây Úc,Đại học Giao thông Thượng Hải,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Tübingen,Đại học Marburg,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Toronto,Đại học McGill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Toronto,Đại học California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Toronto,Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Toronto,Viện Công nghệ Georgia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Toronto,Đại học Kansas,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Toronto,Đại học Michigan,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Toronto,Đại học Minnesota,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Toronto,Đại học North Carolina tại Chapel Hill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Toronto,Đại học Texas tại Austin,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Toronto,Đại học Virginia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Toronto,Đại học Washington,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Toronto,Đại học Wisconsin–Madison,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Toronto,Đại học Brown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Toronto,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Toronto,Đại học Carnegie Mellon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Toronto,Đại học Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Toronto,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Toronto,Đại học Cornell,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Toronto,Đại học Duke,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Toronto,Đại học Johns Hopkins,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Toronto,Đại học New York,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Toronto,Đại học Pennsylvania,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Toronto,Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Toronto,Đại học Nam California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Tổng hợp Kim Nhật Thành,Đại học Quốc gia Úc,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Warsaw,Đại học Warszawa,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Viên,Đại học Jagiellonia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Viên,Đại học Paris,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Viên,Đại học Hamburg,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Uppsala,Đại học Lund,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Uppsala,Đại học Helsinki,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Uppsala,Đại học Sydney,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Uppsala,Đại học Melbourne,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Uppsala,Đại học Toronto,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Uppsala,Đại học Bắc Kinh,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Uppsala,Đại học Copenhagen,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Uppsala,Đại học Tartu,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Uppsala,Đại học Freiburg,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Uppsala,Đại học Heidelberg,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Uppsala,Đại học Kyoto,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Uppsala,Đại học Waseda,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Uppsala,Đại học Leiden,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Uppsala,Đại học Oslo,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Uppsala,Đại học Edinburgh,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Uppsala,Cornell University,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Wien,Đại học Viên,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Washington,Đại học California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Washington,Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Washington,Viện Công nghệ Georgia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Washington,Đại học Kansas,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Washington,Đại học Michigan,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Washington,Đại học Minnesota,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Washington,Đại học North Carolina tại Chapel Hill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Washington,Đại học Texas tại Austin,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Washington,Đại học Virginia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Washington,Đại học Wisconsin–Madison,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Washington,Đại học Brown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Washington,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Washington,Đại học Carnegie Mellon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Washington,Đại học Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Washington,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Washington,Đại học Cornell,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Washington,Đại học Duke,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Washington,Đại học Johns Hopkins,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Washington,Đại học New York,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Washington,Đại học Pennsylvania,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Washington,Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Washington,Đại học Nam California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Washington,Đại học McGill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Washington,Đại học Toronto,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học William & Mary,Đại học William và Mary,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Wisconsin-Madison,Đại học Wisconsin–Madison,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Wisconsin–Madison,Đại học California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Wisconsin–Madison,Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Wisconsin–Madison,Viện Công nghệ Georgia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Wisconsin–Madison,Đại học Kansas,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Wisconsin–Madison,Đại học Michigan,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Wisconsin–Madison,Đại học Minnesota,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Wisconsin–Madison,Đại học North Carolina tại Chapel Hill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Wisconsin–Madison,Đại học Texas tại Austin,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Wisconsin–Madison,Đại học Virginia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Wisconsin–Madison,Đại học Washington,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Wisconsin–Madison,Đại học Brown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Wisconsin–Madison,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Wisconsin–Madison,Đại học Carnegie Mellon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Wisconsin–Madison,Đại học Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Wisconsin–Madison,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Wisconsin–Madison,Đại học Cornell,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Wisconsin–Madison,Đại học Duke,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Wisconsin–Madison,Đại học Johns Hopkins,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Wisconsin–Madison,Đại học New York,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Wisconsin–Madison,Đại học Pennsylvania,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Wisconsin–Madison,Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Wisconsin–Madison,Đại học Nam California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Wisconsin–Madison,Đại học McGill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Wisconsin–Madison,Đại học Toronto,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Waseda,Đại học Keio,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yangon,Đại học Calcutta,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yangon,Đại học Indonesia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yangon,Đại học Gadjah Mada,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yangon,Đại học Malaya,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yangon,Đại học Philippines,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yangon,Đại học Quốc gia Singapore,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yangon,Đại học Chulalongkorn,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yangon,Đại học Chiang Mai,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yangon,Đại học Cần Thơ,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Virginia,Đại học William & Mary,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Virginia,Đại học North Carolina tại Chapel Hill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Virginia,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Virginia,Đại học Duke,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Virginia,Đại học Johns Hopkins,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Virginia,Đại học Thanh Hoa,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Virginia,Học viện Quân sự Hoa Kỳ,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Virginia,Đại học California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Virginia,Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Virginia,Viện Công nghệ Georgia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Virginia,Đại học Kansas,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Virginia,Đại học Michigan,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Virginia,Đại học Minnesota,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Virginia,Đại học Texas tại Austin,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Virginia,Đại học Washington,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Virginia,Đại học Wisconsin–Madison,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Virginia,Đại học Brown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Virginia,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Virginia,Đại học Carnegie Mellon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Virginia,Đại học Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Virginia,Đại học Cornell,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Virginia,Đại học New York,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Virginia,Đại học Pennsylvania,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Virginia,Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Virginia,Đại học Nam California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Virginia,Đại học McGill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Virginia,Đại học Toronto,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học quốc lập Đài Loan,Đại học,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học quốc lập Đài Loan,Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học quốc lập Đài Loan,Đại học Thanh Hoa,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yale,Đại học William & Mary,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yale,Đại học Princeton,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yale,Đại học Quốc gia Singapore,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yale,Đại học Chicago,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yale,Đại học Pennsylvania,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yale,Đại học Duke,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yale,Đại học California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yale,Đại học California tại Berkeley,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yale,Viện Công nghệ Georgia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yale,Đại học Kansas,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yale,Đại học Michigan,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yale,Đại học Minnesota,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yale,Đại học North Carolina tại Chapel Hill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yale,Đại học Texas tại Austin,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yale,Đại học Virginia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yale,Đại học Washington,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yale,Đại học Wisconsin–Madison,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yale,Đại học Brown,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yale,Viện Công nghệ California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yale,Đại học Carnegie Mellon,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yale,Đại học Columbia,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yale,Đại học Cornell,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yale,Đại học Johns Hopkins,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yale,Đại học New York,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yale,Đại học Nam California,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yale,Đại học McGill,UNIVERSITY_MENTIONS_UNIVERSITY
+Đại học Yale,Đại học Toronto,UNIVERSITY_MENTIONS_UNIVERSITY

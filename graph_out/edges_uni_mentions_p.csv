@@ -9,19 +9,16 @@ Eton College,Alec Douglas-Home,UNI_MENTIONS_PERSON
 Eton College,Boris Johnson,UNI_MENTIONS_PERSON
 Eton College,Abhisit Vejjajiva,UNI_MENTIONS_PERSON
 Eton College,Robert Bridges,UNI_MENTIONS_PERSON
+Học viện Công nghệ Georgia,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
+Học viện Công nghệ Georgia,Theodore Roosevelt,UNI_MENTIONS_PERSON
+Học viện Công nghệ Georgia,Jimmy Carter,UNI_MENTIONS_PERSON
+Học viện Công nghệ Georgia,Ronald Reagan,UNI_MENTIONS_PERSON
 Học viện Hải quân Hoa Kỳ,Jimmy Carter,UNI_MENTIONS_PERSON
 Học viện Hải quân Hoa Kỳ,Robert A. Heinlein,UNI_MENTIONS_PERSON
 Học viện Hải quân Hoa Kỳ,John McCain,UNI_MENTIONS_PERSON
 Học viện Hải quân Hoa Kỳ,Jim Webb,UNI_MENTIONS_PERSON
 Học viện Mỹ thuật Jan Matejko,Jan Matejko,UNI_MENTIONS_PERSON
 Học viện Nghệ thuật Hoàng gia Nga,Ilya Yefimovich Repin,UNI_MENTIONS_PERSON
-Học viện Công nghệ Georgia,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
-Học viện Công nghệ Georgia,Theodore Roosevelt,UNI_MENTIONS_PERSON
-Học viện Công nghệ Georgia,Jimmy Carter,UNI_MENTIONS_PERSON
-Học viện Công nghệ Georgia,Ronald Reagan,UNI_MENTIONS_PERSON
-Trường Bách khoa Paris,François Mitterrand,UNI_MENTIONS_PERSON
-Trường Bách khoa Paris,Valéry Giscard d'Estaing,UNI_MENTIONS_PERSON
-Trường Bách khoa Paris,François Arago,UNI_MENTIONS_PERSON
 Trường Harrow,Winston Churchill,UNI_MENTIONS_PERSON
 Trường Harrow,Jawaharlal Nehru,UNI_MENTIONS_PERSON
 Trường Luật Harvard,Đại học Harvard,UNI_MENTIONS_PERSON
@@ -42,8 +39,9 @@ Trường Dịch vụ Đối ngoại,António Guterres,UNI_MENTIONS_PERSON
 Trường Dịch vụ Đối ngoại,Ronald Reagan,UNI_MENTIONS_PERSON
 Trường Dịch vụ Đối ngoại,Donald Trump,UNI_MENTIONS_PERSON
 Trường Dịch vụ Đối ngoại,Barack Obama,UNI_MENTIONS_PERSON
-Trường Trung học Albert Sarraut,Võ Nguyên Giáp,UNI_MENTIONS_PERSON
-Trường Trung học Albert Sarraut,Trần Lệ Xuân,UNI_MENTIONS_PERSON
+Trường Bách khoa Paris,François Mitterrand,UNI_MENTIONS_PERSON
+Trường Bách khoa Paris,Valéry Giscard d'Estaing,UNI_MENTIONS_PERSON
+Trường Bách khoa Paris,François Arago,UNI_MENTIONS_PERSON
 Trường Kinh tế và Khoa học Chính trị Luân Đôn,Friedrich Hayek,UNI_MENTIONS_PERSON
 Trường Kinh tế và Khoa học Chính trị Luân Đôn,Winston Churchill,UNI_MENTIONS_PERSON
 Trường Kinh tế và Khoa học Chính trị Luân Đôn,Bill Clinton,UNI_MENTIONS_PERSON
@@ -72,18 +70,20 @@ Trường Kinh tế và Khoa học Chính trị Luân Đôn,Clement Attlee,UNI_M
 Trường Kinh tế và Khoa học Chính trị Luân Đôn,Moshe Sharett,UNI_MENTIONS_PERSON
 Trường Kinh tế và Khoa học Chính trị Luân Đôn,Barack Obama,UNI_MENTIONS_PERSON
 Trường Kinh tế và Khoa học Chính trị Luân Đôn,Đại học Oxford,UNI_MENTIONS_PERSON
-Trường Đại học Lao động Cộng sản Phương Đông,Hồ Chí Minh,UNI_MENTIONS_PERSON
-Trường Đại học Lao động Cộng sản Phương Đông,Tưởng Kinh Quốc,UNI_MENTIONS_PERSON
-Trường Đại học Lao động Cộng sản Phương Đông,Đặng Tiểu Bình,UNI_MENTIONS_PERSON
+Trường Trung học Albert Sarraut,Võ Nguyên Giáp,UNI_MENTIONS_PERSON
+Trường Trung học Albert Sarraut,Trần Lệ Xuân,UNI_MENTIONS_PERSON
 Trường Đại học Hà Nội,Phạm Minh Chính,UNI_MENTIONS_PERSON
 Trường Trung học phổ thông chuyên Quốc Học – Huế,Ngô Đình Diệm,UNI_MENTIONS_PERSON
 Trường Trung học phổ thông chuyên Quốc Học – Huế,Hồ Chí Minh,UNI_MENTIONS_PERSON
 Trường Trung học phổ thông chuyên Quốc Học – Huế,Võ Nguyên Giáp,UNI_MENTIONS_PERSON
-Trường Đại học Mỏ – Địa chất,Trần Đức Lương,UNI_MENTIONS_PERSON
+Trường Đại học Lao động Cộng sản Phương Đông,Hồ Chí Minh,UNI_MENTIONS_PERSON
+Trường Đại học Lao động Cộng sản Phương Đông,Tưởng Kinh Quốc,UNI_MENTIONS_PERSON
+Trường Đại học Lao động Cộng sản Phương Đông,Đặng Tiểu Bình,UNI_MENTIONS_PERSON
 Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,Mao Trạch Đông,UNI_MENTIONS_PERSON
 Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,Hồ Cẩm Đào,UNI_MENTIONS_PERSON
 Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,Tăng Khánh Hồng,UNI_MENTIONS_PERSON
 Trường Đảng Trung ương Đảng Cộng sản Trung Quốc,Tập Cận Bình,UNI_MENTIONS_PERSON
+Trường Đại học Mỏ – Địa chất,Trần Đức Lương,UNI_MENTIONS_PERSON
 "Trường Đại học Khoa học Xã hội và Nhân văn, Đại học Quốc gia Thành phố Hồ Chí Minh",Võ Văn Thưởng,UNI_MENTIONS_PERSON
 Trường Võ bị Quốc gia Đà Lạt,Nguyễn Văn Thiệu,UNI_MENTIONS_PERSON
 Trường Võ bị Quốc gia Đà Lạt,Lê Văn Kim,UNI_MENTIONS_PERSON
@@ -100,7 +100,9 @@ Viện Công nghệ California,Đại học Stanford,UNI_MENTIONS_PERSON
 Viện Công nghệ California,Đại học Yale,UNI_MENTIONS_PERSON
 Viện Công nghệ California,Đại học Oxford,UNI_MENTIONS_PERSON
 Viện Công nghệ California,Đại học Cambridge,UNI_MENTIONS_PERSON
-École nationale supérieure des mines de Paris,Alain Poher,UNI_MENTIONS_PERSON
+Viện Khoa học Trung Quốc,Lý Khắc Cường,UNI_MENTIONS_PERSON
+École spéciale militaire de Saint-Cyr,Charles de Gaulle,UNI_MENTIONS_PERSON
+École spéciale militaire de Saint-Cyr,Nguyễn Văn Thiệu,UNI_MENTIONS_PERSON
 Viện Nghiên cứu Chính trị Paris,Boutros Boutros-Ghali,UNI_MENTIONS_PERSON
 Viện Nghiên cứu Chính trị Paris,Chandrika Kumaratunga,UNI_MENTIONS_PERSON
 Viện Nghiên cứu Chính trị Paris,Pierre Trudeau,UNI_MENTIONS_PERSON
@@ -113,22 +115,19 @@ Viện Nghiên cứu Chính trị Paris,Georges Pompidou,UNI_MENTIONS_PERSON
 Viện Nghiên cứu Chính trị Paris,Édouard Philippe,UNI_MENTIONS_PERSON
 Viện Nghiên cứu Chính trị Paris,Alain Juppé,UNI_MENTIONS_PERSON
 Viện Nghiên cứu Chính trị Paris,Michel Debré,UNI_MENTIONS_PERSON
-Viện Khoa học Trung Quốc,Lý Khắc Cường,UNI_MENTIONS_PERSON
 École normale supérieure de Lyon,Ian Brossat,UNI_MENTIONS_PERSON
-École spéciale militaire de Saint-Cyr,Charles de Gaulle,UNI_MENTIONS_PERSON
-École spéciale militaire de Saint-Cyr,Nguyễn Văn Thiệu,UNI_MENTIONS_PERSON
-Đại học Aarhus,Frederik X của Đan Mạch,UNI_MENTIONS_PERSON
-Đại học Aarhus,Anders Fogh Rasmussen,UNI_MENTIONS_PERSON
-Đại học Amherst,Đại học Harvard,UNI_MENTIONS_PERSON
-Đại học Amherst,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
-Đại học Amherst,Đại học Yale,UNI_MENTIONS_PERSON
+École nationale supérieure des mines de Paris,Alain Poher,UNI_MENTIONS_PERSON
 Viện Công nghệ Massachusetts,Đại học Harvard,UNI_MENTIONS_PERSON
 Viện Công nghệ Massachusetts,Đại học Stanford,UNI_MENTIONS_PERSON
 Viện Công nghệ Massachusetts,Đại học Yale,UNI_MENTIONS_PERSON
 Viện Công nghệ Massachusetts,Đại học Oxford,UNI_MENTIONS_PERSON
 Viện Công nghệ Massachusetts,Đại học Cambridge,UNI_MENTIONS_PERSON
+Đại học Aarhus,Frederik X của Đan Mạch,UNI_MENTIONS_PERSON
+Đại học Aarhus,Anders Fogh Rasmussen,UNI_MENTIONS_PERSON
+Đại học Amherst,Đại học Harvard,UNI_MENTIONS_PERSON
+Đại học Amherst,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
+Đại học Amherst,Đại học Yale,UNI_MENTIONS_PERSON
 Đại học Beograd,Boris Tadić,UNI_MENTIONS_PERSON
-Đại học Buenos Aires,Che Guevara,UNI_MENTIONS_PERSON
 Đại học Boston,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
 Đại học Boston,Đại học Yale,UNI_MENTIONS_PERSON
 Đại học Bonn,Luigi Pirandello,UNI_MENTIONS_PERSON
@@ -139,7 +138,18 @@ Viện Công nghệ Massachusetts,Đại học Cambridge,UNI_MENTIONS_PERSON
 Đại học Brown,Đại học Yale,UNI_MENTIONS_PERSON
 Đại học Brown,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
 Đại học Brown,Đại học Stanford,UNI_MENTIONS_PERSON
-Đại học Bang Florida,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
+Đại học Buenos Aires,Che Guevara,UNI_MENTIONS_PERSON
+Đại học California tại Berkeley,Đại học Cambridge,UNI_MENTIONS_PERSON
+Đại học California tại Berkeley,Đại học Harvard,UNI_MENTIONS_PERSON
+Đại học California tại Berkeley,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
+Đại học California tại Berkeley,Đại học Oxford,UNI_MENTIONS_PERSON
+Đại học California tại Berkeley,Đại học Stanford,UNI_MENTIONS_PERSON
+Đại học California tại Berkeley,Ernest Lawrence,UNI_MENTIONS_PERSON
+Đại học California tại Berkeley,Đại học Yale,UNI_MENTIONS_PERSON
+Đại học California,Đại học Harvard,UNI_MENTIONS_PERSON
+Đại học California,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
+Đại học California,Đại học Stanford,UNI_MENTIONS_PERSON
+Đại học California,Đại học Yale,UNI_MENTIONS_PERSON
 Đại học Bắc Kinh,Trần Độc Tú,UNI_MENTIONS_PERSON
 Đại học Bắc Kinh,Mao Trạch Đông,UNI_MENTIONS_PERSON
 Đại học Bắc Kinh,Đại học Harvard,UNI_MENTIONS_PERSON
@@ -148,27 +158,21 @@ Viện Công nghệ Massachusetts,Đại học Cambridge,UNI_MENTIONS_PERSON
 Đại học Bắc Kinh,Đại học Yale,UNI_MENTIONS_PERSON
 Đại học Bắc Kinh,Đại học Oxford,UNI_MENTIONS_PERSON
 Đại học Bắc Kinh,Đại học Cambridge,UNI_MENTIONS_PERSON
-Đại học California,Đại học Harvard,UNI_MENTIONS_PERSON
-Đại học California,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
-Đại học California,Đại học Stanford,UNI_MENTIONS_PERSON
-Đại học California,Đại học Yale,UNI_MENTIONS_PERSON
 "Đại học California, Los Angeles",Đại học Stanford,UNI_MENTIONS_PERSON
 "Đại học California, Los Angeles",Đại học Harvard,UNI_MENTIONS_PERSON
 "Đại học California, Los Angeles",Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
 "Đại học California, Los Angeles",Đại học Yale,UNI_MENTIONS_PERSON
-Đại học California tại Berkeley,Đại học Cambridge,UNI_MENTIONS_PERSON
-Đại học California tại Berkeley,Đại học Harvard,UNI_MENTIONS_PERSON
-Đại học California tại Berkeley,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
-Đại học California tại Berkeley,Đại học Oxford,UNI_MENTIONS_PERSON
-Đại học California tại Berkeley,Đại học Stanford,UNI_MENTIONS_PERSON
-Đại học California tại Berkeley,Ernest Lawrence,UNI_MENTIONS_PERSON
-Đại học California tại Berkeley,Đại học Yale,UNI_MENTIONS_PERSON
 Đại học Carnegie Mellon,Đại học Harvard,UNI_MENTIONS_PERSON
 Đại học Carnegie Mellon,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
 Đại học Carnegie Mellon,Đại học Stanford,UNI_MENTIONS_PERSON
 Đại học Carnegie Mellon,Đại học Yale,UNI_MENTIONS_PERSON
 Đại học Carnegie Mellon,Đại học Oxford,UNI_MENTIONS_PERSON
 Đại học Carnegie Mellon,Đại học Cambridge,UNI_MENTIONS_PERSON
+Đại học Chicago,Đại học Stanford,UNI_MENTIONS_PERSON
+Đại học Chicago,Milton Friedman,UNI_MENTIONS_PERSON
+Đại học Chicago,Đại học Harvard,UNI_MENTIONS_PERSON
+Đại học Chicago,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
+Đại học Chicago,Đại học Yale,UNI_MENTIONS_PERSON
 Đại học Chiết Giang,Tôn Trung Sơn,UNI_MENTIONS_PERSON
 Đại học Chiết Giang,Tưởng Giới Thạch,UNI_MENTIONS_PERSON
 Đại học Chiết Giang,Đại học Harvard,UNI_MENTIONS_PERSON
@@ -177,27 +181,10 @@ Viện Công nghệ Massachusetts,Đại học Cambridge,UNI_MENTIONS_PERSON
 Đại học Chiết Giang,Đại học Yale,UNI_MENTIONS_PERSON
 Đại học Chiết Giang,Đại học Oxford,UNI_MENTIONS_PERSON
 Đại học Chiết Giang,Đại học Cambridge,UNI_MENTIONS_PERSON
-Đại học Cambridge,Đại học Oxford,UNI_MENTIONS_PERSON
-Đại học Cambridge,Oliver Cromwell,UNI_MENTIONS_PERSON
-Đại học Cambridge,Bill Gates,UNI_MENTIONS_PERSON
-Đại học Cambridge,Winston Churchill,UNI_MENTIONS_PERSON
-Đại học Cambridge,Theodore Roosevelt,UNI_MENTIONS_PERSON
-Đại học Cambridge,Ronald Reagan,UNI_MENTIONS_PERSON
-Đại học Cambridge,Jawaharlal Nehru,UNI_MENTIONS_PERSON
-Đại học Cambridge,William Wilberforce,UNI_MENTIONS_PERSON
-Đại học Cambridge,Ralph Vaughan Williams,UNI_MENTIONS_PERSON
-Đại học Cambridge,Robert Walpole,UNI_MENTIONS_PERSON
-Đại học Cambridge,Manmohan Singh,UNI_MENTIONS_PERSON
-Đại học Cambridge,William Wordsworth,UNI_MENTIONS_PERSON
 Đại học Copenhagen,Đại học Cambridge,UNI_MENTIONS_PERSON
 Đại học Copenhagen,Đại học Oxford,UNI_MENTIONS_PERSON
 Đại học Copenhagen,Đại học Yale,UNI_MENTIONS_PERSON
 Đại học Copenhagen,Johannes Vilhelm Jensen,UNI_MENTIONS_PERSON
-Đại học Chicago,Đại học Stanford,UNI_MENTIONS_PERSON
-Đại học Chicago,Milton Friedman,UNI_MENTIONS_PERSON
-Đại học Chicago,Đại học Harvard,UNI_MENTIONS_PERSON
-Đại học Chicago,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
-Đại học Chicago,Đại học Yale,UNI_MENTIONS_PERSON
 Đại học Cornell,Ruth Bader Ginsburg,UNI_MENTIONS_PERSON
 Đại học Cornell,Thái Anh Văn,UNI_MENTIONS_PERSON
 Đại học Cornell,Lý Đăng Huy,UNI_MENTIONS_PERSON
@@ -206,29 +193,6 @@ Viện Công nghệ Massachusetts,Đại học Cambridge,UNI_MENTIONS_PERSON
 Đại học Cornell,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
 Đại học Cornell,Đại học Stanford,UNI_MENTIONS_PERSON
 Đại học Cornell,Đại học Yale,UNI_MENTIONS_PERSON
-Đại học Dickinson,James Buchanan,UNI_MENTIONS_PERSON
-Đại học Firenze,Michelangelo,UNI_MENTIONS_PERSON
-Đại học Freiburg,Friedrich Hayek,UNI_MENTIONS_PERSON
-Đại học Gdańsk,Donald Tusk,UNI_MENTIONS_PERSON
-Đại học Edinburgh,Đại học Cambridge,UNI_MENTIONS_PERSON
-Đại học Edinburgh,Đại học Oxford,UNI_MENTIONS_PERSON
-Đại học Edinburgh,J. M. Barrie,UNI_MENTIONS_PERSON
-Đại học Edinburgh,Gordon Brown,UNI_MENTIONS_PERSON
-Đại học Edinburgh,James Mirrlees,UNI_MENTIONS_PERSON
-Đại học Duke,Đại học Harvard,UNI_MENTIONS_PERSON
-Đại học Duke,Richard Nixon,UNI_MENTIONS_PERSON
-Đại học Duke,Tim Cook,UNI_MENTIONS_PERSON
-Đại học Duke,Rand Paul,UNI_MENTIONS_PERSON
-Đại học Duke,J. B. Pritzker,UNI_MENTIONS_PERSON
-Đại học Duke,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
-Đại học Duke,Đại học Stanford,UNI_MENTIONS_PERSON
-Đại học Duke,Đại học Yale,UNI_MENTIONS_PERSON
-Đại học Graz,Joseph Schumpeter,UNI_MENTIONS_PERSON
-Đại học Glasgow,Đại học Cambridge,UNI_MENTIONS_PERSON
-Đại học Glasgow,Đại học Oxford,UNI_MENTIONS_PERSON
-Đại học Göttingen,Otto von Bismarck,UNI_MENTIONS_PERSON
-Đại học Göttingen,Richard von Weizsäcker,UNI_MENTIONS_PERSON
-Đại học Greenwich,Abiy Ahmed,UNI_MENTIONS_PERSON
 Đại học Columbia,Đại học Yale,UNI_MENTIONS_PERSON
 Đại học Columbia,John Jay,UNI_MENTIONS_PERSON
 Đại học Columbia,Đại học Harvard,UNI_MENTIONS_PERSON
@@ -245,39 +209,46 @@ Viện Công nghệ Massachusetts,Đại học Cambridge,UNI_MENTIONS_PERSON
 Đại học Columbia,Đại học Stanford,UNI_MENTIONS_PERSON
 Đại học Columbia,Đại học Oxford,UNI_MENTIONS_PERSON
 Đại học Columbia,Đại học Cambridge,UNI_MENTIONS_PERSON
+Đại học Cambridge,Đại học Oxford,UNI_MENTIONS_PERSON
+Đại học Cambridge,Oliver Cromwell,UNI_MENTIONS_PERSON
+Đại học Cambridge,Bill Gates,UNI_MENTIONS_PERSON
+Đại học Cambridge,Winston Churchill,UNI_MENTIONS_PERSON
+Đại học Cambridge,Theodore Roosevelt,UNI_MENTIONS_PERSON
+Đại học Cambridge,Ronald Reagan,UNI_MENTIONS_PERSON
+Đại học Cambridge,Jawaharlal Nehru,UNI_MENTIONS_PERSON
+Đại học Cambridge,William Wilberforce,UNI_MENTIONS_PERSON
+Đại học Cambridge,Ralph Vaughan Williams,UNI_MENTIONS_PERSON
+Đại học Cambridge,Robert Walpole,UNI_MENTIONS_PERSON
+Đại học Cambridge,Manmohan Singh,UNI_MENTIONS_PERSON
+Đại học Cambridge,William Wordsworth,UNI_MENTIONS_PERSON
+Đại học Bang Florida,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
+Đại học Dickinson,James Buchanan,UNI_MENTIONS_PERSON
+Đại học Firenze,Michelangelo,UNI_MENTIONS_PERSON
+Đại học Freiburg,Friedrich Hayek,UNI_MENTIONS_PERSON
+Đại học Edinburgh,Đại học Cambridge,UNI_MENTIONS_PERSON
+Đại học Edinburgh,Đại học Oxford,UNI_MENTIONS_PERSON
+Đại học Edinburgh,J. M. Barrie,UNI_MENTIONS_PERSON
+Đại học Edinburgh,Gordon Brown,UNI_MENTIONS_PERSON
+Đại học Edinburgh,James Mirrlees,UNI_MENTIONS_PERSON
+Đại học Gdańsk,Donald Tusk,UNI_MENTIONS_PERSON
+Đại học Duke,Đại học Harvard,UNI_MENTIONS_PERSON
+Đại học Duke,Richard Nixon,UNI_MENTIONS_PERSON
+Đại học Duke,Tim Cook,UNI_MENTIONS_PERSON
+Đại học Duke,Rand Paul,UNI_MENTIONS_PERSON
+Đại học Duke,J. B. Pritzker,UNI_MENTIONS_PERSON
+Đại học Duke,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
+Đại học Duke,Đại học Stanford,UNI_MENTIONS_PERSON
+Đại học Duke,Đại học Yale,UNI_MENTIONS_PERSON
+Đại học Graz,Joseph Schumpeter,UNI_MENTIONS_PERSON
+Đại học Glasgow,Đại học Cambridge,UNI_MENTIONS_PERSON
+Đại học Glasgow,Đại học Oxford,UNI_MENTIONS_PERSON
+Đại học Greenwich,Abiy Ahmed,UNI_MENTIONS_PERSON
 Đại học Helsinki,Tarja Halonen,UNI_MENTIONS_PERSON
 Đại học Helsinki,Juho Kusti Paasikivi,UNI_MENTIONS_PERSON
 Đại học Helsinki,Pehr Evind Svinhufvud,UNI_MENTIONS_PERSON
-Đại học Georgetown,Đại học Harvard,UNI_MENTIONS_PERSON
-Đại học Georgetown,James Madison,UNI_MENTIONS_PERSON
-Đại học Georgetown,Barack Obama,UNI_MENTIONS_PERSON
-Đại học Georgetown,George Akerlof,UNI_MENTIONS_PERSON
-Đại học Georgetown,Henry Kissinger,UNI_MENTIONS_PERSON
-Đại học Georgetown,Anthony Lake,UNI_MENTIONS_PERSON
-Đại học Georgetown,George Tenet,UNI_MENTIONS_PERSON
-Đại học Georgetown,Antonin Scalia,UNI_MENTIONS_PERSON
-Đại học Georgetown,John Roberts,UNI_MENTIONS_PERSON
-Đại học Georgetown,Laura Chinchilla,UNI_MENTIONS_PERSON
-Đại học Georgetown,Álvaro Uribe,UNI_MENTIONS_PERSON
-Đại học Georgetown,Bill Clinton,UNI_MENTIONS_PERSON
-Đại học Georgetown,Lyndon B. Johnson,UNI_MENTIONS_PERSON
-Đại học Georgetown,Iván Duque Márquez,UNI_MENTIONS_PERSON
-Đại học Georgetown,Gloria Macapagal Arroyo,UNI_MENTIONS_PERSON
-Đại học Georgetown,José Manuel Barroso,UNI_MENTIONS_PERSON
-Đại học Georgetown,Ivanka Trump,UNI_MENTIONS_PERSON
-Đại học Georgetown,Nancy Pelosi,UNI_MENTIONS_PERSON
-Đại học Georgetown,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
-Đại học Georgetown,Đại học Yale,UNI_MENTIONS_PERSON
-Đại học Georgetown,Đại học Stanford,UNI_MENTIONS_PERSON
-Đại học Georgetown,Đại học Oxford,UNI_MENTIONS_PERSON
-Đại học Georgetown,Đại học Cambridge,UNI_MENTIONS_PERSON
 Đại học Hebrew của Jerusalem,Harry S. Truman,UNI_MENTIONS_PERSON
-Đại học Hồng Kông,Lý Gia Siêu,UNI_MENTIONS_PERSON
-Đại học Georgia,Đại học Yale,UNI_MENTIONS_PERSON
-Đại học Georgia,George H. W. Bush,UNI_MENTIONS_PERSON
-Đại học Georgia,Đại học Oxford,UNI_MENTIONS_PERSON
-Đại học Georgia,Brian Kemp,UNI_MENTIONS_PERSON
-Đại học Georgia,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
+Đại học Göttingen,Otto von Bismarck,UNI_MENTIONS_PERSON
+Đại học Göttingen,Richard von Weizsäcker,UNI_MENTIONS_PERSON
 Đại học Harvard,Donald Trump,UNI_MENTIONS_PERSON
 Đại học Harvard,Linda McMahon,UNI_MENTIONS_PERSON
 Đại học Harvard,Kristi Noem,UNI_MENTIONS_PERSON
@@ -305,14 +276,43 @@ Viện Công nghệ Massachusetts,Đại học Cambridge,UNI_MENTIONS_PERSON
 Đại học Harvard,William Faulkner,UNI_MENTIONS_PERSON
 Đại học Harvard,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
 Đại học Harvard,Đại học Stanford,UNI_MENTIONS_PERSON
+Đại học Georgetown,Đại học Harvard,UNI_MENTIONS_PERSON
+Đại học Georgetown,James Madison,UNI_MENTIONS_PERSON
+Đại học Georgetown,Barack Obama,UNI_MENTIONS_PERSON
+Đại học Georgetown,George Akerlof,UNI_MENTIONS_PERSON
+Đại học Georgetown,Henry Kissinger,UNI_MENTIONS_PERSON
+Đại học Georgetown,Anthony Lake,UNI_MENTIONS_PERSON
+Đại học Georgetown,George Tenet,UNI_MENTIONS_PERSON
+Đại học Georgetown,Antonin Scalia,UNI_MENTIONS_PERSON
+Đại học Georgetown,John Roberts,UNI_MENTIONS_PERSON
+Đại học Georgetown,Laura Chinchilla,UNI_MENTIONS_PERSON
+Đại học Georgetown,Álvaro Uribe,UNI_MENTIONS_PERSON
+Đại học Georgetown,Bill Clinton,UNI_MENTIONS_PERSON
+Đại học Georgetown,Lyndon B. Johnson,UNI_MENTIONS_PERSON
+Đại học Georgetown,Iván Duque Márquez,UNI_MENTIONS_PERSON
+Đại học Georgetown,Gloria Macapagal Arroyo,UNI_MENTIONS_PERSON
+Đại học Georgetown,José Manuel Barroso,UNI_MENTIONS_PERSON
+Đại học Georgetown,Ivanka Trump,UNI_MENTIONS_PERSON
+Đại học Georgetown,Nancy Pelosi,UNI_MENTIONS_PERSON
+Đại học Georgetown,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
+Đại học Georgetown,Đại học Yale,UNI_MENTIONS_PERSON
+Đại học Georgetown,Đại học Stanford,UNI_MENTIONS_PERSON
+Đại học Georgetown,Đại học Oxford,UNI_MENTIONS_PERSON
+Đại học Georgetown,Đại học Cambridge,UNI_MENTIONS_PERSON
+Đại học Georgia,Đại học Yale,UNI_MENTIONS_PERSON
+Đại học Georgia,George H. W. Bush,UNI_MENTIONS_PERSON
+Đại học Georgia,Đại học Oxford,UNI_MENTIONS_PERSON
+Đại học Georgia,Brian Kemp,UNI_MENTIONS_PERSON
+Đại học Georgia,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
+Đại học Hồng Kông,Lý Gia Siêu,UNI_MENTIONS_PERSON
 Đại học Dartmouth,Đại học Harvard,UNI_MENTIONS_PERSON
 Đại học Dartmouth,Đại học Yale,UNI_MENTIONS_PERSON
-Đại học Istanbul,Abdullah Gül,UNI_MENTIONS_PERSON
-Đại học Istanbul,Moshe Sharett,UNI_MENTIONS_PERSON
 Đại học Johns Hopkins,Đại học Harvard,UNI_MENTIONS_PERSON
 Đại học Johns Hopkins,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
 Đại học Johns Hopkins,Đại học Stanford,UNI_MENTIONS_PERSON
 Đại học Johns Hopkins,Đại học Yale,UNI_MENTIONS_PERSON
+Đại học Istanbul,Abdullah Gül,UNI_MENTIONS_PERSON
+Đại học Istanbul,Moshe Sharett,UNI_MENTIONS_PERSON
 Đại học Keio,Koizumi Junichirō,UNI_MENTIONS_PERSON
 Đại học Keio,Inukai Tsuyoshi,UNI_MENTIONS_PERSON
 Đại học Keio,Đại học Harvard,UNI_MENTIONS_PERSON
@@ -323,54 +323,62 @@ Viện Công nghệ Massachusetts,Đại học Cambridge,UNI_MENTIONS_PERSON
 Đại học Keio,Đại học Cambridge,UNI_MENTIONS_PERSON
 Đại học La Habana,Fidel Castro,UNI_MENTIONS_PERSON
 Đại học Latvia,Valdis Dombrovskis,UNI_MENTIONS_PERSON
+Đại học Kỹ thuật Quốc gia Moskva Bauman,Alfred Rosenberg,UNI_MENTIONS_PERSON
 Đại học Kyung Hee,Moon Jae-in,UNI_MENTIONS_PERSON
 Đại học Kyung Hee,Kim Dae-jung,UNI_MENTIONS_PERSON
-Đại học Kỹ thuật Quốc gia Moskva Bauman,Alfred Rosenberg,UNI_MENTIONS_PERSON
-Đại học Leeds,Đại học Oxford,UNI_MENTIONS_PERSON
-Đại học Leeds,Đại học Cambridge,UNI_MENTIONS_PERSON
 Đại học Ludwig Maximilian München,Thomas Mann,UNI_MENTIONS_PERSON
 Đại học Ludwig Maximilian München,Đại học Cambridge,UNI_MENTIONS_PERSON
 Đại học Ludwig Maximilian München,Đại học Oxford,UNI_MENTIONS_PERSON
 Đại học Lund,Bertil Ohlin,UNI_MENTIONS_PERSON
+Đại học Leeds,Đại học Oxford,UNI_MENTIONS_PERSON
+Đại học Leeds,Đại học Cambridge,UNI_MENTIONS_PERSON
 Đại học Melbourne,Đại học Cambridge,UNI_MENTIONS_PERSON
-Đại học McGill,Julie Payette,UNI_MENTIONS_PERSON
-Đại học McGill,Đại học Harvard,UNI_MENTIONS_PERSON
-Đại học McGill,Zbigniew Brzezinski,UNI_MENTIONS_PERSON
-Đại học McGill,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
-Đại học McGill,Đại học Stanford,UNI_MENTIONS_PERSON
-Đại học McGill,Đại học Yale,UNI_MENTIONS_PERSON
 Đại học Middlebury,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
 Đại học Middlebury,Đại học Yale,UNI_MENTIONS_PERSON
 Đại học Michigan,Đại học Harvard,UNI_MENTIONS_PERSON
 Đại học Michigan,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
 Đại học Michigan,Đại học Stanford,UNI_MENTIONS_PERSON
 Đại học Michigan,Đại học Yale,UNI_MENTIONS_PERSON
+Đại học McGill,Julie Payette,UNI_MENTIONS_PERSON
+Đại học McGill,Đại học Harvard,UNI_MENTIONS_PERSON
+Đại học McGill,Zbigniew Brzezinski,UNI_MENTIONS_PERSON
+Đại học McGill,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
+Đại học McGill,Đại học Stanford,UNI_MENTIONS_PERSON
+Đại học McGill,Đại học Yale,UNI_MENTIONS_PERSON
+Đại học Nhà vua Luân Đôn,Đại học Cambridge,UNI_MENTIONS_PERSON
+Đại học Nhà vua Luân Đôn,Đại học Oxford,UNI_MENTIONS_PERSON
 Đại học Nam California,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
 Đại học Nam California,Đại học Stanford,UNI_MENTIONS_PERSON
 Đại học Nam California,Đại học Harvard,UNI_MENTIONS_PERSON
 Đại học Nam California,Đại học Yale,UNI_MENTIONS_PERSON
-Đại học Nhà vua Luân Đôn,Đại học Cambridge,UNI_MENTIONS_PERSON
-Đại học Nhà vua Luân Đôn,Đại học Oxford,UNI_MENTIONS_PERSON
+Đại học North Carolina tại Chapel Hill,Đại học Harvard,UNI_MENTIONS_PERSON
+Đại học North Carolina tại Chapel Hill,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
+Đại học North Carolina tại Chapel Hill,Đại học Stanford,UNI_MENTIONS_PERSON
+Đại học North Carolina tại Chapel Hill,Đại học Yale,UNI_MENTIONS_PERSON
+Đại học Notre Dame,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
+Đại học Notre Dame,Đại học Yale,UNI_MENTIONS_PERSON
 Đại học Nottingham,Clive Granger,UNI_MENTIONS_PERSON
 Đại học Nottingham,Đại học Cambridge,UNI_MENTIONS_PERSON
 Đại học Nottingham,Đại học Oxford,UNI_MENTIONS_PERSON
-Đại học Notre Dame,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
-Đại học Notre Dame,Đại học Yale,UNI_MENTIONS_PERSON
+Đại học Paris Nanterre,Nicolas Sarkozy,UNI_MENTIONS_PERSON
+Đại học Paris Nanterre,Maurice Allais,UNI_MENTIONS_PERSON
+Đại học Paris Nanterre,Jean-Luc Godard,UNI_MENTIONS_PERSON
+Đại học New York,Albert Gallatin,UNI_MENTIONS_PERSON
+Đại học New York,Thomas Jefferson,UNI_MENTIONS_PERSON
+Đại học New York,James Madison,UNI_MENTIONS_PERSON
+Đại học Pisa,Giuliano Amato,UNI_MENTIONS_PERSON
+Đại học Pisa,Enrico Letta,UNI_MENTIONS_PERSON
 Đại học Nhân dân Trung Quốc,Đại học Harvard,UNI_MENTIONS_PERSON
 Đại học Nhân dân Trung Quốc,Đại học Cambridge,UNI_MENTIONS_PERSON
 Đại học Nhân dân Trung Quốc,Đại học Stanford,UNI_MENTIONS_PERSON
 Đại học Nhân dân Trung Quốc,Mao Trạch Đông,UNI_MENTIONS_PERSON
 Đại học Nhân dân Trung Quốc,Đại học Yale,UNI_MENTIONS_PERSON
 Đại học Nhân dân Trung Quốc,Gordon Brown,UNI_MENTIONS_PERSON
-Đại học North Carolina tại Chapel Hill,Đại học Harvard,UNI_MENTIONS_PERSON
-Đại học North Carolina tại Chapel Hill,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
-Đại học North Carolina tại Chapel Hill,Đại học Stanford,UNI_MENTIONS_PERSON
-Đại học North Carolina tại Chapel Hill,Đại học Yale,UNI_MENTIONS_PERSON
-Đại học Paris Nanterre,Nicolas Sarkozy,UNI_MENTIONS_PERSON
-Đại học Paris Nanterre,Maurice Allais,UNI_MENTIONS_PERSON
-Đại học Paris Nanterre,Jean-Luc Godard,UNI_MENTIONS_PERSON
-Đại học Pisa,Giuliano Amato,UNI_MENTIONS_PERSON
-Đại học Pisa,Enrico Letta,UNI_MENTIONS_PERSON
+Đại học Princeton,Đại học Harvard,UNI_MENTIONS_PERSON
+Đại học Princeton,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
+Đại học Princeton,Đại học Stanford,UNI_MENTIONS_PERSON
+Đại học Princeton,Đại học Yale,UNI_MENTIONS_PERSON
+Đại học Quân sự Kim Nhật Thành,Kim Jong-un,UNI_MENTIONS_PERSON
 Đại học Pennsylvania,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
 Đại học Pennsylvania,Đại học Harvard,UNI_MENTIONS_PERSON
 Đại học Pennsylvania,Đại học Stanford,UNI_MENTIONS_PERSON
@@ -381,14 +389,9 @@ Viện Công nghệ Massachusetts,Đại học Cambridge,UNI_MENTIONS_PERSON
 Đại học Pennsylvania,Ed Rendell,UNI_MENTIONS_PERSON
 Đại học Pennsylvania,Alassane Ouattara,UNI_MENTIONS_PERSON
 Đại học Pennsylvania,Đại học Yale,UNI_MENTIONS_PERSON
-Đại học Quân sự Kim Nhật Thành,Kim Jong-un,UNI_MENTIONS_PERSON
-Đại học New York,Albert Gallatin,UNI_MENTIONS_PERSON
-Đại học New York,Thomas Jefferson,UNI_MENTIONS_PERSON
-Đại học New York,James Madison,UNI_MENTIONS_PERSON
-Đại học Princeton,Đại học Harvard,UNI_MENTIONS_PERSON
-Đại học Princeton,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
-Đại học Princeton,Đại học Stanford,UNI_MENTIONS_PERSON
-Đại học Princeton,Đại học Yale,UNI_MENTIONS_PERSON
+Đại học Quốc gia Singapore,Đại học Yale,UNI_MENTIONS_PERSON
+Đại học Quốc gia Singapore,Nguyễn Xuân Phúc,UNI_MENTIONS_PERSON
+Đại học Quốc phòng Trung Quốc,Đặng Tiểu Bình,UNI_MENTIONS_PERSON
 Đại học Oxford,John Henry Newman,UNI_MENTIONS_PERSON
 Đại học Oxford,Michelangelo,UNI_MENTIONS_PERSON
 Đại học Oxford,Ronald Reagan,UNI_MENTIONS_PERSON
@@ -422,22 +425,23 @@ Viện Công nghệ Massachusetts,Đại học Cambridge,UNI_MENTIONS_PERSON
 Đại học Oxford,T. S. Eliot,UNI_MENTIONS_PERSON
 Đại học Oxford,Robert Bridges,UNI_MENTIONS_PERSON
 Đại học Oxford,Amartya Sen,UNI_MENTIONS_PERSON
-Đại học Quốc phòng Trung Quốc,Đặng Tiểu Bình,UNI_MENTIONS_PERSON
 Đại học Quốc gia Seoul,Đại học Yale,UNI_MENTIONS_PERSON
 Đại học Quốc gia Seoul,Kim Young-sam,UNI_MENTIONS_PERSON
 Đại học Quốc gia Seoul,Ban Ki-moon,UNI_MENTIONS_PERSON
-Đại học Quốc gia Singapore,Đại học Yale,UNI_MENTIONS_PERSON
-Đại học Quốc gia Singapore,Nguyễn Xuân Phúc,UNI_MENTIONS_PERSON
-Đại học Strasbourg,Alberto Fujimori,UNI_MENTIONS_PERSON
-Đại học Strasbourg,Jean-Claude Juncker,UNI_MENTIONS_PERSON
 Đại học Sogang,Park Geun-hye,UNI_MENTIONS_PERSON
 Đại học Sư phạm Hoa Trung,Đặng Tiểu Bình,UNI_MENTIONS_PERSON
 Đại học Sư phạm Hoa Trung,Giang Trạch Dân,UNI_MENTIONS_PERSON
-Đại học South Carolina,George H. W. Bush,UNI_MENTIONS_PERSON
-Đại học South Carolina,George W. Bush,UNI_MENTIONS_PERSON
 Đại học Stanford,Đại học Harvard,UNI_MENTIONS_PERSON
 Đại học Stanford,Đại học Yale,UNI_MENTIONS_PERSON
 Đại học Stanford,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
+Đại học Strasbourg,Alberto Fujimori,UNI_MENTIONS_PERSON
+Đại học Strasbourg,Jean-Claude Juncker,UNI_MENTIONS_PERSON
+Đại học South Carolina,George H. W. Bush,UNI_MENTIONS_PERSON
+Đại học South Carolina,George W. Bush,UNI_MENTIONS_PERSON
+Đại học Texas tại Austin,Đại học Harvard,UNI_MENTIONS_PERSON
+Đại học Texas tại Austin,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
+Đại học Texas tại Austin,Đại học Stanford,UNI_MENTIONS_PERSON
+Đại học Texas tại Austin,Đại học Yale,UNI_MENTIONS_PERSON
 Đại học Thanh Hoa,Vương Hy Cần,UNI_MENTIONS_PERSON
 Đại học Thanh Hoa,Mao Trạch Đông,UNI_MENTIONS_PERSON
 Đại học Thanh Hoa,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
@@ -455,15 +459,6 @@ Viện Công nghệ Massachusetts,Đại học Cambridge,UNI_MENTIONS_PERSON
 Đại học Thanh Hoa,Đại học Oxford,UNI_MENTIONS_PERSON
 Đại học Thanh Hoa,Đại học Cambridge,UNI_MENTIONS_PERSON
 Đại học Tiểu bang Kansas,Bill Clinton,UNI_MENTIONS_PERSON
-Đại học Toronto,Đại học Harvard,UNI_MENTIONS_PERSON
-Đại học Toronto,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
-Đại học Toronto,Đại học Stanford,UNI_MENTIONS_PERSON
-Đại học Toronto,Đại học Yale,UNI_MENTIONS_PERSON
-Đại học Texas tại Austin,Đại học Harvard,UNI_MENTIONS_PERSON
-Đại học Texas tại Austin,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
-Đại học Texas tại Austin,Đại học Stanford,UNI_MENTIONS_PERSON
-Đại học Texas tại Austin,Đại học Yale,UNI_MENTIONS_PERSON
-Đại học Tây Úc,Bob Hawke,UNI_MENTIONS_PERSON
 Đại học Tokyo,Đại học Harvard,UNI_MENTIONS_PERSON
 Đại học Tokyo,Miyazawa Kiichi,UNI_MENTIONS_PERSON
 Đại học Tokyo,Satō Eisaku,UNI_MENTIONS_PERSON
@@ -472,30 +467,20 @@ Viện Công nghệ Massachusetts,Đại học Cambridge,UNI_MENTIONS_PERSON
 Đại học Tokyo,Đại học Yale,UNI_MENTIONS_PERSON
 Đại học Tokyo,Đại học Oxford,UNI_MENTIONS_PERSON
 Đại học Tokyo,Đại học Cambridge,UNI_MENTIONS_PERSON
-Đại học Utrecht,René Descartes,UNI_MENTIONS_PERSON
+Đại học Tây Úc,Bob Hawke,UNI_MENTIONS_PERSON
+Đại học Toronto,Đại học Harvard,UNI_MENTIONS_PERSON
+Đại học Toronto,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
+Đại học Toronto,Đại học Stanford,UNI_MENTIONS_PERSON
+Đại học Toronto,Đại học Yale,UNI_MENTIONS_PERSON
 Đại học Tổng hợp Kim Nhật Thành,Kim Jong-un,UNI_MENTIONS_PERSON
 Đại học Tổng hợp Kim Nhật Thành,Trương Đức Giang,UNI_MENTIONS_PERSON
+Đại học Utrecht,René Descartes,UNI_MENTIONS_PERSON
 Đại học Uppsala,Đại học Harvard,UNI_MENTIONS_PERSON
-Đại học Villanova,Giáo hoàng Lêô XIV,UNI_MENTIONS_PERSON
-Đại học Virginia,Thomas Jefferson,UNI_MENTIONS_PERSON
-Đại học Virginia,James Madison,UNI_MENTIONS_PERSON
-Đại học Virginia,James Monroe,UNI_MENTIONS_PERSON
-Đại học Virginia,Woodrow Wilson,UNI_MENTIONS_PERSON
-Đại học Virginia,Đại học Harvard,UNI_MENTIONS_PERSON
-Đại học Virginia,Đại học Cambridge,UNI_MENTIONS_PERSON
-Đại học Virginia,Đại học Oxford,UNI_MENTIONS_PERSON
-Đại học Virginia,Đại học Stanford,UNI_MENTIONS_PERSON
-Đại học Virginia,William Faulkner,UNI_MENTIONS_PERSON
-Đại học Virginia,Calvin Coolidge,UNI_MENTIONS_PERSON
-Đại học Virginia,Robert Mueller,UNI_MENTIONS_PERSON
-Đại học Virginia,Robert F. Kennedy,UNI_MENTIONS_PERSON
-Đại học Virginia,Ted Kennedy,UNI_MENTIONS_PERSON
-Đại học Virginia,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
-Đại học Virginia,Đại học Yale,UNI_MENTIONS_PERSON
 Đại học Washington,Đại học Harvard,UNI_MENTIONS_PERSON
 Đại học Washington,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
 Đại học Washington,Đại học Stanford,UNI_MENTIONS_PERSON
 Đại học Washington,Đại học Yale,UNI_MENTIONS_PERSON
+Đại học Villanova,Giáo hoàng Lêô XIV,UNI_MENTIONS_PERSON
 Đại học Wisconsin–Madison,Đại học Harvard,UNI_MENTIONS_PERSON
 Đại học Wisconsin–Madison,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
 Đại học Wisconsin–Madison,Đại học Stanford,UNI_MENTIONS_PERSON
@@ -512,6 +497,21 @@ Viện Công nghệ Massachusetts,Đại học Cambridge,UNI_MENTIONS_PERSON
 Đại học Waseda,Kishida Fumio,UNI_MENTIONS_PERSON
 Đại học Yangon,Đại học Cambridge,UNI_MENTIONS_PERSON
 Đại học Yangon,Đại học Oxford,UNI_MENTIONS_PERSON
+Đại học Virginia,Thomas Jefferson,UNI_MENTIONS_PERSON
+Đại học Virginia,James Madison,UNI_MENTIONS_PERSON
+Đại học Virginia,James Monroe,UNI_MENTIONS_PERSON
+Đại học Virginia,Woodrow Wilson,UNI_MENTIONS_PERSON
+Đại học Virginia,Đại học Harvard,UNI_MENTIONS_PERSON
+Đại học Virginia,Đại học Cambridge,UNI_MENTIONS_PERSON
+Đại học Virginia,Đại học Oxford,UNI_MENTIONS_PERSON
+Đại học Virginia,Đại học Stanford,UNI_MENTIONS_PERSON
+Đại học Virginia,William Faulkner,UNI_MENTIONS_PERSON
+Đại học Virginia,Calvin Coolidge,UNI_MENTIONS_PERSON
+Đại học Virginia,Robert Mueller,UNI_MENTIONS_PERSON
+Đại học Virginia,Robert F. Kennedy,UNI_MENTIONS_PERSON
+Đại học Virginia,Ted Kennedy,UNI_MENTIONS_PERSON
+Đại học Virginia,Viện Công nghệ Massachusetts,UNI_MENTIONS_PERSON
+Đại học Virginia,Đại học Yale,UNI_MENTIONS_PERSON
 Đại học quốc lập Đài Loan,Thái Anh Văn,UNI_MENTIONS_PERSON
 Đại học quốc lập Đài Loan,Lý Đăng Huy,UNI_MENTIONS_PERSON
 Đại học quốc lập Đài Loan,Trần Thủy Biển,UNI_MENTIONS_PERSON
