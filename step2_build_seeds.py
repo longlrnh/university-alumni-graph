@@ -6,7 +6,7 @@ from utils_wiki import (
     extract_person_education, normalize
 )
 
-# ========== tqdm (tuỳ chọn) ==========
+# ========== tqdm ==========
 try:
     from tqdm import tqdm
     HAS_TQDM = True
@@ -71,7 +71,7 @@ def looks_like_university_title(txt: str) -> bool:
     if not txt:
         return False
     t = (txt or "").strip().lower()
-    # chú ý thêm dấu cách trước một số từ để giảm false-positive (vd: "trường " vs tên riêng "Trường")
+
     keywords = [
         "đại học", "học viện", "trường ", " viện ", "khoa ",
         "university", "college", "institute", "academy", "faculty", "school", "law school", "business school"
@@ -82,7 +82,7 @@ def looks_like_university_title(txt: str) -> bool:
 def looks_like_university_infobox(soup) -> bool:
     """
     Suy luận 'trang tổ chức/đại học' dựa trên các khóa thường gặp trong infobox.
-    Không hoàn hảo nhưng đủ để phân biệt với person khi tiêu đề mơ hồ.
+    Phân biệt với person khi tiêu đề mơ hồ.
     """
     try:
         box = soup.find("table", {"class": re.compile(r"\binfobox\b", re.I)})
@@ -191,7 +191,7 @@ def main():
             print(f"    ↳ root_nodes: '{root_title}' → type={root_type}")
 
         # Nếu root là person:
-        # - (tuỳ chọn) thêm chính root vào seeds (depth 1 ở Step 2)
+        # - thêm chính root vào seeds (depth 1 ở Step 2)
         # - trích học vấn của root và ghi edu_edges (ALUMNI_OF)
         if root_is_person:
             try:

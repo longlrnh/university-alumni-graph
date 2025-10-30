@@ -378,7 +378,7 @@ def main():
         "edges_mentions_pp": n1,
         "edges_mentions_pu": n2,
         "edges_uni_mentions_p": n3,
-        "edges_uni_mentions_u": n4,  # NEW
+        "edges_uni_mentions_u": n4, 
         "edges_alumni_pu": n5,
         "edges_shared_uni_pp": n6,
         "node_props_persons": len(person_props),

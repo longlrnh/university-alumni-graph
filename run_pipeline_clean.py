@@ -1,7 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-run_pipeline_clean.py — bản tối ưu & ổn định
-Tự động làm sạch output, ép Step2 chạy lại, gộp root_nodes.csv, đảm bảo Step3 luôn có seeds.
+run_pipeline_clean.py
+- Step 1: Crawl links/info cho ROOTS (append nếu thiếu)
+- Step 2: Build seeds/edges multi-root (ép chạy lại nếu cần)
+- Step 3: BFS mở rộng
+- Step 4: Enrich + export node_details & edges (KHÔNG LINKS_TO)
+- Step 5: Clean output — tập kết quả cuối cùng (edges, node details, graph.json, node props) phục vụ import và trực quan hóa.
 """
 
 import os, sys, subprocess, json, tempfile, shutil
@@ -9,7 +13,7 @@ import pandas as pd
 from utils_wiki import normalize
 
 # =============================
-# ===== GLOBAL CONFIG ========
+# ===== GLOBAL CONFIG =========
 # =============================
 OUT = "graph_out"
 ROOTS = [
@@ -24,6 +28,29 @@ ROOTS = [
 
 FORCE_CLEAN = True      # Xóa sạch graph_out mỗi lần chạy
 FORCE_STEP2 = True      # Ép Step2 chạy lại dù file đã tồn tại
+
+# (Tuỳ chọn) thông số Step 4
+STEP4_WORKERS = os.cpu_count() or 8
+STEP4_SLEEP   = "0.06"
+STEP4_TIMEOUT = "6.0"
+
+# Chỉ giữ lại các file này sau Step 5
+KEEP_FILES = {
+    # edges
+    "edges_alumni_pu.csv",
+    "edges_mentions_pp.csv",
+    "edges_mentions_pu.csv",
+    "edges_shared_uni_pp.csv",
+    "edges_uni_mentions_p.csv",
+    "edges_uni_mentions_u.csv",
+    # graph + node details
+    "graph.json",
+    "node_details.csv",
+    "node_details.json",
+    # node props
+    "nodes_persons_props.csv",
+    "nodes_universities_props.csv",
+}
 
 # =============================
 # ====== ENV SETTINGS =========
@@ -62,11 +89,20 @@ def info_has_root(info_list, norm_title):
             return True
     return False
 
+def safe_concat(lst, cols):
+    return (pd.concat(lst, ignore_index=True) if lst else pd.DataFrame(columns=cols)).drop_duplicates()
+
+def run_cmd(cmd, desc=None):
+    if desc:
+        print(desc)
+    print("  $", " ".join(map(str, cmd)))
+    subprocess.run(cmd, check=True, env=ENV)
+
 # =============================
-# ====== START PIPELINE ======
+# ====== START PIPELINE =======
 # =============================
 
-print("=== CLEAN PIPELINE: Step1 → Step2 → Step3 ===")
+print("=== CLEAN PIPELINE: Step1 → Step2 → Step3 → Step4 → Step5 ===")
 
 # 🧹 CLEAN OUTPUT
 if FORCE_CLEAN and os.path.exists(OUT):
@@ -75,7 +111,7 @@ if FORCE_CLEAN and os.path.exists(OUT):
 os.makedirs(OUT, exist_ok=True)
 
 # ---------- PHASE 1 ----------
-print("\n[PHASE 1/3] Step 1 — Crawl links & info (append nếu thiếu)")
+print("\n[PHASE 1/5] Step 1 — Crawl links & info (append nếu thiếu)")
 
 links_df = load_links_df()
 info_list = load_info_list()
@@ -91,9 +127,8 @@ for i, title in enumerate(ROOTS, 1):
         continue
 
     print(f"  [{i}/{len(ROOTS)}] step1: {title} (crawl + append)")
-    subprocess.run(
-        [sys.executable, "-u", "step1_single_node_links.py", "--title", title, "--outdir", OUT],
-        check=True, env=ENV
+    run_cmd(
+        [sys.executable, "-u", "step1_single_node_links.py", "--title", title, "--outdir", OUT]
     )
     links_df = load_links_df()
     info_list = load_info_list()
@@ -101,7 +136,7 @@ for i, title in enumerate(ROOTS, 1):
 print(f"  ✓ links.csv rows = {links_df.shape[0]} | info.json roots = {len(info_list)}")
 
 # ---------- PHASE 2 ----------
-print("\n[PHASE 2/3] Step 2 — Build seeds & edges (multi-root)")
+print("\n[PHASE 2/5] Step 2 — Build seeds & edges (multi-root)")
 
 all_seeds = []
 all_person_edges = []
@@ -127,10 +162,9 @@ for i, title in enumerate(ROOTS, 1):
     if is_uni: args2 += ["--assume-university"]
     else: args2 += ["--include-root-seed"]
 
-    subprocess.run(args2 + ["--progress-every", "50"], check=True, env=ENV)
+    run_cmd(args2 + ["--progress-every", "50"])
 
-    for fn, col in [("seeds.csv", "person_title"), ("person_edges.csv", "src_root"),
-                    ("edu_edges.csv", "src_university"), ("root_nodes.csv", "title")]:
+    for fn in ("seeds.csv", "person_edges.csv", "edu_edges.csv", "root_nodes.csv"):
         fp = os.path.join(tmpdir, fn)
         if os.path.exists(fp):
             df = pd.read_csv(fp)
@@ -142,9 +176,6 @@ for i, title in enumerate(ROOTS, 1):
     shutil.rmtree(tmpdir, ignore_errors=True)
 
 # gộp & ghi
-def safe_concat(lst, cols):
-    return (pd.concat(lst, ignore_index=True) if lst else pd.DataFrame(columns=cols)).drop_duplicates()
-
 seeds_df = safe_concat(all_seeds, ["person_title"])
 person_edges_df = safe_concat(all_person_edges, ["src_root","dst_person","relation"])
 edu_edges_df = safe_concat(all_edu_edges, ["src_university","dst_person","relation","year"])
@@ -174,7 +205,7 @@ if seeds_df.empty and not person_edges_df.empty:
 if root_nodes_df.empty:
     rows = []
     for info in load_info_list():
-        t = info.get("title"); 
+        t = info.get("title")
         if not t: continue
         tl = t.lower()
         ty = "university" if any(k in tl for k in ["đại học","university","học viện","institute","college"]) else "person"
@@ -184,7 +215,7 @@ if root_nodes_df.empty:
         print(f"  🔁 rescued root_nodes.csv with {len(rows)} rows")
 
 # ---------- PHASE 3 ----------
-print("\n[PHASE 3/3] Step 3 — BFS mở rộng → graph_out/")
+print("\n[PHASE 3/5] Step 3 — BFS mở rộng → graph_out/")
 
 step3_cmd = [
     sys.executable, "-u", "step3_bfs_expand.py",
@@ -198,8 +229,38 @@ step3_cmd = [
     "--uni-candidate-cap", "200",
     "--info-json", os.path.join(OUT, "info.json"),
 ]
-subprocess.run(step3_cmd, check=True, env=ENV)
+run_cmd(step3_cmd, desc=None)
 
-print("\n✅ DONE. Tất cả file cuối cùng nằm trong graph_out/:")
-print("   - links.csv, info.json, seeds.csv, person_edges.csv, edu_edges.csv, root_nodes.csv")
-print("   - nodes_*.csv, edges_*.csv, graph.json, nodes_people_detail.json")
+print("\n  ✓ Step 3 hoàn tất")
+
+# ---------- PHASE 4 ----------
+print("\n[PHASE 4/5] Step 4 — Enrich + export node_details & edges (no LINKS_TO)")
+
+step4_cmd = [
+    sys.executable, "-u", "step4_enrich_full.py",
+    "--outdir", OUT,
+    "--workers", str(STEP4_WORKERS),
+    "--sleep", STEP4_SLEEP,
+    "--http-timeout", STEP4_TIMEOUT,
+    # nếu cần giới hạn để test, thêm:
+    # "--limit-persons","xxx","--limit-universities","xxx"
+]
+run_cmd(step4_cmd)
+
+print("  ✓ Step 4 đã xuất:")
+for fn in [
+    "edges_alumni_pu.csv",
+    "edges_mentions_pp.csv", "edges_mentions_pu.csv",
+    "edges_shared_uni_pp.csv", "edges_uni_mentions_p.csv", "edges_uni_mentions_u.csv",
+    "node_details.csv", "node_details.json",
+    "nodes_persons_props.csv", "nodes_universities_props.csv",
+]:
+    p = os.path.join(OUT, fn)
+    print(f"    - {fn} {'(OK)' if os.path.exists(p) else '(MISSING!)'}")
+
+# ---------- PHASE 5 ----------
+print("\n[PHASE 5/5] Clean output — chỉ giữ file cần thiết để import Neo4j")
+
+run_cmd([sys.executable, "-u", "step5_clean.py", "--outdir", OUT])
+
+print("\n✅ DONE. Các file dữ liệu cuối cùng trong graph_out/ (edges, node details, graph.json, node props).")
