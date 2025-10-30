@@ -28,7 +28,7 @@ from utils_wiki import (
     extract_person_education, extract_page_links, normalize
 )
 
-# tqdm (nếu có)
+# tqdm
 try:
     from tqdm import tqdm
     HAS_TQDM = True
