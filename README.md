@@ -1,6 +1,6 @@
 # Mạng lưới Trường Đại học và Cựu Sinh viên Quốc tế
 
-Dự án xây dựng **mạng tri thức** giữa các **trường đại học** và **cựu sinh viên tiêu biểu** dựa trên dữ liệu từ **Wikipedia tiếng Việt**.  
+Dự án xây dựng **mạng tri thức** giữa các **trường đại học** và **cựu sinh viên tiêu biểu** quốc tế dựa trên dữ liệu từ **Wikipedia tiếng Việt**.  
 
 
 ## Mục tiêu
@@ -33,9 +33,11 @@ university-alumni-graph/
 =======
 # Mạng lưới Cựu Sinh viên Quốc tế — Pipeline
 
-Cách chạy dự án
+Cài đặt
 🔹 — Chạy tự động toàn bộ
-python run_pipeline_clean.py
+```
+py run_pipeline_clean.py
+```
 
 File này tự động:
 Gọi lần lượt các bước Step1 → Step4
