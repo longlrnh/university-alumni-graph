@@ -1,7 +1,27 @@
 # -*- coding: utf-8 -*-
+"""
+Step 3 — BFS mở rộng (nhanh, đa luồng)
+- Chỉ chấp nhận node PERSON có >=1 trường (alumni).
+- Ghi đầy đủ:
+    nodes_persons.csv        (bao gồm: root-person depth=0, seeds depth=1, alumni BFS >1)
+    nodes_universities.csv   (bao gồm universities BFS + root universities)
+    edges_up.csv             (UNI -> PERSON, ALUMNI_OF {year?})
+    edges_shared.csv         (P <-> P, SHARED_UNI {count})
+    edges_same_grad.csv      (P <-> P, SAME_GRAD_YEAR {year})
+    nodes_people_detail.json (depth + học vấn + quan hệ same_*)
+
+Tối ưu / Sửa lỗi:
+- ĐÃ SỬA: không tăng depth quá sớm; quét hết node của depth hiện tại trước khi sang depth+1.
+- ThreadPoolExecutor với --workers N
+- visited được chuẩn hoá normalize để tránh crawl trùng
+- Option bật/tắt expand-from-university
+"""
+
 import csv, json, argparse, os
 import re, urllib.parse
 from collections import deque, defaultdict
+from concurrent.futures import ThreadPoolExecutor, as_completed
+from threading import Lock
 
 from utils_wiki import (
     fetch_parse_html, soup_from_html, is_person_page,
@@ -32,7 +52,6 @@ UNI_SUFFIXES = (
 )
 
 DEGREE_KEYWORDS = {
-    # văn bằng / nhãn không phải tên cơ sở
     "Cử nhân", "Cử nhân Nghệ thuật", "Cử nhân Khoa học",
     "Bachelor", "Bachelor of Arts", "Bachelor of Science", "B.A.", "BA", "BSc", "B.Sc.",
     "Master", "Thạc sĩ", "M.A.", "MA", "MSc", "M.Sc.",
@@ -48,6 +67,14 @@ NS_BLACKLIST = re.compile(
 YEAR_RE = re.compile(r"\b(19|20)\d{2}\b")
 NONEXIST_SUFFIX = re.compile(r"\s*\(trang không tồn tại\)\s*$", re.I)
 
+MAX_DEBUG = 80
+debug_skips = 0
+
+LOCK = Lock()  # bảo vệ visited trong môi trường đa luồng
+
+# =========================
+# ---- Small utilities ----
+# =========================
 def clean_wiki_title(t: str) -> str:
     return NONEXIST_SUFFIX.sub("", t or "").strip()
 
@@ -158,7 +185,6 @@ def parse_infobox_person(soup):
             out[key] = val
     return out
 
-# các khóa infobox thường chứa học vấn ở viwiki
 EDU_KEYS = [
     "Học vấn", "Giáo dục", "Trường", "Trường học", "Trường theo học",
     "Alma mater", "Tốt nghiệp", "Đào tạo", "Cựu sinh viên", "Cơ sở đào tạo"
@@ -177,14 +203,15 @@ def fallback_extract_universities_from_infobox(soup):
         if key not in EDU_KEYS:
             continue
         anchors = td.find_all("a", href=True)
-        for a in anchors:
-            t = a.get("title") or a.get_text(strip=True)
-            if not t: 
-                continue
-            t = normalize(t)
-            if looks_like_university(t) and t not in DEGREE_KEYWORDS:
-                out.append((t, None))
-        if not anchors:
+        if anchors:
+            for a in anchors:
+                t = a.get("title") or a.get_text(strip=True)
+                if not t: 
+                    continue
+                t = normalize(t)
+                if looks_like_university(t) and t not in DEGREE_KEYWORDS:
+                    out.append((t, None))
+        else:
             val = td.get_text(separator=" ", strip=True)
             for chunk in re.split(r"[;•\|,]", val):
                 ct = normalize(chunk)
@@ -215,8 +242,8 @@ def load_seeds(path):
         else:
             raise SystemExit("seeds.csv thiếu cột person_title/title/name")
         for row in rdr:
-            t = row.get(key, '').strip()
-            if t: 
+            t = (row.get(key) or '').strip()
+            if t:
                 seeds.append(t)
     if not seeds:
         raise SystemExit("seeds.csv rỗng — không có seed person.")
@@ -252,51 +279,145 @@ def save_checkpoint(outdir, persons, universities, edges_up, edges_shared, edges
         json.dump(ck, f, ensure_ascii=False, indent=2)
 
 # ===========================
+# ---- Safe fetch wrapper ----
+# ===========================
+def safe_fetch_html(title, sleep=0.08, http_timeout=6.0):
+    """Gọi fetch_parse_html với timeout nếu có, fallback nếu utils_wiki không hỗ trợ."""
+    try:
+        return fetch_parse_html(title, sleep=sleep, timeout=http_timeout)
+    except TypeError:
+        return fetch_parse_html(title, sleep=sleep)
+
+# ===========================
+# ------- Worker task -------
+# ===========================
+def process_title(title, depth, http_timeout, sleep):
+    """Worker: tải & phân tích một title. Trả về dict kết quả."""
+    result = {
+        "accepted": False,         # có phải alumni node không
+        "title": title,
+        "depth": depth,
+        "edu_clean": [],           # [(uni, year)]
+        "expand_links": []         # list link để mở rộng
+    }
+    try:
+        if looks_like_system(title) or looks_like_date_or_year(title):
+            return result
+
+        html, _ = safe_fetch_html(title, sleep=sleep, http_timeout=http_timeout)
+        soup = soup_from_html(html)
+        if not soup:
+            return result
+
+        # strict person check
+        is_p = False
+        try:
+            is_p = is_person_page(soup)
+        except Exception:
+            is_p = False
+
+        if not is_p:
+            # heuristic fallback
+            ib = parse_infobox_person(soup) or {}
+            keys = set(ib.keys())
+            person_keys = {"Sinh","Nghề nghiệp","Quốc tịch","Alma mater","Học vấn","Giáo dục","Năm sinh","Tên khai sinh"}
+            org_keys = {"Thành lập","Sáng lập","Trụ sở","Trang web","Loại hình","Ngôn ngữ","Quốc gia","Khu vực phục vụ","Thủ đô","Diện tích","Dân số"}
+            if (keys & person_keys) and not (keys & org_keys):
+                is_p = True
+
+        # Nếu không phải người → chỉ trả về expand_links (nếu còn depth)
+        if not is_p:
+            result["expand_links"] = extract_page_links(soup) if soup else []
+            return result
+
+        # Person ⇒ trích học vấn
+        edu = extract_person_education(soup) or []
+        if sum(1 for (u,_) in edu if looks_like_university(u)) < 1:
+            fb = fallback_extract_universities_from_infobox(soup)
+            known = {normalize(u) for (u,_) in edu}
+            for u,y in fb:
+                if normalize(u) not in known:
+                    edu.append((u,y))
+
+        cleaned = []
+        for u, year in edu:
+            u = clean_wiki_title(u)
+            if not looks_like_university(u):
+                continue
+            u = canonicalize_university(u)
+            if year is None:
+                y2 = infer_year_from_text(u)
+                year = year if year is not None else y2
+            cleaned.append((u, year))
+
+        if cleaned:
+            result["accepted"] = True
+            result["edu_clean"] = cleaned
+
+        result["expand_links"] = extract_page_links(soup) if soup else []
+        return result
+
+    except Exception:
+        return result
+
+# ===========================
 # ---------- Main -----------
 # ===========================
 def main():
-    ap = argparse.ArgumentParser(description="Bước 3 — BFS: chỉ lấy CỰU SINH VIÊN và TRƯỜNG (lọc trước).")
-    ap.add_argument("--seeds", required=True, help="seeds.csv từ Bước 2 (cột person_title/title/name)")
-    ap.add_argument("--config", required=True, help="json cấu hình BFS")
+    ap = argparse.ArgumentParser(description="Bước 3 — BFS nhanh (đa luồng, quét hết node theo từng depth).")
+    ap.add_argument("--seeds", required=True, help="seeds.csv từ Step 2 (cột person_title/title/name)")
+    ap.add_argument("--config", required=True, help="config JSON")
     ap.add_argument("--outdir", required=True)
-    ap.add_argument("--expand-from-university", action="store_true",
-                    help="Nếu bật, lấy liên kết từ trang TRƯỜNG để đưa vào hàng đợi duyệt")
-    ap.add_argument("--root-university", action="append",
-                    help="Tên trường; có thể truyền nhiều lần. Nếu không truyền, có thể suy ra từ --info-json")
-    ap.add_argument("--info-json", default=None,
-                    help="Đường dẫn info.json gộp (để suy ra danh sách root nếu không truyền --root-university)")
-    ap.add_argument("--uni-candidate-cap", type=int, default=400,
-                    help="Giới hạn số liên kết lấy từ mỗi trang TRƯỜNG khi expand")
-    ap.add_argument("--progress-every", type=int, default=100,
-                    help="In tiến độ mỗi N nút khi không có tqdm")
-    ap.add_argument("--checkpoint-every", type=int, default=500,
-                    help="Ghi checkpoint JSON mỗi N nút")
-    ap.add_argument("--flush-every", type=int, default=0,
-                    help="Ghi tạm CSV mỗi N nút (>0 thì bật)")
-        # Debug flag
-    ap.add_argument(
-        "--debug-skip",
-        dest="debug_skip",
-        action="store_true",
-        help="In log các tiêu đề bị bỏ qua (giới hạn ~80 dòng)"
-    )
-    ap.set_defaults(debug_skip=False)
 
+    ap.add_argument("--expand-from-university", action="store_true",
+                    help="Nếu bật, lấy liên kết từ trang TRƯỜNG để seed depth=2")
+    ap.add_argument("--root-university", action="append",
+                    help="Tên trường; có thể truyền nhiều lần (khi không dùng info/roots-csv)")
+    ap.add_argument("--info-json", default=None,
+                    help="Đường dẫn info.json (để suy ra root nếu không truyền --root-university)")
+    ap.add_argument("--roots-csv", default=None,
+                    help="root_nodes.csv từ Step 2 (title,type) để include root-person depth=0 + root-university")
+
+    ap.add_argument("--uni-candidate-cap", type=int, default=300,
+                    help="Giới hạn số liên kết lấy từ mỗi trang TRƯỜNG khi expand")
+    ap.add_argument("--progress-every", type=int, default=100)
+    ap.add_argument("--checkpoint-every", type=int, default=0)
+    ap.add_argument("--flush-every", type=int, default=0)
+
+    # tốc độ & song song
+    ap.add_argument("--workers", type=int, default=8, help="Số luồng song song (khuyến nghị 8–16)")
+    ap.add_argument("--http-timeout", type=float, default=6.0, help="Timeout HTTP mỗi request")
+    ap.add_argument("--sleep", type=float, default=0.06, help="Delay nhỏ giữa các request")
+
+    # debug
+    ap.add_argument("--debug-skip", action="store_true", help="In log các tiêu đề bị bỏ qua (<=80 dòng)")
 
     args = ap.parse_args()
     os.makedirs(args.outdir, exist_ok=True)
 
+    # đọc config
     with open(args.config, "r", encoding="utf-8") as f:
         cfg = json.load(f)
-
-    # cấu hình BFS
-    max_person_nodes = int(cfg.get("max_person_nodes", 1500))
-    per_depth_limit  = int(cfg.get("per_depth_limit", 400))
+    max_person_nodes = int(cfg.get("max_person_nodes", 1300))
+    per_depth_limit  = int(cfg.get("per_depth_limit", 120))   # số link expand tối đa / page & batch size
     max_depth        = int(cfg.get("max_depth", 3))
-    candidate_cap    = int(cfg.get("candidate_cap", 800))
-    sleep            = float(cfg.get("sleep", 0.2))
+    candidate_cap    = int(cfg.get("candidate_cap", 500))
+    sleep            = float(cfg.get("sleep", args.sleep))
 
-    # structures
+    # ===== Load roots (person/university) nếu có roots-csv =====
+    roots_persons, roots_unis = set(), set()
+    if args.roots_csv and os.path.exists(args.roots_csv):
+        with open(args.roots_csv, "r", encoding="utf-8") as f:
+            rdr = csv.DictReader(f)
+            for r in rdr:
+                t  = (r.get("title") or "").strip()
+                ty = (r.get("type")  or "").strip().lower()
+                if not t:
+                    continue
+                if ty == "person":      roots_persons.add(t)
+                elif ty == "university": roots_unis.add(t)
+
+    # ===== Init structures =====
     queue = deque()
     visited = set()
 
@@ -308,19 +429,25 @@ def main():
     edges_shared     = []                   # (p1, p2, "SHARED_UNI", count)
     edges_same_grad  = []                   # (p1, p2, "SAME_GRAD_YEAR", year)
 
-    person_depth     = {}                   # only for alumni persons
+    person_depth     = {}                   # depth theo BFS
     stats            = defaultdict(int)
 
-    # init seeds
-    for s in load_seeds(args.seeds):
-        queue.append((s, 0))
-        visited.add(s)
+    # ===== Seeds (depth = 1) =====
+    seeds_list = load_seeds(args.seeds)
+    seeds_set  = set(seeds_list)
+    for s in seeds_list:
+        s_norm = normalize(s)
+        queue.append((s, 1))
+        visited.add(s_norm)
+        person_depth.setdefault(s, 1)
 
-    # optional: expand from root universities (to discover persons)
+    # ===== Expand from universities (đặt depth = 2) =====
     if args.expand_from_university:
         root_unis = []
         if args.root_university:
             root_unis = [normalize(x) for x in args.root_university]
+        elif roots_unis:
+            root_unis = [normalize(x) for x in roots_unis]
         elif args.info_json and os.path.exists(args.info_json):
             try:
                 with open(args.info_json, "r", encoding="utf-8") as f:
@@ -332,13 +459,14 @@ def main():
                                 root_unis.append(normalize(t))
             except Exception:
                 pass
+
         # unique
-        seen = set()
-        root_unis = [u for u in root_unis if u and not (u in seen or seen.add(u))]
+        rseen = set()
+        root_unis = [u for u in root_unis if u and not (u in rseen or rseen.add(u))]
 
         for uni in root_unis:
             try:
-                html, _ = fetch_parse_html(uni, sleep=sleep)
+                html, _ = safe_fetch_html(uni, sleep=sleep, http_timeout=args.http_timeout)
                 sp = soup_from_html(html)
                 if not sp:
                     continue
@@ -347,10 +475,11 @@ def main():
                 for lk in links:
                     if looks_like_system(lk) or looks_like_date_or_year(lk):
                         continue
-                    if lk in visited:
+                    lk_norm = normalize(lk)
+                    if lk_norm in visited:
                         continue
-                    visited.add(lk)
-                    queue.append((lk, 0))
+                    visited.add(lk_norm)
+                    queue.append((lk, 2))
                     take += 1
                     if take >= per_depth_limit:
                         break
@@ -360,137 +489,112 @@ def main():
 
     processed = 0
     depth_stats = defaultdict(int)
-    iterator = tqdm(total=max_person_nodes, desc="BFS alumni persons", unit="node") if HAS_TQDM else None
+    progress_bar = tqdm(total=max_person_nodes, desc="BFS alumni persons", unit="node") if HAS_TQDM else None
 
-    while queue and len(alumni_persons) < max_person_nodes:
-        title, depth = queue.popleft()
-        try:
-            if looks_like_system(title) or looks_like_date_or_year(title):
-                stats['skip_ns_or_date'] += 1
-                continue
+    # ===== BFS theo tầng (quét hết depth hiện tại trước khi sang depth+1) =====
+    current_depth = 1
+    while queue and len(alumni_persons) < max_person_nodes and current_depth <= max_depth:
 
-            html, _ = fetch_parse_html(title, sleep=sleep)
-            soup = soup_from_html(html)
-            if not soup:
-                stats['no_soup'] += 1
-                continue
+        # Nếu hàng đợi hiện không có node ở depth hiện tại, nhảy sang depth nhỏ nhất còn lại
+        depths_in_queue = set(d for _, d in queue)
+        if current_depth not in depths_in_queue:
+            if depths_in_queue:
+                current_depth = min(depths_in_queue)
+                if current_depth > max_depth:
+                    break
+            else:
+                break
 
-            # strict person check
-            is_person = False
-            try:
-                is_person = is_person_page(soup)
-            except Exception:
-                is_person = False
+        # Xử lý theo BATCH các node có đúng depth = current_depth
+        while len(alumni_persons) < max_person_nodes:
+            # Lấy một batch cùng depth
+            batch = []
+            # scan nhanh để gom batch đúng depth
+            tmp = deque()
+            while queue and len(batch) < max(1, per_depth_limit):
+                t, d = queue.popleft()
+                if d == current_depth:
+                    batch.append((t, d))
+                else:
+                    tmp.append((t, d))
+            # đẩy lại các phần tử depth khác
+            while tmp:
+                queue.appendleft(tmp.pop())
 
-            if not is_person:
-                # heuristic: must have person-ish infobox keys but not org/geo keys
-                ib = parse_infobox_person(soup) or {}
-                keys = set(ib.keys())
-                person_keys = {"Sinh","Nghề nghiệp","Quốc tịch","Alma mater","Học vấn","Giáo dục","Năm sinh","Tên khai sinh"}
-                org_keys = {"Thành lập","Sáng lập","Trụ sở","Trang web","Loại hình","Ngôn ngữ","Quốc gia","Khu vực phục vụ","Thủ đô","Diện tích","Dân số"}
-                if (keys & person_keys) and not (keys & org_keys):
-                    is_person = True
+            if not batch:
+                break  # hết node ở depth này → thoát vòng while(batch), chuyển depth
 
-            if not is_person:
-                stats['non_person_skipped'] += 1
-                if args.debug_skip and debug_skips < MAX_DEBUG:
-                    why = "no soup" if not soup else "not person by heuristics"
-                    print(f"[skip] depth={depth} » {title} — {why}")
-                    debug_skips += 1
-                continue
+            # chạy song song batch
+            with ThreadPoolExecutor(max_workers=max(1, int(args.workers))) as ex:
+                futures = [ex.submit(process_title, t, d, args.http_timeout, sleep) for (t, d) in batch]
+                for fut in as_completed(futures):
+                    res = fut.result()
+                    title = res["title"]
+                    depth = res["depth"]
 
-            # extract education with fallback
-            edu = extract_person_education(soup) or []
-            # if too few real unis, fallback scan infobox
-            if sum(1 for (u,_) in edu if looks_like_university(u)) < 1:
-                fb = fallback_extract_universities_from_infobox(soup)
-                known = {normalize(u) for (u,_) in edu}
-                for u,y in fb:
-                    if normalize(u) not in known:
-                        edu.append((u,y))
+                    # alumni node?
+                    if res["accepted"] and title not in alumni_persons:
+                        alumni_persons.add(title)
+                        person_depth[title] = depth
+                        processed += 1
+                        depth_stats[depth] += 1
+                        for u, year in res["edu_clean"]:
+                            universities.add(u)
+                            edu_map[title].append((u, year))
+                            edges_up.append((u, title, "ALUMNI_OF", year if year is not None else ""))
 
-            # keep only real universities, canonicalize, and infer year if needed
-            cleaned = []
-            for u, year in edu:
-                u = clean_wiki_title(u)
-                if not looks_like_university(u):
-                    continue
-                u = canonicalize_university(u)
-                if year is None:
-                    # try parse year from string form if present
-                    y2 = infer_year_from_text(u)
-                    year = year if year is not None else y2
-                cleaned.append((u, year))
+                        if HAS_TQDM:
+                            progress_bar.update(1)
+                            progress_bar.set_postfix(nodes=len(alumni_persons), depth=depth)
 
-            if not cleaned:
-                # Not an alumnus ⇒ do NOT add to nodes/edges, but can still expand to find others
-                if depth < max_depth:
-                    links = extract_page_links(soup)[:candidate_cap]
-                    added = 0
-                    for lk in links:
-                        if looks_like_system(lk) or looks_like_date_or_year(lk):
-                            continue
-                        if lk in visited:
-                            continue
-                        visited.add(lk)
-                        queue.append((lk, depth+1))
-                        added += 1
-                        if added >= per_depth_limit:
-                            break
-                continue
+                    # mở rộng (enqueue depth+1)
+                    if depth < max_depth and res["expand_links"]:
+                        added = 0
+                        for lk in res["expand_links"][:candidate_cap]:
+                            if looks_like_system(lk) or looks_like_date_or_year(lk):
+                                continue
+                            lk_norm = normalize(lk)
+                            with LOCK:
+                                if lk_norm in visited:
+                                    continue
+                                visited.add(lk_norm)
+                            queue.append((lk, depth+1))
+                            added += 1
+                            if added >= per_depth_limit:
+                                break
 
-            # At this point: title is PERSON WITH ≥1 UNIVERSITY ⇒ accept as alumni node
-            if title in alumni_persons:
-                stats['dup_alumni'] += 1
-                continue
-
-            alumni_persons.add(title)
-            person_depth[title] = depth
-            processed += 1
-            depth_stats[depth] += 1
-            if HAS_TQDM:
-                iterator.update(1)
-                iterator.set_postfix(nodes=len(alumni_persons), depth=depth)
-
-            # record edu & edges_up
-            for u, year in cleaned:
-                universities.add(u)
-                edu_map[title].append((u, year))
-                edges_up.append((u, title, "ALUMNI_OF", year if year is not None else ""))
-
-            # expand from this (alumni) person if depth allows (to find more candidates)
-            if depth < max_depth:
-                links = extract_page_links(soup)[:candidate_cap]
-                added = 0
-                for lk in links:
-                    if looks_like_system(lk) or looks_like_date_or_year(lk):
-                        continue
-                    if lk in visited:
-                        continue
-                    visited.add(lk)
-                    queue.append((lk, depth+1))
-                    added += 1
-                    if added >= per_depth_limit:
-                        break
-
-            if not HAS_TQDM and (processed % args.progress_every == 0):
-                print(f"[BFS] alumni={len(alumni_persons)} depth≤{depth} | UP={len(edges_up)}", flush=True)
-
-            if args.checkpoint_every > 0 and (processed % args.checkpoint_every == 0):
+            if args.checkpoint_every > 0 and processed > 0 and (processed % args.checkpoint_every == 0):
                 save_checkpoint(args.outdir, alumni_persons, universities, edges_up, edges_shared, edges_same_grad)
-            if args.flush_every > 0 and (processed % args.flush_every == 0):
-                write_nodes_people(alumni_persons, os.path.join(args.outdir, "nodes_persons.csv"))
-                write_nodes_unis(universities, os.path.join(args.outdir, "nodes_universities.csv"))
-                write_edges(os.path.join(args.outdir, "edges_up.csv"),
-                            ["src_university","dst_person","relation","year"], edges_up)
 
-        except Exception:
-            stats['exceptions'] += 1
-            continue
+            if not HAS_TQDM and (processed % max(1, args.progress_every) == 0):
+                print(f"[BFS] alumni={len(alumni_persons)} depth={current_depth} | UP={len(edges_up)}", flush=True)
 
-    # post-process ONLY among alumni persons
-    inv_unis = defaultdict(set)       # uni -> set(alumni)
-    inv_grad_year = defaultdict(set)  # year -> set(alumni)
+        # xong toàn bộ depth hiện tại → sang depth kế tiếp
+        current_depth += 1
+
+    # ===== AUGMENT edu_map từ Step 2 (edu_edges.csv) để root-person/seeds cũng có học vấn =====
+    ee_fp = os.path.join(args.outdir, "edu_edges.csv")
+    if os.path.exists(ee_fp):
+        with open(ee_fp, "r", encoding="utf-8") as f:
+            rdr = csv.DictReader(f)
+            for r in rdr:
+                if (r.get("relation") or "").strip().upper() != "ALUMNI_OF":
+                    continue
+                u = (r.get("src_university") or "").strip()
+                p = (r.get("dst_person") or "").strip()
+                y = (r.get("year") or "").strip()
+                if not p or not u:
+                    continue
+                try:
+                    y_val = int(y) if y and y.isdigit() else None
+                except Exception:
+                    y_val = None
+                edu_map[p].append((u, y_val))
+                universities.add(u)
+
+    # ===== Hậu xử lý edges_shared / same_grad chỉ dựa vào edu_map =====
+    inv_unis = defaultdict(set)       # uni -> set(person)
+    inv_grad_year = defaultdict(set)  # year -> set(person)
     for p, pairs in edu_map.items():
         yrs = set()
         for u,y in pairs:
@@ -500,7 +604,7 @@ def main():
         for y in yrs:
             inv_grad_year[y].add(p)
 
-    # SHARED_UNI (count intersection size of universities)
+    # shared_uni
     seen_pairs = set()
     for uni, plist in inv_unis.items():
         plist = list(plist)
@@ -518,7 +622,7 @@ def main():
                 if cnt > 0:
                     edges_shared.append((a,b,"SHARED_UNI",cnt))
 
-    # SAME_GRAD_YEAR (same year among alumni)
+    # same_grad_year
     seen_year_pairs = set()
     for y, plist in inv_grad_year.items():
         plist = list(plist)
@@ -532,8 +636,12 @@ def main():
                 seen_year_pairs.add(key)
                 edges_same_grad.append((a,b,"SAME_GRAD_YEAR",y))
 
-    # ---- write final nodes/edges (ONLY alumni + universities) ----
-    write_nodes_people(alumni_persons, os.path.join(args.outdir, "nodes_persons.csv"))
+    # ===== Ghi file =====
+    # persons_out = alumni + seeds + root-person (đúng depth 0/1)
+    persons_out = set(alumni_persons) | set(seeds_set) | set(roots_persons)
+    universities |= set(roots_unis)
+
+    write_nodes_people(persons_out, os.path.join(args.outdir, "nodes_persons.csv"))
     write_nodes_unis(universities, os.path.join(args.outdir, "nodes_universities.csv"))
 
     write_edges(os.path.join(args.outdir, "edges_up.csv"),
@@ -543,9 +651,9 @@ def main():
     write_edges(os.path.join(args.outdir, "edges_same_grad.csv"),
                 ["src_person","dst_person","relation","year"], edges_same_grad)
 
-    # ---- graph.json ----
+    # graph.json (thông tin tóm tắt)
     graph = {
-        "persons": sorted(list(alumni_persons)),
+        "persons": sorted(list(persons_out)),
         "universities": sorted(list(universities)),
         "edges_up": edges_up,
         "edges_shared": edges_shared,
@@ -555,8 +663,7 @@ def main():
     with open(os.path.join(args.outdir, "graph.json"), "w", encoding="utf-8") as f:
         json.dump(graph, f, ensure_ascii=False, indent=2)
 
-    # ---- nodes_people_detail.json (ONLY alumni) ----
-    # Relations here only between alumni; we reuse edges_* we just built.
+    # nodes_people_detail.json (depth + học vấn + quan hệ)
     same_uni_map = defaultdict(set)
     for a,b,rel,cnt in edges_shared:
         if rel == "SHARED_UNI":
@@ -570,10 +677,18 @@ def main():
             same_year_map[b].add(a)
 
     person_json = []
-    for p in sorted(alumni_persons):
+    for p in sorted(persons_out):
+        # depth: root-person =0; seed=1; còn lại lấy từ BFS
+        if p in roots_persons:
+            d = 0
+        elif p in seeds_set:
+            d = 1
+        else:
+            d = person_depth.get(p)
+
         hv = [{"trường": u, "năm": y} for (u,y) in edu_map.get(p, [])]
         base = {
-            "depth": person_depth.get(p),
+            "depth": d,
             "name": p,
             "link": to_wiki_url(p),
             "Học vấn": hv,
@@ -591,8 +706,14 @@ def main():
     with open(os.path.join(args.outdir, "nodes_people_detail.json"), "w", encoding="utf-8") as f:
         json.dump(person_json, f, ensure_ascii=False, indent=2)
 
-    print(f"✅ BFS (ALUMNI-ONLY) done. Alumni={len(alumni_persons)} Universities={len(universities)} "
-          f"UP={len(edges_up)} Shared={len(edges_shared)} SameGrad={len(edges_same_grad)}")
+    if HAS_TQDM and progress_bar is not None:
+        try:
+            progress_bar.close()
+        except Exception:
+            pass
+
+    print(f"✅ BFS done. Persons(out)={len(persons_out)} | Alumni={len(alumni_persons)} | Universities={len(universities)}")
+    print(f"   UP={len(edges_up)} | Shared={len(edges_shared)} | SameGrad={len(edges_same_grad)}")
     print(f"ℹ️ Depth stats: {dict(sorted(depth_stats.items()))}")
     print(f"ℹ️ Counters: {dict(stats)}")
 

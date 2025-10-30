@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
-import csv, argparse, json, os
+import csv, argparse, json, os, re
 from collections import defaultdict
 from utils_wiki import (
     fetch_parse_html, soup_from_html, is_person_page,
     extract_person_education, normalize
 )
 
-# tqdm: dùng nếu có
+# ========== tqdm (tuỳ chọn) ==========
 try:
     from tqdm import tqdm
     HAS_TQDM = True
@@ -14,11 +14,12 @@ except Exception:
     HAS_TQDM = False
 
 
+# ========== IO helpers ==========
 def load_candidates_grouped(links_csv, filter_title=None):
     """
     Đọc links.csv (gộp) và gom các target theo từng source_title.
     Nếu filter_title != None thì chỉ lấy đúng nhóm đó.
-    Trả về: Ordered-like dict {root_title: [targets...]}
+    Trả về: dict {root_title_norm: [target_title_raw,...]}
     """
     groups = defaultdict(list)
     with open(links_csv, "r", encoding="utf-8") as f:
@@ -45,20 +46,68 @@ def open_csv_writer(path, header, append=False):
     return f, w
 
 
-def load_existing_pairs(path, cols):
-    """để dedupe nhanh khi append"""
+# ========== DEDUPE helpers ==========
+def _norm_tuple(*cols):
+    """Tạo khóa dedupe đã chuẩn hoá (lower/strip/normalize cho chuỗi)."""
+    return tuple(normalize(x) if isinstance(x, str) else x for x in cols)
+
+
+def load_existing_pairs_norm(path, cols):
+    """
+    Đọc file hiện có và trả về set khóa CHUẨN HOÁ theo danh sách cột.
+    Dùng cho so khớp dedupe theo _norm_tuple.
+    """
     s = set()
     if os.path.exists(path):
         with open(path, "r", encoding="utf-8") as f:
             rdr = csv.DictReader(f)
             for r in rdr:
-                s.add(tuple(r[c] for c in cols))
+                s.add(_norm_tuple(*(r[c] for c in cols)))
     return s
 
 
+# ========== Heuristics: xác định 'university' ==========
+def looks_like_university_title(txt: str) -> bool:
+    if not txt:
+        return False
+    t = (txt or "").strip().lower()
+    # chú ý thêm dấu cách trước một số từ để giảm false-positive (vd: "trường " vs tên riêng "Trường")
+    keywords = [
+        "đại học", "học viện", "trường ", " viện ", "khoa ",
+        "university", "college", "institute", "academy", "faculty", "school", "law school", "business school"
+    ]
+    return any(k in t for k in keywords)
+
+
+def looks_like_university_infobox(soup) -> bool:
+    """
+    Suy luận 'trang tổ chức/đại học' dựa trên các khóa thường gặp trong infobox.
+    Không hoàn hảo nhưng đủ để phân biệt với person khi tiêu đề mơ hồ.
+    """
+    try:
+        box = soup.find("table", {"class": re.compile(r"\binfobox\b", re.I)})
+        if not box:
+            return False
+        keys = set()
+        for tr in box.find_all("tr"):
+            th = tr.find("th")
+            if th:
+                k = th.get_text(strip=True)
+                if k:
+                    keys.add(k.lower())
+        orgish = {
+            "loại hình", "thành lập", "trụ sở", "số lượng sinh viên", "khoa",
+            "trang web", "hiệu trưởng", "hiệu phó", "cơ sở", "viện", "khoa"
+        }
+        return len(keys & orgish) >= 2
+    except Exception:
+        return False
+
+
+# ========== MAIN ==========
 def main():
     ap = argparse.ArgumentParser(
-        description="Bước 2 — Multi-root: đọc 1 links.csv GỘP, xử lý từng source_title và xuất 1 bộ seeds/person_edges/edu_edges."
+        description="Bước 2 — Multi-root: đọc 1 links.csv GỘP, xử lý từng source_title và xuất seeds/person_edges/edu_edges + root_nodes."
     )
     ap.add_argument("--links-csv", required=True, help="links.csv đã gộp (từ Bước 1 append)")
     ap.add_argument("--outdir", required=True, help="Thư mục xuất DUY NHẤT (không tạo subfolder)")
@@ -78,18 +127,24 @@ def main():
     os.makedirs(args.outdir, exist_ok=True)
 
     # Chuẩn bị writer (một lần, ghi chung)
-    seeds_path = os.path.join(args.outdir, "seeds.csv")
+    seeds_path   = os.path.join(args.outdir, "seeds.csv")
     p_edges_path = os.path.join(args.outdir, "person_edges.csv")
     u_edges_path = os.path.join(args.outdir, "edu_edges.csv")
+    roots_path   = os.path.join(args.outdir, "root_nodes.csv")
 
-    f_seeds, w_seeds = open_csv_writer(seeds_path, ["person_title"], append=args.append)
+    f_seeds,  w_seeds  = open_csv_writer(seeds_path,   ["person_title"], append=args.append)
     f_pedges, w_pedges = open_csv_writer(p_edges_path, ["src_root","dst_person","relation"], append=args.append)
     f_uedges, w_uedges = open_csv_writer(u_edges_path, ["src_university","dst_person","relation","year"], append=args.append)
+    f_roots,  w_roots  = open_csv_writer(roots_path,   ["title","type"], append=args.append)
 
-    # Dedupe sets (chỉ dùng khi --dedupe)
-    seen_seed = load_existing_pairs(seeds_path, ["person_title"]) if args.dedupe else set()
-    seen_pedge = load_existing_pairs(p_edges_path, ["src_root","dst_person","relation"]) if args.dedupe else set()
-    seen_uedge = load_existing_pairs(u_edges_path, ["src_university","dst_person","relation","year"]) if args.dedupe else set()
+    # Dedupe sets (dùng bản chuẩn hoá để so sánh)
+    if args.dedupe:
+        seen_seed  = load_existing_pairs_norm(seeds_path,   ["person_title"])
+        seen_pedge = load_existing_pairs_norm(p_edges_path, ["src_root","dst_person","relation"])
+        seen_uedge = load_existing_pairs_norm(u_edges_path, ["src_university","dst_person","relation","year"])
+        seen_roots = load_existing_pairs_norm(roots_path,   ["title","type"])
+    else:
+        seen_seed = seen_pedge = seen_uedge = seen_roots = set()
 
     # Gom ứng viên theo từng source_title
     groups = load_candidates_grouped(args.links_csv, filter_title=args.filter_title)
@@ -98,35 +153,76 @@ def main():
     total_roots = len(roots)
     print(f"🔹 Tổng root cần xử lý: {total_roots}")
 
-    for idx, root in enumerate(roots, 1):
-        candidates = groups[root]
-        print(f"\n[{idx}/{total_roots}] ROOT = {root} | candidates = {len(candidates)}")
+    for idx, root_norm in enumerate(roots, 1):
+        candidates = groups[root_norm]  # list of raw target titles
+        print(f"\n[{idx}/{total_roots}] ROOT = {root_norm} | candidates = {len(candidates)}")
 
-        # kiểm tra loại trang root (person / university / unknown)
+        # Lấy lại tiêu đề 'đẹp' để ghi ra (root_norm là đã normalize)
+        # Ở links.csv, source_title là normalized, nên root_norm chính là bản chuẩn.
+        root_title = root_norm
+
+        # --- Xác định loại trang root (person / university) ---
         root_is_person = False
+        soup0 = None
         try:
-            h0, _ = fetch_parse_html(root)
-            s0 = soup_from_html(h0)
-            if s0 and is_person_page(s0):
+            h0, _ = fetch_parse_html(root_title)
+            soup0 = soup_from_html(h0)
+            if soup0 and is_person_page(soup0):
                 root_is_person = True
-                if args.include_root_seed:
-                    if (root,) not in seen_seed:
-                        w_seeds.writerow([root]); seen_seed.add((root,))
-                # nếu root là người, trích edu của chính root và ghi ALUMNI_OF (nếu muốn giữ logic này)
-                edu_root = extract_person_education(s0)
-                for uni, year in edu_root:
-                    row = (uni, root, "ALUMNI_OF", str(year) if year is not None else "")
-                    if not args.dedupe or row not in seen_uedge:
-                        w_uedges.writerow(list(row)); seen_uedge.add(row)
         except Exception:
-            pass
+            soup0 = None
 
+        # Ghi root vào root_nodes.csv với heuristic an toàn
+        if root_is_person:
+            root_type = "person"
+        else:
+            # Heuristic: tiêu đề + infobox
+            if looks_like_university_title(root_title) or (soup0 and looks_like_university_infobox(soup0)):
+                root_type = "university"
+            else:
+                # fallback cuối cùng
+                root_type = "university" if looks_like_university_title(root_title) else "person"
+
+        row_root = (root_title, root_type)
+        k_root = _norm_tuple(*row_root)
+        if k_root not in seen_roots:
+            w_roots.writerow(list(row_root))
+            seen_roots.add(k_root)
+            print(f"    ↳ root_nodes: '{root_title}' → type={root_type}")
+
+        # Nếu root là person:
+        # - (tuỳ chọn) thêm chính root vào seeds (depth 1 ở Step 2)
+        # - trích học vấn của root và ghi edu_edges (ALUMNI_OF)
+        if root_is_person:
+            try:
+                if args.include_root_seed:
+                    row_seed = (root_title,)
+                    k_seed = _norm_tuple(*row_seed)
+                    if k_seed not in seen_seed:
+                        w_seeds.writerow([root_title]); seen_seed.add(k_seed)
+
+                if soup0 is None:
+                    # fetch lại nếu cần
+                    h0, _ = fetch_parse_html(root_title)
+                    soup0 = soup_from_html(h0)
+
+                if soup0 is not None:
+                    edu_root = extract_person_education(soup0) or []
+                    for uni, year in edu_root:
+                        row = (uni, root_title, "ALUMNI_OF", str(year) if year is not None else "")
+                        k_ue = _norm_tuple(*row)
+                        if k_ue not in seen_uedge:
+                            w_uedges.writerow(list(row)); seen_uedge.add(k_ue)
+            except Exception:
+                pass
+
+        # --- Duyệt các candidate link của root ---
         processed = 0
         ok_people = 0
         made_edu_edges = 0
         errors = 0
 
-        iterator = tqdm(candidates, total=len(candidates), desc=f"Scanning@{root}", unit="page") if HAS_TQDM else candidates
+        iterator = tqdm(candidates, total=len(candidates), desc=f"Scanning@{root_title}", unit="page") if HAS_TQDM else iter(candidates)
 
         for cand in iterator:
             processed += 1
@@ -138,31 +234,35 @@ def main():
                         print(f"  [{processed}/{len(candidates)}] seeds={ok_people} edu={made_edu_edges} err={errors}")
                     continue
 
-                edu = extract_person_education(ch_soup)
+                edu = extract_person_education(ch_soup) or []
                 if not edu:
                     if not HAS_TQDM and processed % args.progress_every == 0:
                         print(f"  [{processed}/{len(candidates)}] seeds={ok_people} edu={made_edu_edges} err={errors}")
                     continue
 
-                # giữ seed (người)
+                # giữ seed (người) — định nghĩa: depth 1 ở Step 2
                 row_seed = (cand,)
-                if not args.dedupe or row_seed not in seen_seed:
-                    w_seeds.writerow([cand]); seen_seed.add(row_seed)
+                k_seed = _norm_tuple(*row_seed)
+                if (not args.dedupe) or (k_seed not in seen_seed):
+                    w_seeds.writerow([cand]); seen_seed.add(k_seed)
                 ok_people += 1
 
-                # cạnh root -> person
-                row_pe = (root, cand, "LINK_FROM_START")
-                if not args.dedupe or row_pe not in seen_pedge:
-                    w_pedges.writerow(list(row_pe)); seen_pedge.add(row_pe)
+                # cạnh root -> person (LINK_FROM_START)
+                row_pe = (root_title, cand, "LINK_FROM_START")
+                k_pe = _norm_tuple(*row_pe)
+                if (not args.dedupe) or (k_pe not in seen_pedge):
+                    w_pedges.writerow(list(row_pe)); seen_pedge.add(k_pe)
 
                 # nếu chọn assume_university và root là trường → tạo ALUMNI_OF nếu phù hợp
-                if args.assume_university and not root_is_person:
+                if args.assume_university and (root_type == "university") and (not root_is_person):
                     added = 0
+                    root_norm = normalize(root_title)
                     for uni, year in edu:
-                        if uni == root:
+                        if normalize(uni) == root_norm:
                             row = (uni, cand, "ALUMNI_OF", str(year) if year is not None else "")
-                            if not args.dedupe or row not in seen_uedge:
-                                w_uedges.writerow(list(row)); seen_uedge.add(row)
+                            k_ue = _norm_tuple(*row)
+                            if (not args.dedupe) or (k_ue not in seen_uedge):
+                                w_uedges.writerow(list(row)); seen_uedge.add(k_ue)
                                 added += 1
                     made_edu_edges += added
 
@@ -184,12 +284,13 @@ def main():
         print(f"  ✅ root done: seeds+={ok_people}, edu_edges+={made_edu_edges}, errors={errors}")
 
     # đóng file
-    for fh in (f_seeds, f_pedges, f_uedges):
+    for fh in (f_seeds, f_pedges, f_uedges, f_roots):
         fh.close()
 
     print("\n🎉 Done. Đầu ra DUY NHẤT tại:", args.outdir)
-    print("  - seeds.csv")
-    print("  - person_edges.csv")
+    print("  - root_nodes.csv       (root + type; phục vụ Step 3 set depth 0)")
+    print("  - seeds.csv            (depth 1)")
+    print("  - person_edges.csv     (LINK_FROM_START)")
     print("  - edu_edges.csv")
 
 

@@ -94,15 +94,34 @@ for i, title in enumerate(ROOTS, 1):
 
     # nếu person_edges.csv đã có LINK_FROM_START cho root này → bỏ qua
     person_edges_fp = os.path.join(OUT, "person_edges.csv")
+    skip_step2 = False
     if os.path.exists(person_edges_fp):
         try:
             pe = pd.read_csv(person_edges_fp)
-            if not pe.empty and "relation" in pe.columns and "src_root" in pe.columns:
-                if ((pe["relation"] == "LINK_FROM_START") & (pe["src_root"].map(str) == norm)).any():
-                    print(f"  [{i}/{len(ROOTS)}] ⏭️ Skip step2: '{title}' đã có LINK_FROM_START trong person_edges.csv")
-                    continue
+            has_link = (not pe.empty and
+                        "relation" in pe.columns and "src_root" in pe.columns and
+                        ((pe["relation"]=="LINK_FROM_START") & (pe["src_root"].map(str)==norm)).any())
+            if has_link:
+                # chỉ skip nếu seeds đã chứa ÍT NHẤT MỘT dst_person tương ứng root này
+                seeds_fp_global = os.path.join(OUT, "seeds.csv")
+                has_seeds = False
+                if os.path.exists(seeds_fp_global):
+                    s = pd.read_csv(seeds_fp_global)
+                    if not s.empty and "person_title" in s.columns:
+                        dst = pe.loc[(pe["relation"]=="LINK_FROM_START") &
+                                    (pe["src_root"].map(str)==norm), "dst_person"].dropna().unique()
+                        if len(dst) > 0:
+                            has_seeds = s["person_title"].isin(dst).any()
+                if has_seeds:
+                    print(f"  [{i}/{len(ROOTS)}] ⏭️ Skip step2: '{title}' đã có LINK_FROM_START và seeds")
+                    skip_step2 = True
+                else:
+                    print(f"  [{i}/{len(ROOTS)}] ⚠️ Có LINK_FROM_START nhưng thiếu seeds → sẽ chạy lại Step2")
         except Exception:
             pass
+
+    if skip_step2:
+        continue
 
     # ghi một CSV tạm chỉ chứa links của root này để step2 xử lý
     tmpdir = tempfile.mkdtemp(prefix=f"_tmp_{slug(title)}_", dir=OUT)
@@ -153,6 +172,27 @@ person_edges_df.to_csv(person_edges_fp, index=False, encoding="utf-8")
 edu_edges_df.to_csv(edu_edges_fp, index=False, encoding="utf-8")
 
 print(f"  ✓ seeds.csv rows = {seeds_df.shape[0]} | person_edges.csv = {person_edges_df.shape[0]} | edu_edges.csv = {edu_edges_df.shape[0]}")
+# 🔁 Rescue: nếu seeds rỗng nhưng đã có LINK_FROM_START → tạo seeds từ person_edges
+if seeds_df.empty and not person_edges_df.empty:
+    dst = (person_edges_df.loc[person_edges_df["relation"]=="LINK_FROM_START", "dst_person"]
+            .dropna().drop_duplicates())
+    if not dst.empty:
+        seeds_df = pd.DataFrame({"person_title": dst})
+        seeds_df.to_csv(seeds_fp, index=False, encoding="utf-8")
+        print(f"  🔁 rescued seeds.csv from person_edges: {len(dst)} rows")
+
+root_nodes_fp = os.path.join(OUT, "root_nodes.csv")
+if not os.path.exists(root_nodes_fp) or os.path.getsize(root_nodes_fp)==0:
+    rows = []
+    for info in load_info_list():  # bạn đã có helper này ở đầu file
+        t = info.get("title")
+        if not t: continue
+        tl = t.lower()
+        ty = "university" if any(k in tl for k in ["đại học","university","học viện","institute","college"]) else "person"
+        rows.append((t, ty))
+    if rows:
+        pd.DataFrame(rows, columns=["title","type"]).drop_duplicates().to_csv(root_nodes_fp, index=False, encoding="utf-8")
+        print(f"  🔁 rescued root_nodes.csv with {len(rows)} rows")
 
 # ---------- PHASE 3: STEP 3 (BFS) ----------
 print("\n[PHASE 3/3] Step 3 (BFS mở rộng) → graph_out/")
@@ -164,11 +204,11 @@ step3_cmd = [
     "--config", "config_example.json",
     "--outdir", OUT,
     "--checkpoint-every", "500",
-    "--flush-every", "500"
+    "--flush-every", "500",
+    "--roots-csv", os.path.join(OUT, "root_nodes.csv"),
 ]
-
-# nếu step3 của bạn có hỗ trợ 2 cờ này thì bật:
 step3_cmd += ["--expand-from-university", "--info-json", os.path.join(OUT, "info.json")]
+
 
 subprocess.run(step3_cmd, check=True, env=ENV)
 
