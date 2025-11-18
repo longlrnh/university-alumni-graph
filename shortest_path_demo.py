@@ -55,14 +55,12 @@ def load_nodes_generic(path, graph):
     with open(path, "r", encoding="utf-8") as f:
         rdr = csv.DictReader(f)
 
-        # Tìm cột chứa tên node: ưu tiên 'title'
         title_col = None
         for col in rdr.fieldnames:
             if col.lower() == "title":
                 title_col = col
                 break
         if title_col is None:
-            # fallback: cột thứ 2 (thường là title trong nodes_persons.csv)
             if len(rdr.fieldnames) >= 2:
                 title_col = rdr.fieldnames[1]
             else:
@@ -90,7 +88,6 @@ def load_edges_generic(path, graph):
     with open(path, "r", encoding="utf-8") as f:
         rdr = csv.DictReader(f)
 
-        # Tìm 2 cột node
         possible_cols = [c for c in rdr.fieldnames
                          if "person" in c.lower() or "university" in c.lower()]
         if len(possible_cols) < 2:
@@ -106,10 +103,8 @@ def load_edges_generic(path, graph):
             if not a or not b:
                 continue
 
-            # Tính trọng số
             weight = 1.0
             if has_count:
-                # tìm đúng cột 'count' (case-insensitive)
                 count_col = None
                 for c in rdr.fieldnames:
                     if c.lower() == "count":
@@ -202,7 +197,6 @@ def dijkstra_shortest_path(graph, start, goal):
     if start == goal:
         return [start], 0.0
 
-    # khởi tạo dist
     INF = float("inf")
     dist = {node: INF for node in graph}
     dist[start] = 0.0
@@ -305,3 +299,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
