@@ -1,0 +1,70 @@
+# --- Python build & cache ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Jupyter / notebook checkpoints ---
+.ipynb_checkpoints/
+
+# --- IDE / system ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- OS metadata ---
+desktop.ini
+
+# --- Neo4j export / temporary ---
+neo4j/
+graph.db/
+*.graphdb
+
+# === Project data / cache / secrets (ADD THESE) ===
+# SQLite / DB caches (where push protection flagged AWS key patterns)
+*.sqlite
+*.db
+build_univ_alumni_graph/*.sqlite
+build_univ_alumni_graph/**/cache*/
+build_univ_alumni_graph/**/tmp*/
+build_univ_alumni_graph/**/logs*/
+
+# Data outputs / exports
+data/
+outputs/
+exports/
+reports/
+*.csv
+!graph_out/
+!graph_out/*.csv
+!graph_out/**/*.csv
+*.tsv
+*.xlsx
+*.parquet
+*.feather
+*.pickle
+*.pkl
+*.jsonl
+
+# Logs & temp
+*.log
+logs/
+tmp/
+.temp/
+.cache/
+
+# Secrets / configs
+.env
+*.env
+.env.*
+*.key
+*.pem
+*.p12
+*.crt
+secrets/
+config/local*.yml

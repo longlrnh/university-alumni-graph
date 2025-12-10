@@ -1,0 +1,66 @@
+{
+  "total_questions": 500,
+  "correct": 500,
+  "overall_accuracy": 100.0,
+  "by_category": {
+    "connection": {
+      "correct": 158,
+      "total": 158,
+      "accuracy": 100.0
+    },
+    "same_career": {
+      "correct": 86,
+      "total": 86,
+      "accuracy": 100.0
+    },
+    "same_university": {
+      "correct": 56,
+      "total": 56,
+      "accuracy": 100.0
+    },
+    "career_mcq": {
+      "correct": 72,
+      "total": 72,
+      "accuracy": 100.0
+    },
+    "shared_connections": {
+      "correct": 11,
+      "total": 11,
+      "accuracy": 100.0
+    },
+    "path_length": {
+      "correct": 19,
+      "total": 19,
+      "accuracy": 100.0
+    },
+    "university_mcq": {
+      "correct": 98,
+      "total": 98,
+      "accuracy": 100.0
+    }
+  },
+  "by_hops": {
+    "2": {
+      "correct": 241,
+      "total": 241,
+      "accuracy": 100.0
+    },
+    "3": {
+      "correct": 40,
+      "total": 40,
+      "accuracy": 100.0
+    },
+    "1": {
+      "correct": 215,
+      "total": 215,
+      "accuracy": 100.0
+    },
+    "4": {
+      "correct": 4,
+      "total": 4,
+      "accuracy": 100.0
+    }
+  },
+  "sample_size": 500,
+  "full_dataset_size": 2018
+}
