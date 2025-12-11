@@ -67,18 +67,20 @@ class GraphRAGReasoner:
         norm_query = self._normalize_text(query)
         query_lower = norm_query
         
-        # Keywords không phải entities
-        skip_keywords = ['trường', 'đại học', 'học', 'những', 'nào', 'cơ', 'có', 'không', 'và', 'hay',
+        # Keywords không phải entities (CHỈ skip khi đứng độc lập)
+        skip_keywords = ['trường', 'học', 'những', 'nào', 'cơ', 'có', 'không', 'và', 'hay',
                         'được', 'cùng', 'liên quan', 'kết nối', 'mối', 'người', 'ai', 'là', 'gì',
-                        'nơi', 'đâu', 'bao nhiêu', 'mấy', 'bao giờ', 'khi nào', 'tìm', 'lấy']
+                        'nơi', 'đâu', 'bao nhiêu', 'mấy', 'bao giờ', 'khi nào', 'tìm', 'lấy', 'sinh', 'vien']
         
         for title in self.kg.title_to_node.keys():
-            title_lower = title.lower()
-            # Chỉ lấy nếu title xuất hiện trong query và không phải keywords
-            if title_lower in query_lower and title_lower not in skip_keywords:
-                # Kiểm tra đó là person node
+            title_normalized = self._normalize_text(title)
+            # Chỉ lấy nếu title xuất hiện trong query
+            # KHÔNG skip "đại học" vì nó là part của tên trường (Đại học Harvard, Đại học Stanford...)
+            if title_normalized in query_lower and title_normalized not in skip_keywords:
+                # Kiểm tra đó là person, university, hoặc country node
                 node_id = self.kg.title_to_node[title]
-                if self.kg.node_types.get(node_id) == 'person':
+                node_type = self.kg.node_types.get(node_id, '').lower()
+                if node_type in ['person', 'university', 'country']:
                     entities.append(title)
         
         entities.sort(key=len, reverse=True)  # Ưu tiên tên dài hơn
