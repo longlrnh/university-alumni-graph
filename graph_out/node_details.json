@@ -88830,5 +88830,1230 @@
       "Sinh viên đại học": "5 414",
       "Sinh viên sau đại học": "6 318"
     }
+  },
+  {
+    "title": "Afghanistan",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Afghanistan",
+    "summary": "Country node for Afghanistan",
+    "properties": {}
+  },
+  {
+    "title": "Albania",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Albania",
+    "summary": "Country node for Albania",
+    "properties": {}
+  },
+  {
+    "title": "An Do",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/An Do",
+    "summary": "Country node for An Do",
+    "properties": {}
+  },
+  {
+    "title": "Anh",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Anh",
+    "summary": "Country node for Anh",
+    "properties": {}
+  },
+  {
+    "title": "Ao",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Ao",
+    "summary": "Country node for Ao",
+    "properties": {}
+  },
+  {
+    "title": "Argentina",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Argentina",
+    "summary": "Country node for Argentina",
+    "properties": {}
+  },
+  {
+    "title": "Australia",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Australia",
+    "summary": "Country node for Australia",
+    "properties": {}
+  },
+  {
+    "title": "Ba Lan",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Ba Lan",
+    "summary": "Country node for Ba Lan",
+    "properties": {}
+  },
+  {
+    "title": "Bi",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Bi",
+    "summary": "Country node for Bi",
+    "properties": {}
+  },
+  {
+    "title": "Bo Dao Nha",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Bo Dao Nha",
+    "summary": "Country node for Bo Dao Nha",
+    "properties": {}
+  },
+  {
+    "title": "Bosnia",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Bosnia",
+    "summary": "Country node for Bosnia",
+    "properties": {}
+  },
+  {
+    "title": "Bulgaria",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Bulgaria",
+    "summary": "Country node for Bulgaria",
+    "properties": {}
+  },
+  {
+    "title": "Canada",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Canada",
+    "summary": "Country node for Canada",
+    "properties": {}
+  },
+  {
+    "title": "Chile",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Chile",
+    "summary": "Country node for Chile",
+    "properties": {}
+  },
+  {
+    "title": "Colombia",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Colombia",
+    "summary": "Country node for Colombia",
+    "properties": {}
+  },
+  {
+    "title": "Cong hoa Sec",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Cong hoa Sec",
+    "summary": "Country node for Cong hoa Sec",
+    "properties": {}
+  },
+  {
+    "title": "Croatia",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Croatia",
+    "summary": "Country node for Croatia",
+    "properties": {}
+  },
+  {
+    "title": "Cuba",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Cuba",
+    "summary": "Country node for Cuba",
+    "properties": {}
+  },
+  {
+    "title": "Dai Loan",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Dai Loan",
+    "summary": "Country node for Dai Loan",
+    "properties": {}
+  },
+  {
+    "title": "Dan Mach",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Dan Mach",
+    "summary": "Country node for Dan Mach",
+    "properties": {}
+  },
+  {
+    "title": "Dong An",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Dong An",
+    "summary": "Country node for Dong An",
+    "properties": {}
+  },
+  {
+    "title": "Duc",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Duc",
+    "summary": "Country node for Duc",
+    "properties": {}
+  },
+  {
+    "title": "Ethiopia",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Ethiopia",
+    "summary": "Country node for Ethiopia",
+    "properties": {}
+  },
+  {
+    "title": "Ha Lan",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Ha Lan",
+    "summary": "Country node for Ha Lan",
+    "properties": {}
+  },
+  {
+    "title": "Han Quoc",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Han Quoc",
+    "summary": "Country node for Han Quoc",
+    "properties": {}
+  },
+  {
+    "title": "Hoa Ky",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Hoa Ky",
+    "summary": "Country node for Hoa Ky",
+    "properties": {}
+  },
+  {
+    "title": "Hong Kong",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Hong Kong",
+    "summary": "Country node for Hong Kong",
+    "properties": {}
+  },
+  {
+    "title": "Hungary",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Hungary",
+    "summary": "Country node for Hungary",
+    "properties": {}
+  },
+  {
+    "title": "Indonesia",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Indonesia",
+    "summary": "Country node for Indonesia",
+    "properties": {}
+  },
+  {
+    "title": "Iran",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Iran",
+    "summary": "Country node for Iran",
+    "properties": {}
+  },
+  {
+    "title": "Iraq",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Iraq",
+    "summary": "Country node for Iraq",
+    "properties": {}
+  },
+  {
+    "title": "Ireland",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Ireland",
+    "summary": "Country node for Ireland",
+    "properties": {}
+  },
+  {
+    "title": "Israel",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Israel",
+    "summary": "Country node for Israel",
+    "properties": {}
+  },
+  {
+    "title": "Lebanon",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Lebanon",
+    "summary": "Country node for Lebanon",
+    "properties": {}
+  },
+  {
+    "title": "Malaysia",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Malaysia",
+    "summary": "Country node for Malaysia",
+    "properties": {}
+  },
+  {
+    "title": "Mexico",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Mexico",
+    "summary": "Country node for Mexico",
+    "properties": {}
+  },
+  {
+    "title": "My",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/My",
+    "summary": "Country node for My",
+    "properties": {}
+  },
+  {
+    "title": "Myanmar",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Myanmar",
+    "summary": "Country node for Myanmar",
+    "properties": {}
+  },
+  {
+    "title": "Na Uy",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Na Uy",
+    "summary": "Country node for Na Uy",
+    "properties": {}
+  },
+  {
+    "title": "Nam Phi",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Nam Phi",
+    "summary": "Country node for Nam Phi",
+    "properties": {}
+  },
+  {
+    "title": "New Zealand",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/New Zealand",
+    "summary": "Country node for New Zealand",
+    "properties": {}
+  },
+  {
+    "title": "Nga",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Nga",
+    "summary": "Country node for Nga",
+    "properties": {}
+  },
+  {
+    "title": "Nhat Ban",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Nhat Ban",
+    "summary": "Country node for Nhat Ban",
+    "properties": {}
+  },
+  {
+    "title": "Nigeria",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Nigeria",
+    "summary": "Country node for Nigeria",
+    "properties": {}
+  },
+  {
+    "title": "Pakistan",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Pakistan",
+    "summary": "Country node for Pakistan",
+    "properties": {}
+  },
+  {
+    "title": "Palestine",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Palestine",
+    "summary": "Country node for Palestine",
+    "properties": {}
+  },
+  {
+    "title": "Papua New Guinea",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Papua New Guinea",
+    "summary": "Country node for Papua New Guinea",
+    "properties": {}
+  },
+  {
+    "title": "Peru",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Peru",
+    "summary": "Country node for Peru",
+    "properties": {}
+  },
+  {
+    "title": "Phan Lan",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Phan Lan",
+    "summary": "Country node for Phan Lan",
+    "properties": {}
+  },
+  {
+    "title": "Phap",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Phap",
+    "summary": "Country node for Phap",
+    "properties": {}
+  },
+  {
+    "title": "Philippines",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Philippines",
+    "summary": "Country node for Philippines",
+    "properties": {}
+  },
+  {
+    "title": "Romania",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Romania",
+    "summary": "Country node for Romania",
+    "properties": {}
+  },
+  {
+    "title": "Saudi Arabia",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Saudi Arabia",
+    "summary": "Country node for Saudi Arabia",
+    "properties": {}
+  },
+  {
+    "title": "Serbia",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Serbia",
+    "summary": "Country node for Serbia",
+    "properties": {}
+  },
+  {
+    "title": "Singapore",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Singapore",
+    "summary": "Country node for Singapore",
+    "properties": {}
+  },
+  {
+    "title": "Slovakia",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Slovakia",
+    "summary": "Country node for Slovakia",
+    "properties": {}
+  },
+  {
+    "title": "Syria",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Syria",
+    "summary": "Country node for Syria",
+    "properties": {}
+  },
+  {
+    "title": "Tay Ban Nha",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Tay Ban Nha",
+    "summary": "Country node for Tay Ban Nha",
+    "properties": {}
+  },
+  {
+    "title": "Thai Lan",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Thai Lan",
+    "summary": "Country node for Thai Lan",
+    "properties": {}
+  },
+  {
+    "title": "Thuy Dien",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Thuy Dien",
+    "summary": "Country node for Thuy Dien",
+    "properties": {}
+  },
+  {
+    "title": "Thuy Si",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Thuy Si",
+    "summary": "Country node for Thuy Si",
+    "properties": {}
+  },
+  {
+    "title": "Trieu Tien",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Trieu Tien",
+    "summary": "Country node for Trieu Tien",
+    "properties": {}
+  },
+  {
+    "title": "Trung Quoc",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Trung Quoc",
+    "summary": "Country node for Trung Quoc",
+    "properties": {}
+  },
+  {
+    "title": "Turkey",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Turkey",
+    "summary": "Country node for Turkey",
+    "properties": {}
+  },
+  {
+    "title": "Venezuela",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Venezuela",
+    "summary": "Country node for Venezuela",
+    "properties": {}
+  },
+  {
+    "title": "Viet Nam",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Viet Nam",
+    "summary": "Country node for Viet Nam",
+    "properties": {}
+  },
+  {
+    "title": "Y",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/Y",
+    "summary": "Country node for Y",
+    "properties": {}
+  },
+  {
+    "title": "country_Afghanistan",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Afghanistan",
+    "summary": "Country node for country Afghanistan",
+    "properties": {}
+  },
+  {
+    "title": "country_Albania",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Albania",
+    "summary": "Country node for country Albania",
+    "properties": {}
+  },
+  {
+    "title": "country_An Do",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country An Do",
+    "summary": "Country node for country An Do",
+    "properties": {}
+  },
+  {
+    "title": "country_Anh",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Anh",
+    "summary": "Country node for country Anh",
+    "properties": {}
+  },
+  {
+    "title": "country_Ao",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Ao",
+    "summary": "Country node for country Ao",
+    "properties": {}
+  },
+  {
+    "title": "country_Argentina",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Argentina",
+    "summary": "Country node for country Argentina",
+    "properties": {}
+  },
+  {
+    "title": "country_Australia",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Australia",
+    "summary": "Country node for country Australia",
+    "properties": {}
+  },
+  {
+    "title": "country_Ba Lan",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Ba Lan",
+    "summary": "Country node for country Ba Lan",
+    "properties": {}
+  },
+  {
+    "title": "country_Bi",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Bi",
+    "summary": "Country node for country Bi",
+    "properties": {}
+  },
+  {
+    "title": "country_Bo Dao Nha",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Bo Dao Nha",
+    "summary": "Country node for country Bo Dao Nha",
+    "properties": {}
+  },
+  {
+    "title": "country_Bosnia",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Bosnia",
+    "summary": "Country node for country Bosnia",
+    "properties": {}
+  },
+  {
+    "title": "country_Bulgaria",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Bulgaria",
+    "summary": "Country node for country Bulgaria",
+    "properties": {}
+  },
+  {
+    "title": "country_Canada",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Canada",
+    "summary": "Country node for country Canada",
+    "properties": {}
+  },
+  {
+    "title": "country_Chile",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Chile",
+    "summary": "Country node for country Chile",
+    "properties": {}
+  },
+  {
+    "title": "country_Colombia",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Colombia",
+    "summary": "Country node for country Colombia",
+    "properties": {}
+  },
+  {
+    "title": "country_Cong hoa Sec",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Cong hoa Sec",
+    "summary": "Country node for country Cong hoa Sec",
+    "properties": {}
+  },
+  {
+    "title": "country_Croatia",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Croatia",
+    "summary": "Country node for country Croatia",
+    "properties": {}
+  },
+  {
+    "title": "country_Cuba",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Cuba",
+    "summary": "Country node for country Cuba",
+    "properties": {}
+  },
+  {
+    "title": "country_Dai Loan",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Dai Loan",
+    "summary": "Country node for country Dai Loan",
+    "properties": {}
+  },
+  {
+    "title": "country_Dan Mach",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Dan Mach",
+    "summary": "Country node for country Dan Mach",
+    "properties": {}
+  },
+  {
+    "title": "country_Dong An",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Dong An",
+    "summary": "Country node for country Dong An",
+    "properties": {}
+  },
+  {
+    "title": "country_Duc",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Duc",
+    "summary": "Country node for country Duc",
+    "properties": {}
+  },
+  {
+    "title": "country_Ethiopia",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Ethiopia",
+    "summary": "Country node for country Ethiopia",
+    "properties": {}
+  },
+  {
+    "title": "country_Ha Lan",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Ha Lan",
+    "summary": "Country node for country Ha Lan",
+    "properties": {}
+  },
+  {
+    "title": "country_Han Quoc",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Han Quoc",
+    "summary": "Country node for country Han Quoc",
+    "properties": {}
+  },
+  {
+    "title": "country_Hoa Ky",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Hoa Ky",
+    "summary": "Country node for country Hoa Ky",
+    "properties": {}
+  },
+  {
+    "title": "country_Hong Kong",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Hong Kong",
+    "summary": "Country node for country Hong Kong",
+    "properties": {}
+  },
+  {
+    "title": "country_Hungary",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Hungary",
+    "summary": "Country node for country Hungary",
+    "properties": {}
+  },
+  {
+    "title": "country_Indonesia",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Indonesia",
+    "summary": "Country node for country Indonesia",
+    "properties": {}
+  },
+  {
+    "title": "country_Iran",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Iran",
+    "summary": "Country node for country Iran",
+    "properties": {}
+  },
+  {
+    "title": "country_Iraq",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Iraq",
+    "summary": "Country node for country Iraq",
+    "properties": {}
+  },
+  {
+    "title": "country_Ireland",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Ireland",
+    "summary": "Country node for country Ireland",
+    "properties": {}
+  },
+  {
+    "title": "country_Israel",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Israel",
+    "summary": "Country node for country Israel",
+    "properties": {}
+  },
+  {
+    "title": "country_Lebanon",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Lebanon",
+    "summary": "Country node for country Lebanon",
+    "properties": {}
+  },
+  {
+    "title": "country_Malaysia",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Malaysia",
+    "summary": "Country node for country Malaysia",
+    "properties": {}
+  },
+  {
+    "title": "country_Mexico",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Mexico",
+    "summary": "Country node for country Mexico",
+    "properties": {}
+  },
+  {
+    "title": "country_My",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country My",
+    "summary": "Country node for country My",
+    "properties": {}
+  },
+  {
+    "title": "country_Myanmar",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Myanmar",
+    "summary": "Country node for country Myanmar",
+    "properties": {}
+  },
+  {
+    "title": "country_Na Uy",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Na Uy",
+    "summary": "Country node for country Na Uy",
+    "properties": {}
+  },
+  {
+    "title": "country_Nam Phi",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Nam Phi",
+    "summary": "Country node for country Nam Phi",
+    "properties": {}
+  },
+  {
+    "title": "country_New Zealand",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country New Zealand",
+    "summary": "Country node for country New Zealand",
+    "properties": {}
+  },
+  {
+    "title": "country_Nga",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Nga",
+    "summary": "Country node for country Nga",
+    "properties": {}
+  },
+  {
+    "title": "country_Nhat Ban",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Nhat Ban",
+    "summary": "Country node for country Nhat Ban",
+    "properties": {}
+  },
+  {
+    "title": "country_Nigeria",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Nigeria",
+    "summary": "Country node for country Nigeria",
+    "properties": {}
+  },
+  {
+    "title": "country_Pakistan",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Pakistan",
+    "summary": "Country node for country Pakistan",
+    "properties": {}
+  },
+  {
+    "title": "country_Palestine",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Palestine",
+    "summary": "Country node for country Palestine",
+    "properties": {}
+  },
+  {
+    "title": "country_Papua New Guinea",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Papua New Guinea",
+    "summary": "Country node for country Papua New Guinea",
+    "properties": {}
+  },
+  {
+    "title": "country_Peru",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Peru",
+    "summary": "Country node for country Peru",
+    "properties": {}
+  },
+  {
+    "title": "country_Phan Lan",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Phan Lan",
+    "summary": "Country node for country Phan Lan",
+    "properties": {}
+  },
+  {
+    "title": "country_Phap",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Phap",
+    "summary": "Country node for country Phap",
+    "properties": {}
+  },
+  {
+    "title": "country_Philippines",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Philippines",
+    "summary": "Country node for country Philippines",
+    "properties": {}
+  },
+  {
+    "title": "country_Romania",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Romania",
+    "summary": "Country node for country Romania",
+    "properties": {}
+  },
+  {
+    "title": "country_Saudi Arabia",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Saudi Arabia",
+    "summary": "Country node for country Saudi Arabia",
+    "properties": {}
+  },
+  {
+    "title": "country_Serbia",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Serbia",
+    "summary": "Country node for country Serbia",
+    "properties": {}
+  },
+  {
+    "title": "country_Singapore",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Singapore",
+    "summary": "Country node for country Singapore",
+    "properties": {}
+  },
+  {
+    "title": "country_Slovakia",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Slovakia",
+    "summary": "Country node for country Slovakia",
+    "properties": {}
+  },
+  {
+    "title": "country_Syria",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Syria",
+    "summary": "Country node for country Syria",
+    "properties": {}
+  },
+  {
+    "title": "country_Tay Ban Nha",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Tay Ban Nha",
+    "summary": "Country node for country Tay Ban Nha",
+    "properties": {}
+  },
+  {
+    "title": "country_Thai Lan",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Thai Lan",
+    "summary": "Country node for country Thai Lan",
+    "properties": {}
+  },
+  {
+    "title": "country_Thuy Dien",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Thuy Dien",
+    "summary": "Country node for country Thuy Dien",
+    "properties": {}
+  },
+  {
+    "title": "country_Thuy Si",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Thuy Si",
+    "summary": "Country node for country Thuy Si",
+    "properties": {}
+  },
+  {
+    "title": "country_Trieu Tien",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Trieu Tien",
+    "summary": "Country node for country Trieu Tien",
+    "properties": {}
+  },
+  {
+    "title": "country_Trung Quoc",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Trung Quoc",
+    "summary": "Country node for country Trung Quoc",
+    "properties": {}
+  },
+  {
+    "title": "country_Turkey",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Turkey",
+    "summary": "Country node for country Turkey",
+    "properties": {}
+  },
+  {
+    "title": "country_Venezuela",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Venezuela",
+    "summary": "Country node for country Venezuela",
+    "properties": {}
+  },
+  {
+    "title": "country_Viet Nam",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Viet Nam",
+    "summary": "Country node for country Viet Nam",
+    "properties": {}
+  },
+  {
+    "title": "country_Y",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Y",
+    "summary": "Country node for country Y",
+    "properties": {}
+  },
+  {
+    "title": "country_Ai_Cap",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Ai Cap",
+    "summary": "Country node for country Ai Cap",
+    "properties": {}
+  },
+  {
+    "title": "country_An_Do",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country An Do",
+    "summary": "Country node for country An Do",
+    "properties": {}
+  },
+  {
+    "title": "country_Azerbaijan",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Azerbaijan",
+    "summary": "Country node for country Azerbaijan",
+    "properties": {}
+  },
+  {
+    "title": "country_Ba_Lan",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Ba Lan",
+    "summary": "Country node for country Ba Lan",
+    "properties": {}
+  },
+  {
+    "title": "country_Belarus",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Belarus",
+    "summary": "Country node for country Belarus",
+    "properties": {}
+  },
+  {
+    "title": "country_Bo_Dao_Nha",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Bo Dao Nha",
+    "summary": "Country node for country Bo Dao Nha",
+    "properties": {}
+  },
+  {
+    "title": "country_Bolivia",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Bolivia",
+    "summary": "Country node for country Bolivia",
+    "properties": {}
+  },
+  {
+    "title": "country_Brazil",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Brazil",
+    "summary": "Country node for country Brazil",
+    "properties": {}
+  },
+  {
+    "title": "country_Dan_Mach",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Dan Mach",
+    "summary": "Country node for country Dan Mach",
+    "properties": {}
+  },
+  {
+    "title": "country_Djibouti",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Djibouti",
+    "summary": "Country node for country Djibouti",
+    "properties": {}
+  },
+  {
+    "title": "country_Estonia",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Estonia",
+    "summary": "Country node for country Estonia",
+    "properties": {}
+  },
+  {
+    "title": "country_Georgia",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Georgia",
+    "summary": "Country node for country Georgia",
+    "properties": {}
+  },
+  {
+    "title": "country_Ghana",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Ghana",
+    "summary": "Country node for country Ghana",
+    "properties": {}
+  },
+  {
+    "title": "country_Ha_Lan",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Ha Lan",
+    "summary": "Country node for country Ha Lan",
+    "properties": {}
+  },
+  {
+    "title": "country_Han_Quoc",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Han Quoc",
+    "summary": "Country node for country Han Quoc",
+    "properties": {}
+  },
+  {
+    "title": "country_Hoa_Ky",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Hoa Ky",
+    "summary": "Country node for country Hoa Ky",
+    "properties": {}
+  },
+  {
+    "title": "country_Hy_Lap",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Hy Lap",
+    "summary": "Country node for country Hy Lap",
+    "properties": {}
+  },
+  {
+    "title": "country_Jordan",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Jordan",
+    "summary": "Country node for country Jordan",
+    "properties": {}
+  },
+  {
+    "title": "country_Latvia",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Latvia",
+    "summary": "Country node for country Latvia",
+    "properties": {}
+  },
+  {
+    "title": "country_Libya",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Libya",
+    "summary": "Country node for country Libya",
+    "properties": {}
+  },
+  {
+    "title": "country_Na_Uy",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Na Uy",
+    "summary": "Country node for country Na Uy",
+    "properties": {}
+  },
+  {
+    "title": "country_Nam_Phi",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Nam Phi",
+    "summary": "Country node for country Nam Phi",
+    "properties": {}
+  },
+  {
+    "title": "country_New_Zealand",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country New Zealand",
+    "summary": "Country node for country New Zealand",
+    "properties": {}
+  },
+  {
+    "title": "country_Nhat_Ban",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Nhat Ban",
+    "summary": "Country node for country Nhat Ban",
+    "properties": {}
+  },
+  {
+    "title": "country_Papua_New_Guinea",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Papua New Guinea",
+    "summary": "Country node for country Papua New Guinea",
+    "properties": {}
+  },
+  {
+    "title": "country_Phan_Lan",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Phan Lan",
+    "summary": "Country node for country Phan Lan",
+    "properties": {}
+  },
+  {
+    "title": "country_Saudi_Arabia",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Saudi Arabia",
+    "summary": "Country node for country Saudi Arabia",
+    "properties": {}
+  },
+  {
+    "title": "country_Sec",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Sec",
+    "summary": "Country node for country Sec",
+    "properties": {}
+  },
+  {
+    "title": "country_Slovenia",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Slovenia",
+    "summary": "Country node for country Slovenia",
+    "properties": {}
+  },
+  {
+    "title": "country_Tay_Ban_Nha",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Tay Ban Nha",
+    "summary": "Country node for country Tay Ban Nha",
+    "properties": {}
+  },
+  {
+    "title": "country_Thai_Lan",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Thai Lan",
+    "summary": "Country node for country Thai Lan",
+    "properties": {}
+  },
+  {
+    "title": "country_Thuy_Dien",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Thuy Dien",
+    "summary": "Country node for country Thuy Dien",
+    "properties": {}
+  },
+  {
+    "title": "country_Thuy_Si",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Thuy Si",
+    "summary": "Country node for country Thuy Si",
+    "properties": {}
+  },
+  {
+    "title": "country_Trieu_Tien",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Trieu Tien",
+    "summary": "Country node for country Trieu Tien",
+    "properties": {}
+  },
+  {
+    "title": "country_Trung_Quoc",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Trung Quoc",
+    "summary": "Country node for country Trung Quoc",
+    "properties": {}
+  },
+  {
+    "title": "country_Tunisia",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Tunisia",
+    "summary": "Country node for country Tunisia",
+    "properties": {}
+  },
+  {
+    "title": "country_UAE",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country UAE",
+    "summary": "Country node for country UAE",
+    "properties": {}
+  },
+  {
+    "title": "country_Ukraine",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Ukraine",
+    "summary": "Country node for country Ukraine",
+    "properties": {}
+  },
+  {
+    "title": "country_Viet_Nam",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Viet Nam",
+    "summary": "Country node for country Viet Nam",
+    "properties": {}
+  },
+  {
+    "title": "country_Zambia",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Zambia",
+    "summary": "Country node for country Zambia",
+    "properties": {}
+  },
+  {
+    "title": "country_Zimbabwe",
+    "type": "country",
+    "url": "https://en.wikipedia.org/wiki/country Zimbabwe",
+    "summary": "Country node for country Zimbabwe",
+    "properties": {}
   }
 ]

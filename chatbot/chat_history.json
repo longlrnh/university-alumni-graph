@@ -1,0 +1,36 @@
+[
+  {
+    "user": "Bill Gates là cựu sinh viên trường đại học nào? A. Đại học Yale B. Đại học Harvard C. Đại học New York D. Đại học Oxford",
+    "bot": "Không tìm thấy thông tin chính xác trong dữ liệu để trả lời câu hỏi này.",
+    "type": "multiple_choice",
+    "reasoning": null
+  },
+  {
+    "user": "Bill Gates là cựu sinh viên trường đại học nào? A. Đại học Yale B. Đại học Harvard C. Đại học New York D. Đại học Oxford",
+    "bot": "Không tìm thấy thông tin chính xác trong dữ liệu để trả lời câu hỏi này.",
+    "type": "multiple_choice",
+    "reasoning": null
+  },
+  {
+    "user": "Bill Gates là cựu sinh viên trường đại học nào? A. Đại học Yale B. Đại học Harvard C. Đại học New York D. Đại học Oxford",
+    "bot": "Không tìm thấy thông tin chính xác trong dữ liệu để trả lời câu hỏi này.",
+    "type": "multiple_choice",
+    "reasoning": null
+  },
+  {
+    "user": "Barack Obama và Bill Clinton có kết nối không?",
+    "bot": "Có. Tìm thấy 65365 đường đi qua các cạnh/quan hệ. Đường ngắn nhất có 1 cạnh.",
+    "type": "connection",
+    "reasoning": {
+      "connected": true,
+      "hops": 1,
+      "path": [
+        "Bill Clinton",
+        "Barack Obama"
+      ],
+      "description": "Bill Clinton --[cạnh: link_to]--> Barack Obama",
+      "num_paths": 65365,
+      "explanation": "Tìm thấy 65365 đường đi qua các cạnh/quan hệ. Đường ngắn nhất có 1 cạnh."
+    }
+  }
+]
