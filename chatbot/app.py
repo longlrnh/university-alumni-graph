@@ -10,6 +10,13 @@ import json
 import os
 import importlib
 import sys
+import io
+
+# Fix encoding
+if sys.stdout.encoding != 'utf-8':
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
+if sys.stderr.encoding != 'utf-8':
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 
 # Import modules
 def import_module(name):
@@ -27,26 +34,30 @@ def init_chatbot():
     """Khởi tạo chatbot"""
     global kg, reasoner, chatbot
     
-    print("\n⏳ Khởi tạo Chatbot GraphRAG + Qwen OWen3...")
+    # Set working directory to chatbot folder
+    import os
+    os.chdir(os.path.dirname(os.path.abspath(__file__)))
+    
+    print("\n[INIT] Starting Chatbot initialization...", flush=True)
     
     try:
         KnowledgeGraph = import_module('1_knowledge_graph').KnowledgeGraph
         GraphRAGReasoner = import_module('2_graphrag_reasoner').GraphRAGReasoner
         GraphRAGChatbot = import_module('4_chatbot_graphrag').GraphRAGChatbot
         
-        print("   📥 Nạp Knowledge Graph...", end="", flush=True)
+        print("[INIT] Loading Knowledge Graph...", end="", flush=True)
         kg = KnowledgeGraph('../graph_out/nodes_unified.csv', '../graph_out/edges_unified.csv')
-        print(" ✓")
+        print(" OK", flush=True)
         
-        print("   📥 Khởi tạo GraphRAG Reasoner...", end="", flush=True)
+        print("[INIT] Initializing GraphRAG Reasoner...", end="", flush=True)
         reasoner = GraphRAGReasoner(kg)
-        print(" ✓")
+        print(" OK", flush=True)
         
-        print("   📥 Tạo Chatbot...", end="", flush=True)
+        print("[INIT] Creating Chatbot...", end="", flush=True)
         chatbot = GraphRAGChatbot(kg, reasoner)
-        print(" ✓\n")
+        print(" OK\n", flush=True)
         
-        print("✅ Chatbot sẵn sàng!\n")
+        print("[INIT] Chatbot ready!\n", flush=True)
         return True
     except Exception as e:
         print(f"\n❌ Lỗi: {e}")
@@ -72,8 +83,15 @@ def chat():
             return jsonify({'error': 'Vui lòng nhập câu hỏi'}), 400
         
         # Gọi chatbot
+        print(f"\n{'='*70}")
+        print(f"🔍 USER QUERY: {user_message}")
+        print(f"{'='*70}")
         result = chatbot.answer(user_message)
         bot_message = result['answer']
+        
+        print(f"📝 RESULT TYPE: {result.get('type', 'general')}")
+        print(f"💬 BOT RESPONSE: {bot_message}")
+        print(f"{'='*70}\n")
         
         # Làm sạch bot_message (bỏ system prompt)
         if '💬 TRẢ LỜI:' in bot_message:
@@ -100,6 +118,9 @@ def chat():
             'history': chat_history[-5:]  # 5 tin nhắn gần đây
         })
     except Exception as e:
+        print(f"❌ ERROR: {str(e)}")
+        import traceback
+        traceback.print_exc()
         return jsonify({'error': str(e)}), 500
 
 
@@ -138,11 +159,11 @@ def get_stats():
 if __name__ == '__main__':
     # Khởi tạo
     if not init_chatbot():
-        print("❌ Không thể khởi tạo chatbot")
+        print("[ERROR] Cannot initialize chatbot")
         sys.exit(1)
     
     # Chạy server
-    print("\n🚀 Website chạy tại: http://localhost:5000")
-    print("⏹️  Bấm Ctrl+C để dừng\n")
+    print("[INFO] Starting server at http://localhost:5000")
+    print("[INFO] Press Ctrl+C to stop\n")
     
     app.run(debug=False, host='127.0.0.1', port=5000)
