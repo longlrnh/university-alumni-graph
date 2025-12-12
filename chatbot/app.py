@@ -93,11 +93,29 @@ def chat():
         print(f"💬 BOT RESPONSE: {bot_message}")
         print(f"{'='*70}\n")
         
-        # Làm sạch bot_message (bỏ system prompt)
+        # Làm sạch bot_message (bỏ system prompt và thông tin lặp lại)
+        import re
+        
+        # 1. Bỏ phần "💬 TRẢ LỜI:"
         if '💬 TRẢ LỜI:' in bot_message:
             bot_message = bot_message.split('💬 TRẢ LỜI:')[-1].strip()
             if bot_message.startswith('"') and bot_message.endswith('"'):
                 bot_message = bot_message[1:-1]
+        
+        # 2. Bỏ phần "THÔNG TIN KHI LẠI" hoặc "CONTEXT" hoặc "[LOG]" hoặc các phần thông tin được thêm vào từ prompt
+        patterns_to_remove = [
+            r'\n+THÔNG TIN KHI LẠI:.*$',  # Remove "THÔNG TIN KHI LẠI:" section
+            r'\n+\[LOG\].*$',  # Remove [LOG] sections
+            r'\n+CONTEXT:.*$',  # Remove CONTEXT: sections
+            r'\n+=+.*có liên kết.*$',  # Remove graph info that starts with "==="
+            r'\n+[A-Z\s]{3,}:\s*[^\.]*\(cạnh:.*$',  # Remove edge information
+        ]
+        
+        for pattern in patterns_to_remove:
+            bot_message = re.sub(pattern, '', bot_message, flags=re.DOTALL | re.IGNORECASE)
+        
+        # 3. Loại bỏ các dòng trống ở cuối
+        bot_message = bot_message.rstrip()
         
         # Lưu lịch sử
         chat_history.append({

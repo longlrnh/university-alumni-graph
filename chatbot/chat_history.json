@@ -1,20 +1,32 @@
 [
   {
-    "user": "Bill Gates đã tốt nghiệp Harvard chưa",
-    "bot": "Bill Gates tốt nghiệp Đại học Harvard vào năm 1976.",
+    "user": "Bill Gates làm nghề gì",
+    "bot": "Bill Gates làm việc trong lĩnh vực công nghệ và tài chính. Ông đã từng là CEO của Microsoft và cũng là một thành viên của Hội đồng quản trị của Google. \n\nBài viết này cho biết rằng Bill Gates có liên kết với nhiều trường đại học lớn như Harvard, University of California, Berkeley, và MIT. Ngoài ra, ông còn có liên kết với một số cá nhân khác như Harry R. Lewis, Gordon Brown, và Umaru Musa Yar'Adua.",
     "type": "general",
     "reasoning": null
   },
   {
-    "user": "liệt kê sinh viên Trung Quốc",
-    "bot": "Không tìm thấy người đến từ Trung Quoc trong đồ thị.",
-    "type": "aggregate_people_country",
+    "user": "Bill Clinton và Barack Obama có cùng nghề nghiệp không",
+    "bot": "Có. Cả hai đều là chính trị gia (tổng thống/phó tổng thống/thủ tướng).",
+    "type": "profession",
     "reasoning": null
   },
   {
-    "user": "Bill Gates là ai",
-    "bot": "Bill Gates là một nhà tài trợ và thành lập công ty Microsoft, cũng là người sáng lập của Google. Ông đã từng là giáo sư tại Đại học Harvard và đã trở thành một trong những người lớn nhất trong ngành công nghệ hiện đại.",
+    "user": "Bill Clinton làm nghề gì",
+    "bot": "Bill Clinton làm việc trong lĩnh vực dịch vụ đối ngoại.",
     "type": "general",
+    "reasoning": null
+  },
+  {
+    "user": "Elon Musk làm nghề gì",
+    "bot": "Elon Musk là một nhà phát triển công nghệ và người sáng lập của Tesla, SpaceX và Neuralink. Ông cũng là một thành viên của Đảng Cộng sản Việt Nam và là một trong những người ủng hộ của ông chủ nước Mỹ, Donald Trump.",
+    "type": "general",
+    "reasoning": null
+  },
+  {
+    "user": "Elon Musk học trường gì?",
+    "bot": "Có. Elon Musk học tại: Đại học Pennsylvania, Đại học Stanford.",
+    "type": "university_single_person",
     "reasoning": null
   },
   {
@@ -30,9 +42,42 @@
     }
   },
   {
-    "user": "Donald Trump là ai",
-    "bot": "Donald Trump là một người lãnh đạo và nhà lãnh đạo quốc gia Mỹ. Ông đã từng giữ chức vụ tổng thống của Mỹ từ 2017 đến 2021.",
+    "user": "Mark ZuckerBerg làm nghề gì?",
+    "bot": "Mark Zuckerberg là một người sáng lập và CEO của Facebook.",
     "type": "general",
+    "reasoning": null
+  },
+  {
+    "user": "Bill Clinton và Barack Obama có cùng nghề nghiệp không",
+    "bot": "Có. Cả hai đều là chính trị gia (tổng thống/phó tổng thống/thủ tướng).",
+    "type": "profession",
+    "reasoning": null
+  },
+  {
+    "user": "Có ai vừa học ở Đại học Stanford vừa có nghề nghiệp là Tổng thống không?",
+    "bot": "KHÔNG. Đại học Stanford và Đại học không học cùng trường",
+    "type": "university",
+    "reasoning": {
+      "answer": "KHÔNG",
+      "description": "Đại học Stanford và Đại học không học cùng trường"
+    }
+  },
+  {
+    "user": "9. Những quốc gia nào có nhiều nhân vật trong mạng sinh ra nhất?",
+    "bot": "Dưới đây là danh sách các cựu sinh viên của Đại học Quốc gia Úc:\n- Kevin Rudd",
+    "type": "aggregate_university_alumni",
+    "reasoning": null
+  },
+  {
+    "user": "Bill Gates có liên quan gì đến Hoa Kỳ trong đồ thị tri thức?",
+    "bot": "Bill Gates có liên quan đến Đại học Harvard (cạnh: alumni_of), Viện Công nghệ Massachusetts (cạnh: link_to), và Umaru Musa Yar'Adua (cạnh: link_to).",
+    "type": "general",
+    "reasoning": null
+  },
+  {
+    "user": "Ai là người có kết nối chung với Bill Gates và Steve Jobs trong mạng?",
+    "bot": "Không thể xác định câu trả lời.",
+    "type": "connection",
     "reasoning": null
   }
 ]

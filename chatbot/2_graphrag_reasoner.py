@@ -347,7 +347,7 @@ class GraphRAGReasoner:
             s = re.sub(r"[^a-z0-9]+", "", s)
             return s
         
-        # Strategy 1: Exact match (case-insensitive)
+        # Strategy 1: Exact match (case-insensitive) via title_to_node
         t_lower = country_title.lower()
         for t, n in self.kg.title_to_node.items():
             if t.lower() == t_lower:
@@ -362,11 +362,11 @@ class GraphRAGReasoner:
                     country_id = n
                     break
         
-        # Strategy 3: Try as node_id directly
+        # Strategy 3: Try as node_id directly (if user provides raw node_id)
         if not country_id and country_title in self.kg.G.nodes():
             country_id = country_title
         
-        # Strategy 4: Search in graph nodes by title attribute
+        # Strategy 4: Search in graph nodes by title attribute if not found yet
         if not country_id:
             for node_id, node_data in self.kg.G.nodes(data=True):
                 node_title = node_data.get('title', '')
@@ -381,27 +381,36 @@ class GraphRAGReasoner:
         for node, data in self.kg.G.nodes(data=True):
             if data.get('node_type') != 'person':
                 continue
+            
             # Check both directions: person -> country or country -> person
             has_country = False
             
-            # Check outgoing edges from person
-            if self.kg.G.has_edge(node, country_id):
-                rel = self.kg.G[node][country_id].get('relation', '')
-                if rel in ['from_country', 'born_in']:
-                    has_country = True
+            # Check outgoing edges from person to country
+            try:
+                if self.kg.G.has_edge(node, country_id):
+                    rel = self.kg.G[node][country_id].get('relation', '')
+                    if rel in ['from_country', 'born_in']:
+                        has_country = True
+            except:
+                pass
             
-            # Check incoming edges to person
-            if not has_country and self.kg.G.has_edge(country_id, node):
-                rel = self.kg.G[country_id][node].get('relation', '')
-                if rel in ['from_country', 'born_in']:
-                    has_country = True
+            # Check incoming edges from country to person
+            if not has_country:
+                try:
+                    if self.kg.G.has_edge(country_id, node):
+                        rel = self.kg.G[country_id][node].get('relation', '')
+                        if rel in ['from_country', 'born_in']:
+                            has_country = True
+                except:
+                    pass
             
             if has_country:
-                people.append(data.get('title', node))
+                person_title = data.get('title', node)
+                people.append(person_title)
                 if len(people) >= limit:
                     break
 
-        return {'people': people, 'missing': []}
+        return {'people': people, 'missing': [] if people else [country_title]}
 
 
 if __name__ == "__main__":
