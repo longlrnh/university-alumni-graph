@@ -1,44 +1,38 @@
 [
   {
-    "user": "Elon Musk có nghề nghiệp gì",
-    "bot": "📌 Elon Musk\n============================================================\nLoại: person\nNguồn: https://vi.wikipedia.org/wiki/Elon_Musk\n\n📋 Thông tin chi tiết:\n  • Sinh: Elon Reeve Musk 28 tháng 6, 1971 (54 tuổi) Pretoria , Transvaal , Nam Phi\n  • Tư cách công dân: Nam Phi Canada (từ 1989) Hoa Kỳ (từ 2002)\n  • Học vị: Đại học Pennsylvania ( BA , BS )\n  • Nghề nghiệp: Nhà sáng lập, CEO, và kỹ sư trưởng của SpaceX CEO và kiến trúc sư sản phẩm của Tesla, Inc. Chủ sở hữu, CTO và chủ tịch điều hành của X (trước là Twitter) Nhà sáng lập The Boring Company , X Corp. , và xAI Nhà đồng sáng lập Neuralink , OpenAI , Zip2 , và X.com (bộ phận của PayPal ) Chủ tịch của Musk Foundation\n  • Đảng phái chính trị: Độc lập\n  • Phối ngẫu: Justine Wilson (cưới 2000–2008) Talulah Riley (cưới 2010–2012) (cưới 2013–2016)\n  • Con cái: 12 [ 1 ]\n  • Cha mẹ: Errol Musk (cha) Maye Musk (mẹ)\n  • Giải thưởng: Danh sách\n\n🔗 Người liên quan: Angela Merkel, Anwar Al-Sadad, Barack Obama, Bill Clinton, Bill Gates, Charles de Gaulle, Corazon Aquino, Cử nhân Nghệ thuật, Donald Trump, Dwight D. Eisenhower, Franklin D. Roosevelt, George H. W. Bush, George Marshall, George W. Bush, Harry S. Truman, Henry Kissinger, Hillary Clinton, Isaac Asimov, Jeff Bezos, Jimmy Carter, Joe Biden, John F. Kennedy, John Foster Dulles, Kamala Harris, Konrad Adenauer, Lyndon B. Johnson, Maria Ressa, Mark Zuckerberg, Mikhail Sergeyevich Gorbachyov, Mohammad Mosaddegh, Narendra Modi, Nelson Mandela, Newt Gingrich, Nikita Sergeyevich Khrushchyov, Richard Nixon, Ron DeSantis, Ronald Reagan, Rudy Giuliani, Ruhollah Khomeini, Taylor Swift, Tưởng Giới Thạch, Vladimir Vladimirovich Putin, Volodymyr Oleksandrovych Zelenskyy, Winston Churchill, Đại học Pennsylvania, Đại học Stanford, Đặng Tiểu Bình",
-    "type": "node_detail",
+    "user": "Bill Gates đã tốt nghiệp Harvard chưa",
+    "bot": "Bill Gates tốt nghiệp Đại học Harvard vào năm 1976.",
+    "type": "general",
     "reasoning": null
   },
   {
-    "user": "Elon Musk có nghề nghiệp gì",
-    "bot": "📌 Elon Musk\n============================================================\nLoại: person\nNguồn: https://vi.wikipedia.org/wiki/Elon_Musk\n\n📋 Thông tin chi tiết:\n  • Sinh: Elon Reeve Musk 28 tháng 6, 1971 (54 tuổi) Pretoria , Transvaal , Nam Phi\n  • Tư cách công dân: Nam Phi Canada (từ 1989) Hoa Kỳ (từ 2002)\n  • Học vị: Đại học Pennsylvania ( BA , BS )\n  • Nghề nghiệp: Nhà sáng lập, CEO, và kỹ sư trưởng của SpaceX CEO và kiến trúc sư sản phẩm của Tesla, Inc. Chủ sở hữu, CTO và chủ tịch điều hành của X (trước là Twitter) Nhà sáng lập The Boring Company , X Corp. , và xAI Nhà đồng sáng lập Neuralink , OpenAI , Zip2 , và X.com (bộ phận của PayPal ) Chủ tịch của Musk Foundation\n  • Đảng phái chính trị: Độc lập\n  • Phối ngẫu: Justine Wilson (cưới 2000–2008) Talulah Riley (cưới 2010–2012) (cưới 2013–2016)\n  • Con cái: 12 [ 1 ]\n  • Cha mẹ: Errol Musk (cha) Maye Musk (mẹ)\n  • Giải thưởng: Danh sách\n\n🔗 Người liên quan: Angela Merkel, Anwar Al-Sadad, Barack Obama, Bill Clinton, Bill Gates, Charles de Gaulle, Corazon Aquino, Cử nhân Nghệ thuật, Donald Trump, Dwight D. Eisenhower, Franklin D. Roosevelt, George H. W. Bush, George Marshall, George W. Bush, Harry S. Truman, Henry Kissinger, Hillary Clinton, Isaac Asimov, Jeff Bezos, Jimmy Carter, Joe Biden, John F. Kennedy, John Foster Dulles, Kamala Harris, Konrad Adenauer, Lyndon B. Johnson, Maria Ressa, Mark Zuckerberg, Mikhail Sergeyevich Gorbachyov, Mohammad Mosaddegh, Narendra Modi, Nelson Mandela, Newt Gingrich, Nikita Sergeyevich Khrushchyov, Richard Nixon, Ron DeSantis, Ronald Reagan, Rudy Giuliani, Ruhollah Khomeini, Taylor Swift, Tưởng Giới Thạch, Vladimir Vladimirovich Putin, Volodymyr Oleksandrovych Zelenskyy, Winston Churchill, Đại học Pennsylvania, Đại học Stanford, Đặng Tiểu Bình",
-    "type": "node_detail",
+    "user": "liệt kê sinh viên Trung Quốc",
+    "bot": "Không tìm thấy người đến từ Trung Quoc trong đồ thị.",
+    "type": "aggregate_people_country",
     "reasoning": null
   },
   {
-    "user": "Elon Musk có nghề nghiệp gì",
-    "bot": "📌 Elon Musk\n============================================================\nLoại: person\nNguồn: https://vi.wikipedia.org/wiki/Elon_Musk\n\n📋 Thông tin chi tiết:\n  • Sinh: Elon Reeve Musk 28 tháng 6, 1971 (54 tuổi) Pretoria , Transvaal , Nam Phi\n  • Tư cách công dân: Nam Phi Canada (từ 1989) Hoa Kỳ (từ 2002)\n  • Học vị: Đại học Pennsylvania ( BA , BS )\n  • Nghề nghiệp: Nhà sáng lập, CEO, và kỹ sư trưởng của SpaceX CEO và kiến trúc sư sản phẩm của Tesla, Inc. Chủ sở hữu, CTO và chủ tịch điều hành của X (trước là Twitter) Nhà sáng lập The Boring Company , X Corp. , và xAI Nhà đồng sáng lập Neuralink , OpenAI , Zip2 , và X.com (bộ phận của PayPal ) Chủ tịch của Musk Foundation\n  • Đảng phái chính trị: Độc lập\n  • Phối ngẫu: Justine Wilson (cưới 2000–2008) Talulah Riley (cưới 2010–2012) (cưới 2013–2016)\n  • Con cái: 12 [ 1 ]\n  • Cha mẹ: Errol Musk (cha) Maye Musk (mẹ)\n  • Giải thưởng: Danh sách\n\n🔗 Người liên quan: Angela Merkel, Anwar Al-Sadad, Barack Obama, Bill Clinton, Bill Gates, Charles de Gaulle, Corazon Aquino, Cử nhân Nghệ thuật, Donald Trump, Dwight D. Eisenhower, Franklin D. Roosevelt, George H. W. Bush, George Marshall, George W. Bush, Harry S. Truman, Henry Kissinger, Hillary Clinton, Isaac Asimov, Jeff Bezos, Jimmy Carter, Joe Biden, John F. Kennedy, John Foster Dulles, Kamala Harris, Konrad Adenauer, Lyndon B. Johnson, Maria Ressa, Mark Zuckerberg, Mikhail Sergeyevich Gorbachyov, Mohammad Mosaddegh, Narendra Modi, Nelson Mandela, Newt Gingrich, Nikita Sergeyevich Khrushchyov, Richard Nixon, Ron DeSantis, Ronald Reagan, Rudy Giuliani, Ruhollah Khomeini, Taylor Swift, Tưởng Giới Thạch, Vladimir Vladimirovich Putin, Volodymyr Oleksandrovych Zelenskyy, Winston Churchill, Đại học Pennsylvania, Đại học Stanford, Đặng Tiểu Bình",
-    "type": "node_detail",
+    "user": "Bill Gates là ai",
+    "bot": "Bill Gates là một nhà tài trợ và thành lập công ty Microsoft, cũng là người sáng lập của Google. Ông đã từng là giáo sư tại Đại học Harvard và đã trở thành một trong những người lớn nhất trong ngành công nghệ hiện đại.",
+    "type": "general",
     "reasoning": null
   },
   {
-    "user": "Đại học Harvard ở quốc gia nào?",
-    "bot": "Không thể xác định câu trả lời.",
+    "user": "Elon Musk và Donald Trump có học cùng trường không?",
+    "bot": "CÓ. Donald Trump và Elon Musk cùng học tại: Đại học Pennsylvania",
     "type": "university",
-    "reasoning": null
+    "reasoning": {
+      "answer": "CÓ",
+      "universities": [
+        "Đại học Pennsylvania"
+      ],
+      "description": "Donald Trump và Elon Musk cùng học tại: Đại học Pennsylvania"
+    }
   },
   {
-    "user": "Elon Musk sinh ra ở đâu",
-    "bot": "Elon Musk sinh ra ở Pretoria , Transvaal , Nam.",
-    "type": "birthplace_single",
-    "reasoning": null
-  },
-  {
-    "user": "Elon Musk có quốc tịch gì",
-    "bot": "📌 Elon Musk\n============================================================\nLoại: person\nNguồn: https://vi.wikipedia.org/wiki/Elon_Musk\n\n📋 Thông tin chi tiết:\n  • Sinh: Elon Reeve Musk 28 tháng 6, 1971 (54 tuổi) Pretoria , Transvaal , Nam Phi\n  • Tư cách công dân: Nam Phi Canada (từ 1989) Hoa Kỳ (từ 2002)\n  • Học vị: Đại học Pennsylvania ( BA , BS )\n  • Nghề nghiệp: Nhà sáng lập, CEO, và kỹ sư trưởng của SpaceX CEO và kiến trúc sư sản phẩm của Tesla, Inc. Chủ sở hữu, CTO và chủ tịch điều hành của X (trước là Twitter) Nhà sáng lập The Boring Company , X Corp. , và xAI Nhà đồng sáng lập Neuralink , OpenAI , Zip2 , và X.com (bộ phận của PayPal ) Chủ tịch của Musk Foundation\n  • Đảng phái chính trị: Độc lập\n  • Phối ngẫu: Justine Wilson (cưới 2000–2008) Talulah Riley (cưới 2010–2012) (cưới 2013–2016)\n  • Con cái: 12 [ 1 ]\n  • Cha mẹ: Errol Musk (cha) Maye Musk (mẹ)\n  • Giải thưởng: Danh sách\n\n🔗 Người liên quan: Angela Merkel, Anwar Al-Sadad, Barack Obama, Bill Clinton, Bill Gates, Charles de Gaulle, Corazon Aquino, Cử nhân Nghệ thuật, Donald Trump, Dwight D. Eisenhower, Franklin D. Roosevelt, George H. W. Bush, George Marshall, George W. Bush, Harry S. Truman, Henry Kissinger, Hillary Clinton, Isaac Asimov, Jeff Bezos, Jimmy Carter, Joe Biden, John F. Kennedy, John Foster Dulles, Kamala Harris, Konrad Adenauer, Lyndon B. Johnson, Maria Ressa, Mark Zuckerberg, Mikhail Sergeyevich Gorbachyov, Mohammad Mosaddegh, Narendra Modi, Nelson Mandela, Newt Gingrich, Nikita Sergeyevich Khrushchyov, Richard Nixon, Ron DeSantis, Ronald Reagan, Rudy Giuliani, Ruhollah Khomeini, Taylor Swift, Tưởng Giới Thạch, Vladimir Vladimirovich Putin, Volodymyr Oleksandrovych Zelenskyy, Winston Churchill, Đại học Pennsylvania, Đại học Stanford, Đặng Tiểu Bình",
-    "type": "node_detail",
-    "reasoning": null
-  },
-  {
-    "user": "Elon Musk học trường gì",
-    "bot": "Có. Elon Musk học tại: Đại học Pennsylvania, Đại học Stanford.",
-    "type": "university_single_person",
+    "user": "Donald Trump là ai",
+    "bot": "Donald Trump là một người lãnh đạo và nhà lãnh đạo quốc gia Mỹ. Ông đã từng giữ chức vụ tổng thống của Mỹ từ 2017 đến 2021.",
+    "type": "general",
     "reasoning": null
   }
 ]

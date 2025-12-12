@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+﻿# -*- coding: utf-8 -*-
 """
 4_chatbot_graphrag.py
 Chatbot kết hợp GraphRAG + LLM Qwen OWen3 0.6B
@@ -39,6 +39,109 @@ class QwenLLM:
         except Exception as e:
             print(f"\n❌ Lỗi tải Qwen: {e}")
             self.ready = False
+    
+    def extract_entities_and_intent(self, query: str) -> Dict:
+        """
+        LLM nhận diện thực thể và ý định từ câu hỏi
+        Return: {entities: [], intent: 'relationship|comparison|property|general'}
+        """
+        if not self.ready:
+            return {'entities': [], 'intent': 'general', 'filtered_query': query}
+        
+        prompt = f"""Phân tích câu hỏi sau và trích xuất:
+1. Các thực thể (entity): tên người, trường học, quốc gia, v.v.
+2. Ý định (intent): 
+   - relationship: hỏi về mối quan hệ/kết nối
+   - comparison: hỏi so sánh (cùng, khác)
+   - property: hỏi về thuộc tính (là gì, có gì, ở đâu)
+   - general: hỏi thông tin chung
+
+Câu hỏi: "{query}"
+
+Trả lời định dạng:
+ENTITIES: [entity1, entity2, ...]
+INTENT: relationship|comparison|property|general
+"""
+        
+        import torch
+        inputs = self.tokenizer(prompt, return_tensors="pt", truncation=True, max_length=512)
+        inputs = {k: v.to(self.model.device) for k, v in inputs.items()}
+        
+        with torch.no_grad():
+            output = self.model.generate(
+                **inputs,
+                max_new_tokens=128,
+                temperature=0.1,
+                top_p=0.9,
+                do_sample=True
+            )
+        
+        response = self.tokenizer.decode(output[0], skip_special_tokens=True)
+        
+        # Parse response
+        entities = []
+        intent = 'general'
+        
+        try:
+            if "ENTITIES:" in response:
+                ent_part = response.split("ENTITIES:")[-1].split("INTENT:")[0].strip()
+                entities = [e.strip() for e in ent_part.strip('[]').split(',') if e.strip()]
+            
+            if "INTENT:" in response:
+                intent_part = response.split("INTENT:")[-1].strip().lower()
+                for intent_type in ['relationship', 'comparison', 'property', 'general']:
+                    if intent_type in intent_part:
+                        intent = intent_type
+                        break
+        except:
+            pass
+        
+        import sys
+        print(f"[LOG] LLM NER: entities={entities}, intent={intent}", file=sys.stderr, flush=True)
+        
+        return {'entities': entities, 'intent': intent, 'filtered_query': query}
+    
+    def classify_query(self, query: str) -> str:
+        """
+        LLM phân loại loại câu hỏi
+        Return: 'yes_no' | 'multiple_choice' | 'property_query' | 'general'
+        """
+        if not self.ready:
+            return 'general'
+        
+        prompt = f"""Phân loại câu hỏi sau thành một trong các loại:
+- yes_no: câu hỏi có/không, hỏi có cùng (cùng trường, cùng nước)
+- multiple_choice: có tùy chọn A, B, C, D
+- property_query: hỏi về thuộc tính (là gì, có gì, ở đâu, bao nhiêu)
+- general: hỏi thông tin chung
+
+Câu hỏi: "{query}"
+
+Loại: """
+        
+        import torch
+        inputs = self.tokenizer(prompt, return_tensors="pt", truncation=True, max_length=256)
+        inputs = {k: v.to(self.model.device) for k, v in inputs.items()}
+        
+        with torch.no_grad():
+            output = self.model.generate(
+                **inputs,
+                max_new_tokens=32,
+                temperature=0.1,
+                top_p=0.9,
+                do_sample=True
+            )
+        
+        response = self.tokenizer.decode(output[0], skip_special_tokens=True).lower()
+        
+        if 'yes_no' in response or 'có/không' in response:
+            return 'yes_no'
+        elif 'multiple' in response or 'tùy chọn' in response:
+            return 'multiple_choice'
+        elif 'property' in response or 'thuộc tính' in response:
+            return 'property_query'
+        else:
+            return 'general'
     
     def generate(self, query: str, context: str, reasoning: Optional[Dict] = None, max_tokens: int = 256, node_details_context: str = "") -> str:
         """Sinh câu trả lời từ Qwen + GraphRAG"""
@@ -103,7 +206,6 @@ class GraphRAGChatbot:
     def __init__(self, kg, reasoner, node_details_path='../graph_out/node_details.json'):
         self.kg = kg
         self.reasoner = reasoner
-        self._llm = None  # Lazy load
         
         # Load node details
         self.node_details = {}
@@ -124,17 +226,24 @@ class GraphRAGChatbot:
         print("✓ Node Details: Thông tin chi tiết từ Wikipedia")
         print("✓ GraphRAG: Truy xuất thông tin từ đồ thị")
         print("✓ Multi-hop Reasoning: Suy luận kết nối phức tạp")
+        print("=" * 70)
+        
+        # Khởi tạo LLM ngay lập tức thay vì lazy load
+        print("⏳ Đang khởi tạo Qwen LLM...")
+        self.llm = QwenLLM()
         print("✓ Qwen OWen3 LLM: Tạo câu trả lời thông minh")
         print("=" * 70)
     
-    @property
-    def llm(self):
-        if self._llm is None:
-            self._llm = QwenLLM()
-        return self._llm
-    
     def answer(self, query: str) -> Dict:
+        """
+        KIẾN TRÚC GRAPHRAG:
+        1. LLM nhận diện thực thể + ý định từ câu hỏi (NER + Intent)
+        2. Lọc subgraph/node_details liên quan từ graph + DB
+        3. LLM sinh response dựa trên dữ liệu đã lọc
+        """
         import re
+        import sys
+        
         def replace_thankyou(text):
             thank_patterns = [
                 r"thank you for your time and concern[.!]*",
@@ -145,139 +254,221 @@ class GraphRAGChatbot:
             for pat in thank_patterns:
                 text = re.sub(pat, "Cảm ơn bạn đã quan tâm!", text, flags=re.IGNORECASE)
             return text
-
+        
+        # ═══════════════════════════════════════════════════════════════
+        # BƯỚC 1: NHẬN DIỆN THỰC THỂ (DÙNG REASONER - RULE-BASED)
+        # ═══════════════════════════════════════════════════════════════
+        
         norm_query = self._normalize_text(query)
         entities = self.reasoner._extract_entities(query)
         
+        print(f"[LOG] Entities extracted: {entities}", file=sys.stderr, flush=True)
+        
         # ═══════════════════════════════════════════════════════════════
-        # BƯỚC 1: PHÂN LOẠI CÂU HỎI NGAY TỪ ĐẦU (3 LOẠI)
+        # BƯỚC 2: PHÂN LOẠI LOẠI CÂU HỎI (RULE-BASED)
         # ═══════════════════════════════════════════════════════════════
         
-        # 1. MULTIPLE CHOICE - Câu hỏi lựa chọn (có A. B. C. D.)
         is_multiple_choice = bool(re.search(r'\b[A-D]\.\s*', query))
-        
-        # 2. YES/NO - Câu hỏi có/không
-        has_university_keyword = any(w in norm_query for w in ['trường', 'hoc', 'học', 'alumni', 'cùng học', 'cùng trường'])
         query_type = self._classify_query(query)
-        if has_university_keyword and query_type == 'yes_no':
-            query_type = 'university'
-        is_yes_no = (query_type in ['yes_no', 'university', 'connection'])
-        
-        # 3. GENERAL - Câu hỏi còn lại
+        print(f"[LOG] Query type: {query_type}", file=sys.stderr, flush=True)
         
         # ═══════════════════════════════════════════════════════════════
-        # BƯỚC 2: XỬ LÝ THEO LOẠI CÂU HỎI
+        # BƯỚC 3: LỌC SUBGRAPH + NODE_DETAILS LIÊN QUAN
         # ═══════════════════════════════════════════════════════════════
         
-        # ───────────────────────────────────────────────────────────────
-        # LOẠI 0: PROPERTY QUERY - Câu hỏi về thuộc tính (ưu tiên cao)
-        # ───────────────────────────────────────────────────────────────
-        if len(entities) == 1 and any(kw in norm_query for kw in ['có gì', 'là gì', 'nghề', 'công việc', 'chức vụ', 'tư cách', 'học vấn', 'bằng', 'độ', 'vị trí']):
-            entity = entities[0]
-            node_detail = self.node_details.get(entity)
-            
-            if node_detail:
-                props = node_detail.get('properties', {})
+        # Lọc thông tin từ graph dựa trên entities được nhận diện
+        context_info = ""
+        for entity in entities:
+            node_id = self.reasoner.kg.title_to_node.get(entity)
+            if node_id:
+                # Lấy neighbors (liên kết trong graph)
+                neighbors = list(self.reasoner.kg.G.neighbors(node_id))[:5]  # Limit 5
+                relations = [self.reasoner.kg.G[node_id][nbr].get('relation', 'link') for nbr in neighbors]
+                neighbor_names = [self.reasoner.kg.node_to_title.get(nbr, nbr) for nbr in neighbors]
+                
+                context_info += f"\n{entity} có liên kết với: "
+                context_info += ", ".join([f"{name} (cạnh: {rel})" for name, rel in zip(neighbor_names, relations)])
+        
+        # Lấy thông tin chi tiết từ node_details
+        node_details_context = ""
+        for entity in entities:
+            if entity in self.node_details:
+                detail = self.node_details[entity]
+                desc = detail.get('description', '')[:200]  # Lấy 200 ký tự đầu
+                props = detail.get('properties', {})
+                
                 if isinstance(props, dict):
-                    # Xác định loại thuộc tính cần lấy
-                    target_keys = []
-                    answer_label = ""
-                    
-                    if any(kw in norm_query for kw in ['nghề', 'công việc', 'làm', 'nghề nghiệp']):
-                        target_keys = ['Nghề nghiệp', 'Công việc', 'Career', 'Profession', 'Nghề']
-                        answer_label = "Nghề nghiệp:"
-                    elif any(kw in norm_query for kw in ['chức vụ', 'vị trí', 'vai trò']):
-                        target_keys = ['Chức vụ', 'Vị trí', 'Position', 'Title', 'Role', 'Vai trò']
-                        answer_label = "Chức vụ:"
-                    elif any(kw in norm_query for kw in ['học vấn', 'bằng', 'độ', 'học hành', 'học vị']):
-                        target_keys = ['Học vị', 'Bằng cấp', 'Education', 'Degree', 'Alma mater', 'Học vấn']
-                        answer_label = "Học vấn:"
-                    elif any(kw in norm_query for kw in ['tư cách', 'công dân', 'quốc tịch']):
-                        target_keys = ['Tư cách công dân', 'Quốc tịch', 'Citizenship', 'Nationality']
-                        answer_label = "Tư cách:"
-                    
-                    # Tìm thông tin
-                    found_info = None
-                    if target_keys:
-                        for key in target_keys:
-                            if key in props:
-                                found_info = props[key]
-                                break
-                    
-                    if found_info:
-                        # Định dạng nếu là list
-                        if isinstance(found_info, list):
-                            found_info = ' '.join(str(v) for v in found_info if v)
-                        
-                        answer_text = f"{answer_label} {found_info}" if answer_label else f"{entity}: {found_info}"
-                    else:
-                        answer_text = f"Không tìm thấy thông tin trong câu hỏi của {entity}."
-                    
-                    return {
-                        'query': query,
-                        'type': 'property_query',
-                        'context': '',
-                        'reasoning': None,
-                        'answer': replace_thankyou(answer_text)
-                    }
+                    props_str = "; ".join([f"{k}: {str(v)[:50]}" for k, v in list(props.items())[:3]])  # 3 properties
+                else:
+                    props_str = ""
+                
+                node_details_context += f"\n{entity}: {desc}"
+                if props_str:
+                    node_details_context += f"\nThuộc tính: {props_str}"
         
-        # ───────────────────────────────────────────────────────────────
-        # LOẠI 1: MULTIPLE CHOICE - Chỉ trả lời đáp án
-        # ───────────────────────────────────────────────────────────────
+        print(f"[LOG] Filtered context: {context_info[:100]}... | details: {node_details_context[:100]}...", file=sys.stderr, flush=True)
+        
+        # ═══════════════════════════════════════════════════════════════
+        # BƯỚC 4: XỬ LÝ THEO LOẠI CÂU HỎI
+        # ═══════════════════════════════════════════════════════════════
+        
+        # LOẠI 1: MULTIPLE CHOICE - Sử dụng LLM để chọn đáp án
         if is_multiple_choice:
-            return self._handle_multiple_choice(query, entities, norm_query)
-        
-        # ───────────────────────────────────────────────────────────────
-        # LOẠI 2: YES/NO - Trả lời Có/Không đầu tiên
-        # ───────────────────────────────────────────────────────────────
-        if is_yes_no:
-            return self._handle_yes_no(query, query_type, entities, norm_query, replace_thankyou)
-        
-        # ───────────────────────────────────────────────────────────────
-        # LOẠI 3: GENERAL - Các câu hỏi còn lại
-        # ───────────────────────────────────────────────────────────────
-        
-        reasoning = None
-        answer_text = None
-        
-        # Truy vấn tổng hợp: lọc person theo country + university (alumni)
-        country_hit = self._find_node_by_type_in_query(norm_query, 'country')
-        uni_hit = self._find_node_by_type_in_query(norm_query, 'university')
-        aggregate_trigger = any(kw in norm_query for kw in [
-            'cuu sinh vien', 'alumni', 'hoc tai', 'hoc o', 'tung hoc', 'hoc tai harvard', 'hoc tai', 'học tại', 'cựu sinh viên', 'sinh vien'
-        ])
-        
-        # Trường hợp country + university
-        if aggregate_trigger and country_hit and uni_hit:
-            agg = self.reasoner.find_people_by_country_and_university(country_hit, uni_hit, limit=50)
-            if agg.get('missing'):
-                answer_text = f"❌ Không tìm thấy node: {', '.join(agg['missing'])}"
-            elif agg['people']:
-                answer_text = f"Các cựu sinh viên từ {country_hit} học tại {uni_hit}: {', '.join(agg['people'])}"
-            else:
-                answer_text = f"Không tìm thấy cựu sinh viên từ {country_hit} học {uni_hit} trong đồ thị."
+            print(f"[LOG] Handling multiple choice question", file=sys.stderr, flush=True)
+            reasoning = None
+            answer_text = self.llm.generate(
+                query, 
+                context_info, 
+                reasoning, 
+                max_tokens=64,
+                node_details_context=node_details_context
+            )
             return {
                 'query': query,
-                'type': 'aggregate_alumni_country_university',
+                'type': 'multiple_choice',
+                'context': context_info[:200],
+                'reasoning': reasoning,
+                'answer': replace_thankyou(answer_text)
+            }
+        
+        # LOẠI 2: YES/NO - Sử dụng _handle_yes_no với logic đặc biệt
+        # Chỉ xử lý yes/no khi không phải câu hỏi liệt kê/danh sách
+        aggregate_list_trigger = any(kw in norm_query for kw in ['liet ke', 'liệt kê', 'danh sach', 'danh sách', 'nhung', 'những', 'ai', 'ke', 'sinh vien', 'cuu sinh vien'])
+        if query_type in ['yes_no', 'connection', 'birth_place', 'profession'] or (query_type == 'university' and not aggregate_list_trigger):
+            print(f"[LOG] Handling yes/no question (type: {query_type})", file=sys.stderr, flush=True)
+            return self._handle_yes_no(query, query_type, entities, norm_query, replace_thankyou)
+        
+        # LOẠI 3: PROPERTY QUERY - Lấy thuộc tính từ node_details + LLM sinh lời trả lời
+        if query_type == 'property_query' and len(entities) == 1:
+            print(f"[LOG] Handling property query for {entities[0]}", file=sys.stderr, flush=True)
+            answer_text = self.llm.generate(
+                query,
+                context_info,
+                None,
+                max_tokens=128,
+                node_details_context=node_details_context
+            )
+            return {
+                'query': query,
+                'type': 'property_query',
                 'context': '',
                 'reasoning': None,
                 'answer': replace_thankyou(answer_text)
             }
-                # Trường hợp country + university
+
+        # LOẠI 3b: AGGREGATE - Liệt kê cựu sinh viên của một trường (ví dụ: "liệt kê sinh viên Harvard")
+        # Ưu tiên dữ liệu đồ thị thay vì gọi LLM để tránh bịa.
+        aggregate_list_trigger = any(kw in norm_query for kw in ['liet ke', 'danh sach', 'nhung', 'những', 'ai', 'ke', 'liệt kê', 'sinh vien', 'cuu sinh vien'])
+        if aggregate_list_trigger or query_type == 'university':
+            # Tìm tên trường trong câu hỏi
+            uni_hit = self._find_node_by_type_in_query(norm_query, 'university')
+            # Heuristic: nếu người dùng chỉ nói "Harvard" thì map về "Đại học Harvard"
+            if not uni_hit and ('harvard' in norm_query):
+                uni_hit = 'Đại học Harvard'
+            # Nếu câu hỏi có cả country và university: ưu tiên truy vấn kết hợp
+            country_hit = self._find_node_by_type_in_query(norm_query, 'country')
+            if not country_hit and any(tok in norm_query for tok in ['trung quoc','trung quốc','china']):
+                country_hit = 'country_Trung_Quoc'
+            if uni_hit and country_hit and len(entities) == 0:
+                print(f"[LOG] Handling aggregate country+university: {country_hit} + {uni_hit}", file=sys.stderr, flush=True)
+                agg = self.reasoner.find_people_by_country_and_university(country_hit, uni_hit, limit=200)
+                if agg.get('missing'):
+                    return {
+                        'query': query,
+                        'type': 'aggregate_country_university_alumni',
+                        'context': '',
+                        'reasoning': None,
+                        'answer': f"❌ Không tìm thấy node: {', '.join(agg['missing'])}"
+                    }
+                people = agg.get('people', [])
+                if people:
+                    unique_people = sorted(list(dict.fromkeys(people)))
+                    show = unique_people[:50]
+                    more = len(unique_people) - len(show)
+                    extra_note = f" (và {more} người khác)" if more > 0 else ""
+                    return {
+                        'query': query,
+                        'type': 'aggregate_country_university_alumni',
+                        'context': '',
+                        'reasoning': None,
+                        'answer': f"Các cựu sinh viên từ {country_hit} học tại {uni_hit}:\n- " + "\n- ".join(show) + extra_note
+                    }
+                else:
+                    return {
+                        'query': query,
+                        'type': 'aggregate_country_university_alumni',
+                        'context': '',
+                        'reasoning': None,
+                        'answer': f"Không tìm thấy cựu sinh viên từ {country_hit} học {uni_hit} trong đồ thị."
+                    }
+            if uni_hit and len(entities) == 0:
+                print(f"[LOG] Handling aggregate university alumni for {uni_hit}", file=sys.stderr, flush=True)
+                agg = self.reasoner.find_people_by_university(uni_hit, limit=200)
+                if agg.get('missing'):
+                    return {
+                        'query': query,
+                        'type': 'aggregate_university_alumni',
+                        'context': '',
+                        'reasoning': None,
+                        'answer': f"❌ Không tìm thấy node trường: {', '.join(agg['missing'])}"
+                    }
+                people = agg.get('people', [])
+                if people:
+                    # Loại trùng và sắp xếp
+                    unique_people = sorted(list(dict.fromkeys(people)))
+                    # Giới hạn hiển thị để tránh quá dài
+                    show = unique_people[:50]
+                    more = len(unique_people) - len(show)
+                    extra_note = f" (và {more} người khác)" if more > 0 else ""
+                    return {
+                        'query': query,
+                        'type': 'aggregate_university_alumni',
+                        'context': '',
+                        'reasoning': None,
+                        'answer': f"Dưới đây là danh sách các cựu sinh viên của {uni_hit}:\n- " + "\n- ".join(show) + extra_note
+                    }
+                else:
+                    return {
+                        'query': query,
+                        'type': 'aggregate_university_alumni',
+                        'context': '',
+                        'reasoning': None,
+                        'answer': f"Không tìm thấy cựu sinh viên của {uni_hit} trong đồ thị."
+                    }
+        
+        # LOẠI 4: AGGREGATE WITH COUNTRY/UNIVERSITY - Ưu tiên dữ liệu đồ thị
+        reasoning = None
+        answer_text = None
+        country_hit = self._find_node_by_type_in_query(norm_query, 'country')
+        uni_hit = self._find_node_by_type_in_query(norm_query, 'university')
+        aggregate_trigger = any(kw in norm_query for kw in [
+            'cuu sinh vien', 'alumni', 'hoc tai', 'hoc o', 'tung hoc', 'hoc tai harvard', 'hoc tai', 'hoc tai ', 'học tại', 'cựu sinh viên', 'sinh vien', 'liet ke', 'liệt kê', 'danh sach', 'danh sách'
+        ])
+
+        # Country + University: ví dụ "đến từ Trung Quốc mà học Harvard"
         if aggregate_trigger and country_hit and uni_hit:
+            print(f"[LOG] Handling aggregate country+university: {country_hit} & {uni_hit}", file=sys.stderr, flush=True)
             agg = self.reasoner.find_people_by_country_and_university(country_hit, uni_hit, limit=50)
             if agg.get('missing'):
                 answer_text = f"❌ Không tìm thấy node: {', '.join(agg['missing'])}"
             elif agg['people']:
-                # ✅ Nếu KG đã có dữ liệu, dùng luôn
-                answer_text = f"Các cựu sinh viên từ {country_hit} học tại {uni_hit}: {', '.join(agg['people'])}"
+                # loại trùng, sắp xếp, giới hạn hiển thị
+                unique_people = sorted(list(dict.fromkeys(agg['people'])))
+                show = unique_people[:50]
+                more = len(unique_people) - len(show)
+                extra_note = f" (và {more} người khác)" if more > 0 else ""
+                answer_text = f"Các cựu sinh viên từ {country_hit} học tại {uni_hit}:\n- " + "\n- ".join(show) + extra_note
             else:
-                # ✅ FALLBACK: dùng node_details nếu KG không trả được người nào
-                fallback_people = self._fallback_people_by_country_and_university(country_hit, uni_hit, limit=50)
+                # Fallback: nếu đồ thị không có kết quả, thử node_details nếu hàm tồn tại
+                try:
+                    fallback_people = self._fallback_people_by_country_and_university(country_hit, uni_hit, limit=50)
+                except Exception:
+                    fallback_people = []
                 if fallback_people:
+                    unique_people = sorted(list(dict.fromkeys(fallback_people)))
                     answer_text = (
                         f"Các cựu sinh viên từ {country_hit} học tại {uni_hit} (suy ra từ node_details): "
-                        f"{', '.join(sorted(set(fallback_people)))}"
+                        f"{', '.join(unique_people)}"
                     )
                 else:
                     answer_text = f"Không tìm thấy cựu sinh viên từ {country_hit} học {uni_hit} trong đồ thị."
@@ -289,13 +480,18 @@ class GraphRAGChatbot:
                 'answer': replace_thankyou(answer_text)
             }
 
-        # Trường hợp chỉ university: liệt kê cựu sinh viên của trường
-        if aggregate_trigger and uni_hit and not country_hit:
+        # Chỉ university: liệt kê cựu sinh viên của trường
+        if (aggregate_trigger or query_type == 'university') and uni_hit and not country_hit:
+            print(f"[LOG] Handling aggregate university alumni for {uni_hit}", file=sys.stderr, flush=True)
             agg = self.reasoner.find_people_by_university(uni_hit, limit=100)
             if agg.get('missing'):
                 answer_text = f"❌ Không tìm thấy node: {', '.join(agg['missing'])}"
             elif agg['people']:
-                answer_text = f"Các cựu sinh viên của {uni_hit}: {', '.join(sorted(agg['people']))}"
+                unique_people = sorted(list(dict.fromkeys(agg['people'])))
+                show = unique_people[:50]
+                more = len(unique_people) - len(show)
+                extra_note = f" (và {more} người khác)" if more > 0 else ""
+                answer_text = f"Dưới đây là danh sách các cựu sinh viên của {uni_hit}:\n- " + "\n- ".join(show) + extra_note
             else:
                 answer_text = f"Không tìm thấy cựu sinh viên của {uni_hit} trong đồ thị."
             return {
@@ -305,6 +501,45 @@ class GraphRAGChatbot:
                 'reasoning': None,
                 'answer': replace_thankyou(answer_text)
             }
+
+        # Chỉ country: liệt kê người đến từ một quốc gia
+        if aggregate_trigger and country_hit and not uni_hit:
+            print(f"[LOG] Handling aggregate country people for {country_hit}", file=sys.stderr, flush=True)
+            agg = self.reasoner.find_people_by_country(country_hit, limit=100)
+            if agg.get('missing'):
+                answer_text = f"❌ Không tìm thấy node: {', '.join(agg['missing'])}"
+            elif agg['people']:
+                unique_people = sorted(list(dict.fromkeys(agg['people'])))
+                show = unique_people[:50]
+                more = len(unique_people) - len(show)
+                extra_note = f" (và {more} người khác)" if more > 0 else ""
+                answer_text = f"Dưới đây là danh sách những người đến từ {country_hit}:\n- " + "\n- ".join(show) + extra_note
+            else:
+                answer_text = f"Không tìm thấy người đến từ {country_hit} trong đồ thị."
+            return {
+                'query': query,
+                'type': 'aggregate_people_country',
+                'context': '',
+                'reasoning': None,
+                'answer': replace_thankyou(answer_text)
+            }
+
+        # LOẠI 5: GENERAL - LLM sinh response từ filtered context
+        print(f"[LOG] Handling general question with LLM", file=sys.stderr, flush=True)
+        answer_text = self.llm.generate(
+            query,
+            context_info,
+            None,
+            max_tokens=256,
+            node_details_context=node_details_context
+        )
+        return {
+            'query': query,
+            'type': 'general',
+            'context': context_info[:200],
+            'reasoning': None,
+            'answer': replace_thankyou(answer_text)
+        }
 
         # Nhận diện câu hỏi liệt kê chức vụ/career/country
         match = re.search(r"phó tổng thống|pho_tong_thong|vice president|career|country|chức vụ|position", query.lower())
@@ -467,6 +702,52 @@ class GraphRAGChatbot:
                     'answer': replace_thankyou(answer_text)
                 }
         
+        # Xử lý câu hỏi về thuộc tính của một người (nghề nghiệp, chức vụ, v.v.)
+        if any(kw in norm_query for kw in ['có gì', 'là gì', 'nghề nghiệp', 'công việc', 'chức vụ', 'tư cách', 'học vấn']) and len(entities) == 1:
+            entity = entities[0]
+            node_detail = self.node_details.get(entity)
+            
+            if node_detail:
+                props = node_detail.get('properties', {})
+                if isinstance(props, dict):
+                    # Xác định loại thuộc tính cần lấy
+                    target_keys = []
+                    if any(kw in norm_query for kw in ['nghề', 'công việc', 'làm']):
+                        target_keys = ['Nghề nghiệp', 'Công việc', 'Career', 'Profession', 'Nghề']
+                    elif any(kw in norm_query for kw in ['chức vụ', 'vị trí', 'vai trò']):
+                        target_keys = ['Chức vụ', 'Vị trí', 'Position', 'Title', 'Role', 'Vai trò']
+                    elif any(kw in norm_query for kw in ['học vấn', 'bằng', 'độ']):
+                        target_keys = ['Học vị', 'Bằng cấp', 'Education', 'Degree', 'Alma mater']
+                    elif any(kw in norm_query for kw in ['tư cách', 'công dân']):
+                        target_keys = ['Tư cách công dân', 'Quốc tịch', 'Citizenship', 'Nationality']
+                    else:
+                        target_keys = list(props.keys())
+                    
+                    # Tìm thông tin
+                    found_info = None
+                    for key in target_keys:
+                        if key in props:
+                            found_info = props[key]
+                            break
+                    
+                    if found_info:
+                        # Cắt ngắn nếu quá dài (> 500 ký tự)
+                        if isinstance(found_info, list):
+                            found_info = '\n• '.join(str(v) for v in found_info if v)
+                        
+                        answer_text = f"{entity}: {found_info}"
+                        if len(answer_text) > 500:
+                            answer_text = answer_text[:500] + "..."
+                    else:
+                        answer_text = f"Không tìm thấy thông tin về {norm_query.split()[-1]} của {entity}."
+                    
+                    return {
+                        'query': query,
+                        'type': 'property_query',
+                        'context': '',
+                        'reasoning': None,
+                        'answer': replace_thankyou(answer_text)
+                    }
         
         uni_hint = self._find_node_by_type_in_query(norm_query, 'university')
         if len(entities) == 1 and query_type == 'general' and not uni_hint and 'hoc' not in norm_query and 'học' not in query.lower():
@@ -550,18 +831,28 @@ class GraphRAGChatbot:
     def _classify_query(self, query: str) -> str:
         """Phân loại loại câu hỏi"""
         query_lower = query.lower()
+        # Chuẩn hóa khoảng trắng
+        query_normalized = ' '.join(query_lower.split())
+        
+        # Câu hỏi liệt kê/danh sách
+        if any(w in query_normalized for w in ['liệt kê', 'liet ke', 'danh sách', 'danh sach']):
+            return 'list'
         
         # Trắc nghiệm lựa chọn (multiple choice)
         if re.search(r'\b[A-D]\.', query_lower) or re.search(r'\b[a-d]\.', query_lower):
             return 'multiple_choice'
         
         # Câu hỏi về nơi sinh
-        if any(w in query_lower for w in ['nơi sinh', 'sinh ở', 'sinh tại', 'cùng nơi sinh', 'cùng sinh', 'từ đâu', 'quê quán', 'quê']):
+        if any(w in query_normalized for w in ['nơi sinh', 'sinh ở', 'sinh tại', 'cùng nơi sinh', 'cùng sinh', 'từ đâu', 'quê quán', 'quê']):
             return 'birth_place'
         
-        if any(w in query_lower for w in ['kết nối', 'liên kết', 'quan hệ', 'có mối', 'được kết nối']):
+        # Câu hỏi so sánh việc làm/nghề nghiệp
+        if any(w in query_normalized for w in ['cùng việc làm', 'cùng công việc', 'cùng nghề', 'cùng nghề nghiệp', 'cùng tư cách', 'cùng chức vụ']):
+            return 'profession'
+        
+        if any(w in query_normalized for w in ['kết nối', 'liên kết', 'quan hệ', 'có mối', 'được kết nối']):
             return 'connection'
-        elif any(w in query_lower for w in ['trường', 'đại học', 'cùng trường', 'cùng học', 'cùng đại học', 'học ', 'hoc ', 'alumni', 'học tại', 'hoc tai']):
+        elif any(w in query_normalized for w in ['trường', 'đại học', 'cùng trường', 'cùng học', 'cùng đại học', 'học ', 'hoc ', 'alumni', 'học tại', 'hoc tai']):
             return 'university'
         
         # Câu hỏi Đúng/Sai hoặc Yes/No
@@ -576,6 +867,19 @@ class GraphRAGChatbot:
     def _normalize_text(self, text: str) -> str:
         """Chuẩn hóa để so khớp tự do trong câu hỏi"""
         import re
+        # Thay thế thủ công các ký tự tiếng Việt để tránh mất chữ Đ/đ
+        replacements = {
+            'đ': 'd', 'Đ': 'D',
+            'ă': 'a', 'Ă': 'A',
+            'â': 'a', 'Â': 'A',
+            'ê': 'e', 'Ê': 'E',
+            'ô': 'o', 'Ô': 'O',
+            'ơ': 'o', 'Ơ': 'O',
+            'ư': 'u', 'Ư': 'U'
+        }
+        for vn_char, latin_char in replacements.items():
+            text = text.replace(vn_char, latin_char)
+
         s = unicodedata.normalize('NFD', text)
         s = ''.join(ch for ch in s if unicodedata.category(ch) != 'Mn')
         s = s.lower().replace('_', ' ').replace('-', ' ')
@@ -585,7 +889,7 @@ class GraphRAGChatbot:
     def _find_node_by_type_in_query(self, norm_query: str, node_type: str) -> Optional[str]:
         """Tìm node theo loại nếu tiêu đề xuất hiện trong câu hỏi (lỏng)"""
         query_tokens = set(norm_query.split())
-        generic = {'country', 'dai', 'hoc', 'university', 'truong', 'o', 'dau', 'nao', 'nhung', 'sinh', 'vien', 'nguoi', 'tung', 'lam', 'tai', 'truong', 'dai', 'hoc', 'alumni', 'co', 'khong', 'ai', 'la', 'gi', 'cac'}
+        generic = {'country', 'dai', 'hoc', 'university', 'truong', 'o', 'dau', 'nao', 'nhung', 'sinh', 'vien', 'nguoi', 'tung', 'lam', 'tai', 'truong', 'dai', 'hoc', 'alumni', 'co', 'khong', 'ai', 'la', 'gi', 'cac', 'liet', 'ke', 'danh', 'sach', 'den'}
         best_title = None
         best_len = -1
 
@@ -607,6 +911,28 @@ class GraphRAGChatbot:
             if norm_title in norm_query and len(norm_title) > best_len:
                 best_title = title
                 best_len = len(norm_title)
+
+        # Direct fallback for country: try hard-coded country name matching
+        if node_type == 'country' and not best_title:
+            country_mapping = {
+                'trung quoc': 'country_Trung_Quoc',
+                'trung quoc': 'Trung Quốc',
+                'viet nam': 'country_Viet_Nam',
+                'hoa ky': 'country_Hoa_Ky',
+                'my': 'country_Hoa_Ky',
+                'anh': 'country_Anh',
+                'phap': 'country_Phap',
+                'duc': 'country_Duc',
+            }
+            for query_keyword, node_title_or_id in country_mapping.items():
+                if query_keyword in norm_query:
+                    # Check if this node exists in graph
+                    for node_id, node_data in self.reasoner.kg.G.nodes(data=True):
+                        candidate_title = node_data.get('title', '')
+                        if candidate_title == node_title_or_id or candidate_title.lower() == node_title_or_id.lower() or node_id == node_title_or_id:
+                            return candidate_title
+                    # If exact not found, return the mapped value anyway
+                    return node_title_or_id
 
         # Fallback: một số node country có node_type 'unknown' nhưng id dạng country_*
         if node_type == 'country' and not best_title:
@@ -649,7 +975,6 @@ class GraphRAGChatbot:
                     return title
 
         return best_title
-    
     def _format_node_detail(self, node_detail: Dict) -> str:
         """Định dạng thông tin chi tiết node từ node_details.json"""
         lines = []
@@ -1038,6 +1363,24 @@ class GraphRAGChatbot:
         """Xử lý câu hỏi Yes/No - luôn bắt đầu với Có/Không"""
         import re
         
+        # Trường hợp hỏi 2 người có học cùng trường không -> dùng graph trực tiếp
+        if query_type == 'university' and len(entities) == 2:
+            person1, person2 = entities[0], entities[1]
+            result = self.reasoner.check_same_university(person1, person2)
+            if result.get('answer') == 'CÓ':
+                msg = result.get('description', f"{person1} và {person2} cùng học tại một số trường")
+                answer_text = f"CÓ. {msg}"
+            else:
+                msg = result.get('description', f"{person1} và {person2} không học cùng trường")
+                answer_text = f"KHÔNG. {msg}"
+            return {
+                'query': query,
+                'type': query_type,
+                'context': '',
+                'reasoning': result,
+                'answer': replace_thankyou(answer_text)
+            }
+
         # Kiểm tra entities có tồn tại trong đồ thị không
         if entities:
             missing_entities = [e for e in entities if e not in self.reasoner.kg.title_to_node]
@@ -1120,6 +1463,84 @@ class GraphRAGChatbot:
                     'reasoning': None,
                     'answer': replace_thankyou(answer_text)
                 }
+        
+        # Xử lý câu hỏi so sánh việc làm/nghề nghiệp giữa 2 người
+        if query_type == 'profession' and len(entities) == 2:
+            person1, person2 = entities[0], entities[1]
+            
+            # Kiểm tra xem cả hai entity có tồn tại trong node_details không
+            prof1 = None
+            prof2 = None
+            
+            # Lấy thông tin nghề nghiệp của người thứ nhất
+            detail1 = self.node_details.get(person1)
+            if detail1:
+                props1 = detail1.get('properties', {})
+                if isinstance(props1, dict):
+                    # Tìm các khóa liên quan đến nghề
+                    for key in ['Nghề nghiệp', 'Công việc', 'Career', 'Profession', 'Nghề', 'Chức vụ', 'Position']:
+                        if key in props1:
+                            prof1 = props1[key]
+                            break
+            
+            # Lấy thông tin nghề nghiệp của người thứ hai
+            detail2 = self.node_details.get(person2)
+            if detail2:
+                props2 = detail2.get('properties', {})
+                if isinstance(props2, dict):
+                    for key in ['Nghề nghiệp', 'Công việc', 'Career', 'Profession', 'Nghề', 'Chức vụ', 'Position']:
+                        if key in props2:
+                            prof2 = props2[key]
+                            break
+            
+            # So sánh kết quả
+            if prof1 and prof2:
+                # Chuyển đổi danh sách thành string để so sánh
+                prof1_str = str(prof1).lower() if prof1 else ""
+                prof2_str = str(prof2).lower() if prof2 else ""
+                
+                # Kiểm tra xem có cùng nghề không
+                same_profession = False
+                if prof1_str and prof2_str:
+                    # Nếu là danh sách, chuyển thành string
+                    if isinstance(prof1, list):
+                        prof1_str = ' '.join(str(x).lower() for x in prof1 if x)
+                    if isinstance(prof2, list):
+                        prof2_str = ' '.join(str(x).lower() for x in prof2 if x)
+                    
+                    # So sánh: nếu có từ chung nào thì coi là cùng nghề
+                    prof1_words = set(prof1_str.split())
+                    prof2_words = set(prof2_str.split())
+                    common = prof1_words.intersection(prof2_words)
+                    
+                    # Bỏ các từ quá ngắn
+                    common = {w for w in common if len(w) > 3}
+                    
+                    same_profession = len(common) > 0
+                    
+                    if same_profession:
+                        answer_text = f"Có. {person1}: {prof1}; {person2}: {prof2}"
+                    else:
+                        answer_text = f"Không. {person1}: {prof1}; {person2}: {prof2}"
+                else:
+                    answer_text = f"Không thể xác định. {person1}: {prof1}; {person2}: {prof2}"
+            else:
+                # Nếu không tìm thấy thông tin nghề của ít nhất một người
+                missing_info = []
+                if not prof1:
+                    missing_info.append(f"{person1}")
+                if not prof2:
+                    missing_info.append(f"{person2}")
+                
+                answer_text = f"Không thể xác định. Không tìm thấy thông tin nghề nghiệp của: {', '.join(missing_info)}"
+            
+            return {
+                'query': query,
+                'type': 'profession',
+                'context': '',
+                'reasoning': None,
+                'answer': replace_thankyou(answer_text)
+            }
         
         # Xử lý Yes/No thông thường
         if query_type == 'yes_no':

@@ -67,18 +67,20 @@ class GraphRAGReasoner:
         norm_query = self._normalize_text(query)
         query_lower = norm_query
         
-        # Keywords không phải entities
-        skip_keywords = ['trường', 'đại học', 'học', 'những', 'nào', 'cơ', 'có', 'không', 'và', 'hay',
+        # Keywords không phải entities (CHỈ skip khi đứng độc lập)
+        skip_keywords = ['trường', 'học', 'những', 'nào', 'cơ', 'có', 'không', 'và', 'hay',
                         'được', 'cùng', 'liên quan', 'kết nối', 'mối', 'người', 'ai', 'là', 'gì',
                         'nơi', 'đâu', 'bao nhiêu', 'mấy', 'bao giờ', 'khi nào', 'tìm', 'lấy']
         
         for title in self.kg.title_to_node.keys():
-            title_lower = title.lower()
-            # Chỉ lấy nếu title xuất hiện trong query và không phải keywords
-            if title_lower in query_lower and title_lower not in skip_keywords:
-                # Kiểm tra đó là person node
+            title_normalized = self._normalize_text(title)
+            # Chỉ lấy nếu title xuất hiện trong query
+            # KHÔNG skip "đại học" vì nó là part của tên trường (Đại học Harvard, Đại học Stanford...)
+            if title_normalized in query_lower and title_normalized not in skip_keywords:
+                # Kiểm tra đó là person hoặc university node
                 node_id = self.kg.title_to_node[title]
-                if self.kg.node_types.get(node_id) == 'person':
+                node_type = self.kg.node_types.get(node_id, '').lower()
+                if node_type in ['person', 'university']:
                     entities.append(title)
         
         entities.sort(key=len, reverse=True)  # Ưu tiên tên dài hơn
@@ -333,27 +335,45 @@ class GraphRAGReasoner:
 
     def find_people_by_country(self, country_title: str, limit: int = 100) -> Dict:
         """Tìm các person có cạnh from_country/born_in tới country (không yêu cầu trường)"""
+        import unicodedata, re
+        
         country_id = None
-        # Dùng cùng _resolve của hàm trên
-        def _resolve(title: str):
-            import unicodedata, re
-            def norm(s):
-                s = unicodedata.normalize('NFD', s)
-                s = ''.join(ch for ch in s if unicodedata.category(ch) != 'Mn')
-                s = s.lower().replace('_', '').replace(' ', '')
-                s = re.sub(r"[^a-z0-9]+", "", s)
-                return s
-            t_lower = title.lower()
-            for t, n in self.kg.title_to_node.items():
-                if t.lower() == t_lower:
-                    return n
-            target = norm(title)
+        
+        def norm(s):
+            """Normalize string for comparison"""
+            s = unicodedata.normalize('NFD', s)
+            s = ''.join(ch for ch in s if unicodedata.category(ch) != 'Mn')
+            s = s.lower().replace('_', '').replace(' ', '')
+            s = re.sub(r"[^a-z0-9]+", "", s)
+            return s
+        
+        # Strategy 1: Exact match (case-insensitive)
+        t_lower = country_title.lower()
+        for t, n in self.kg.title_to_node.items():
+            if t.lower() == t_lower:
+                country_id = n
+                break
+        
+        # Strategy 2: Normalized match (remove diacritics, spaces, underscores)
+        if not country_id:
+            target = norm(country_title)
             for t, n in self.kg.title_to_node.items():
                 if norm(t) == target:
-                    return n
-            return None
-
-        country_id = _resolve(country_title)
+                    country_id = n
+                    break
+        
+        # Strategy 3: Try as node_id directly
+        if not country_id and country_title in self.kg.G.nodes():
+            country_id = country_title
+        
+        # Strategy 4: Search in graph nodes by title attribute
+        if not country_id:
+            for node_id, node_data in self.kg.G.nodes(data=True):
+                node_title = node_data.get('title', '')
+                if norm(node_title) == norm(country_title):
+                    country_id = node_id
+                    break
+        
         if not country_id:
             return {'people': [], 'missing': [country_title]}
 
@@ -361,17 +381,25 @@ class GraphRAGReasoner:
         for node, data in self.kg.G.nodes(data=True):
             if data.get('node_type') != 'person':
                 continue
-            has_country = any(
-                (nbr == country_id and self.kg.G[node][nbr].get('relation') in ['from_country', 'born_in'])
-                for nbr in self.kg.G.successors(node)
-            ) or any(
-                (nbr == country_id and self.kg.G[nbr][node].get('relation') in ['from_country', 'born_in'])
-                for nbr in self.kg.G.predecessors(node)
-            )
+            # Check both directions: person -> country or country -> person
+            has_country = False
+            
+            # Check outgoing edges from person
+            if self.kg.G.has_edge(node, country_id):
+                rel = self.kg.G[node][country_id].get('relation', '')
+                if rel in ['from_country', 'born_in']:
+                    has_country = True
+            
+            # Check incoming edges to person
+            if not has_country and self.kg.G.has_edge(country_id, node):
+                rel = self.kg.G[country_id][node].get('relation', '')
+                if rel in ['from_country', 'born_in']:
+                    has_country = True
+            
             if has_country:
                 people.append(data.get('title', node))
-            if len(people) >= limit:
-                break
+                if len(people) >= limit:
+                    break
 
         return {'people': people, 'missing': []}
 
