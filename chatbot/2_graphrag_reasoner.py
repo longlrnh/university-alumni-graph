@@ -135,15 +135,45 @@ class GraphRAGReasoner:
             }
         
         shortest = min(paths, key=len)
-        path_desc = self._describe_path(shortest)
+        shortest_len = len(shortest)
+
+        # Giữ tối đa 5 đường đi ngắn nhất để hiển thị
+        shortest_paths = [p for p in paths if len(p) == shortest_len][:5]
+        path_descs = [self._describe_path(p) for p in shortest_paths]
+
+        # Tìm hàng xóm chung (đường đi 2 bước)
+        neighbors1 = set(self.kg.G.successors(node1)) | set(self.kg.G.predecessors(node1))
+        neighbors2 = set(self.kg.G.successors(node2)) | set(self.kg.G.predecessors(node2))
+        common_neighbors = list(neighbors1 & neighbors2)
+
+        def _edge_rels(a, b):
+            rels = []
+            if self.kg.G.has_edge(a, b):
+                rels.append(self.kg.G[a][b].get('relation'))
+            if self.kg.G.has_edge(b, a):
+                rels.append(self.kg.G[b][a].get('relation'))
+            rels = [r for r in rels if r]
+            return sorted(set(rels)) if rels else []
+
+        common_details = []
+        for cn in common_neighbors[:10]:
+            rel1 = _edge_rels(node1, cn)
+            rel2 = _edge_rels(cn, node2)
+            common_details.append({
+                'title': self.kg.node_to_title.get(cn, cn),
+                'relations_from_entity1': rel1,
+                'relations_to_entity2': rel2
+            })
         
         return {
             'connected': True,
-            'hops': len(shortest) - 1,
+            'hops': shortest_len - 1,
             'path': [self.kg.node_to_title[n] for n in shortest],
-            'description': path_desc,
+            'description': path_descs[0] if path_descs else '',
+            'paths': path_descs,
             'num_paths': len(paths),
-            'explanation': f'Tìm thấy {len(paths)} đường đi qua các cạnh/quan hệ. Đường ngắn nhất có {len(shortest) - 1} cạnh.'
+            'common_neighbors': common_details,
+            'explanation': f'Tìm thấy {len(paths)} đường đi qua các cạnh/quan hệ. Đường ngắn nhất có {shortest_len - 1} cạnh.'
         }
     
     def _describe_path(self, path: List[str]) -> str:

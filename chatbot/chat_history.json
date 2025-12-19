@@ -1,32 +1,116 @@
 [
   {
-    "user": "Bill Gates làm nghề gì",
-    "bot": "Bill Gates làm việc trong lĩnh vực công nghệ và tài chính. Ông đã từng là CEO của Microsoft và cũng là một thành viên của Hội đồng quản trị của Google. \n\nBài viết này cho biết rằng Bill Gates có liên kết với nhiều trường đại học lớn như Harvard, University of California, Berkeley, và MIT. Ngoài ra, ông còn có liên kết với một số cá nhân khác như Harry R. Lewis, Gordon Brown, và Umaru Musa Yar'Adua.",
-    "type": "general",
-    "reasoning": null
+    "user": "Bill Gates và Elon Musk có học cùng trường không?",
+    "bot": "KHÔNG. Bill Gates và Elon Musk không học cùng trường",
+    "type": "university",
+    "reasoning": {
+      "answer": "KHÔNG",
+      "description": "Bill Gates và Elon Musk không học cùng trường"
+    }
   },
   {
-    "user": "Bill Clinton và Barack Obama có cùng nghề nghiệp không",
-    "bot": "Có. Cả hai đều là chính trị gia (tổng thống/phó tổng thống/thủ tướng).",
-    "type": "profession",
-    "reasoning": null
+    "user": "Bill Clinton và Shimon Peres có học cùng trường không",
+    "bot": "KHÔNG. Bill Clinton và Shimon Peres không học cùng trường",
+    "type": "university",
+    "reasoning": {
+      "answer": "KHÔNG",
+      "description": "Bill Clinton và Shimon Peres không học cùng trường"
+    }
   },
   {
-    "user": "Bill Clinton làm nghề gì",
-    "bot": "Bill Clinton làm việc trong lĩnh vực dịch vụ đối ngoại.",
-    "type": "general",
-    "reasoning": null
+    "user": "Barack Obama và Shimon Peres có học cùng trường không",
+    "bot": "CÓ. Barack Obama và Shimon Peres cùng học tại: Đại học Harvard",
+    "type": "university",
+    "reasoning": {
+      "answer": "CÓ",
+      "universities": [
+        "Đại học Harvard"
+      ],
+      "description": "Barack Obama và Shimon Peres cùng học tại: Đại học Harvard"
+    }
   },
   {
-    "user": "Elon Musk làm nghề gì",
-    "bot": "Elon Musk là một nhà phát triển công nghệ và người sáng lập của Tesla, SpaceX và Neuralink. Ông cũng là một thành viên của Đảng Cộng sản Việt Nam và là một trong những người ủng hộ của ông chủ nước Mỹ, Donald Trump.",
-    "type": "general",
-    "reasoning": null
-  },
-  {
-    "user": "Elon Musk học trường gì?",
-    "bot": "Có. Elon Musk học tại: Đại học Pennsylvania, Đại học Stanford.",
+    "user": "Shimon Peres học những trường nào",
+    "bot": "Shimon Peres học tại các trường: The New School Đại học New York Đại học Harvard.",
     "type": "university_single_person",
+    "reasoning": null
+  },
+  {
+    "user": "Shimon Peres có từng theo học tại Đại học New York",
+    "bot": "Có. Shimon Peres học tại Đại học New York.",
+    "type": "university_person_school",
+    "reasoning": null
+  },
+  {
+    "user": "Shimon Peres làm nghề gì",
+    "bot": "Shimon Peres làm nghề Chính trị gia.",
+    "type": "property_query",
+    "reasoning": null
+  },
+  {
+    "user": "Shimon Peres sinh ra ở đâu",
+    "bot": "Shimon Peres sinh ra ở Israel.",
+    "type": "general",
+    "reasoning": null
+  },
+  {
+    "user": "Shimon Peres có cùng quê với Elon Musk không",
+    "bot": "Không. Shimon Peres sinh tại Ba Lan, Israel; Elon Musk sinh tại Nam Phi.",
+    "type": "birth_place",
+    "reasoning": null
+  },
+  {
+    "user": "Shimon Peres có cùng ngành nghề với Elon Musk không",
+    "bot": "Không, Shimon Peres không có ngành nghề tương tự như Elon Musk.",
+    "type": "general",
+    "reasoning": null
+  },
+  {
+    "user": "Bill Gates sinh ra ở đâu",
+    "bot": "Bill Gates sinh ra ở Hoa Kỳ.",
+    "type": "general",
+    "reasoning": null
+  },
+  {
+    "user": "Bill Gates  có cùng quê với Elon Musk không",
+    "bot": "Không. Bill Gates sinh tại Hoa Ky; Elon Musk sinh tại Nam Phi.",
+    "type": "birth_place",
+    "reasoning": null
+  },
+  {
+    "user": "Bill Gates có cùng ngành nghề với Elon Musk không",
+    "bot": "Không, Bill Gates và Elon Musk đều có ngành nghề \"Trò chơi điện tử\".",
+    "type": "general",
+    "reasoning": null
+  },
+  {
+    "user": "Elon Musk có từng theo học tại Đại học New York",
+    "bot": "Không. Không thấy Đại học New York; chỉ thấy: Đại học Pennsylvania, Đại học Stanford.",
+    "type": "university_person_school",
+    "reasoning": null
+  },
+  {
+    "user": "Bill Gates có từng theo học tại Đại học New York",
+    "bot": "Không. Không thấy Đại học New York; chỉ thấy: Đại học Harvard.",
+    "type": "university_person_school",
+    "reasoning": null
+  },
+  {
+    "user": "Elon Musk từng theo học trường nào",
+    "bot": "Elon Musk học tại các trường: Đại học Pennsylvania, Đại học Stanford.",
+    "type": "university_single_person",
+    "reasoning": null
+  },
+  {
+    "user": "Bill Clinton học ở đâu",
+    "bot": "Bill Clinton học tại: Trường Dịch vụ Đối ngoại, Đại học Georgetown, Đại học Oxford, Đại học Yale.",
+    "type": "university_single_person",
+    "reasoning": null
+  },
+  {
+    "user": "Donald Trump có học Đại học Harvard không?",
+    "bot": "Không. Không thấy Đại học Harvard; chỉ thấy: Đại học Pennsylvania.",
+    "type": "university_person_school",
     "reasoning": null
   },
   {
@@ -42,42 +126,159 @@
     }
   },
   {
-    "user": "Mark ZuckerBerg làm nghề gì?",
-    "bot": "Mark Zuckerberg là một người sáng lập và CEO của Facebook.",
+    "user": "Bill Gates là ai",
+    "bot": "Bill Gates là một nhà tài trợ và công ty thành lập của Microsoft, cũng là người sáng lập của Google. Ông đã từng là giáo sư tại Đại học Harvard và là một trong những người đầu tiên sử dụng máy tính điện tử vào cuộc sống hàng ngày.",
     "type": "general",
     "reasoning": null
   },
   {
-    "user": "Bill Clinton và Barack Obama có cùng nghề nghiệp không",
-    "bot": "Có. Cả hai đều là chính trị gia (tổng thống/phó tổng thống/thủ tướng).",
-    "type": "profession",
+    "user": "Bill Gates học trường nào",
+    "bot": "Bill Gates học tại các trường: Đại học Harvard.",
+    "type": "university_single_person",
     "reasoning": null
   },
   {
-    "user": "Có ai vừa học ở Đại học Stanford vừa có nghề nghiệp là Tổng thống không?",
-    "bot": "KHÔNG. Đại học Stanford và Đại học không học cùng trường",
+    "user": "Bill Gates và Elon Musk có học cùng trường không",
+    "bot": "KHÔNG. Bill Gates và Elon Musk không học cùng trường",
     "type": "university",
     "reasoning": {
       "answer": "KHÔNG",
-      "description": "Đại học Stanford và Đại học không học cùng trường"
+      "description": "Bill Gates và Elon Musk không học cùng trường"
     }
   },
   {
-    "user": "9. Những quốc gia nào có nhiều nhân vật trong mạng sinh ra nhất?",
-    "bot": "Dưới đây là danh sách các cựu sinh viên của Đại học Quốc gia Úc:\n- Kevin Rudd",
-    "type": "aggregate_university_alumni",
-    "reasoning": null
+    "user": "Elon Musk và Donald Trump có học cùng trường không",
+    "bot": "CÓ. Donald Trump và Elon Musk cùng học tại: Đại học Pennsylvania",
+    "type": "university",
+    "reasoning": {
+      "answer": "CÓ",
+      "universities": [
+        "Đại học Pennsylvania"
+      ],
+      "description": "Donald Trump và Elon Musk cùng học tại: Đại học Pennsylvania"
+    }
   },
   {
-    "user": "Bill Gates có liên quan gì đến Hoa Kỳ trong đồ thị tri thức?",
-    "bot": "Bill Gates có liên quan đến Đại học Harvard (cạnh: alumni_of), Viện Công nghệ Massachusetts (cạnh: link_to), và Umaru Musa Yar'Adua (cạnh: link_to).",
+    "user": "Bill Gates sinh ra ở đâu",
+    "bot": "Bill Gates sinh ra ở Hoa Kỳ.",
     "type": "general",
     "reasoning": null
   },
   {
-    "user": "Ai là người có kết nối chung với Bill Gates và Steve Jobs trong mạng?",
+    "user": "Tìm kiếm 2 người học trường đại học Harvard có cùng nơi sinh ra",
     "bot": "Không thể xác định câu trả lời.",
-    "type": "connection",
+    "type": "birth_place",
     "reasoning": null
+  },
+  {
+    "user": "Mark Zuckerberg và Elon Musk có quan hệ như nào",
+    "bot": "Có. Cạnh trực tiếp: - Elon Musk --[link_to]--> Mark Zuckerberg Đường đi ngắn nhất: - Mark Zuckerberg --[cạnh: link_to]--> Elon Musk Các điểm chung (node trung gian): - Mark Zuckerberg --[same_birth_country]--> Lyndon B. Johnson --[link_to]--> Elon Musk - Mark Zuckerberg --[link_to]--> Bill Gates --[link_to]--> Elon Musk - Mark Zuckerberg --[same_career]--> Yamauchi Hiroshi --[same_career]--> Elon Musk - Mark Zuckerberg --[same_birth_country]--> Harry S. Truman --[link_to]--> Elon Musk - Mark Zuckerberg --[link_to]--> Maria Ressa --[link_to]--> Elon Musk",
+    "type": "connection",
+    "reasoning": {
+      "connected": true,
+      "hops": 1,
+      "path": [
+        "Mark Zuckerberg",
+        "Elon Musk"
+      ],
+      "description": "Mark Zuckerberg --[cạnh: link_to]--> Elon Musk",
+      "paths": [
+        "Mark Zuckerberg --[cạnh: link_to]--> Elon Musk"
+      ],
+      "num_paths": 6511,
+      "common_neighbors": [
+        {
+          "title": "Lyndon B. Johnson",
+          "relations_from_entity1": [
+            "same_birth_country"
+          ],
+          "relations_to_entity2": [
+            "link_to"
+          ]
+        },
+        {
+          "title": "Bill Gates",
+          "relations_from_entity1": [
+            "link_to"
+          ],
+          "relations_to_entity2": [
+            "link_to"
+          ]
+        },
+        {
+          "title": "Yamauchi Hiroshi",
+          "relations_from_entity1": [
+            "same_career"
+          ],
+          "relations_to_entity2": [
+            "same_career"
+          ]
+        },
+        {
+          "title": "Harry S. Truman",
+          "relations_from_entity1": [
+            "same_birth_country"
+          ],
+          "relations_to_entity2": [
+            "link_to"
+          ]
+        },
+        {
+          "title": "Maria Ressa",
+          "relations_from_entity1": [
+            "link_to"
+          ],
+          "relations_to_entity2": [
+            "link_to"
+          ]
+        },
+        {
+          "title": "Nikita Sergeyevich Khrushchyov",
+          "relations_from_entity1": [
+            "link_to"
+          ],
+          "relations_to_entity2": [
+            "link_to"
+          ]
+        },
+        {
+          "title": "Franklin D. Roosevelt",
+          "relations_from_entity1": [
+            "same_birth_country"
+          ],
+          "relations_to_entity2": [
+            "link_to"
+          ]
+        },
+        {
+          "title": "Barack Obama",
+          "relations_from_entity1": [
+            "link_to"
+          ],
+          "relations_to_entity2": [
+            "link_to"
+          ]
+        },
+        {
+          "title": "Angela Merkel",
+          "relations_from_entity1": [
+            "link_to"
+          ],
+          "relations_to_entity2": [
+            "link_to"
+          ]
+        },
+        {
+          "title": "Hillary Clinton",
+          "relations_from_entity1": [
+            "same_birth_country"
+          ],
+          "relations_to_entity2": [
+            "link_to"
+          ]
+        }
+      ],
+      "explanation": "Tìm thấy 6511 đường đi qua các cạnh/quan hệ. Đường ngắn nhất có 1 cạnh."
+    }
   }
 ]
